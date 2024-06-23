@@ -1,0 +1,448 @@
+//关注微信公众号：奇奇乐分享，发送“本地包”，获取本地包更新链接与图文教程。
+
+{
+    "spider": "./spider.jar",
+    "logo": "https://www.xit.edu.cn/wlaq/UploadFiles_4283/202110/2021102616050834.gif",
+    "wallpaper": "http://我不是.肥猫.live/ppic/feimao.php",
+    "sites": [
+        {
+            "key": "豆瓣",
+            "name": "🌈豆瓣┃甄别广告",
+            "type": 3,
+            "api": "csp_Douban",
+            "searchable": 0
+        },
+        {
+            "key": "csp_Duopan",
+            "name": "🖍️蜡笔┃4K4K",
+            "type": 3,
+            "api": "csp_Duopan",
+            "playerType": 2,
+            "filterable": 1,
+            "ext": "http://mpanso.com/"
+        },
+        {
+            "key": "csp_wanou",
+            "name": "🧸玩偶┃4K4K",
+            "api": "csp_Wogg",
+            "type": 3,
+            "searchable": 1,
+            "playerType": 2,
+            "timeout": 30,
+            "changeable": 0,
+            "ext": "./txt/token.txt"
+        },
+        {
+            "key": "csp_NanGua",
+            "name": "🎃南瓜┃APP",
+            "type": 3,
+            "api": "csp_NanGua",
+            "playerType": 2,
+            "filterable": 1
+        },
+        {
+            "key": "csp_蚂蚁",
+            "name": "🐜蚂蚁┃无广",
+            "type": 1,
+            "api": "http://dsakf23665.com/api.php/provide/vod/from/NBY",
+            "playUrl": "json:http://121.62.61.51:6888//api//?key=qMdg1EDXPe9NH3bG0z&url=",
+            "filterable": 1
+        },
+        {
+            "key": "drpy_哔哩",
+            "name": "🎵哔哩┃合集",
+            "type": 3,
+            "api": "./api/drpy2.min.js",
+            "playerType": 1,
+            "ext": "./js/B站.js"
+        },
+        {
+            "key": "csp_官采",
+            "name": "🍑官采┃采集",
+            "type": 1,
+            "api": "https://vipcj.timizy.top/api.php/provide/vod/",
+            "playUrl": "https://www.cgdyw.net/jiexi/jiekou-2/?url=",
+            "filterable": 1
+        },
+        {
+            "key": "csp_SP360",
+            "name": "🐠360┃官源",
+            "type": 3,
+            "api": "csp_SP360"
+        },
+        {
+            "key": "新视觉",
+            "name": "👀视觉┃1080P",
+            "type": 3,
+            "api": "csp_Xinsj",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1
+        },
+        {
+            "key": "云播",
+            "name": "☁️云播┃影视",
+            "type": 3,
+            "api": "csp_Tvyb",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "playerType": 1,
+            "ext": ""
+        },
+        {
+            "key": "csp_Juqq",
+            "name": "⭕️剧圈┃影视",
+            "type": 3,
+            "playerType": "2",
+            "api": "csp_Juqq"
+        },
+        {
+            "key": "csp_wanou",
+            "name": "🧸玩偶┃云盘",
+            "api": "csp_Wogg",
+            "type": 3,
+            "searchable": 1,
+            "playerType": 2,
+            "timeout": 30,
+            "changeable": 0,
+            "ext": "./txt/token.txt"
+        },
+        {
+            "key": "可可",
+            "name": "🌲可可┃影视",
+            "type": 3,
+            "playerType": "2",
+            "api": "csp_Keke",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1
+        },
+        {
+            "key": "4开",
+            "name": "📺4KK┃影视",
+            "type": 3,
+            "searchable": 1,
+            "quickSearch": 1,
+            "changeable": 1,
+            "jar": "./jars/4开.jar",
+            "playerType": "2",
+            "api": "csp_XBPQ",
+            "ext": {
+                "站名": "4KK影院",
+                "主页url": "https://www.1080.ee",
+                "嗅探词": "tjdownload.pan.wo.cn#.mp4#.m3u8#akamaized.net#shtpin.com",
+                "过滤词": "/hls/#php",
+                "跳转播放链接": "https://play.speechless.pw/+from\":\"&&\"+/API.php;post;url=+},\"url\":\"&&\"",
+                "二次跳转播放链接": "url\":\"&&\"",
+                "分类": "电影$1#电视剧$2#动漫$3#综艺$4",
+                "分类url": "https://www.1080.ee/vodshow/{cateId}--------{catePg}---{year}.html"
+            }
+        },
+        {
+            "key": "黑狐",
+            "name": "🦊黑狐┃影视",
+            "type": 3,
+            "searchable": 1,
+            "quickSearch": 1,
+            "changeable": 1,
+            "playerType": "2",
+            "api": "csp_XBPQ",
+            "ext": {
+                "站名": "黑狐影院",
+                "主页url": "http://fagmn.com",
+                "数组": "class=\"stui-vodlist__box\"&&</a",
+                "图片": "data-original=\"&&\"",
+                "标题": "title=\"&&\"",
+                "链接": "href=\"&&\"",
+                "嗅探词": ".m3u8?#v3.huoshanvod.com#.m3u8#v3-dy-o.zjcdn#sf16-sg.larksuitecdn.com#v.kd1.qq.com#.mp4",
+                "过滤词": "/hls/#php",
+                "副标题": "<span class=\"pic-text text-right\">&&</span>",
+                "搜索url": "http://fagmn.com/search.php;post;searchword={wd}",
+                "搜索模式": "1",
+                "搜索数组": "<a class=\"v-thumb stui-vodlist__thumb&&</a>",
+                "搜索图片": "data-original=\"&&\"",
+                "搜索标题": "title=\"&&\"",
+                "搜索链接": "href=\"&&\"",
+                "搜索副标题": "<span class=\"pic-text text-right\">&&</span>",
+                "搜索后缀": "/view/",
+                "线路数组": "href=\"#down&&/a>[替换:奇异视频>>黑狐一线#优酷视频>>黑狐二线#搜狐视频>>黑狐三线#咪咕视频>>黑狐四线]",
+                "线路标题": ">&&<",
+                "播放数组": "class=\"stui-content__playlist clearfix&&</ul>",
+                "状态": "地区：&&</p>",
+                "导演": "导演：&&</p>",
+                "主演": "主演：&&</p>",
+                "简介": "简介：&&</div>",
+                "播放列表": "<a&&/a>",
+                "播放标题": ">&&<",
+                "播放链接": "href=\"&&\"",
+                "免嗅": "0",
+                "分类": "电影$1#电视剧$2#动漫$3#综艺$4",
+                "分类url": "http://fagmn.com/list/{cateId}_{catePg}.html?order=time"
+            }
+        },
+        {
+            "key": "XBPQ_文才",
+            "name": "🌽文才┃秒播",
+            "type": 3,
+            "api": "csp_XBPQ",
+            "ext": {
+                "首页": "90",
+                "起始页": "1",
+                "分类url": "https://api.zeqaht.com/api.php/provide/vod/?ac=list&ac=detail&t={cateId}&pg={catePg};;rc",
+                "分类": "电影&电视剧&动漫&综艺",
+                "分类值": "23&14&75&69",
+                "二次截取": "list\":\\[&&\\]",
+                "数组": "{&&}[不包含:伦理剧]",
+                "图片": "vod_pic\":\"&&\"",
+                "标题": "vod_name\":\"&&\"",
+                "副标题": "vod_remarks\":\"&&\"+_+vod_pubdate\":\"&&\"",
+                "链接": "https://m.cfkj86.com/detail/+vod_id\":&&,",
+                "线路二次截取": "",
+                "线路数组": "span class=\"label\">&&/span>",
+                "线路标题": "小米",
+                "播放数组": "episodeList\":\\[&&\\][替换:nid\":>>nid\":/1/]",
+                "播放列表": "{&&}",
+                "播放标题": "name\":\"&&\"",
+                "播放请求头": "User-Agent$Mozilla/5.0 (Linux; Android 12; TAS-AL00 Build/HUAWEITAS-AL00; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/99.0.4844.88 Mobile Safari/537.36#Referer$https://m.cfkj86.com/",
+                "播放链接前缀": "https://m.cfkj86.com/vod/play/+data\":{\"vodId\":&&,",
+                "播放链接": "nid\":&&,",
+                "倒序": "0",
+                "跳转解析": "",
+                "跳转播放链接": "",
+                "影片类型": "vod_class\":\"&&\"",
+                "影片年代": "vod_year\":\"&&\"",
+                "影片地区": "vod_area\":\"&&\"",
+                "导演": "vod_director\":\"&&\"",
+                "主演": "vod_actor\":\"&&\"",
+                "简介": "vod_content\":\"&&\"",
+                "搜索url": "/api.php/provide/vod/?ac=detail&wd={wd}&pg={pg}",
+                "搜索模式": "1",
+                "搜索二次截取": "list\":\\[&&\\]",
+                "搜索数组": "{&&}[不包含:伦理]",
+                "搜索图片": "vod_pic\":\"&&\"",
+                "搜索标题": "vod_name\":\"&&\"",
+                "搜索副标题": "vod_remarks\":\"&&\"",
+                "搜索链接": "https://m.cfkj86.com/detail/+vod_id\":&&,",
+                "筛选": "1",
+                "类型": "喜剧$22#动作$23#战争$25#爱情$26#悬疑$27#武侠$28#科幻$30#冒险$31#警匪$32#动画$33#惊悚$34#犯罪$35#恐怖$36#剧情$37#历史$38#纪录$39#传记$40#歌舞$41||国产剧$14#欧美剧$15#港台剧$16#日韩剧$62#其他剧$68||国产动漫$75#日韩动漫$76#欧美动漫$77#港台动漫$78#其他动漫$80||国产综艺$69#港台综艺$70#日韩综艺$72#欧美综艺$73#其他综艺$74"
+            }
+        },
+        {
+            "key": "saohuo",
+            "name": "🔥1080P┃骚火",
+            "type": 3,
+            "searchable": 1,
+            "changeable": 0,
+            "quickSearch": 1,
+            "playerType": "2",
+            "jar": "./jars/4开.jar",
+            "api": "csp_XBPQ",
+            "ext": {
+                "嗅探词": ".m3u8#.mp4#.m3u8?#freeok.mp4",
+                "分类url": "https://shdy2.com/list/{cateId}-{catePg}.html;;vr1au0",
+                "分类": "电影$1#电视剧$2#韩剧$22#美剧$23#动漫$4",
+                "数组二次截取": "class=\"v_list\">&&</ul>",
+                "数组": "\"v_img\"&&/div>",
+                "标题": "title=\"&&\"",
+                "副标题": "v_note\"&&</div",
+                "跳转播放链接": "<iframe*src=\"&&\"",
+                "二次跳转播放链接": "https://hhjx.hhplayer.com/api.php;post;url=+var url*\"&&\"+&t=+var t*\"&&\"+&key=+var key*\"&&\"+&act=0+&play=1",
+                "三次跳转播放链接": "\"url\"*\"&&\""
+            }
+        },
+        {
+            "key": "热播库",
+            "name": "⚽️热播┃1080P",
+            "type": 3,
+            "changeable": 1,
+            "jar": "./jars/4开.jar",
+            "api": "csp_XBPQ",
+            "playerType": "1",
+            "ext": {
+                "主页url": "https://rebozj.pro",
+                "数组": "class=\"stui-vodlist__thumb lazyload&&</a>",
+                "图片": "data-original=\"&&\"",
+                "标题": "title=\"&&\"",
+                "链接": "href=\"&&\"",
+                "副标题": "class=\"pic-text text-right\"><b>&&</span>",
+                "搜索模式": "1",
+                "嗅探词": ".m3u8#video_mp4#tos-#.mp4#cdn.123pan.cn#huoshanvod.com",
+                "搜索url": "https://rebozj.pro/ajax/suggest?mid=1&wd={wd}&limit=500",
+                "搜索二次截取": "\"list\":[&&]",
+                "搜索数组": "{&&}",
+                "搜索标题": "\"name\":\"&&\"",
+                "搜索图片": "\"pic\":\"&&\"",
+                "搜索链接": "https://rebozj.pro/detail/+\"id\":&&,+html",
+                "播放列表": "<a&&/a>",
+                "播放标题": ">&&<",
+                "影片类型": "类型：&&</p>",
+                "导演": "导演：&&</p>",
+                "主演": "主演：&&</p>",
+                "简介": "display: none;\">&&</span>",
+                "分类": "电视剧$2#电影$1#综艺$3#动漫$4",
+                "分类url": "https://rebozj.pro/show/{cateId}--{area}------{catePg}---{year}.html;;a"
+            }
+        },
+        {
+            "key": "zhitiao",
+            "name": "☁️阿里┃易搜",
+            "type": 3,
+            "api": "csp_YiSo",
+            "searchable": 1,
+            "quickSearch": 1,
+            "changeable": 0,
+            "ext": "satoken=e96da071-9159-4827-89e1-ea93eea899e1"
+        },
+        {
+            "key": "csp_YouShengBook",
+            "name": "📖有声┃小说",
+            "type": 3,
+            "playerType": "2",
+            "api": "csp_YouShengBook",
+            "searchable": 0,
+            "style": {
+                "type": "rect",
+                "ratio": 1.333
+            }
+        },
+        {
+            "key": "csp_FirstAid",
+            "name": "🍧急救┃教学",
+            "type": 3,
+            "api": "csp_FirstAid",
+            "searchable": 0,
+            "quickSearch": 0,
+            "style": {
+                "type": "rect",
+                "ratio": 3.8
+            },
+            "gridview": "0-0-4.1"
+        },
+        {
+            "key": "Jrsjs",
+            "name": "🏀JRS┃球迷",
+            "type": 3,
+            "api": "./api/drpy2.min.js",
+            "ext": "./js/jrk.js",
+            "style": {
+                "type": "list"
+            },
+            "searchable": 0,
+            "quickSearch": 0,
+            "changeable": 0
+        },
+        {
+            "key": "米搜",
+            "name": "🌾米搜┃4K4K",
+            "type": 3,
+            "api": "csp_MiSou",
+            "ext": "./txt/kk.txt"
+        },
+        {
+            "key": "push_agent",
+            "name": "MiSou.fun",
+            "type": 3,
+            "api": "csp_Push",
+            "playerType": "1",
+            "searchable": 0,
+            "ext": "./txt/kk.txt"
+        }
+    ],
+    "parses": [
+        {
+            "name": "Json聚合",
+            "type": 3,
+            "url": "Demo"
+        },
+        {
+            "name": "Web聚合",
+            "type": 3,
+            "url": "Web"
+        },
+        {
+            "name": "小米3",
+            "type": 0,
+            "url": "https://jx.m3u8.tv/jx/jx.php?url=",
+            "ext": {
+                "flag": [
+                    "qq",
+                    "腾讯",
+                    "qiyi",
+                    "爱奇艺",
+                    "奇艺",
+                    "youku",
+                    "优酷",
+                    "tucheng",
+                    "sohu",
+                    "搜狐",
+                    "letv",
+                    "乐视",
+                    "mgtv",
+                    "芒果",
+                    "tnmb",
+                    "seven",
+                    "yzm",
+                    "aliyun",
+                    "RJuMao",
+                    "bilibili",
+                    "1905",
+                    "xinvip",
+                    "XAL",
+                    "qiqi",
+                    "XALS",
+                    "YuMi-vip"
+                ]
+            }
+        },
+        {
+            "name": "小米12",
+            "type": 0,
+            "url": "https://www.cgdyw.net/jiexi/jiekou-2/?url=",
+            "ext": {
+                "flag": [
+                    "qq",
+                    "腾讯",
+                    "qiyi",
+                    "爱奇艺",
+                    "奇艺",
+                    "youku",
+                    "优酷",
+                    "tucheng",
+                    "sohu",
+                    "搜狐",
+                    "letv",
+                    "乐视",
+                    "mgtv",
+                    "芒果",
+                    "tnmb",
+                    "seven",
+                    "yzm",
+                    "aliyun",
+                    "RJuMao",
+                    "bilibili",
+                    "1905",
+                    "xinvip",
+                    "XAL",
+                    "qiqi",
+                    "XALS",
+                    "YuMi-vip"
+                ]
+            }
+        }
+    ],
+    "lives": [
+        {
+            "name": "tvlive",
+            "type": 0,
+            "url": "./lives/tvlive.txt",
+            "epg": ""
+        },
+        {
+            "name": "嗅探",
+            "type": 0,
+            "url": "./lives/嗅探.txt",
+            "epg": ""
+        }
+    ]
+}

@@ -1,0 +1,35 @@
+{
+  "作者": "菜妮丝https://cainisi.cf",
+  "站名": "宿命影视",
+  "主页url": "https://sumingys.top",
+  
+  "分类": "电影$1#电视剧$2#综艺$3#动漫$4",
+  
+  "分类url": "https://sumingys.top/index.php/vod/type/id/{cateId}/page/{catePg}.html",
+  
+  "数组": "<li class=\"col-lg-8&&</a>",
+  "图片": "data-original=\"&&\"",
+  "标题": "title=\"&&\"",
+  "链接": "href=\"&&\"",
+  "副标题": "text-right\">&&<",
+  
+  "搜索模式": "1",
+  "搜索url": "/index.php/vod/search/page/1/wd/{wd}.html",
+  "搜索数组": "<li class=\"clearfix\">&&</div>",
+  "搜索图片": "data-original=\"&&\"",
+  "搜索标题": "title=\"&&\"",
+  "搜索链接": "href=\"&&\"",
+  "搜索副标题": "text-right\">&&<",
+  
+  "影片年代": "年份：&&</a>",
+  "影片地区": "地区：&&</a>",
+  "影片类型": "分类：&&</a>",
+  "导演": "导演：&&</p>",
+  "主演": "主演：&&</p>",
+  "简介": "display: none;\">&&</span>",
+  
+  "线路数组": "<li><a href=\"#playlist&&/a>",
+  "线路标题": ">&&<",
+  
+  "播放数组": "<div id=\"playlist&&</ul>"
+}

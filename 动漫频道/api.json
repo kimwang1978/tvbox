@@ -1,0 +1,334 @@
+//关注微信公众号：奇奇乐分享，发送“本地包”，获取本地包更新链接与图文教程。
+
+{
+    "spider": "./spider.jar",
+    "sites": [
+        {
+            "key": "AGE动漫",
+            "name": "AGE动漫",
+            "type": 3,
+            "api": "./api/drpy.min.js",
+            "ext": "./js/AGE动漫.js"
+        },
+        {
+            "key": "csp_Dm84_3",
+            "name": "动漫巴士1",
+            "type": 3,
+            "api": "csp_XBPQ",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "ext": "./json/Dm84.json"
+        },
+        {
+            "key": "58动漫网",
+            "name": "58┃动漫",
+            "type": 3,
+            "api": "./api/drpy2.min.js",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "changeable": 1,
+            "ext": "./js/58动漫.js"
+        },
+        {
+            "key": "NT动漫",
+            "name": "NT┃动漫",
+            "type": 3,
+            "api": "./api/drpy2.min.js",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "changeable": 1,
+            "ext": "./js/NT动漫.js"
+        },
+        {
+            "key": "csp_Anime1",
+            "name": "动漫┃系列",
+            "type": 3,
+            "api": "csp_Anime1",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1
+        },
+        {
+            "key": "妮可动漫",
+            "name": "妮可动漫",
+            "type": 3,
+            "api": "./api/drpy.min.js",
+            "ext": "./js/妮可动漫.js"
+        },
+        {
+            "key": "csp_Ysj",
+            "name": "异界动漫",
+            "type": 3,
+            "api": "csp_Ysj",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1
+        },
+        {
+            "key": "csp_Anime1",
+            "name": "日漫",
+            "type": 3,
+            "api": "csp_Anime1",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1
+        },
+        {
+            "key": "动漫直链",
+            "name": "动漫┃直链",
+            "type": 3,
+            "api": "csp_XPath",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 0,
+            "ext": "./json/动漫直链.json"
+        },
+        {
+            "key": "去看吧",
+            "name": "去看吧",
+            "type": 3,
+            "api": "./api/drpy.min.js",
+            "ext": "./js/去看吧.js"
+        },
+        {
+            "key": "nt动漫",
+            "name": "拿铁动漫",
+            "type": 3,
+            "api": "./api/drpy2.min.js",
+            "ext": "./js/ntdm.js"
+        },
+        {
+            "key": "妮可",
+            "name": "妮可动漫",
+            "type": 3,
+            "api": "./api/drpy2.min.js",
+            "ext": "./js/妮可动漫.js"
+        },
+        {
+            "key": "anfuns",
+            "name": "ANF动漫",
+            "type": 3,
+            "api": "./api/drpy2.min.js",
+            "ext": "./js/anfuns.js"
+        },
+        {
+            "key": "怡萱动漫",
+            "name": "怡萱动漫",
+            "type": 3,
+            "api": "./api/drpy2.min.js",
+            "ext": "./js/怡萱.js"
+        },
+        {
+            "key": "去看吧",
+            "name": "去看动漫",
+            "type": 3,
+            "api": "csp_XBPQ",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "ext": "./json/去看吧.json"
+        },
+        {
+            "key": "drpy_js_奇米动漫",
+            "name": "动漫 | 奇米动漫[js]",
+            "type": 3,
+            "api": "./api/drpy2.min.js",
+            "ext": "./js/奇米动漫.js"
+        },
+        {
+            "key": "drpy_js_曲奇动漫",
+            "name": "动漫 | 曲奇动漫[js]",
+            "type": 3,
+            "api": "./api/drpy2.min.js",
+            "ext": "./js/曲奇动漫.js"
+        },
+        {
+            "key": "异世界",
+            "name": "异世界",
+            "type": 3,
+            "api": "./api/drpy.min.js",
+            "ext": "./js/异世界.js"
+        },
+        {
+            "key": "维奇",
+            "name": "维奇动漫",
+            "type": 3,
+            "api": "csp_XBPQ",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "ext": "./json/维奇.json"
+        }
+    ],
+    "parses": [
+        {
+            "name": "解析聚合",
+            "type": 3,
+            "url": "Demo"
+        },
+        {
+            "name": "Json并发",
+            "type": 2,
+            "url": "Parallel"
+        },
+        {
+            "name": "Json轮询",
+            "type": 2,
+            "url": "Sequence"
+        },
+        {
+            "name": "Web聚合",
+            "type": 3,
+            "url": "Web"
+        },
+        {
+            "name": "1-看看",
+            "type": 0,
+            "url": "https://jx.m3u8.pw/?url="
+        },
+        {
+            "name": "2-虾米",
+            "type": 0,
+            "url": "https://jx.xmflv.com/?url="
+        },
+        {
+            "name": "3-麒麟",
+            "type": 0,
+            "url": "https://www.cygqw.com/jiexi/jiekou-2/?url="
+        },
+        {
+            "name": "4-parwix1",
+            "type": 0,
+            "url": "https://jx.bozrc.com:4433/player/?url=",
+            "ext": {
+                "flag": [
+                    "qq",
+                    "腾讯",
+                    "qiyi",
+                    "爱奇艺",
+                    "奇艺",
+                    "youku",
+                    "优酷",
+                    "mgtv",
+                    "芒果",
+                    "letv",
+                    "乐视",
+                    "pptv",
+                    "PPTV",
+                    "sohu",
+                    "bilibili",
+                    "哔哩哔哩",
+                    "哔哩"
+                ]
+            }
+        },
+        {
+            "name": "5-OK解析",
+            "type": 0,
+            "url": "http://okjx.cc/?url=",
+            "parse": "1",
+            "ext": {
+                "flag": [
+                    "qq",
+                    "腾讯",
+                    "qiyi",
+                    "爱奇艺",
+                    "奇艺",
+                    "youku",
+                    "优酷",
+                    "mgtv",
+                    "芒果",
+                    "letv",
+                    "乐视",
+                    "pptv",
+                    "PPTV",
+                    "sohu",
+                    "bilibili",
+                    "哔哩哔哩",
+                    "哔哩"
+                ]
+            }
+        },
+        {
+            "name": "6-yparse",
+            "type": 0,
+            "url": "https://jx.yparse.com/index.php?url="
+        },
+        {
+            "name": "7-jsonplayer",
+            "type": 0,
+            "url": "https://jx.jsonplayer.com/player/?url="
+        },
+        {
+            "name": "8-aidou",
+            "type": 0,
+            "url": "https://jx.aidouer.net/?url="
+        },
+        {
+            "name": "星辰云解析",
+            "type": 1,
+            "url": "https://json.xn--9kq078cdn3a.cc/api/?key=GMp1H9mKRKVriBulRT&url=",
+            "header": {
+                "User-Agent": "Mozilla/5.0"
+            }
+        },
+        {
+            "name": "刚刚走过",
+            "type": 1,
+            "url": "http://jx.fuqizhishi.com:63/API.php?appkey=feimao&url=",
+            "header": {
+                "User-Agent": "Mozilla/5.0"
+            }
+        },
+        {
+            "name": "tg255免费",
+            "type": 1,
+            "url": "https://jx.255jx.tk/api/?key=YYac1YA1lkwwf3an4G&url="
+        },
+        {
+            "name": "风起兖州",
+            "type": 0,
+            "url": "http://jx.gbxy.net.cn/?url="
+        },
+        {
+            "name": "江湖1080",
+            "type": 1,
+            "url": "http://211.99.99.236:4567/jhjson/ceshi.php?url="
+        },
+        {
+            "name": "keyu",
+            "type": 1,
+            "url": "http://newjiexi.gotka.top/keyu3.php?url=",
+            "ext": {
+                "header": {
+                    "User-Agent": "okhttp/4.1.0"
+                }
+            }
+        },
+        {
+            "name": "荣兴",
+            "type": 1,
+            "url": "http://jx.dygfsdy.com/home/api?type=ys&uid=129415&key=acdmoruwxCDEKPZ679&url="
+        },
+        {
+            "name": "m3u8(720)",
+            "type": 0,
+            "url": "https://jx.m3u8.tv/jiexi/?url="
+        }
+    ],
+    "flags": [
+        "youku",
+        "qq",
+        "iqiyi",
+        "qiyi",
+        "letv",
+        "sohu",
+        "tudou",
+        "pptv",
+        "mgtv",
+        "wasu"
+    ]
+}

@@ -1,27 +1,27 @@
-{ "urls": [{ "url": "	饭太硬/api.json", "name": "饭太硬" },
+{ "urls": [{ "url": "饭太硬/api.json", "name": "饭太硬" },
 
-{ "url": "	小米/api.json", "name": "小米" },
+{ "url": "小米/api.json", "name": "小米" },
 
-{ "url": "	肥猫/api.json", "name": "肥猫" },
+{ "url": "肥猫/api.json", "name": "肥猫" },
 
-{ "url": "	菜妮丝/api.json", "name": "菜妮丝" },
+{ "url": "菜妮丝/api.json", "name": "菜妮丝" },
 
-{ "url": "	王二小/api.json", "name": "王二小" },
+{ "url": "王二小/api.json", "name": "王二小" },
 
-{ "url": "	PG/api.json", "name": "PG" },
+{ "url": "PG/api.json", "name": "PG" },
 
-{ "url": "	香雅情/api.json", "name": "香雅情" },
+{ "url": "香雅情/api.json", "name": "香雅情" },
 
-{ "url": "	南风/api.json", "name": "南风" },
+{ "url": "南风/api.json", "name": "南风" },
 
-{ "url": "	骚零/api.json", "name": "骚零" },
+{ "url": "骚零/api.json", "name": "骚零" },
 
-{ "url": "	OK/api.json", "name": "OK" },
+{ "url": "OK/api.json", "name": "OK" },
 
-{ "url": "	白嫖/api.json", "name": "白嫖" },
+{ "url": "白嫖/api.json", "name": "白嫖" },
 
-{ "url": "	天天开心/api.json", "name": "天天开心" },
+{ "url": "天天开心/api.json", "name": "天天开心" },
 
-{ "url": "	少儿频道/api.json", "name": "少儿频道" },
+{ "url": "少儿频道/api.json", "name": "少儿频道" },
 
-{ "url": "	动漫频道/api.json", "name": "动漫频道" }]}
+{ "url": "动漫频道/api.json", "name": "动漫频道" }]}

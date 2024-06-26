@@ -31,7 +31,7 @@
             },
             "style": {
                 "type": "rect",
-                "ratio": 1.5
+                "ratio": 1.77
             }
         },
         {
@@ -41,7 +41,11 @@
             "api": "csp_Config",
             "searchable": 0,
             "changeable": 0,
-            "ext": "./lib/tokenm.json"
+            "ext": "./lib/tokenm.json",
+            "style": {
+                "type": "rect",
+                "ratio": 1.5
+            }
         },
         {
             "key": "Local",
@@ -264,7 +268,7 @@
             "changeable": 1,
             "filterable": 1,
             "timeout": 60,
-            "ext": "./lib/tokenm.json$$$https://wogg.link/$$$proxy$$$1$$$./lib/wogg.json"
+            "ext": "./lib/tokenm.json$$$https://wogg.link/$$$noproxy$$$1$$$./lib/wogg.json"
         },
         {
             "key": "Wo4k",
@@ -458,7 +462,7 @@
             "changeable": 1,
             "filterable": 1,
             "timeout": 60,
-            "ext": "./lib/tokenm.json"
+            "ext": "./lib/tokenm.json$$$null$$$proxy"
         },
         {
             "key": "盘友圈",

@@ -167,14 +167,6 @@
             "changeable": 1
         },
         {
-            "key": "Fangniu4k",
-            "name": "👎放牛┃TV┃App",
-            "type": 3,
-            "api": "csp_WexFangniu4k",
-            "searchable": 1,
-            "changeable": 1
-        },
-        {
             "key": "Wexshandian",
             "name": "⚡️闪电┃秒播┃直连",
             "type": 3,

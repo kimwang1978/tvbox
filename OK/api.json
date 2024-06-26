@@ -103,7 +103,7 @@
         },
         {
             "key": "荐片",
-            "name": "🐭荐片┃手机",
+            "name": "⚔️荐片┃手机",
             "type": 3,
             "api": "csp_Jianpian",
             "searchable": 1,
@@ -414,7 +414,10 @@
             "searchable": 0,
             "quickSearch": 0,
             "changeable": 0,
-            "timeout": 10
+            "timeout": 10,
+            "header": {
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36"
+            }
         },
         {
             "key": "310js",
@@ -563,32 +566,6 @@
             "timeout": 15
         },
         {
-            "key": "找資源",
-            "name": "🐺找资源┃搜索",
-            "type": 3,
-            "api": "csp_Zhaozy",
-            "searchable": 1,
-            "filterable": 0,
-            "changeable": 0,
-            "ext": {
-                "token": "file://TV/ali_token.txt"
-            },
-            "timeout": 15
-        },
-        {
-            "key": "盘搜",
-            "name": "🦊盘搜┃搜索",
-            "type": 3,
-            "api": "csp_PanSou",
-            "searchable": 1,
-            "filterable": 0,
-            "changeable": 0,
-            "ext": {
-                "token": "file://TV/ali_token.txt"
-            },
-            "timeout": 15
-        },
-        {
             "key": "易搜",
             "name": "😹易搜┃搜索",
             "type": 3,
@@ -599,19 +576,6 @@
             "ext": {
                 "token": "file://TV/ali_token.txt",
                 "cookie": "JSESSIONID=FEAFA3BD405267C378C2455FBAD4A704;satoken=0f065aaa-1b6b-4b9b-9910-83a67fb14da2"
-            },
-            "timeout": 15
-        },
-        {
-            "key": "Up云搜",
-            "name": "😻Up搜┃搜索",
-            "type": 3,
-            "api": "csp_Upys",
-            "searchable": 1,
-            "filterable": 0,
-            "changeable": 0,
-            "ext": {
-                "token": "file://TV/ali_token.txt"
             },
             "timeout": 15
         },
@@ -633,19 +597,6 @@
             "name": "🐚夸克盘搜┃搜索",
             "type": 3,
             "api": "csp_Qkpanso",
-            "searchable": 1,
-            "filterable": 1,
-            "changeable": 0,
-            "ext": {
-                "cookie": "file://TV/quark_cookie.txt"
-            },
-            "timeout": 15
-        },
-        {
-            "key": "csp_AiPanSou",
-            "name": "🥰爱盘搜┃搜索",
-            "type": 3,
-            "api": "csp_AiPanSou",
             "searchable": 1,
             "filterable": 1,
             "changeable": 0,
@@ -709,86 +660,64 @@
             "url": "Web"
         },
         {
-            "name": "-4K-",
-            "type": 1,
-            "url": "http://110.40.61.123:7777/api/?key=IxRXSU7o6P9PzlIxrW&url=",
-            "ext": {
-                "header": {
-                    "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36"
-                }
-            }
-        },
-        {
-            "name": "-二小-",
-            "type": 1,
-            "url": "http://43.136.176.188:91/api/?key=f99226916774bfa29c9af99b2c736fd9&url=",
-            "ext": {
-                "header": {
-                    "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36"
-                }
-            }
-        },
-        {
-            "name": "-咸鱼-",
+            "name": "-777-",
             "type": 0,
-            "url": "https://jx.xyflv.cc/?url=",
-            "ext": {
-                "header": {
-                    "user-agent": "Mozilla/5.0 (Linux; Android 13; V2049A Build/TP1A.220624.014; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/116.0.0.0 Mobile Safari/537.36",
-                    "referer": "https://www.xyflv.cc/"
-                }
-            }
+            "url": "https://jx.777jiexi.com/player/?url="
+        },
+        {
+            "name": "-8090g-",
+            "type": 0,
+            "url": "https://www.8090g.cn/jiexi/?url="
+        },
+        {
+            "name": "-ik9-",
+            "type": 0,
+            "url": "https://yparse.ik9.cc/index.php?url="
+        },
+        {
+            "name": "-杰森-",
+            "type": 0,
+            "url": "https://jx.jsonplayer.com/player/?url="
+        },
+        {
+            "name": "-阳途-",
+            "type": 0,
+            "url": "https://jx.yangtu.top/?url="
+        },
+        {
+            "name": "-冰豆-",
+            "type": 0,
+            "url": "https://bd.jx.cn/?url="
+        },
+        {
+            "name": "-m3u8TV-",
+            "type": 0,
+            "url": "https://jx.m3u8.tv/jiexi/?url="
+        },
+        {
+            "name": "-听乐-",
+            "type": 0,
+            "url": "https://jx.dj6u.com/?url="
         },
         {
             "name": "-虾米-",
             "type": 0,
-            "url": "https://jx.xmflv.com/?url=",
-            "ext": {
-                "header": {
-                    "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36 Edg/110.0.1587.57"
-                }
-            }
+            "url": "https://jx.xmflv.com/?url="
         },
         {
-            "name": "-云解析-",
+            "name": "-虾米2-",
             "type": 0,
-            "url": "https://jx.yparse.com/index.php?url=",
-            "ext": {
-                "header": {
-                    "user-agent": "Mozilla/5.0 (Linux; Android 13; V2049A Build/TP1A.220624.014; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/116.0.0.0 Mobile Safari/537.36"
-                }
-            }
+            "url": "https://jx.xmflv.cc/?url="
         },
         {
-            "name": "-777-",
+            "name": "-云析-",
             "type": 0,
-            "url": "https://jx.jsonplayer.com/player/?url=",
-            "ext": {
-                "header": {
-                    "user-agent": "Mozilla/5.0 (Linux; Android 13; V2049A Build/TP1A.220624.014; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/116.0.0.0 Mobile Safari/537.36"
-                }
-            }
+            "url": "https://jx.yparse.com/index.php?url="
         },
         {
-            "name": "-全看-",
+            "name": "-红狐-",
             "type": 0,
-            "url": "https://jx.quankan.app/?url=",
-            "ext": {
-                "header": {
-                    "user-agent": "Mozilla/5.0 (Linux; Android 13; V2049A Build/TP1A.220624.014; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/116.0.0.0 Mobile Safari/537.36"
-                }
-            }
-        },
-        {
-            "name": "-爱豆-",
-            "type": 0,
-            "url": "https://jx.aidouer.net/?url=",
-            "ext": {
-                "header": {
-                    "user-agent": "Mozilla/5.0 (Linux; Android 13; V2049A Build/TP1A.220624.014; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/116.0.0.0 Mobile Safari/537.36",
-                    "referer": "https://jiejie.uk/"
-                }
-            }
+            "url": "https://player.mrgaocloud.com/player/?url="
         }
     ],
     "doh": [

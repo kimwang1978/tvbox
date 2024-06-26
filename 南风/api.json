@@ -58,32 +58,22 @@
             "ext": "https://v.aikanbot.com"
         },
         {
-            "key": "热播",
-            "name": "🚀热播",
-            "type": 3,
-            "api": "csp_AppTT",
-            "playerType": 2,
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1,
-            "ext": "AO7TcBkd8I/B5wQc4Qma+pU="
-        },
-        {
-            "key": "萌米",
-            "name": "💥萌米",
-            "type": 3,
-            "api": "csp_AppTT",
-            "playerType": 1,
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1,
-            "ext": "AO7TcBkd8Jqf5UgA7xXA6dVlLcc="
-        },
-        {
             "key": "csp_Kkys",
             "name": "💡酷看",
             "type": 3,
             "api": "csp_Kkys",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "changeable": 1
+        },
+        {
+            "key": "csp_Zx4k",
+            "name": "🚝专线",
+            "type": 3,
+            "api": "csp_Zx4k",
+            "timeout": 15,
+            "playerType": 2,
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 1,
@@ -100,6 +90,16 @@
             "changeable": 1
         },
         {
+            "key": "csp_LiteApple",
+            "name": "🍎小苹果",
+            "type": 3,
+            "api": "csp_LiteApple",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "changeable": 1
+        },
+        {
             "key": "csp_Jpys",
             "name": "💮金牌",
             "type": 3,
@@ -108,6 +108,52 @@
             "searchable": 1,
             "quickSearch": 1,
             "changeable": 1
+        },
+        {
+            "key": "csp_Juqq",
+            "name": "⭕剧圈圈",
+            "type": 3,
+            "api": "csp_Juqq",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1
+        },
+        {
+            "key": "csp_AppRZ",
+            "name": "🕵忍者",
+            "type": 3,
+            "api": "csp_AppRZ",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "ext": "http://rzys.xyz/"
+        },
+        {
+            "key": "csp_FreeOK",
+            "name": "🆗FreeOK",
+            "type": 3,
+            "api": "csp_FreeOK",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1
+        },
+        {
+            "key": "csp_MaoLv",
+            "name": "🐴毛驴",
+            "type": 3,
+            "api": "csp_MaoLv",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1
+        },
+        {
+            "key": "csp_SC1080",
+            "name": "⛪圣城",
+            "type": 3,
+            "api": "csp_SC1080",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1
         },
         {
             "key": "csp_Xdys",
@@ -137,6 +183,28 @@
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 0
+        },
+        {
+            "key": "热播",
+            "name": "🚀热播",
+            "type": 3,
+            "api": "csp_AppTT",
+            "playerType": 2,
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "ext": "AO7TcBkd8I/B5wQc4Qma+pU="
+        },
+        {
+            "key": "萌米",
+            "name": "💥萌米",
+            "type": 3,
+            "api": "csp_AppTT",
+            "playerType": 1,
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "ext": "AO7TcBkd8Jqf5UgA7xXA6dVlLcc="
         },
         {
             "key": "csp_Cddys",
@@ -196,16 +264,6 @@
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 1
-        },
-        {
-            "key": "csp_LiteApple",
-            "name": "🍎小苹果",
-            "type": 3,
-            "api": "csp_LiteApple",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1,
-            "changeable": 1
         },
         {
             "key": "csp_Zxzj",
@@ -591,27 +649,6 @@
             }
         },
         {
-            "key": "Freeok",
-            "name": "💢Freeok",
-            "type": 3,
-            "api": "csp_XBPQ",
-            "playerType": "2",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1,
-            "ext": {
-                "分类url": "https://www.freeok.vip/vod-show/{cateId}-{area}-------{catePg}---{year}.html;;ar1",
-                "分类": "电影&剧集&动漫&综艺&短剧&少儿",
-                "分类值": "1&2&3&4&12&5",
-                "副标题": "<div class=\"module-item-note\">&&</div>",
-                "嗅探词": "m3u8#.m3u8#.mp4#freeok.mp4#/obj/",
-                "线路数组": "data-dropdown-value=&&</div>[不包含:夸克]",
-                "导演": "导演：&&</div>",
-                "主演": "主演：&&</div>",
-                "简介": "<p>&&</p>"
-            }
-        },
-        {
             "key": "奇优",
             "name": "️💢奇优",
             "type": 3,
@@ -833,9 +870,9 @@
             "url": "Demo"
         },
         {
-            "name": "xmflv",
+            "name": "咸鱼",
             "type": 0,
-            "url": "https://jx.xmflv.com/?url=",
+            "url": "https://jx.xyflv.cc/?url=",
             "ext": {
                 "flag": [
                     "qq",
@@ -859,9 +896,9 @@
             }
         },
         {
-            "name": "咸鱼",
+            "name": "xmflv",
             "type": 0,
-            "url": "https://jx.xyflv.cc/?url=",
+            "url": "https://jx.xmflv.com/?url=",
             "ext": {
                 "flag": [
                     "qq",

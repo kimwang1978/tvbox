@@ -7,7 +7,7 @@
     "sites": [
         {
             "key": "douban",
-            "name": "关注:影视资源站,防失联",
+            "name": "关注:影视资源站,每月6号更新",
             "type": 3,
             "api": "csp_DouBan",
             "quickSearch": 0,

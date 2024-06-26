@@ -1647,6 +1647,16 @@
             "ext": "./py/cctv.py"
         },
         {
+            "key": "py_cctv1",
+            "name": "🌔央视大全.py",
+            "type": 3,
+            "api": "./api/cctv.py",
+            "searchable": 0,
+            "quickSearch": 0,
+            "filterable": 1,
+            "ext": ""
+        },
+        {
             "key": "相声小品",
             "name": "🏮相声小品",
             "type": 3,

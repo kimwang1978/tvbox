@@ -866,17 +866,16 @@ CETV-4,http://[2409:8087:1a01:df::7005]:80/ottrrs.hl.chinamobile.com/PLTV/888888
 香港凤凰频道,http://123.202.245.120:8008/bysid/85
 无线星河频道,http://113.64.145.55:8081/hls/135/index.m3u8
 无线星河频道,http://v2h.jdshipin.com/xinghe/xinghe.stream/chunklist.m3u8
-凤凰电影频道,http://117.114.153.25:8180/TV00000000000000000072@HHZT
+
 星空卫视频道,http://iptv.028028.xyz:8/udp/239.93.0.156:2193
-Channel[V]台,http://iptv.028028.xyz:8/udp/239.93.0.157:2194
+
 无线娱乐频道,http://v2h.jdshipin.com/enew/enew.stream/chunklist.m3u8
 香港33台高清,https://epg.pw/stream/00ea10452b568a8e587ebece8311785afe7f33c41437de0a68839e6392d45dfc.m3u8
 香港34台高清,https://epg.pw/stream/16e85bed392dd123c9d057343c09e2310c6975d4866da8c92f7b0127fa865523.m3u8
 香港35台高清,https://epg.pw/stream/cabd18457f278cda40ac160bccabf77a6b0ad341e50a00bd62620d78819dd220.m3u8
 香港35台高清,https://rthktv35-live.akamaized.net/hls/live/2101643/RTHKTV35/stream02/streamPlaylist.m3u8
-STARmovies,http://117.114.153.25:8180/TV00000000000000000075@HHZT
-axn电影频道,http://117.114.153.25:8180/TV00000000000000000076@HHZT
-CINEMAX电影,http://117.114.153.25:8180/TV00000000000000000109@HHZT
+
+
 
 
 
@@ -888,9 +887,7 @@ CINEMAX电影,http://117.114.153.25:8180/TV00000000000000000109@HHZT
 
 
 
-凤凰资讯台,http://play-flive.ifeng.com/live/06OLEEWQKN4.m3u8
-凤凰资讯台,http://1.62.64.252/1.v.smtcdns.net/qctv.fengshows.cn/live/0701pin72.flv
-凤凰资讯台,http://112.19.171.156:9999/udp/239.93.0.118:2191
+
 
 
 凤凰中文频道,http://www.cdtriot.cn:9999/udp/239.93.0.162:2192
@@ -980,7 +977,7 @@ CINEMAX电影,http://117.114.153.25:8180/TV00000000000000000109@HHZT
 耀才财经,http://202.69.67.66:443/webcast/bshdlive-pc/playlist.m3u8
 耀才财经,http://202.69.67.66:443/webcast/bshdlive-pc/playlist.m3u8?wowzasessionid=64000
 澳亚卫视,https://live.mastvnet.com/lsdream/lY44pmm/2000/live.m3u8
-经典影视台,http://ali.hlspull.yximgs.com/live/asdfg32516.flv
+
 
 香港面包台,https://video.bread-tv.com:8091/hls-live24/online/index.m3u8
 星光视界,http://ali.hlspull.yximgs.com/live/zxcvbnm9852.flv
@@ -1008,16 +1005,7 @@ CINEMAX电影,http://117.114.153.25:8180/TV00000000000000000109@HHZT
 
 
 
-纬来体育,http://hls.szsummer.cn/live/446035/playlist.m3u8?k=32f9ec7c13e4b390289143a8e1b2a898&t=1840341130
-纬来体育,https://cloud.yumixiu768.com/tmp/123.m3u8
 
-中天亚洲,http://livetv.skycf.eu.org/live.m3u8?c=3
-台视新闻,http://livetv.skycf.eu.org/live.m3u8?c=4
-
-公视新闻,http://livetv.skycf.eu.org/live.m3u8?c=8
-
-
-东森财经,http://livetv.skycf.eu.org/live.m3u8?c=14
 
 
 八大戏剧,http://61.221.215.25:8800/hls/39/index.m3u8
@@ -1054,7 +1042,7 @@ CGNTV11,https://livedoc.cgtn.com/500d/prog_index.m3u8
 
 环球电视,http://zb.xzxwhcb.com:9999/hls/world.m3u8
 泰国ASTV,http://news1.live14.com/stream/news1_hi.m3u8
-朝鲜新闻,http://119.77.96.184:1935/chn05/chn05/chunklist_w644291506.m3u8
+
 韩国新闻,http://amdlive.ctnd.com.edgesuite.net:80/arirang_1ch/smil:arirang_1ch.smil/chunklist_b2256000_sleng.m3u8
 日本新闻,https://n24-cdn-live.ntv.co.jp:443/ch01/high.m3u8
 日本新闻,https://n24-cdn-live.ntv.co.jp/ch01/index.m3u8
@@ -1080,12 +1068,12 @@ CGTN,http://live.cgtn.com/1000/prog_index.m3u8
 韩·GSMyShop,https://gstv-myshop.gsshop.com/myshop_hd/myshop_hd.stream/playlist.m3u8
 韩·KoreaTV,https://hlive.ktv.go.kr/live/klive_h.stream/playlist.m3u8
 韩·SBS,http://1.245.74.5:1935/live/tv/.m3u8
-韩·NBS,https://media.joycorp.co.kr:4443/live/live_720p/playlist.m3u8
-韩国-KCTV,http://119.77.96.184:1935/chn05/chn05/chunklist_w1306745753.m3u8
+
+
 俄·IGITV,http://hls-igi.cdnvideo.ru/igi/igi_hq/playlist.m3u8
 Самара,http://live.guberniatv.cdnvideo.ru/guberniatv/guberniatv.sdp/playlist.m3u8
 
-KCTV 광주,http://119.77.96.184:1935/chn05/chn05/chunklist.m3u8
+
 KBS World,https://kbsworld-ott.akamaized.net:443/hls/live/2002341/kbsworld/01.m3u8
 KBS World,https://livecdn.fptplay.net:443/sdb/kbs_hls.smil/playlist.m3u8
 TBS Seoul,https://cdntv.tbs.seoul.kr/tbs/tbs_tv_web.smil/playlist.m3u8
@@ -1130,7 +1118,7 @@ TBS Seoul,https://cdntv.tbs.seoul.kr/tbs/tbs_tv_web.smil/playlist.m3u8
 
 📡地方综合,#genre#
 
-河南电视,http://61.52.153.7:9090/newlive/live/hls/23/live.m3u8
+
 湖南经视,http://php.jdshipin.com:8880/iptv.php?id=hnjs
 湖南都市,http://php.jdshipin.com:8880/iptv.php?id=hnds
 湖南爱晚,http://php.jdshipin.com:8880/iptv.php?id=hngg
@@ -1150,7 +1138,7 @@ TBS Seoul,https://cdntv.tbs.seoul.kr/tbs/tbs_tv_web.smil/playlist.m3u8
 湖南卫视,http://live.dxms.top/dwy/mghn.php
 山西卫视,http://liveflash.sxrtv.com/live/sxwshd.m3u8?sub_m3u8=true&edge_slice=true
 兰考新闻,http://tvpull.dxhmt.cn:9081/tv/10225-1.m3u8
-西青电视,http://221.238.209.44:81/hls/live1.m3u8
+
 七星关台,https://p8.vzan.com:443/slowlive/147077707554082780/live.m3u8
 道真新闻,http://live.dzrmtzx.org.cn:90/live/dspd_1M.m3u8
 浙江公共,https://ali-m-l.cztv.com/channels/lantian/channel007/1080p.m3u8
@@ -1255,7 +1243,7 @@ yMG新闻,http://l.cztvcloud.com/channels/lantian/SXyuhang1/720p.m3u8
 宝丰综合频道,http://tvpull.dxhmt.cn:9081/tv/10421-1.m3u8?zhend
 嵩县综合新闻,http://wshls.live.migucloud.com/live/MZCYG799_C0/playlist.m3u8?zhend
 卫辉综合频道,http://tvpull.dxhmt.cn:9081/tv/10781-1.m3u8?zhend
-桐柏新闻综合,http://tvpull.dxhmt.cn:9081/tv/11330-1.m3u8?zhend
+
 鹿邑新闻频道,http://tvpull.dxhmt.cn:9081/tv/11628-1.m3u8?zhend
 新蔡综合,http://tvpull.dxhmt.cn:9081/tv/11729-1.m3u8?zhend
 灵宝新闻综合,http://tvpull.dxhmt.cn:9081/tv/11282-1.m3u8?zhend
@@ -1274,13 +1262,7 @@ yMG新闻,http://l.cztvcloud.com/channels/lantian/SXyuhang1/720p.m3u8
 冰冰经典✔原,http://159.75.85.63:35455/douyu/74374
 星爷影院✔原,http://159.75.85.63:35455/douyu/508118
 凌儿影院✔原,http://159.75.85.63:35455/douyu/1377142
-麓山迷踪✔原,http://159.75.85.63:35455/douyu/4505431
-瑶瑶恐怖✔原,http://159.75.85.63:35455/douyu/2935323
-怡寶影院✔原,http://159.75.85.63:35455/douyu/434971
-小黛兮影✔原,http://159.75.85.63:35455/douyu/11553944
-萌小鬼片✔原,http://159.75.85.63:35455/douyu/3928
-神乐影剧✔原,http://159.75.85.63:35455/douyu/122402
-可乐影院✔原,http://159.75.85.63:35455/douyu/20415
+
 小宇60帧✔原,http://159.75.85.63:35455/douyu/323876
 恐怖惊悚✔原,http://159.75.85.63:35455/douyu/96577
 電影劇場✔原,http://159.75.85.63:35455/douyu/7575350
@@ -1293,7 +1275,7 @@ yMG新闻,http://l.cztvcloud.com/channels/lantian/SXyuhang1/720p.m3u8
 变种人片✔原,http://159.75.85.63:35455/douyu/9651304
 喜剧电影✔原,http://159.75.85.63:35455/douyu/9292492
 女神电影✔原,http://159.75.85.63:35455/douyu/747764
-避风影院✔原,http://159.75.85.63:35455/douyu/9826611
+
 欧美大片✔原,http://159.75.85.63:35455/douyu/2793084
 贝爷max✔原,http://159.75.85.63:35455/douyu/4332
 贝爷影厅✔原,http://159.75.85.63:35455/douyu/252802
@@ -1934,13 +1916,9 @@ yy小品3,http://jxiptv.xn--9kqp7k2rd.com/svip/yy.php?t=1354936198
 韩国太妍41,https://cloud.video.taobao.com//play/u/57349687/p/1/e/6/t/1/240160716008.mp4
 
 💃韩国音乐,#genre#
-洪真英-爱情的电池,http://15799848.s21v.faiusr.com/58/ABUIABA6GAAgzvSa4gUoutzqwwQ.mp4
-韩国美女诱惑热舞Sori-Dual Life,http://15799848.s21v.faiusr.com/58/ABUIABA6GAAguOaa4gUo_J_z6gI.mp4
-skart-短裙1,https://15799848.s21v.faiusr.com/58/ABUIABA6GAAgi5Ke4wUoy6vqTg.mp4
-skart-短裙2,https://15799848.s21v.faiusr.com/58/ABUIABA6GAAggoG24gUouOfNkAM.mp4
+
 SING女团 风陵渡口,https://vdse.bdstatic.com//a499dfbec34060ce0f380ea789446f07.mp4
-Sistar - Give It To Me,https://15799848.s21v.faiusr.com/58/ABUIABA6GAAgkoe24gUo-OW_mwQ.mp4
-Stellar - Study,https://15799848.s21v.faiusr.com/58/ABUIABA6GAAggMa84gUowOHVxgE.mp4
+
 「韩」DJ Soda Remix 2021,https://vd3.bdstatic.com/mda-mev3hw0htz28h5wn/1080p/cae_h264/1622343504467773766/mda-mev3hw0htz28h5wn.mp4
 「韩」佳仁-ParadiseLost,https://15799848.s21v.faiusr.com/58/ABUIABA6GAAgy9j64wUogPOGEQ.mp4
 「韩」僵尸舞,https://15799848.s21v.faiusr.com/58/ABUIABA6GAAgw5Cv4gUoiZqZ4wE.mp4
@@ -2995,8 +2973,7 @@ dj,https://txmov2.a.kwimgs.com/upic/2022/03/21/19/BMjAyMjAzMjExOTA2MjRfMjYyNzI4M
 
 
 🎤欧美MV,#genre#
-mey green、bob garcia - is this love-[86M.mp4-720P],https://15799848.s21v.faiusr.com/58/ABUIABA6GAAg0LXV4gUoweaZ4AM.mp4
-kieda budini - flirt-[109M.mp4-1080P],https://15799848.s21v.faiusr.com/58/ABUIABA6GAAgprXV4gUo8KbK2gc.mp4
+
 Justin Bieber - What Do You Mean-[110M.mp4-1080P],https://15799848.s21v.faiusr.com/58/ABUIABA6GAAgurTV4gUowIKVsQY.mp4
 Jessi Malay - Do It-[68M.mp4-720P],https://15799848.s21v.faiusr.com/58/ABUIABA6GAAg8bPV4gUoqt673AY.mp4
 Inna、Yandel - In Your Eyes-[62M.mp4-720P],https://15799848.s21v.faiusr.com/58/ABUIABA6GAAgpbPV4gUo6JvA8wQ.mp4
@@ -3134,116 +3111,7 @@ Jason Derulo - Breathing -[102M.mp4-1080P],https://15799848.s21v.faiusr.com/58/A
 布兰妮-Britney Spears-Criminal-[127M.mp4-1080P],https://15799848.s21v.faiusr.com/58/ABUIABA6GAAg79ys4gUoovb4mAQ.mp4
 欧美空灵抒情ＭＶ－Arash feat. Helena - Broken Angel－[98M.mp4-720P],https://15799848.s21v.faiusr.com/58/ABUIABA6GAAgj9ms4gUo9taBtAU.mp4
 
-🎤4K歌舞,#genre#
-MV.4k,https://15799848.s21v.faiusr.com/58/ABUIABA6GAAgpMuw6AUoroLfpgI.mp4
-MV.4k,https://15799848.s21v.faiusr.com/58/ABUIABA6GAAg-fyo6wUoguOg8AI.mp4
-MV.4k,https://15799848.s21v.faiusr.com/58/ABUIABA6GAAg-Pyo6wUo9LOQ5wQ.mp4
-MV.4k,https://15799848.s21v.faiusr.com/58/ABUIABA6GAAgzf2o6wUosrrb8wc.mp4
-MV.4k,https://15799848.s21v.faiusr.com/58/ABUIABA6GAAgnPuo6wUoyJq9hAQ.mp4
-MV.4k,https://15799848.s21v.faiusr.com/58/ABUIABA6GAAggp7b7AUoxcGpzAI.mp4
-MV.4k,https://15799848.s21v.faiusr.com/58/ABUIABA6GAAg9v2o6wUo-qKlDA.mp4
-MV.4k,https://15799848.s21v.faiusr.com/58/ABUIABA6GAAg1v2o6wUoquagcw.mp4
-MV.4k,https://15799848.s21v.faiusr.com/58/ABUIABA6GAAg1v2o6wUoqeWjygM.mp4
-MV.4k,https://15799848.s21v.faiusr.com/58/ABUIABA6GAAg0f2o6wUoh8b60gQ.mp4
-MV.4k,https://15799848.s21v.faiusr.com/58/ABUIABA6GAAg6J7b7AUoyuWWAw.mp4
-MV.4k,https://15799848.s21v.faiusr.com/58/ABUIABA6GAAg6Yzg7AUo4PKNwgM.mp4
-MV.4k,https://15799848.s21v.faiusr.com/58/ABUIABA6GAAggo3g7AUoiM7l7Qc.mp4
-MV.4k,https://15799848.s21v.faiusr.com/58/ABUIABA6GAAg0fOR7QUoxrCY2AU.mp4
-MV.4k,https://15799848.s21v.faiusr.com/58/ABUIABA6GAAgmvSR7QUoyNbK5wQ.mp4
-「欧美」迈克尔杰克逊,https://15799848.s21v.faiusr.com/58/ABUIABA6GAAgw9ma4gUo3YLDvgU.mp4
-「欧美」1,https://15799848.s21v.faiusr.com/58/ABUIABA6GAAgyMqg4gUo-uSR5AU.mp4
-「欧美」2,https://15799848.s21v.faiusr.com/58/ABUIABA6GAAgianW4gUoj9-Aaw.mp4
-「欧美」3,https://15799848.s21v.faiusr.com/58/ABUIABA6GAAgpdia4gUo7oWfiAE.mp4
-「印度」1,http://15799848.s21v.faiusr.com/58/ABUIABA6GAAguOCe9wUotr-RqQU.mp4
-「印度」2,http://15799848.s21v.faiusr.com/58/ABUIABA6GAAguuCe9wUoyKfU-gI.mp4
-「印度」3,http://15799848.s21v.faiusr.com/58/ABUIABA6GAAgl_Ce9wUo6t-WdQ.mp4
-「印度」4,http://15799848.s21v.faiusr.com/58/ABUIABA6GAAgmeCe9wUoiJmTxgc.mp4
-「印度」5,http://15799848.s21v.faiusr.com/58/ABUIABA6GAAgj_Ce9wUoqtHxJQ.mp4
-「印度」6,http://15799848.s21v.faiusr.com/58/ABUIABA6GAAgmuCe9wUokNHLuAQ.mp4
-「印度」7,http://15799848.s21v.faiusr.com/58/ABUIABA6GAAgneCe9wUouKLe8Ac.mp4
-「印度」8,http://15799848.s21v.faiusr.com/58/ABUIABA6GAAg3N_e9wUogdbOaQ.mp4
-「印度」9,http://15799848.s21v.faiusr.com/58/ABUIABA6GAAg1t_e9wUouM_i8wM.mp4
-「印度」10,http://15799848.s21v.faiusr.com/58/ABUIABA6GAAg45qY9wUonJT41gc.mp4
-「印度」11,http://15799848.s21v.faiusr.com/58/ABUIABA6GAAgvZ6k4wUo0cGkhgQ.mp4
-「印度」12,http://15799848.s21v.faiusr.com/58/ABUIABA6GAAghrTW4gUojKzXlwI.mp4
-欧美MV.4k,https://15799848.s21v.faiusr.com/58/ABUIABA6GAAg_tya4gUo9PKb1QQ.mp4
-欧美MV.4k,https://15799848.s21v.faiusr.com/58/ABUIABA6GAAg4J2b4gUowKTr0AY.mp4
-欧美MV.4k,https://15799848.s21v.faiusr.com/58/ABUIABA6GAAgy5ac4gUo7aaGpAQ.mp4
-欧美MV.4k,https://15799848.s21v.faiusr.com/58/ABUIABA6GAAghq2c4gUowI2L2AI.mp4
-舞曲视频,https://15799848.s21v.faiusr.com/58/ABUIABA6GAAgsMiThQYo2K-O9wQ.mp4
-舞曲,https://15799848.s21v.faiusr.com/58/ABUIABA6GAAgzciThQYosK_E0QE.mp4
-舞曲,https://15799848.s21v.faiusr.com/58/ABUIABA6GAAg2ciThQYonJO4pgc.mp4
-舞曲,https://15799848.s21v.faiusr.com/58/ABUIABA6GAAgvsmThQYozPzOoAQ.mp4
-印度神曲1,https://15799848.s21v.faiusr.com/58/ABUIABA6GAAg56m04gUokIbBswU.mp4
-印度神曲2,http://15799848.s21v.faiusr.com/58/ABUIABA6GAAg45qY9wUonJT41gc.mp4
-印度神曲3,http://15799848.s21v.faiusr.com/58/ABUIABA6GAAgvZ6k4wUo0cGkhgQ.mp4
-印度神曲4,http://15799848.s21v.faiusr.com/58/ABUIABA6GAAghrTW4gUojKzXlwI.mp4
-舞曲,https://15799848.s21v.faiusr.com/58/ABUIABA6GAAgjIPxhwYoufCDrgM.mp4
-舞曲,https://15799848.s21v.faiusr.com/58/ABUIABA6GAAgkYPxhwYo2NOyswQ.mp4
-舞曲,https://15799848.s21v.faiusr.com/58/ABUIABA6GAAg5YHxhwYorP3XqQY.mp4
-舞曲,https://15799848.s21v.faiusr.com/58/ABUIABA6GAAgru28hwYo9I37jAM.mp4
-舞曲MV,https://15799848.s21v.faiusr.com/58/ABUIABA6GAAg4oLxhwYo1OOw_Qc.mp4
-舞曲MV,https://15799848.s21v.faiusr.com/58/ABUIABA6GAAg3YLxhwYo-I3xigQ.mp4
-舞曲MV,https://15799848.s21v.faiusr.com/58/ABUIABA6GAAg24LxhwYowK6lUA.mp4
-舞曲MV,https://15799848.s21v.faiusr.com/58/ABUIABA6GAAgj4PxhwYouNP3_AE.mp4
-舞曲MV,https://15799848.s21v.faiusr.com/58/ABUIABA6GAAghoPxhwYo1MrCBA.mp4
-舞曲MV,https://15799848.s21v.faiusr.com/58/ABUIABA6GAAghoPxhwYo9buQ_QI.mp4
-舞曲MV,https://15799848.s21v.faiusr.com/58/ABUIABA6GAAgp4PxhwYo6eLmugQ.mp4
-舞曲MV,https://15799848.s21v.faiusr.com/58/ABUIABA6GAAggoLxhwYorK_AugI.mp4
-舞曲MV,https://15799848.s21v.faiusr.com/58/ABUIABA6GAAguILxhwYojOq7zgY.mp4
-舞曲MV,https://15799848.s21v.faiusr.com/58/ABUIABA6GAAgt4LxhwYo4IWt2gc.mp4
-舞曲MV,https://15799848.s21v.faiusr.com/58/ABUIABA6GAAgtILxhwYolI2_GA.mp4
-舞曲MV,https://15799848.s21v.faiusr.com/58/ABUIABA6GAAgtILxhwYo46Hw5QU.mp4
-舞曲MV,https://15799848.s21v.faiusr.com/58/ABUIABA6GAAg6YHxhwYo--bAzAI.mp4
-舞曲MV,https://15799848.s21v.faiusr.com/58/ABUIABA6GAAgj4LxhwYogMe80AY.mp4
-舞曲MV,https://15799848.s21v.faiusr.com/58/ABUIABA6GAAgjILxhwYo9Z-U3wE.mp4
-舞曲MV,https://15799848.s21v.faiusr.com/58/ABUIABA6GAAgkILxhwYo3urf9QE.mp4
-舞曲MV,https://15799848.s21v.faiusr.com/58/ABUIABA6GAAgge68hwYom6mChwU.mp4
-舞曲MV,https://15799848.s21v.faiusr.com/58/ABUIABA6GAAgru68hwYokLrdyAc.mp4
-舞曲MV,https://15799848.s21v.faiusr.com/58/ABUIABA6GAAgse68hwYoiN6MlgI.mp4
-舞曲MV,https://15799848.s21v.faiusr.com/58/ABUIABA6GAAg1u68hwYoifOS2wQ.mp4
-舞曲MV,https://15799848.s21v.faiusr.com/58/ABUIABA6GAAg0_28hwYogqqamAU.mp4
-舞曲MV,https://15799848.s21v.faiusr.com/58/ABUIABA6GAAg2u28hwYogq2LwgU.mp4
-舞曲MV,https://15799848.s21v.faiusr.com/58/ABUIABA6GAAg1u28hwYo6L3_0Ac.mp4
-舞曲MV,https://15799848.s21v.faiusr.com/58/ABUIABA6GAAggO68hwYo5qbjzgc.mp4
-舞曲MV,https://15799848.s21v.faiusr.com/58/ABUIABA6GAAgre28hwYovPDkNQ.mp4
-舞曲MV,https://15799848.s21v.faiusr.com/58/ABUIABA6GAAg4_28hwYo8a7e1wU.mp4
-舞曲mv,https://15799848.s21v.faiusr.com/58/ABUIABA6GAAgje68hwYoirvtpAc.mp4
-舞曲mv,https://15799848.s21v.faiusr.com/58/ABUIABA6GAAgp_68hwYojOGw8AU.mp4
-欧美MV,https://15799848.s21v.faiusr.com/58/ABUIABA6GAAgse68hwYoiN6MlgI.mp4
-欧美MV,https://15799848.s21v.faiusr.com/58/ABUIABA6GAAgru68hwYokLrdyAc.mp4
-华语mv,https://15799848.s21v.faiusr.com/58/ABUIABA6GAAgi9vx9wUogMjN7wI.mp4
-华语舞曲,https://15799848.s21v.faiusr.com/58/ABUIABA6GAAgkt3x9wUosKqzkQU.mp4
-感舞曲,视频,https://15799848.s21v.faiusr.com/58/ABUIABA6GAAgiPCp4gUogK_aCg.mp4
-感舞曲,https://15799848.s21v.faiusr.com/58/ABUIABA6GAAg0__p4gUo3tvg8AY.mp4
-电音舞曲,https://15799848.s21v.faiusr.com/58/ABUIABA6GAAgxeap4gUorKXMlAI.mp4
-感舞曲,https://15799848.s21v.faiusr.com/58/ABUIABA6GAAguOKp4gUo9bbBkAI.mp4
-电音女王,https://15799848.s21v.faiusr.com/58/ABUIABA6GAAg9tqp4gUoptCOgQQ.mp4
-夜店劲爆舞曲,https://15799848.s21v.faiusr.com/58/ABUIABA6GAAg-IWo4gUoy8LUiQU.mp4
-俄罗斯夜店,https://15799848.s21v.faiusr.com/58/ABUIABA6GAAgt6Gg4gUo7pyY0QM.mp4
-俄罗斯新感舞曲,https://15799848.s21v.faiusr.com/58/ABUIABA6GAAgz_Sa4gUohOSn6gQ.mp4
-德国舞曲,https://15799848.s21v.faiusr.com/58/ABUIABA6GAAgneOa4gUoovj1pQM.mp4
-欧美新感djdj,https://15799848.s21v.faiusr.com/58/ABUIABA6GAAg-d6a4gUon7WNogc.mp4
-欧美舞曲,https://15799848.s21v.faiusr.com/58/ABUIABA6GAAgnqyM5gUo2Oe2wgU.mp4
-欧美舞曲,https://15799848.s21v.faiusr.com/58/ABUIABA6GAAg5-Ks4gUoxIuY9QM.mp4
-欧美舞曲,https://15799848.s21v.faiusr.com/58/ABUIABA6GAAguuWs4gUoiNTngQM.mp4
-欧美劲爆舞曲,https://15799848.s21v.faiusr.com/58/ABUIABA6GAAgxOGs4gUo7t7A-AY.mp4
-新感舞曲,https://15799848.s21v.faiusr.com/58/ABUIABA6GAAg076s4gUo4MDtygI.mp4
-舞曲,djdj,https://15799848.s21v.faiusr.com/58/ABUIABA6GAAg076s4gUo4MDtygI.mp4
-现场舞曲,https://15799848.s21v.faiusr.com/58/ABUIABA6GAAgrNiq4gUoxJr06AM.mp4
-欧美劲爆舞曲,https://15799848.s21v.faiusr.com/58/ABUIABA6GAAg--_n4gUorIudNQ.mp4
-南飞劲爆舞曲,https://15799848.s21v.faiusr.com/58/ABUIABA6GAAgm_Cn4gUogPfoqgM.mp4
-欧美动感舞曲,https://15799848.s21v.faiusr.com/58/ABUIABA6GAAgzr6n4gUowMTmrwY.mp4
-欧美火爆舞曲,https://15799848.s21v.faiusr.com/58/ABUIABA6GAAgyrWn4gUoppu0mQc.mp4
-东欧动感舞曲,https://15799848.s21v.faiusr.com/58/ABUIABA6GAAg-ben4gUo-OO4sgU.mp4
-新感舞曲,https://15799848.s21v.faiusr.com/58/ABUIABA6GAAgv_yl4gUouY29igM.mp4
-节奏舞曲,djhttps://15799848.s21v.faiusr.com/58/ABUIABA6GAAgsdql4gUoqt6llgc.mp4
-电音嗨曲,https://15799848.s21v.faiusr.com/58/ABUIABA6GAAg8oml4gUozZjwkQM.mp4
-混音舞,https://15799848.s21v.faiusr.com/58/ABUIABA6GAAgn9_h4gUowJGR1wY.mp4
-新感舞曲,https://15799848.s21v.faiusr.com/58/ABUIABA6GAAgmdqh4gUomOXg0wc.mp4
-欧美电音舞曲,https://15799848.s21v.faiusr.com/58/ABUIABA6GAAg27_h4gUo4KbldQ.mp4
-慢摇舞蹈,https://15799848.s21v.faiusr.com/58/ABUIABA6GAAg_Lqh4gUo3PuurgQ.mp4
-电子舞曲,https://15799848.s21v.faiusr.com/58/ABUIABA6GAAg9pyh4gUog7CFAg.mp4
+
 
 🌈少儿动画,#genre#
 少儿动画001,https://newcntv.qcloudcdn.com/asp/hls/1200/0303000a/3/default/3823b0a397454309b1b9c6118a335f08/1200.m3u8

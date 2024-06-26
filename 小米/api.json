@@ -19,7 +19,7 @@
             "api": "csp_Duopan",
             "playerType": 2,
             "filterable": 1,
-            "ext": "http://mpanso.com/"
+            "ext": "http://mpanso.com"
         },
         {
             "key": "csp_wanou",
@@ -30,7 +30,7 @@
             "playerType": 2,
             "timeout": 30,
             "changeable": 0,
-            "ext": "./txt/token.txt"
+            "ext": "https://www.wogg.link"
         },
         {
             "key": "csp_NanGua",
@@ -71,15 +71,6 @@
             "api": "csp_SP360"
         },
         {
-            "key": "新视觉",
-            "name": "👀视觉┃1080P",
-            "type": 3,
-            "api": "csp_Xinsj",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1
-        },
-        {
             "key": "云播",
             "name": "☁️云播┃影视",
             "type": 3,
@@ -96,17 +87,6 @@
             "type": 3,
             "playerType": "2",
             "api": "csp_Juqq"
-        },
-        {
-            "key": "csp_wanou",
-            "name": "🧸玩偶┃云盘",
-            "api": "csp_Wogg",
-            "type": 3,
-            "searchable": 1,
-            "playerType": 2,
-            "timeout": 30,
-            "changeable": 0,
-            "ext": "./txt/token.txt"
         },
         {
             "key": "可可",
@@ -229,6 +209,29 @@
             }
         },
         {
+            "key": "剧哥哥",
+            "name": "🧍兄弟┃影视",
+            "type": 3,
+            "api": "csp_XBPQ",
+            "ext": {
+                "主页url": "https://www.jugege.cc/",
+                "副标题": "pic-text text-right\">&&</b>",
+                "搜索模式": "1",
+                "搜索url": "https://www.jugege.cc/rss.xml?wd={wd}",
+                "搜索数组": "<item>&&</item",
+                "搜索标题": "<title>&&</title",
+                "搜索链接": "<link>&&</link",
+                "搜索图片": "https://img1.baidu.com/it/u=3089581607,2904981351&fm=253&fmt=auto&app=138&f=JPEG?w=500&h=500",
+                "图片": "data-original=\"&&\"",
+                "嗅探词": "huoshanvod.com#.mp4#m3u8#.m3u8#/tos/",
+                "影片类型": "<div class=\"module-info-tag\">&&立即播放",
+                "导演": "导演：&&</div>",
+                "主演": "主演：&&</div>",
+                "分类": "电影$1#连续剧$2#综艺$3#动漫$4",
+                "分类url": "https://www.jugege.cc/vodshow/{cateId}-{area}-{by}--{lang}----{catePg}---{year}.html"
+            }
+        },
+        {
             "key": "saohuo",
             "name": "🔥1080P┃骚火",
             "type": 3,
@@ -249,6 +252,59 @@
                 "跳转播放链接": "<iframe*src=\"&&\"",
                 "二次跳转播放链接": "https://hhjx.hhplayer.com/api.php;post;url=+var url*\"&&\"+&t=+var t*\"&&\"+&key=+var key*\"&&\"+&act=0+&play=1",
                 "三次跳转播放链接": "\"url\"*\"&&\""
+            }
+        },
+        {
+            "key": "爱看",
+            "name": "🎀爱看┃小米",
+            "type": 3,
+            "api": "csp_XBPQ",
+            "ext": {
+                "主页url": "https://www.3ayy.com",
+                "简介": "module-info-introduction\">&&</p>",
+                "导演": "导演：&&</div>",
+                "主演": "主演：&&</div>",
+                "影片类型": "module-info-tag\">&&立即播放",
+                "影片状态": "集数：&&</div>",
+                "数组": "<a&&module-poster-item-info\"[不包含:夸克]",
+                "标题": "title=\"&&\"",
+                "副标题": "note\">&&</div>",
+                "嗅探词": ".mp4#.m3u8",
+                "过滤词": "/player/#/index/",
+                "图片": "data-original=\"&&\"",
+                "播放请求头": "User-Agent$Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36",
+                "链接": "href=\"&&\"",
+                "搜索url": "https://www.3ayy.com/ajax/suggest.html?mid=1&wd={wd}",
+                "搜索模式": "1",
+                "搜索二次截取": "\"list\":[&&]",
+                "搜索数组": "{&&}",
+                "搜索标题": "\"name\":\"&&\"",
+                "搜索图片": "\"pic\":\"&&\"",
+                "搜索链接": "https://www.3ayy.com/video/+\"id\":&&,+.html",
+                "播放数组": "module-play-list-base\">&&</div>",
+                "播放标题": "<span>&&</span>",
+                "播放列表": "<a&&</a>",
+                "分类url": "https://www.3ayy.com/vodshow/{cateId}-{area}-{by}-{class}-{lang}----{catePg}---{year}.html;;a",
+                "分类": "电影$1#电视剧$2#综艺$3#动漫$4"
+            }
+        },
+        {
+            "key": "双黄",
+            "name": "🥚双黄┃BPQ",
+            "type": 3,
+            "api": "csp_XBPQ",
+            "ext": {
+                "嗅探词": "v3.toutiaovod.com#v3-dy-o.zjcdn#.m3u8#/tos/#.mp4",
+                "请求头": "手机#Referer$https://www.dandanju.cc/",
+                "分类url": "https://www.dandanju.cc/show/{cateId}--------{catePg}---2023.html",
+                "分类": "电影$1#剧集$2#动漫$4#综艺$4",
+                "数组": " <li class=\"col-md-6 col-sm-4 col-xs-3&&</li",
+                "搜索模式": "1",
+                "搜索url": "https://www.dandanju.cc/rss.xml?wd={wd}",
+                "搜索数组": "<item>&&</item",
+                "搜索标题": "<title>&&</title",
+                "搜索链接": "<link>&&</link",
+                "搜索图片": "https://img1.baidu.com/it/u=3089581607,2904981351&fm=253&fmt=auto&app=138&f=JPEG?w=500&h=500"
             }
         },
         {
@@ -341,7 +397,7 @@
         },
         {
             "key": "push_agent",
-            "name": "MiSou.fun",
+            "name": "切勿相信博彩广告｜请于24小时内删除测试内容｜官网MiSou.fun",
             "type": 3,
             "api": "csp_Push",
             "playerType": "1",

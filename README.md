@@ -10,5 +10,5 @@ https://mirror.ghproxy.com/https://raw.githubusercontent.com/kimwang1978/tvbox/m
 ```
 短链：
 ```
-https://t.ly/zylq-
+http://gg.gg/tvbox-json
 ```

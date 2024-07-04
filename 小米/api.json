@@ -57,14 +57,6 @@
             "ext": "./js/B站.js"
         },
         {
-            "key": "csp_官采",
-            "name": "🍑官采┃采集",
-            "type": 1,
-            "api": "https://vipcj.timizy.top/api.php/provide/vod/",
-            "playUrl": "https://www.cgdyw.net/jiexi/jiekou-2/?url=",
-            "filterable": 1
-        },
-        {
             "key": "csp_SP360",
             "name": "🐠360┃官源",
             "type": 3,
@@ -177,15 +169,15 @@
                 "图片": "vod_pic\":\"&&\"",
                 "标题": "vod_name\":\"&&\"",
                 "副标题": "vod_remarks\":\"&&\"+_+vod_pubdate\":\"&&\"",
-                "链接": "https://m.cfkj86.com/detail/+vod_id\":&&,",
+                "链接": "https://www.cfkj86.com/detail/+vod_id\":&&,",
                 "线路二次截取": "",
                 "线路数组": "span class=\"label\">&&/span>",
                 "线路标题": "小米",
                 "播放数组": "episodeList\":\\[&&\\][替换:nid\":>>nid\":/1/]",
                 "播放列表": "{&&}",
                 "播放标题": "name\":\"&&\"",
-                "播放请求头": "User-Agent$Mozilla/5.0 (Linux; Android 12; TAS-AL00 Build/HUAWEITAS-AL00; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/99.0.4844.88 Mobile Safari/537.36#Referer$https://m.cfkj86.com/",
-                "播放链接前缀": "https://m.cfkj86.com/vod/play/+data\":{\"vodId\":&&,",
+                "播放请求头": "User-Agent$Mozilla/5.0 (Linux; Android 12; TAS-AL00 Build/HUAWEITAS-AL00; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/99.0.4844.88 Mobile Safari/537.36#Origin$https://www.cfkj86.com/",
+                "播放链接前缀": "https://www.cfkj86.com/vod/play/+data\":{\"vodId\":&&,",
                 "播放链接": "nid\":&&,",
                 "倒序": "0",
                 "跳转解析": "",

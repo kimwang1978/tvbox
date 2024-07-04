@@ -42,7 +42,7 @@
             "key": "短剧",
             "name": "🌈上头┃短剧",
             "type": 3,
-            "api": "csp_Djuu",
+            "api": "csp_Djtt",
             "searchable": 1,
             "quickSearch": 1,
             "changeable": 1
@@ -258,7 +258,7 @@
             "searchable": 1,
             "quickSearch": 1,
             "changeable": 0,
-            "ext": "http://www.xb6v.com/"
+            "ext": "https://www.xb6v.com/"
         },
         {
             "key": "Dm84",
@@ -621,15 +621,6 @@
             "quickSearch": 0,
             "changeable": 0,
             "ext": "./json/高中课堂.json"
-        },
-        {
-            "key": "Nbys",
-            "name": "🛫泥巴┃飞",
-            "type": 3,
-            "api": "csp_NiNi",
-            "searchable": 1,
-            "quickSearch": 1,
-            "changeable": 1
         },
         {
             "key": "fan",

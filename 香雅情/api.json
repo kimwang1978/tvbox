@@ -7,7 +7,7 @@
         {
             "name": "FMM_IPV6",
             "type": 0,
-            "url": "https://fanmingming.com/txt?url=https://live.fanmingming.com/tv/m3u/ipv6.m3u",
+            "url": "./lives/FMM_IPV6.txt",
             "epg": "https://epg.112114.xyz/?ch={name}&date={date}"
         }
     ],

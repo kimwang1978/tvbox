@@ -420,6 +420,17 @@
             "ext": "./json/348.json"
         },
         {
+            "key": "hipy_js_采集之王[合]",
+            "name": "🎦采集之王[合]",
+            "type": 3,
+            "api": "./api/drpy2.min.js",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "order_num": 210,
+            "ext": "./json/采集静态.json"
+        },
+        {
             "key": "csp_五五",
             "name": "🎦五五┃秒播",
             "type": 3,
@@ -527,6 +538,27 @@
             }
         },
         {
+            "key": "极客影视",
+            "name": "🎦极客影视",
+            "type": 3,
+            "changeable": 1,
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "api": "csp_XBPQ",
+            "ext": {
+                "站名": "极客影视",
+                "主页url": "https://www.jkdy.cc/",
+                "搜索url": "https://www.jkdy.cc/vodsearch/{wd}----------{pg}---.html",
+                "播放数组": "class=\"hl-plays-list&&</ul>",
+                "播放标题": ">&&</a>",
+                "播放链接": "href=\"&&\"",
+                "播放列表": "<li&&</li>",
+                "分类url": "https://www.jkdy.cc/show/{cateId}-{area}-{by}------{catePg}---{year}.html;;d0",
+                "分类": "电影$1#电视剧$2#综艺$3#动漫$4"
+            }
+        },
+        {
             "key": "qimaoys",
             "name": "🎦七猫",
             "type": 3,
@@ -612,6 +644,16 @@
             "quickSearch": 1,
             "filterable": 1,
             "ext": "./json/茶狐杯.json"
+        },
+        {
+            "key": "文采",
+            "name": "🎦文采",
+            "type": 3,
+            "api": "csp_Jpys",
+            "playerType": 2,
+            "searchable": 1,
+            "quickSearch": 1,
+            "changeable": 1
         },
         {
             "key": "文才",

@@ -1,0 +1,219 @@
+#EXTINF:-1 tvg-id="CCTV1" tvg-name="CCTV1" tvg-logo="https://epg.112114.xyz/logo/CCTV1.png" group-title="央视 [2K]",CCTV-1 综合
+http://www.52sw.top:678/play/cqtv.php?id=cctv1
+
+#EXTINF:-1 tvg-id="CCTV2" tvg-name="CCTV2" tvg-logo="https://epg.112114.xyz/logo/CCTV2.png" group-title="央视 [2K]",CCTV-2 财经
+http://www.52sw.top:678/play/cqtv.php?id=cctv2
+
+#EXTINF:-1 tvg-id="CCTV3" tvg-name="CCTV3" tvg-logo="https://epg.112114.xyz/logo/CCTV3.png" group-title="央视 [2K]",CCTV-3 综艺
+http://www.52sw.top:678/play/cqtv.php?id=cctv3
+
+#EXTINF:-1 tvg-id="CCTV4" tvg-name="CCTV4" tvg-logo="https://epg.112114.xyz/logo/CCTV4.png" group-title="央视 [2K]",CCTV-4 中文国际
+http://www.52sw.top:678/play/cqtv.php?id=cctv4
+
+#EXTINF:-1 tvg-id="CCTV5" tvg-name="CCTV5" tvg-logo="https://epg.112114.xyz/logo/CCTV5.png" group-title="央视 [2K]",CCTV-5 体育
+http://www.52sw.top:678/play/cqtv.php?id=cctv5
+
+#EXTINF:-1 tvg-id="CCTV5+" tvg-name="CCTV5+" tvg-logo="https://epg.112114.xyz/logo/CCTV5+.png" group-title="央视 [2K]",CCTV-5+ 体育赛事
+http://www.52sw.top:678/play/cqtv.php?id=cctv5p
+
+#EXTINF:-1 tvg-id="CCTV6" tvg-name="CCTV6" tvg-logo="https://epg.112114.xyz/logo/CCTV6.png" group-title="央视 [2K]",CCTV-6 电影
+http://www.52sw.top:678/play/cqtv.php?id=cctv6
+
+#EXTINF:-1 tvg-id="CCTV7" tvg-name="CCTV7" tvg-logo="https://epg.112114.xyz/logo/CCTV7.png" group-title="央视 [2K]",CCTV-7 国防军事
+http://www.52sw.top:678/play/cqtv.php?id=cctv7
+
+#EXTINF:-1 tvg-id="CCTV8" tvg-name="CCTV8" tvg-logo="https://epg.112114.xyz/logo/CCTV8.png" group-title="央视 [2K]",CCTV-8 电视剧
+http://www.52sw.top:678/play/cqtv.php?id=cctv8
+
+#EXTINF:-1 tvg-id="CCTV9" tvg-name="CCTV9" tvg-logo="https://epg.112114.xyz/logo/CCTV9.png" group-title="央视 [2K]",CCTV-9 纪录
+http://www.52sw.top:678/play/cqtv.php?id=cctv9
+
+#EXTINF:-1 tvg-id="CCTV10" tvg-name="CCTV10" tvg-logo="https://epg.112114.xyz/logo/CCTV10.png" group-title="央视 [2K]",CCTV-10 科教
+http://www.52sw.top:678/play/cqtv.php?id=cctv10
+
+#EXTINF:-1 tvg-id="CCTV11" tvg-name="CCTV11" tvg-logo="https://epg.112114.xyz/logo/CCTV11.png" group-title="央视 [2K]",CCTV-11 戏曲
+http://www.52sw.top:678/play/cqtv.php?id=cctv11
+
+#EXTINF:-1 tvg-id="CCTV12" tvg-name="CCTV12" tvg-logo="https://epg.112114.xyz/logo/CCTV12.png" group-title="央视 [2K]",CCTV-12 社会与法
+http://www.52sw.top:678/play/cqtv.php?id=cctv12
+
+#EXTINF:-1 tvg-id="CCTV13" tvg-name="CCTV13" tvg-logo="https://epg.112114.xyz/logo/CCTV13.png" group-title="央视 [2K]",CCTV-13 新闻
+http://www.52sw.top:678/play/cqtv.php?id=cctv13
+
+#EXTINF:-1 tvg-id="CCTV14" tvg-name="CCTV14" tvg-logo="https://epg.112114.xyz/logo/CCTV14.png" group-title="央视 [2K]",CCTV-14 少儿
+http://www.52sw.top:678/play/cqtv.php?id=cctv14
+
+#EXTINF:-1 tvg-id="CCTV15" tvg-name="CCTV15" tvg-logo="https://epg.112114.xyz/logo/CCTV15.png" group-title="央视 [2K]",CCTV-15 音乐
+http://www.52sw.top:678/play/cqtv.php?id=cctv15
+
+#EXTINF:-1 tvg-id="CCTV16" tvg-name="CCTV16" tvg-logo="https://epg.112114.xyz/logo/CCTV16.png" group-title="央视 [2K]",CCTV-16 奥林匹克
+http://www.52sw.top:678/play/cqtv.php?id=cctv16
+
+#EXTINF:-1 tvg-id="CCTV17" tvg-name="CCTV17" tvg-logo="https://epg.112114.xyz/logo/CCTV17.png" group-title="央视 [2K]",CCTV-17 农业农村
+http://www.52sw.top:678/play/cqtv.php?id=cctv17
+
+#EXTINF:-1 tvg-id="CCTV 兵器科技" tvg-name="CCTV 兵器科技" tvg-logo="https://epg.112114.xyz/logo/CCTV 兵器科技.png" group-title="央视 [2K]",CCTV 兵器科技
+http://www.52sw.top:678/play/cqtv.php?id=bqkj
+
+#EXTINF:-1 tvg-id="CCTV 第一剧场" tvg-name="CCTV 第一剧场" tvg-logo="https://epg.112114.xyz/logo/CCTV 第一剧场.png" group-title="央视 [2K]",CCTV 第一剧场
+http://www.52sw.top:678/play/cqtv.php?id=dyjc
+
+#EXTINF:-1 tvg-id="CCTV 怀旧剧场" tvg-name="CCTV 怀旧剧场" tvg-logo="https://epg.112114.xyz/logo/CCTV 怀旧剧场.png" group-title="央视 [2K]",CCTV 怀旧剧场
+http://www.52sw.top:678/play/cqtv.php?id=hjjc
+
+#EXTINF:-1 tvg-id="CCTV 风云剧场" tvg-name="CCTV 风云剧场" tvg-logo="https://epg.112114.xyz/logo/CCTV 风云剧场.png" group-title="央视 [2K]",CCTV 风云剧场
+http://www.52sw.top:678/play/cqtv.php?id=fyjc
+
+#EXTINF:-1 tvg-id="CCTV 风云音乐" tvg-name="CCTV 风云音乐" tvg-logo="https://epg.112114.xyz/logo/CCTV 风云音乐.png" group-title="央视 [2K]",CCTV 风云音乐
+http://www.52sw.top:678/play/cqtv.php?id=fyyy
+
+#EXTINF:-1 tvg-id="CCTV 风云足球" tvg-name="CCTV 风云足球" tvg-logo="https://epg.112114.xyz/logo/CCTV 风云足球.png" group-title="央视 [2K]",CCTV 风云足球
+http://www.52sw.top:678/play/cqtv.php?id=fyzq
+
+#EXTINF:-1 tvg-id="CCTV 央视文化精品" tvg-name="CCTV 央视文化精品" tvg-logo="https://epg.112114.xyz/logo/CCTV 央视文化精品.png" group-title="央视 [2K]",CCTV 央视文化精品
+http://www.52sw.top:678/play/cqtv.php?id=whjp
+
+#EXTINF:-1 tvg-id="CCTV 女性时尚" tvg-name="CCTV 女性时尚" tvg-logo="https://epg.112114.xyz/logo/CCTV 女性时尚.png" group-title="央视 [2K]",CCTV 女性时尚
+http://www.52sw.top:678/play/cqtv.php?id=nxss
+
+#EXTINF:-1 tvg-id="CCTV 高尔夫网球" tvg-name="CCTV 高尔夫网球" tvg-logo="https://epg.112114.xyz/logo/CCTV 高尔夫网球.png" group-title="央视 [2K]",CCTV 高尔夫网球
+http://www.52sw.top:678/play/cqtv.php?id=gefwq
+
+#EXTINF:-1 tvg-id="CCTV 央视台球" tvg-name="CCTV 央视台球" tvg-logo="https://epg.112114.xyz/logo/CCTV 央视台球.png" group-title="央视 [2K]",CCTV 央视台球
+http://www.52sw.top:678/play/cqtv.php?id=ystq
+
+#EXTINF:-1 tvg-id="CHC高清电影" tvg-name="CHC高清电影" tvg-logo="https://epg.112114.xyz/logo/CHC高清电影.png" group-title="CHC [2K]",CHC高清电影
+http://www.52sw.top:678/play/cqtv.php?id=chcgq
+
+#EXTINF:-1 tvg-id="CHC动作电影" tvg-name="CHC动作电影" tvg-logo="https://epg.112114.xyz/logo/CHC动作电影.png" group-title="CHC [2K]",CHC动作电影
+http://www.52sw.top:678/play/cqtv.php?id=chcdz
+
+#EXTINF:-1 tvg-id="CHC家庭影院" tvg-name="CHC家庭影院" tvg-logo="https://epg.112114.xyz/logo/CHC家庭影院.png" group-title="CHC [2K]",CHC家庭影院
+http://www.52sw.top:678/play/cqtv.php?id=chcjt
+
+#EXTINF:-1 tvg-id="重温经典" tvg-name="重温经典" tvg-logo="https://epg.112114.xyz/logo/重温经典.png" group-title="卫视",重温经典
+http://www.52sw.top:678/play/cqtv.php?id=cwjd
+
+#EXTINF:-1 tvg-id="北京卫视" tvg-name="北京卫视" tvg-logo="https://epg.112114.xyz/logo/北京卫视.png" group-title="卫视 [2K]",北京卫视
+http://www.52sw.top:678/play/cqtv.php?id=bjws
+
+#EXTINF:-1 tvg-id="东方卫视" tvg-name="东方卫视" tvg-logo="https://epg.112114.xyz/logo/东方卫视.png" group-title="卫视 [2K]",东方卫视
+http://www.52sw.top:678/play/cqtv.php?id=dfws
+
+#EXTINF:-1 tvg-id="天津卫视" tvg-name="天津卫视" tvg-logo="https://epg.112114.xyz/logo/天津卫视.png" group-title="卫视 [2K]",天津卫视
+http://www.52sw.top:678/play/cqtv.php?id=tjws
+
+#EXTINF:-1 tvg-id="重庆卫视" tvg-name="重庆卫视" tvg-logo="https://epg.112114.xyz/logo/重庆卫视.png" group-title="卫视 [2K]",重庆卫视
+http://www.52sw.top:678/play/cqtv.php?id=cqws
+
+#EXTINF:-1 tvg-id="黑龙江卫视" tvg-name="黑龙江卫视" tvg-logo="https://epg.112114.xyz/logo/黑龙江卫视.png" group-title="卫视 [2K]",黑龙江卫视
+http://www.52sw.top:678/play/cqtv.php?id=hljws
+
+#EXTINF:-1 tvg-id="吉林卫视" tvg-name="吉林卫视" tvg-logo="https://epg.112114.xyz/logo/吉林卫视.png" group-title="卫视 [2K]",吉林卫视
+http://www.52sw.top:678/play/cqtv.php?id=jlws
+
+#EXTINF:-1 tvg-id="辽宁卫视" tvg-name="辽宁卫视" tvg-logo="https://epg.112114.xyz/logo/辽宁卫视.png" group-title="卫视 [2K]",辽宁卫视
+http://www.52sw.top:678/play/cqtv.php?id=lnws
+
+#EXTINF:-1 tvg-id="河南卫视" tvg-name="河南卫视" tvg-logo="https://epg.112114.xyz/logo/河南卫视.png" group-title="卫视 [2K]",河南卫视
+http://www.52sw.top:678/play/cqtv.php?id=hnws
+
+#EXTINF:-1 tvg-id="湖南卫视" tvg-name="湖南卫视" tvg-logo="https://epg.112114.xyz/logo/湖南卫视.png" group-title="卫视 [2K]",湖南卫视
+http://www.52sw.top:678/play/cqtv.php?id=hunws
+
+#EXTINF:-1 tvg-id="江苏卫视" tvg-name="江苏卫视" tvg-logo="https://epg.112114.xyz/logo/江苏卫视.png" group-title="卫视 [2K]",江苏卫视
+http://www.52sw.top:678/play/cqtv.php?id=jsws
+
+#EXTINF:-1 tvg-id="浙江卫视" tvg-name="浙江卫视" tvg-logo="https://epg.112114.xyz/logo/浙江卫视.png" group-title="卫视 [2K]",浙江卫视
+http://www.52sw.top:678/play/cqtv.php?id=zjws
+
+#EXTINF:-1 tvg-id="东南卫视" tvg-name="东南卫视" tvg-logo="https://epg.112114.xyz/logo/东南卫视.png" group-title="卫视 [2K]",东南卫视
+http://www.52sw.top:678/play/cqtv.php?id=dnws
+
+#EXTINF:-1 tvg-id="广东卫视" tvg-name="广东卫视" tvg-logo="https://epg.112114.xyz/logo/广东卫视.png" group-title="卫视 [2K]",广东卫视
+http://www.52sw.top:678/play/cqtv.php?id=gdws
+
+#EXTINF:-1 tvg-id="深圳卫视" tvg-name="深圳卫视" tvg-logo="https://epg.112114.xyz/logo/深圳卫视.png" group-title="卫视 [2K]",深圳卫视
+http://www.52sw.top:678/play/cqtv.php?id=szws
+
+#EXTINF:-1 tvg-id="广西卫视" tvg-name="广西卫视" tvg-logo="https://epg.112114.xyz/logo/广西卫视.png" group-title="卫视 [2K]",广西卫视
+http://www.52sw.top:678/play/cqtv.php?id=gxws
+
+#EXTINF:-1 tvg-id="云南卫视" tvg-name="云南卫视" tvg-logo="https://epg.112114.xyz/logo/云南卫视.png" group-title="卫视 [2K]",云南卫视
+http://www.52sw.top:678/play/cqtv.php?id=ynws
+
+#EXTINF:-1 tvg-id="贵州卫视" tvg-name="贵州卫视" tvg-logo="https://epg.112114.xyz/logo/贵州卫视.png" group-title="卫视 [2K]",贵州卫视
+http://www.52sw.top:678/play/cqtv.php?id=gzws
+
+#EXTINF:-1 tvg-id="四川卫视" tvg-name="四川卫视" tvg-logo="https://epg.112114.xyz/logo/四川卫视.png" group-title="卫视 [2K]",四川卫视
+http://www.52sw.top:678/play/cqtv.php?id=scws
+
+#EXTINF:-1 tvg-id="北京纪实科教" tvg-name="北京纪实科教" tvg-logo="https://epg.112114.xyz/logo/北京纪实科教.png" group-title="北京",北京纪实科教
+http://www.52sw.top:678/play/cqtv.php?id=bjjskj
+
+#EXTINF:-1 tvg-id="北京卡酷" tvg-name="北京卡酷" tvg-logo="https://epg.112114.xyz/logo/北京卡酷.png" group-title="北京",北京卡酷
+http://www.52sw.top:678/play/cqtv.php?id=bjkk
+
+#EXTINF:-1 tvg-id="动漫秀场" tvg-name="动漫秀场" tvg-logo="https://epg.112114.xyz/logo/动漫秀场.png" group-title="SiTV",SiTV-1 动漫秀场
+http://www.52sw.top:678/play/cqtv.php?id=dmxc
+
+#EXTINF:-1 tvg-id="游戏风云" tvg-name="游戏风云" tvg-logo="https://epg.112114.xyz/logo/游戏风云.png" group-title="SiTV",SiTV-2 游戏风云
+http://www.52sw.top:678/play/cqtv.php?id=yxfy
+
+#EXTINF:-1 tvg-id="法治天地" tvg-name="法治天地" tvg-logo="https://epg.112114.xyz/logo/法治天地.png" group-title="SiTV",SiTV-3 法治天地
+http://www.52sw.top:678/play/cqtv.php?id=fztd
+
+#EXTINF:-1 tvg-id="魅力足球" tvg-name="魅力足球" tvg-logo="https://epg.112114.xyz/logo/魅力足球.png" group-title="SiTV",SiTV-5 魅力足球
+http://www.52sw.top:678/play/cqtv.php?id=mlxq
+
+#EXTINF:-1 tvg-id="金色学堂" tvg-name="金色学堂" tvg-logo="https://epg.112114.xyz/logo/金色学堂.png" group-title="SiTV",SiTV-6 金色学堂
+http://www.52sw.top:678/play/cqtv.php?id=jsxt
+
+#EXTINF:-1 tvg-id="欢笑剧场" tvg-name="欢笑剧场" tvg-logo="https://epg.112114.xyz/logo/欢笑剧场.png" group-title="SiTV",SiTV-7 欢笑剧场 4K
+http://www.52sw.top:678/play/cqtv.php?id=hxjc
+
+#EXTINF:-1 tvg-id="生活时尚" tvg-name="生活时尚" tvg-logo="https://epg.112114.xyz/logo/生活时尚.png" group-title="SiTV",SiTV-9 生活时尚
+http://www.52sw.top:678/play/cqtv.php?id=shss
+
+#EXTINF:-1 tvg-id="都市剧场" tvg-name="都市剧场" tvg-logo="https://epg.112114.xyz/logo/都市剧场.png" group-title="SiTV",SiTV-11 都市剧场
+http://www.52sw.top:678/play/cqtv.php?id=dsjc
+
+#EXTINF:-1 tvg-id="东方财经" tvg-name="东方财经" tvg-logo="https://epg.112114.xyz/logo/东方财经.png" group-title="SiTV",SiTV-12 东方财经
+http://www.52sw.top:678/play/cqtv.php?id=dfcj
+
+#EXTINF:-1 tvg-id="快乐垂钓" tvg-name="快乐垂钓" tvg-logo="https://epg.112114.xyz/logo/快乐垂钓.png" group-title="湖南 [2K]",快乐垂钓
+http://www.52sw.top:678/play/cqtv.php?id=klcd
+
+#EXTINF:-1 tvg-id="金鹰卡通" tvg-name="金鹰卡通" tvg-logo="https://epg.112114.xyz/logo/金鹰卡通.png" group-title="湖南 [2K]",金鹰卡通
+http://www.52sw.top:678/play/cqtv.php?id=jykt
+
+#EXTINF:-1 tvg-id="求索纪录" tvg-name="求索纪录" tvg-logo="https://epg.112114.xyz/logo/求索纪录.png" group-title="求索 [2K]",求索纪录
+http://www.52sw.top:678/play/cqtv.php?id=qsjl
+
+#EXTINF:-1 tvg-id="重庆新闻" tvg-name="重庆新闻" tvg-logo="https://epg.112114.xyz/logo/重庆新闻.png" group-title="重庆 [2K]",重庆新闻
+http://www.52sw.top:678/play/cqtv.php?id=cqxw
+
+#EXTINF:-1 tvg-id="重庆科教" tvg-name="重庆科教" tvg-logo="https://epg.112114.xyz/logo/重庆科教.png" group-title="重庆 [2K]",重庆科教
+http://www.52sw.top:678/play/cqtv.php?id=cqkj
+
+#EXTINF:-1 tvg-id="重庆影视" tvg-name="重庆影视" tvg-logo="https://epg.112114.xyz/logo/重庆影视.png" group-title="重庆 [2K]",重庆影视
+http://www.52sw.top:678/play/cqtv.php?id=cqys
+
+#EXTINF:-1 tvg-id="重庆文体娱乐" tvg-name="重庆文体娱乐" tvg-logo="https://epg.112114.xyz/logo/重庆文体娱乐.png" group-title="重庆 [2K]",重庆文体娱乐
+http://www.52sw.top:678/play/cqtv.php?id=cqwtyl
+
+#EXTINF:-1 tvg-id="重庆少儿" tvg-name="重庆少儿" tvg-logo="https://epg.112114.xyz/logo/重庆少儿.png" group-title="重庆 [2K]",重庆少儿
+http://www.52sw.top:678/play/cqtv.php?id=cqse
+
+#EXTINF:-1 tvg-id="重庆时尚生活" tvg-name="重庆时尚生活" tvg-logo="https://epg.112114.xyz/logo/重庆时尚生活.png" group-title="重庆 [2K]",重庆时尚生活
+http://www.52sw.top:678/play/cqtv.php?id=cqsssh
+
+#EXTINF:-1 tvg-id="重庆新农村" tvg-name="重庆新农村" tvg-logo="https://epg.112114.xyz/logo/重庆新农村.png" group-title="重庆 [2K]",重庆新农村
+http://www.52sw.top:678/play/cqtv.php?id=cqxnc
+
+#EXTINF:-1 tvg-id="重庆社会与法" tvg-name="重庆社会与法" tvg-logo="https://epg.112114.xyz/logo/重庆社会与法.png" group-title="重庆 [2K]",重庆社会与法
+http://www.52sw.top:678/play/cqtv.php?id=cqshyf
+
+#EXTINF:-1 tvg-id="重庆移动" tvg-name="重庆移动" tvg-logo="https://epg.112114.xyz/logo/重庆移动.png" group-title="重庆 [2K]",重庆移动
+http://www.52sw.top:678/play/cqtv.php?id=cqyd
+

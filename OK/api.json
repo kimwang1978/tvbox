@@ -2,8 +2,8 @@
 
 {
     "spider": "./spider.jar",
-    "wallpaper": "https://gitee.com/okjack/okk/raw/master/w1.jpg",
-    "logo": "https://gitee.com/okjack/okk/raw/master/ol.txt",
+    "wallpaper": "https://raw.gitcode.com/okjackcaptain/okk/raw/main/w1.jpg",
+    "logo": "https://raw.gitcode.com/okjackcaptain/okk/raw/main/ol.txt",
     "sites": [
         {
             "key": "豆瓣",
@@ -158,6 +158,23 @@
             "indexs": 0,
             "ext": {
                 "token": "file://TV/ali_token.txt"
+            },
+            "style": {
+                "type": "list"
+            },
+            "timeout": 30
+        },
+        {
+            "key": "我的夸克",
+            "name": "🗽我的┃夸克",
+            "type": 3,
+            "api": "csp_MyQuark",
+            "searchable": 0,
+            "quickSearch": 0,
+            "filterable": 0,
+            "indexs": 0,
+            "ext": {
+                "cookie": "file://TV/quark_cookie.txt"
             },
             "style": {
                 "type": "list"
@@ -503,7 +520,7 @@
             },
             "ext": {
                 "cookie": "file://TV/bili_cookie.txt",
-                "json": "https://gitee.com/okjack/okk/raw/master/bili.json"
+                "json": "https://raw.gitcode.com/okjackcaptain/okk/raw/main/bili.json"
             },
             "timeout": 20
         },
@@ -521,7 +538,7 @@
             },
             "ext": {
                 "cookie": "file://TV/bili_cookie.txt",
-                "json": "https://gitee.com/okjack/okk/raw/master/biliych.json"
+                "json": "https://raw.gitcode.com/okjackcaptain/okk/raw/main/biliych.json"
             },
             "timeout": 20
         },

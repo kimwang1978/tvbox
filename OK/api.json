@@ -2,8 +2,8 @@
 
 {
     "spider": "./spider.jar",
-    "wallpaper": "https://raw.gitcode.com/okjackcaptain/okk/raw/main/w1.jpg",
-    "logo": "https://raw.gitcode.com/okjackcaptain/okk/raw/main/ol.txt",
+    "wallpaper": "https://fs-im-kefu.7moor-fs1.com/ly/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/1720314187703/w1.jpg",
+    "logo": "https://fs-im-kefu.7moor-fs1.com/ly/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/1720314090387/ol.txt",
     "sites": [
         {
             "key": "豆瓣",
@@ -76,6 +76,8 @@
             "changeable": 1,
             "ext": {
                 "token": "file://TV/ali_token.txt",
+                "cookie": "file://TV/quark_cookie.txt",
+                "uc_cookie": "file://TV/uc_cookie.txt",
                 "wogg": true
             },
             "timeout": 30
@@ -100,6 +102,28 @@
             "quickSearch": 1,
             "filterable": 1,
             "timeout": 10
+        },
+        {
+            "key": "河马",
+            "name": "🦓河马┃在线",
+            "type": 3,
+            "api": "csp_Oka",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "timeout": 10,
+            "ext": "{\"cateUrl\":\"https://www.hemahd.com/tags/{cateId}--------{page}---.html\", \"cate\":\"电影$1#电视剧$2#动漫$3#综艺$4\", \"search\":\"/sou/{search}-------------.html\"}"
+        },
+        {
+            "key": "桃子",
+            "name": "🍑桃子┃在线",
+            "type": 3,
+            "api": "csp_Oka",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "timeout": 10,
+            "ext": "{\"cateUrl\":\"https://www.taozi007.com/show/{cateId}--------{page}---.html\", \"cate\":\"电影$1#剧集$2#动漫$3#综艺$4#短剧$5\",\"playFrom\":\".module-tab-items .module-tab-item span\",\"playUrl\":\".module-list .module-play-list\", \"search\":\"/search/{search}-------------.html\", \"webview\":1}"
         },
         {
             "key": "荐片",
@@ -182,6 +206,23 @@
             "timeout": 30
         },
         {
+            "key": "我的UC",
+            "name": "😼我的┃UC",
+            "type": 3,
+            "api": "csp_MyUc",
+            "searchable": 0,
+            "quickSearch": 0,
+            "filterable": 0,
+            "indexs": 0,
+            "ext": {
+                "uc_cookie": "file://TV/uc_cookie.txt"
+            },
+            "style": {
+                "type": "list"
+            },
+            "timeout": 30
+        },
+        {
             "key": "阿里合集",
             "name": "🦋阿里┃合集",
             "type": 3,
@@ -198,20 +239,6 @@
                 "type": "list"
             },
             "timeout": 30
-        },
-        {
-            "key": "团长",
-            "name": "🗽团长┃4K",
-            "type": 3,
-            "api": "csp_Tzfile",
-            "searchable": 1,
-            "filterable": 1,
-            "changeable": 1,
-            "ext": {
-                "token": "file://TV/ali_token.txt",
-                "cookie": "file://TV/quark_cookie.txt"
-            },
-            "timeout": 25
         },
         {
             "key": "土豆网盘",
@@ -245,8 +272,8 @@
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 1,
-            "api": "./api/drpy2.min.js",
-            "ext": "./js/dadagui.js",
+            "api": "./api/drpy2.min.txt?file=drpy2.min.js",
+            "ext": "./txt/dadagui.txt",
             "timeout": 15
         },
         {
@@ -256,8 +283,8 @@
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 1,
-            "api": "./api/drpy2.min.js",
-            "ext": "./js/libvio.js",
+            "api": "./api/drpy2.min.txt?file=drpy2.min.js",
+            "ext": "./txt/libvio.txt",
             "timeout": 15
         },
         {
@@ -267,8 +294,8 @@
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 1,
-            "api": "./api/drpy2.min.js",
-            "ext": "./js/ddys.js",
+            "api": "./api/drpy2.min.txt?file=drpy2.min.js",
+            "ext": "./txt/ddys.txt",
             "timeout": 15
         },
         {
@@ -320,6 +347,27 @@
             "timeout": 25
         },
         {
+            "key": "木耳",
+            "name": "🪴木耳┃采集",
+            "type": 1,
+            "api": "https://json.heimuer.xyz/api.php/provide/vod",
+            "searchable": 1,
+            "filterable": 1,
+            "changeable": 1,
+            "timeout": 10
+        },
+        {
+            "key": "华为",
+            "name": "🍇华为┃采集",
+            "type": 1,
+            "api": "https://cjhwba.com/api.php/provide/vod",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "changeable": 1,
+            "timeout": 10
+        },
+        {
             "key": "快手直播",
             "name": "😎快手┃直播",
             "type": 3,
@@ -347,62 +395,10 @@
             "timeout": 10
         },
         {
-            "key": "haiwaikan",
-            "name": "👌🏻海外看┃直连",
-            "type": 1,
-            "api": "https://haiwaikan.com/api.php/provide/vod",
-            "searchable": 1,
-            "changeable": 1,
-            "timeout": 10,
-            "categories": [
-                "日本动漫",
-                "国产动漫",
-                "欧美动漫",
-                "国产剧",
-                "韩剧",
-                "日剧",
-                "台剧",
-                "泰剧",
-                "港剧",
-                "欧美剧",
-                "动画电影",
-                "韩国综艺",
-                "国产综艺",
-                "日本综艺",
-                "欧美综艺",
-                "冒险片",
-                "剧情片",
-                "动作片",
-                "同性片",
-                "喜剧片",
-                "奇幻片",
-                "恐怖片",
-                "悬疑片",
-                "惊悚片",
-                "战争片",
-                "歌舞片",
-                "灾难片",
-                "爱情片",
-                "犯罪片",
-                "科幻片",
-                "纪录片",
-                "经典片"
-            ]
-        },
-        {
             "key": "星星",
             "name": "⭐️星星┃直连",
             "type": 3,
             "api": "csp_Star",
-            "searchable": 1,
-            "changeable": 1,
-            "timeout": 10
-        },
-        {
-            "key": "泥巴",
-            "name": "🛫泥巴┃直连",
-            "type": 3,
-            "api": "csp_NiNi",
             "searchable": 1,
             "changeable": 1,
             "timeout": 10
@@ -423,8 +419,8 @@
             "key": "jrsjs",
             "name": "⚽Jrs┃球迷",
             "type": 3,
-            "api": "./api/drpy2.min.js",
-            "ext": "./js/jrs.js",
+            "api": "./api/drpy2.min.txt?file=drpy2.min.js",
+            "ext": "./txt/jrs.txt",
             "style": {
                 "type": "list"
             },
@@ -440,8 +436,8 @@
             "key": "310js",
             "name": "⚽310┃看球",
             "type": 3,
-            "api": "./api/drpy2.min.js",
-            "ext": "./js/310.js",
+            "api": "./api/drpy2.min.txt?file=drpy2.min.js",
+            "ext": "./txt/310.txt",
             "style": {
                 "type": "list"
             },
@@ -454,8 +450,8 @@
             "key": "虎牙直播js",
             "name": "🐯虎牙┃直播",
             "type": 3,
-            "api": "./api/drpy2.min.js",
-            "ext": "./js/huyazhibo.js",
+            "api": "./api/drpy2.min.txt?file=drpy2.min.js",
+            "ext": "./txt/huyazhibo.txt",
             "style": {
                 "type": "rect",
                 "ratio": 1.755
@@ -469,8 +465,8 @@
             "key": "斗鱼js",
             "name": "🐟斗鱼┃直播",
             "type": 3,
-            "api": "./api/drpy2.min.js",
-            "ext": "./js/douyuzhibo.js",
+            "api": "./api/drpy2.min.txt?file=drpy2.min.js",
+            "ext": "./txt/douyuzhibo.txt",
             "style": {
                 "type": "rect",
                 "ratio": 1.755
@@ -484,8 +480,8 @@
             "key": "聚短视频js",
             "name": "📽️聚短┃视频",
             "type": 3,
-            "api": "./api/drpy2.min.js",
-            "ext": "./js/duanshipin.js",
+            "api": "./api/drpy2.min.txt?file=drpy2.min.js",
+            "ext": "./txt/duanshipin.txt",
             "searchable": 0,
             "quickSearch": 0,
             "changeable": 0,
@@ -495,8 +491,8 @@
             "key": "海洋听书js",
             "name": "🎧海洋┃听书",
             "type": 3,
-            "api": "./api/drpy2.min.js",
-            "ext": "./js/haiyangtingshu.js",
+            "api": "./api/drpy2.min.txt?file=drpy2.min.js",
+            "ext": "./txt/haiyangtingshu.txt",
             "style": {
                 "type": "rect",
                 "ratio": 1
@@ -520,7 +516,7 @@
             },
             "ext": {
                 "cookie": "file://TV/bili_cookie.txt",
-                "json": "https://raw.gitcode.com/okjackcaptain/okk/raw/main/bili.json"
+                "json": "https://cik03-cos.7moor-fs1.com/im/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/cb93309b-a570-488f-8b3b-ccdfd5dea98a/2024-07-10/2024-07-10_11:13:13/1720581193094/76165316/bili.txt"
             },
             "timeout": 20
         },
@@ -538,7 +534,7 @@
             },
             "ext": {
                 "cookie": "file://TV/bili_cookie.txt",
-                "json": "https://raw.gitcode.com/okjackcaptain/okk/raw/main/biliych.json"
+                "json": "https://cik03-cos.7moor-fs1.com/im/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/cb93309b-a570-488f-8b3b-ccdfd5dea98a/2024-07-10/2024-07-10_11:13:09/1720581189679/3486246/biliych.txt"
             },
             "timeout": 20
         },
@@ -660,7 +656,9 @@
             "changeable": 0,
             "ext": {
                 "token": "file://TV/ali_token.txt",
-                "cookie": "file://TV/quark_cookie.txt"
+                "cookie": "file://TV/quark_cookie.txt",
+                "uc_cookie": "file://TV/uc_cookie.txt",
+                "danmu": true
             },
             "timeout": 5
         }
@@ -801,6 +799,12 @@
             "name": "live-3",
             "type": 0,
             "url": "./lives/live-3.txt",
+            "epg": "http://epg.112114.xyz/?ch={name}&date={date}"
+        },
+        {
+            "name": "高清",
+            "type": 0,
+            "url": "./lives/高清.txt",
             "epg": "http://epg.112114.xyz/?ch={name}&date={date}"
         },
         {

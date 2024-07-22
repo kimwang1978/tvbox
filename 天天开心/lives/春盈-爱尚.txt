@@ -15,6 +15,7 @@
 凤凰中文频道,http://116.162.6.192/1.v.smtcdns.net/qctv.fengshows.cn/live/0701pcc72.m3u8
 凤凰中文频道,http://113.64.147.19:8081/hls/37/index.m3u8
 凤凰资讯频道,http://116.162.6.192/1.v.smtcdns.net/qctv.fengshows.cn/live/0701pin72.m3u8
+凤凰资讯频道,http://61.221.215.25:8800/hls/47/index.m3u8
 凤凰资讯频道,http://113.64.147.19:8081/hls/36/index.m3u8
 
 無綫新聞频道,http://119.136.123.34:8001/bysid/83
@@ -57,24 +58,6 @@ TVB香港直播台,https://edge6a.v2h-cdn.com/liveshow/liveshow.stream/chunklist
 人民铁道,http://39.162.27.11:8081/newlive/live/hls/2/live.m3u8
 郑铁有线,http://39.162.27.11:8081/newlive/live/hls/1/live.m3u8
 
-CCTV-1,http://ygbh.live:80/migu.php?id=cctv1
-CCTV-2,http://ygbh.live:80/migu.php?id=cctv2
-CCTV-3,http://ygbh.live:80/migu.php?id=cctv3
-CCTV-4,http://ygbh.live:80/migu.php?id=cctv4
-CCTV-5,http://ygbh.live:80/migu.php?id=cctv5
-CCTV-6,http://ygbh.live:80/migu.php?id=cctv6
-CCTV-7,http://ygbh.live:80/migu.php?id=cctv7
-CCTV-8,http://ygbh.live:80/migu.php?id=cctv8
-CCTV-9,http://ygbh.live:80/migu.php?id=cctv9
-CCTV-10,http://ygbh.live:80/migu.php?id=cctv10
-CCTV-11,http://ygbh.live:80/migu.php?id=cctv11
-CCTV-12,http://ygbh.live:80/migu.php?id=cctv12
-CCTV-13,http://ygbh.live:80/migu.php?id=cctv13
-CCTV-14,http://ygbh.live:80/migu.php?id=cctv14
-CCTV-15,http://ygbh.live:80/migu.php?id=cctv15
-CCTV-16,http://ygbh.live:80/migu.php?id=cctv16
-CCTV-17,http://ygbh.live:80/migu.php?id=cctv17
-
 CCTV-1,http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226016/index.m3u8
 CCTV-2,http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226540/index.m3u8
 CCTV-3,http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226021/index.m3u8
@@ -95,6 +78,43 @@ CCTV-16,http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226100/index.m3u8
 CCTV-17,http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225765/index.m3u8
 CCTV-4K,http://27.222.3.214/liveali-tp4k.cctv.cn/live/4K10M.stream/playlist.m3u8
 CCTV-8K,https://tv.cry33.com/ys4k.php?id=8k
+
+CCTV-1,http://cdn.jdshipin.com:8880/ysp.php?id=cctv1
+CCTV-2,http://cdn.jdshipin.com:8880/ysp.php?id=cctv2
+CCTV-3,http://cdn.jdshipin.com:8880/ysp.php?id=cctv3
+CCTV-4,http://cdn.jdshipin.com:8880/ysp.php?id=cctv4
+CCTV-5,http://cdn.jdshipin.com:8880/ysp.php?id=cctv5
+CCTV-5+,http://cdn.jdshipin.com:8880/ysp.php?id=cctv5p
+CCTV-6,http://cdn.jdshipin.com:8880/ysp.php?id=cctv6
+CCTV-7,http://cdn.jdshipin.com:8880/ysp.php?id=cctv7
+CCTV-8,http://cdn.jdshipin.com:8880/ysp.php?id=cctv8
+CCTV-9,http://cdn.jdshipin.com:8880/ysp.php?id=cctv9
+CCTV-10,http://cdn.jdshipin.com:8880/ysp.php?id=cctv10
+CCTV-11,http://cdn.jdshipin.com:8880/ysp.php?id=cctv11
+CCTV-12,http://cdn.jdshipin.com:8880/ysp.php?id=cctv12
+CCTV-13,http://cdn.jdshipin.com:8880/ysp.php?id=cctv13
+CCTV-14,http://cdn.jdshipin.com:8880/ysp.php?id=cctv14
+CCTV-15,http://cdn.jdshipin.com:8880/ysp.php?id=cctv15
+CCTV-16,http://cdn.jdshipin.com:8880/ysp.php?id=cctv16
+CCTV-17,http://cdn.jdshipin.com:8880/ysp.php?id=cctv17
+
+CCTV-1,http://ygbh.live:80/migu.php?id=cctv1
+CCTV-2,http://ygbh.live:80/migu.php?id=cctv2
+CCTV-3,http://ygbh.live:80/migu.php?id=cctv3
+CCTV-4,http://ygbh.live:80/migu.php?id=cctv4
+CCTV-5,http://ygbh.live:80/migu.php?id=cctv5
+CCTV-6,http://ygbh.live:80/migu.php?id=cctv6
+CCTV-7,http://ygbh.live:80/migu.php?id=cctv7
+CCTV-8,http://ygbh.live:80/migu.php?id=cctv8
+CCTV-9,http://ygbh.live:80/migu.php?id=cctv9
+CCTV-10,http://ygbh.live:80/migu.php?id=cctv10
+CCTV-11,http://ygbh.live:80/migu.php?id=cctv11
+CCTV-12,http://ygbh.live:80/migu.php?id=cctv12
+CCTV-13,http://ygbh.live:80/migu.php?id=cctv13
+CCTV-14,http://ygbh.live:80/migu.php?id=cctv14
+CCTV-15,http://ygbh.live:80/migu.php?id=cctv15
+CCTV-16,http://ygbh.live:80/migu.php?id=cctv16
+CCTV-17,http://ygbh.live:80/migu.php?id=cctv17
 
 🇨🇳央视频道👉IPV6,#genre#
 CCTV-1 综合,http://[2409:8087:1a01:df::7005]:80/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226559/index.m3u8
@@ -1121,63 +1141,6 @@ CGTN纪录,http://113.218.229.25:8081/tsfile/live/0016_1.m3u8?key=txiptv
 哈哈炫动,http://113.218.229.25:8081/tsfile/live/1007_1.m3u8?key=txiptv
 海南卫视,https://livelyws.chinamcache.com/lyws/newzb01.m3u8?auth_key=1706667432-0-0-efcd19318c6ec43089f60ae37ed96646
 
-📡上海虹口👉电信,#genre#
-新闻综合,http://116.235.182.7:4567/udp/239.45.3.209:5140
-东方卫视,http://116.235.182.7:4567/udp/239.45.3.146:5140
-都市频道,http://116.235.182.7:4567/udp/239.45.3.236:5140
-纪实人文,http://116.235.182.7:4567/udp/239.45.3.212:5140
-东方影视,http://116.235.182.7:4567/udp/239.45.3.237:5140
-第一财经,http://116.235.182.7:4567/udp/239.45.3.211:5140
-五星体育,http://116.235.182.7:4567/udp/239.45.3.210:5140
-哈哈炫动,http://116.235.182.7:4567/udp/239.45.1.55:5140
-上视外语,http://116.235.182.7:4567/udp/239.45.1.127:5140
-都市剧场,http://116.235.182.7:4567/udp/239.45.3.136:5140
-欢笑剧场,http://116.235.182.7:4567/udp/239.45.3.196:5140
-欢笑剧场（备）,http://116.235.182.7:4567/udp/239.45.1.4:5140
-浦东频道,http://116.235.182.7:4567/udp/239.45.3.248:5140
-崇明电视,http://116.235.182.7:4567/udp/239.45.1.54:5140
-嘉定频道,http://116.235.182.7:4567/udp/239.45.3.185:5140
-金色频道,http://116.235.182.7:4567/udp/239.45.1.118:5140
-浙江卫视,http://116.235.182.7:4567/udp/239.45.3.178:5140
-江苏卫视,http://116.235.182.7:4567/udp/239.45.3.177:5140
-湖南卫视,http://116.235.182.7:4567/udp/239.45.3.228:5140
-北京卫视,http://116.235.182.7:4567/udp/239.45.3.229:5140
-广东卫视,http://116.235.182.7:4567/udp/239.45.3.230:5140
-深圳卫视,http://116.235.182.7:4567/udp/239.45.3.231:5140
-黑龙江卫视,http://116.235.182.7:4567/udp/239.45.3.232:5140
-山东卫视,http://116.235.182.7:4567/udp/239.45.3.238:5140
-湖北卫视,http://116.235.182.7:4567/udp/239.45.3.239:5140
-安徽卫视,http://116.235.182.7:4567/udp/239.45.1.120:5140
-东南卫视,http://116.235.182.7:4567/udp/239.45.1.121:5140
-江西卫视,http://116.235.182.7:4567/udp/239.45.1.122:5140
-辽宁卫视,http://116.235.182.7:4567/udp/239.45.1.123:5140
-天津卫视,http://116.235.182.7:4567/udp/239.45.1.124:5140
-四川卫视,http://116.235.182.7:4567/udp/239.45.1.83:5140
-重庆卫视,http://116.235.182.7:4567/udp/239.45.1.84:5140
-贵州卫视,http://116.235.182.7:4567/udp/239.45.1.80:5140
-海南卫视,http://116.235.182.7:4567/udp/239.45.1.81:5140
-河北卫视,http://116.235.182.7:4567/udp/239.45.1.44:5140
-金鹰纪实,http://116.235.182.7:4567/udp/239.45.1.45:5140
-宁夏卫视,http://116.235.182.7:4567/udp/239.45.1.213:5140
-广西卫视,http://116.235.182.7:4567/udp/239.45.0.5:5140
-吉林卫视,http://116.235.182.7:4567/udp/239.45.0.6:5140
-山西卫视,http://116.235.182.7:4567/udp/239.45.1.229:5140
-青海卫视,http://116.235.182.7:4567/udp/239.45.1.230:5140
-西藏卫视,http://116.235.182.7:4567/udp/239.45.1.231:5140
-陕西卫视,http://116.235.182.7:4567/udp/239.45.1.232:5140
-云南卫视,http://116.235.182.7:4567/udp/239.45.0.4:5140
-甘肃卫视,http://116.235.182.7:4567/udp/239.45.1.234:5140
-内蒙古卫视,http://116.235.182.7:4567/udp/239.45.1.238:5140
-河南卫视,http://116.235.182.7:4567/udp/239.45.0.3:5140
-新疆卫视,http://116.235.182.7:4567/udp/239.45.1.116:5140
-兵团卫视,http://116.235.182.7:4567/udp/239.45.1.117:5140
-三沙卫视,http://116.235.182.7:4567/udp/239.45.1.82:5140
-康巴卫视,http://116.235.182.7:4567/udp/239.45.1.251:5140
-金鹰卡通,http://116.235.182.7:4567/udp/239.45.3.118:5140
-嘉佳卡通,http://116.235.182.7:4567/udp/239.45.1.48:5140
-卡酷少儿,http://116.235.182.7:4567/udp/239.45.0.8:5140
-北京冬奥纪实,http://116.235.182.7:4567/udp/239.45.1.14:5140
-
 📡山东德州👉电信,#genre#
 山东体育,http://182.32.160.19:9997/udp/239.21.1.58:5002
 山东体育,http://182.32.160.19:9997/udp/239.21.1.141:5002
@@ -1957,8 +1920,6 @@ KSTV2,http://office.gofaraway.top:888/udp/238.125.2.247:5140?$乌鲁木齐电信
 广东体育,https://epg.pw/stream/7b470f9fc5c305db0c8622117b7b25ca00eb35ba3e93e865cf0ff9df5c736681.m3u8
 五星体育,http://[2409:8087:5e08:24::12]:6610/000000001000/2000000002000000007/index.m3u8?stbId=3&livemode=1&HlsProfileId=&channel-id=hnbblive&Contentid=2000000002000000007&IASHttpSessionId=OTT19019320240419154124000281
 足球频道,https://epg.pw/stream/c7df950876e6a1ceb8be74ee86f9f702cebbbae29f1d15124ef8f86fd43161cf.m3u8
-足球咪咕,http://live-cmvideo.cmread.com:80/migu/lunbo/eufootball/57/20230310/01.m3u8?msisdn=&mtv_session=&HlsSubType=1&HlsProfileId=1&nphaid=0&encrypt=da834f97e3c8832f6fd8f2be9ba16464
-足球联赛,http://live-cmvideo.cmread.com:80/migu/lunbo/wudaliansai/57/20230310/01.m3u8?msisdn=&mtv_session=&HlsSubType=1&HlsProfileId=1&nphaid=0&encrypt=37390fe8508db105ef85c897db9015f6
 风云足球,https://epg.pw/stream/6d7bf281e3d739806a73f5373acaa6e01988ec9739f5ac1355ce54b47a928472.m3u8
 风云足球,http://[2409:8087:4c0a:22:1::11]:6410/170000001115/UmaiCHAN638077160c04a/1.m3u8?m3u8_level=2
 风云足球,https://epg.pw/stream/ac8062ec9484078061d3bef507c15a423ac57ae4144e3fcc4b0a198dd420f911.m3u8
@@ -1973,7 +1934,6 @@ KSTV2,http://office.gofaraway.top:888/udp/238.125.2.247:5140?$乌鲁木齐电信
 晴彩羽毛,http://114.254.185.206:9999/rtp/239.3.1.127:8001
 麻辣体育,http://171.221.34.45:4022/udp/239.93.42.2:5140
 先锋乒羽,http://171.221.34.45:4022/udp/239.93.42.56:5140
-先锋乒羽,http://42.227.128.248:8089/rtp/225.1.4.210:1263
 先锋乒羽,http://202.103.213.44:8888/udp/239.81.0.236:4056
 先锋乒羽,http://wouu.net:9977/udp/239.93.42.56:5140
 天元围棋,http://171.221.34.45:4022/udp/239.93.42.55:5140
@@ -1994,18 +1954,9 @@ JJ斗地主,http://tc-tct.douyucdn2.cn/dyliveflv1a/488743rAHScWyyII_2000.flv?wsA
 
 🎬电影频道👉全网,#genre#
 邵氏影院台,https://www.goodiptv.club/douyu/4246519
-邵氏影院台,http://huanqiuzhibo.cn/manifest/douyu.php?id=4246519
-邵氏影院台,https://www.goodiptv.club/douyu/4246519
 星光视界台,http://ali.hlspull.yximgs.com/live/zxcvbnm9852.flv
-周星星影台,https://epg.pw/stream/697d8897aa092fac7beb31b9806dfd4bb3197e96d9b15e752766d89f5fb66672.ctv
 重温经典台,http://116.162.6.191/1301-txt.otvstream.otvcloud.com/otv/skcc/live/channel43067/2300.m3u8
 CCTV 电影台,http://mobilelive-ds.ysp.cctv.cn/ysp/2013693901.m3u8
-CHC動作電影,https://epg.pw/stream/9e5dbc0cbb15ba574f44e0d67c54cff2c85a7ed97dbb73e3b2101b26fec45cf1.m3u8
-CHC家庭影院,https://epg.pw/stream/16f1eb82e9c0595d7a29810b7259a0d02481e4c8c41bd426fa9843a4f4c97ea5.m3u8
-CHC家庭影院,https://epg.pw/stream/71f06953d8268da88185671f0ad549396ea57fc4dd5c48bdfb0b5d59068202d5.m3u8
-CHC家庭影院,https://epg.pw/stream/d6c6dcdce08fdda05114649d8ceaa9c9fbf5e053724fa7b21a0b8e28bdeef696.m3u8
-CHC高畫質影,https://epg.pw/stream/212b925c47a28994443e012c65356110e90af22c555f8e3f40c036614fec7f6d.m3u8
-CHC高畫質影,https://epg.pw/stream/513b5aea95520a37ae24d3ef1be5f02e0bbb0b3b937c0bb6d4154722a9a2d8fd.m3u8
 CHC高清电影,http://[2409:8087:4c0a:22:1::11]:6410/170000001115/UmaiCHAN6380764b172c9/index.m3u8?m3u8_level=2
 CHC动作电影,http://[2409:8087:4c0a:22:1::11]:6410/170000001115/UmaiCHAN6380763222d00/index.m3u8?m3u8_level=2
 CHC家庭影院,http://[2409:8087:4c0a:22:1::11]:6410/170000001115/UmaiCHAN63807601b19dd/index.m3u8?m3u8_level=2
@@ -2020,31 +1971,6 @@ CHC动作电影,https://epg.pw/stream/a9e49885cb3e631c34781283c45119db7bc5431c54
 惊悚悬疑频道,http://[2409:8087:1a01:df::7005]/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225665/index.m3u8
 军旅剧场频道,http://[2409:8087:1a01:df::7005]/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225676/index.m3u8
 超级电影@代,http://[2409:8087:1a01:df::7005]/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225717/index.m3u8
-NEWTV動作電影,https://epg.pw/stream/cd45c9084dc87d55ffc777cf4b47a0f93d6ea1565e97185673f070207f7cdb25.m3u8
-NEWTV古裝劇場,https://epg.pw/stream/87b410a4d03daf80d3bc0114e5df6f63bc21382a23f1d1aab0772e9f838af38f.m3u8
-NEWTV家庭劇場,https://epg.pw/stream/879f1fe20cbbe59e7575563f6683a629d66e588b919d4aa4ea62ef6437097644.m3u8
-NEWTV家庭劇場,https://epg.pw/stream/e882c79e01115a0af0a1302d04509044ed5489359cb2991b85b1524487f5e52c.m3u8
-NEWTV家庭劇場,https://epg.pw/stream/127dbf75dbf02c0a8f350fd4cc2ebccd9503ba1f014f6c5575cc76999f9f11e1.m3u8
-NEWTV愛情喜劇,https://epg.pw/stream/a93310f76ba5b160fa55d4b9b5bf78c239981ce43ecdb44984a0492e26aaf425.m3u8
-NEWTV武搏世界,https://epg.pw/stream/887e39082c8926ee7dc1fae4acafc64ec70cae5cfd6417a406779562da53ddab.m3u8
-NEWTV海外劇場,https://epg.pw/stream/9b7166024df3941e461b10e7b0404889608f3b5d77ef5ede4f1a7e2cfc87d2eb.m3u8
-NEWTV海外劇場,https://epg.pw/stream/22ab238d18e70a22e401c0464ae86125ac7205109534a1f09708f447f01c19c3.m3u8
-NEWTV超級視劇,https://epg.pw/stream/acb38406cf2e7ffd20ca4b5ea16c5ddeceb6218cf5a274cf87188fd142b998ab.m3u8
-中国功夫频道,http://[2409:8087:1a0b:df::4001]/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225681/index.m3u8
-NEWTV驚悚懸疑,https://epg.pw/stream/e58b03bfd507e0a80eabeca0e7c42e0204fcc777ae692448daa4b2f9ce4fe01e.m3u8
-NEWTV驚悚懸疑,https://epg.pw/stream/3fcb8f63a5448df96bf1e4b767739458dba710224a0816aaf46f9e65c1f4d15f.m3u8
-NEWTV驚悚懸疑,https://epg.pw/stream/fbdb46d2fa08a7877fbc43b5f401f84c7fe487039fb197bab5a36ba2f4efbd96.m3u8
-NewTV超級電影,https://epg.pw/stream/8b97f44358106b24174cb9f3d9354f29ce4011d518465dd5a8e7b76ec52c20d0.m3u8
-NewTV超級電影,https://epg.pw/stream/51a8268790d16215beebefee2ee05c185fbbddb69922da9b7f0b9985ebeb88a6.m3u8
-NEWTV軍旅劇場,https://epg.pw/stream/039ce88ed853e0843ddd582b05a4b05caad6c6c97ed78f541e5ce97cbd943ba9.m3u8
-NEWTV軍旅劇場,https://epg.pw/stream/3f9ffb76a28b1b05f59b3c6798b79349664beb96e85ae43c99bec1662d275c0f.m3u8
-NEWTV軍旅劇場,https://epg.pw/stream/2b1bea73cc3becbf8dc2173cde8041691b01c997dc0bd1b53b088e96fc0c2f48.m3u8
-NEWTV精品大劇,https://epg.pw/stream/c169dc0eb342ab0d1d8b097853183954995fb6b84eaecad28b831d4098a999c5.m3u8
-NEWTV精品大劇,https://epg.pw/stream/9922d8260d1381e429492ef4d7fa78301d9c48c29a165c8b06f20396e5af929b.m3u8
-NEWTV精品紀錄,https://epg.pw/stream/dfb24b21e956eeba85df1d10904bcb4155427d5fd8aa208244a7f25acd180061.m3u8
-NEWTV精品紀錄,https://epg.pw/stream/bf63b51d7fb0c2a9e7a92500d066bcb2888594d9f9791f14e8712c2472b9ea0c.m3u8
-NEWTV中國功夫,https://epg.pw/stream/cea4b82ff261f8f5babf78467a0065721cfcbdf07506e41fdf12262788fcde23.m3u8
-喜剧电影频道,https://www.goodiptv.club/douyu/9292492
 电影星爷@代,http://cfss.cc/cdn/hy/11342412.flv
 周星驰典@代,http://tc-tct.douyucdn2.cn/dyliveflv1a/3637778raLSXdOdu_2000.m3u8
 周星驰典@代,https://www.goodiptv.club/douyu/3637778
@@ -2071,13 +1997,14 @@ CHC家庭影院,https://epg.pw/stream/d6c6dcdce08fdda05114649d8ceaa9c9fbf5e05372
 超级电影ipv6,http://[2409:8087:7000:20:1000::22]:6060/000000001000/1000000004000002120/index.m3u8?channel-id=ystenlive&Contentid=1000000004000002120&livemode=1&stbId=3
 超级电视ipv6,http://[2409:8087:1a01:df::7005]:80/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225716/index.m3u8
 大吉大利影院,https://pull.kktv8.com/livekktv/128600025.flv
+瑶瑶恐怖✔版,http://159.75.85.63:35455/douyu/2935323
+怡寶影院✔版,http://159.75.85.63:35455/douyu/434971
+小黛兮影✔㊣版,http://159.75.85.63:35455/douyu/11553944
 吃米滴虫✔原,https://www.goodiptv.club/douyu/315457
 冰冰经典✔原,https://www.goodiptv.club/douyu/74374
 星爷影院✔原,https://www.goodiptv.club/douyu/508118
 凌儿影院✔原,https://www.goodiptv.club/douyu/1377142
-麓山迷踪✔原,https://www.goodiptv.club/douyu/4505431
 瑶瑶恐怖✔原,https://www.goodiptv.club/douyu/2935323
-怡寶影院✔原,hhttps://www.goodiptv.club/douyu/434971
 小黛兮影✔原,https://www.goodiptv.club/douyu/11553944
 萌小鬼片✔原,https://www.goodiptv.club/douyu/3928
 神乐剧场✔原,https://tc-tc2-interact.douyucdn2.cn/dyliveflv1/85894rmovieChow_900p.m3u8
@@ -2721,3 +2648,4 @@ CHC家庭影院,https://epg.pw/stream/d6c6dcdce08fdda05114649d8ceaa9c9fbf5e05372
 @老熬21:32一三,https://vdm6-ali.hrypl168.com/live/a6.flv
 @老熬21:32播放,https://vdm6-ali.kavimmensucat.com/live/2032-2.flv
 @老熬21:32规范,https://vdm6-qq.nxfsl.com/live/2032-2.flv
+

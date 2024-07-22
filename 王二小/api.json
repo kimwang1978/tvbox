@@ -17,7 +17,7 @@
         },
         {
             "key": "Doubana",
-            "name": "⬇️【阿里夸克先扫码】⬇️",
+            "name": "⬇️【网盘类先扫码】⬇️",
             "type": 3,
             "api": "csp_Douban",
             "searchable": 0,
@@ -32,10 +32,17 @@
             "api": "csp_Wexconfig",
             "searchable": 0,
             "changeable": 0,
-            "indexs": 0,
+            "indexs": 0
+        },
+        {
+            "key": "115",
+            "name": "💓‍115┃4K💓‍",
+            "type": 3,
+            "api": "csp_Wex115share",
+            "searchable": 1,
+            "changeable": 1,
             "style": {
-                "type": "rect",
-                "ratio": 1.43
+                "type": "list"
             }
         },
         {
@@ -151,6 +158,14 @@
             "changeable": 1
         },
         {
+            "key": "Wex4Kav",
+            "name": "🎇急速┃秒播🎇",
+            "type": 3,
+            "api": "csp_Wex4Kav",
+            "searchable": 1,
+            "changeable": 1
+        },
+        {
             "key": "Subaibai",
             "name": "🎇拜拜┃秒播🎇",
             "type": 3,
@@ -229,48 +244,6 @@
             "api": "csp_Wexbttwo",
             "searchable": 1,
             "changeable": 1
-        },
-        {
-            "key": "haiwaikan",
-            "name": "🛝海看┃采集🛝",
-            "type": 1,
-            "api": "https://haiwaikan.com/api.php/provide/vod?",
-            "searchable": 1,
-            "changeable": 1,
-            "categories": [
-                "国产剧",
-                "韩剧",
-                "日剧",
-                "台剧",
-                "泰剧",
-                "港剧",
-                "欧美剧",
-                "冒险片",
-                "剧情片",
-                "动作片",
-                "同性片",
-                "喜剧片",
-                "奇幻片",
-                "恐怖片",
-                "悬疑片",
-                "惊悚片",
-                "战争片",
-                "歌舞片",
-                "灾难片",
-                "爱情片",
-                "犯罪片",
-                "科幻片",
-                "纪录片",
-                "经典片",
-                "动画电影",
-                "韩国综艺",
-                "国产综艺",
-                "日本综艺",
-                "欧美综艺",
-                "日本动漫",
-                "国产动漫",
-                "欧美动漫"
-            ]
         },
         {
             "key": "360",
@@ -361,26 +334,10 @@
             "changeable": 0
         },
         {
-            "key": "Twobt",
-            "name": "🛩️Twobt┃P2P🛩",
+            "key": "Wexemby",
+            "name": "🀄️emby┃4K🀄️",
             "type": 3,
-            "api": "csp_WexTwobt",
-            "searchable": 1,
-            "changeable": 0
-        },
-        {
-            "key": "下方需用在线接口",
-            "name": "🥁⬇️下方需用在线接口⬇️🥁",
-            "type": 3,
-            "api": "csp_Douban",
-            "searchable": 1,
-            "changeable": 1
-        },
-        {
-            "key": "Wexhuaruitv",
-            "name": "🌺花蕊┃4K🌺",
-            "type": 3,
-            "api": "csp_Wexhuaruitv",
+            "api": "csp_Wexemby",
             "searchable": 1,
             "changeable": 1
         },
@@ -394,10 +351,10 @@
             "playerType": 1
         },
         {
-            "key": "葵花",
-            "name": "🌺葵花┃自建🌺‍",
+            "key": "Wexkoukou",
+            "name": "🌺扣扣┃4K🌺",
             "type": 3,
-            "api": "csp_Wexkuihuatv",
+            "api": "csp_Wexkoukou",
             "searchable": 1,
             "changeable": 1
         },
@@ -597,6 +554,17 @@
             "changeable": 1
         },
         {
+            "key": "自定义",
+            "name": "🥇DIY┃播放🥇",
+            "type": 3,
+            "api": "csp_Wexdiy",
+            "searchable": 1,
+            "changeable": 0,
+            "style": {
+                "type": "list"
+            }
+        },
+        {
             "key": "上方需用在线接口",
             "name": "🥁⬆️上方需用在线接口⬆️🥁",
             "type": 3,
@@ -759,17 +727,6 @@
             "api": "csp_Wexyingso",
             "searchable": 1,
             "changeable": 0
-        },
-        {
-            "key": "自定义",
-            "name": "🥇DIY┃播放┃全能",
-            "type": 3,
-            "api": "csp_Wexdiy",
-            "searchable": 1,
-            "changeable": 0,
-            "style": {
-                "type": "list"
-            }
         },
         {
             "key": "push_agent",

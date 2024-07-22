@@ -6,23 +6,24 @@
     "lives": [],
     "sites": [
         {
-            "key": "douban",
-            "name": "关注:影视资源站,每月6号更新",
+            "key": "tvyb",
+            "name": "影视|云播",
             "type": 3,
-            "api": "csp_DouBan",
+            "api": "csp_WebTVB",
+            "searchable": 1,
             "quickSearch": 0,
             "filterable": 0,
-            "changeable": 0
+            "ext": "http://www.tvyb03.com"
         },
         {
             "key": "nangua",
-            "name": "APP|南瓜",
+            "name": "影视|农民",
             "type": 3,
-            "api": "csp_AppYSDQ",
+            "api": "csp_WebNM",
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 0,
-            "ext": "公众号:影视资源站"
+            "ext": "https://m.wwgz.cn"
         },
         {
             "key": "jp",
@@ -34,16 +35,6 @@
             "filterable": 0
         },
         {
-            "key": "tvyb",
-            "name": "影视|云播",
-            "type": 3,
-            "api": "csp_WebTVB",
-            "searchable": 1,
-            "quickSearch": 0,
-            "filterable": 0,
-            "ext": "http://www.tvyb03.com"
-        },
-        {
             "key": "xsj",
             "name": "影视|视觉",
             "type": 3,
@@ -51,7 +42,7 @@
             "searchable": 1,
             "quickSearch": 0,
             "filterable": 0,
-            "ext": "https://www.6080yy4.com"
+            "ext": "https://www.6080z.com"
         },
         {
             "key": "yj",
@@ -63,29 +54,6 @@
             "filterable": 0,
             "playerType": 2,
             "ext": "https://www.yjys01.com"
-        },
-        {
-            "key": "eight",
-            "name": "影视|八八",
-            "type": 3,
-            "api": "csp_AppEight",
-            "searchable": 1,
-            "quickSearch": 0,
-            "filterable": 0,
-            "playerType": 2,
-            "ext": "https://api.kpyun6.cn"
-        },
-        {
-            "key": "AList",
-            "name": "阿里|雅雅",
-            "type": 3,
-            "api": "csp_AListBox",
-            "searchable": 1,
-            "changeable": 0,
-            "ext": "https://d.kstore.space/download/6474/tvbox/json/p.json#公众号:影视资源站",
-            "style": {
-                "type": "list"
-            }
         },
         {
             "key": "xifan",
@@ -131,16 +99,6 @@
                 "type": "rect",
                 "ratio": 1.433
             }
-        },
-        {
-            "key": "push_agent",
-            "name": "辅助|推送",
-            "type": 3,
-            "style": {
-                "type": "rect",
-                "ratio": 1.433
-            },
-            "api": "csp_Push"
         }
     ],
     "parses": [],

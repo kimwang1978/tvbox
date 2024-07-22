@@ -37,6 +37,13 @@
             "api": "./api/ng_open.js"
         },
         {
+            "key": "csp_KmeiJu",
+            "name": "🌎┃美剧┃影视",
+            "type": 3,
+            "api": "csp_KmeiJu",
+            "playerType": 2
+        },
+        {
             "key": "新视觉",
             "name": "🐦┃视觉┃影视",
             "type": 3,
@@ -46,6 +53,38 @@
             "filterable": 1
         },
         {
+            "key": "csp_SuBaiBai",
+            "name": "🏳️┃素白┃影视",
+            "type": 3,
+            "api": "csp_SuBaiBai"
+        },
+        {
+            "key": "csp_Zx1080",
+            "name": " 👰┃最新┃影视",
+            "type": 3,
+            "api": "csp_Zx1080",
+            "playerType": 2
+        },
+        {
+            "key": "csp_Ikan",
+            "name": "💕┃爱看┃影视",
+            "type": 3,
+            "api": "csp_Ikan",
+            "playerType": 2
+        },
+        {
+            "key": "csp_PTT",
+            "name": "🦨┃屁颠┃影视",
+            "type": 3,
+            "api": "csp_PTT"
+        },
+        {
+            "key": "csp_Taozi",
+            "name": "🍑┃桃子┃影视",
+            "type": 3,
+            "api": "csp_Taozi"
+        },
+        {
             "key": "哔嘀",
             "name": "😹┃哔嘀┃影视",
             "type": 3,
@@ -53,17 +92,6 @@
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 1
-        },
-        {
-            "key": "胖虎",
-            "name": "🐯┃胖虎┃影视",
-            "type": 3,
-            "api": "csp_Panghu",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1,
-            "playerType": 1,
-            "ext": "https://physvod.com"
         },
         {
             "key": "csp_FengGo",
@@ -95,6 +123,15 @@
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 1
+        },
+        {
+            "key": "csp_Netfixtv",
+            "name": "💌┃至臻┃影视",
+            "type": 3,
+            "api": "csp_Netfixtv",
+            "playerType": 2,
+            "filterable": 1,
+            "ext": ""
         },
         {
             "key": "csp_Panda_玩偶哥哥",
@@ -172,6 +209,15 @@
             "name": "👯┃兄弟┃影视",
             "type": 3,
             "api": "csp_Xdys",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1
+        },
+        {
+            "key": "达达龟",
+            "name": "🐢┃达达龟┃影视",
+            "type": 3,
+            "api": "csp_Dadag",
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 1
@@ -272,14 +318,6 @@
             "name": "📺┃360┃官源",
             "type": 3,
             "api": "csp_SP360"
-        },
-        {
-            "key": "csp_Voflix",
-            "name": " 🎋┃Voflix┃影视",
-            "type": 3,
-            "api": "csp_Voflix",
-            "playerType": "2",
-            "ext": "https://www.voflix.me/"
         },
         {
             "key": "alist",
@@ -464,24 +502,6 @@
             "ext": "./txt/token.txt"
         },
         {
-            "key": "csp_UpYun",
-            "name": "🍒┃Up搜┃网盘",
-            "type": 3,
-            "api": "csp_UpYun",
-            "timeout": 30,
-            "changeable": 0,
-            "ext": "./txt/token.txt"
-        },
-        {
-            "key": "csp_aisou",
-            "name": "🔭┃爱搜┃夸克",
-            "type": 3,
-            "api": "csp_AiPanSo",
-            "timeout": 30,
-            "changeable": 0,
-            "ext": "./txt/kk.txt"
-        },
-        {
             "key": "drpy_哔哩",
             "name": "🅱┃哔哩┃合集",
             "type": 3,
@@ -579,41 +599,6 @@
             "name": "Web聚合",
             "type": 3,
             "url": "Web"
-        },
-        {
-            "name": "公众号：肥猫宝贝",
-            "type": 1,
-            "url": "http://json.84jia.com/home/api?type=ys&uid=335253&key=demprsyzBMQRVY0234&url=",
-            "ext": {
-                "flag": [
-                    "qq",
-                    "腾讯",
-                    "qiyi",
-                    "爱奇艺",
-                    "奇艺",
-                    "youku",
-                    "优酷",
-                    "tucheng",
-                    "sohu",
-                    "搜狐",
-                    "letv",
-                    "乐视",
-                    "mgtv",
-                    "芒果",
-                    "tnmb",
-                    "seven",
-                    "yzm",
-                    "aliyun",
-                    "RJuMao",
-                    "bilibili",
-                    "1905",
-                    "xinvip",
-                    "XAL",
-                    "qiqi",
-                    "XALS",
-                    "YuMi-vip"
-                ]
-            }
         },
         {
             "name": "肥猫最可爱",

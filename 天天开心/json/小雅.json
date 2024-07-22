@@ -5,6 +5,15 @@
 		
   
 
+ 		{
+			"name": "开心影视动画",
+			"server": "http://ttkx.live:5244",
+			"hidden": true,
+			"login": {
+				"username": "ttkx",
+				"password": "dd123456"
+			}},
+
   {
 			"name": "🤱小雅1",
 			"server":"http://60.205.200.121:5344/"
@@ -14,15 +23,6 @@
 			"server": "http://61.134.67.189:5678/"
 		},
    		
- 		{
-			"name": "开心影视",
-			"server": "http://ttkx.live:5244",
-			"hidden": true,
-			"login": {
-				"username": "ttkx",
-				"password": "aa123456"
-			}},
-
 		
 		{
 			"name": "💢ECVE网盘",

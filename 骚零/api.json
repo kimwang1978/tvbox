@@ -19,7 +19,7 @@
     ],
     "sites": [
         {
-            "key": "豆瓣推荐",
+            "key": "豆瓣",
             "name": "豆瓣推荐",
             "type": 3,
             "api": "csp_DouDou",
@@ -38,27 +38,25 @@
             "changeable": 1
         },
         {
-            "key": "厂长",
-            "name": "厂长",
+            "key": "荐片",
+            "name": "荐片",
             "type": 3,
-            "api": "csp_NewCz",
-            "timeout": 15,
-            "playerType": 2,
             "searchable": 1,
             "quickSearch": 1,
             "changeable": 1,
-            "ext": "https://www.czys.pro/"
+            "playerType": "1",
+            "api": "./api/drpy2.min.js",
+            "ext": "./js/jp.js"
         },
         {
-            "key": "Zx4k",
-            "name": "专线",
+            "key": "小点",
+            "name": "小点",
             "type": 3,
-            "api": "csp_Zx4k",
-            "timeout": 15,
-            "playerType": 2,
+            "api": "csp_Appxdys",
             "searchable": 1,
             "quickSearch": 1,
-            "changeable": 1
+            "filterable": 1,
+            "changeable": 0
         },
         {
             "key": "原创",
@@ -72,73 +70,6 @@
             "changeable": 1
         },
         {
-            "key": "视觉",
-            "name": "视觉",
-            "type": 3,
-            "api": "csp_Xinsj",
-            "timeout": 15,
-            "searchable": 1,
-            "quickSearch": 1,
-            "changeable": 1,
-            "ext": "https://www.6080yy3.com/"
-        },
-        {
-            "key": "玩偶",
-            "name": "玩偶哥哥",
-            "type": 3,
-            "api": "csp_WoGG",
-            "searchable": 1,
-            "quickSearch": 1,
-            "changeable": 0,
-            "ext": {
-                "Cloud-drive": "tvfan/Cloud-drive.txt",
-                "from": "4k|auto",
-                "siteUrl": "https://www.wogg.link/",
-                "danMu": "弹"
-            }
-        },
-        {
-            "key": "短剧",
-            "name": "短剧",
-            "type": 3,
-            "api": "csp_Djtt",
-            "searchable": 1,
-            "quickSearch": 1,
-            "changeable": 1
-        },
-        {
-            "key": "蛋蛋",
-            "name": "蛋蛋",
-            "type": 3,
-            "api": "csp_Cddys",
-            "timeout": 15,
-            "playerType": 2,
-            "searchable": 1,
-            "quickSearch": 1,
-            "changeable": 1
-        },
-        {
-            "key": "文采",
-            "name": "文采",
-            "type": 3,
-            "api": "csp_Jpys",
-            "playerType": 2,
-            "searchable": 1,
-            "quickSearch": 1,
-            "changeable": 1
-        },
-        {
-            "key": "贱贱",
-            "name": "荐片P2P",
-            "type": 3,
-            "searchable": 1,
-            "quickSearch": 1,
-            "changeable": 1,
-            "playerType": "1",
-            "api": "./api/drpy2.min.js",
-            "ext": "./js/jp.js"
-        },
-        {
             "key": "苹果",
             "name": "苹果",
             "type": 3,
@@ -146,6 +77,18 @@
             "searchable": 1,
             "quickSearch": 1,
             "changeable": 1
+        },
+        {
+            "key": "厂长",
+            "name": "厂长",
+            "type": 3,
+            "api": "csp_NewCz",
+            "timeout": 15,
+            "playerType": 2,
+            "searchable": 1,
+            "quickSearch": 1,
+            "changeable": 1,
+            "ext": "https://www.czys.pro/"
         },
         {
             "key": "IK",
@@ -209,37 +152,70 @@
             "quickSearch": 1
         },
         {
-            "key": "量子资源",
-            "name": "量子资源",
-            "type": 1,
-            "api": "http://cj.lziapi.com/api.php/provide/vod/",
-            "playUrl": "",
+            "key": "玩偶",
+            "name": "玩偶哥哥（阿里限速啦）",
+            "type": 3,
+            "api": "csp_WoGG",
             "searchable": 1,
             "quickSearch": 1,
-            "categories": [
-                "国产剧",
-                "国产动漫",
-                "泰国剧",
-                "台湾剧",
-                "香港剧",
-                "欧美剧",
-                "韩国剧",
-                "日本剧",
-                "动漫",
-                "体育",
-                "剧情片",
-                "动作片",
-                "爱情片",
-                "喜剧片",
-                "伦理片"
-            ]
+            "changeable": 0,
+            "ext": {
+                "Cloud-drive": "tvfan/Cloud-drive.txt",
+                "from": "4k|auto",
+                "siteUrl": "https://www.wogg.net/",
+                "danMu": "弹"
+            }
         },
         {
-            "key": "低端",
-            "name": "低端",
+            "key": "Lib",
+            "name": "立播",
             "type": 3,
-            "api": "csp_Ddrk",
-            "playerType": "2",
+            "api": "csp_Libvio",
+            "searchable": 1,
+            "quickSearch": 1,
+            "changeable": 1,
+            "ext": {
+                "Cloud-drive": "tvfan/Cloud-drive.txt",
+                "from": "4k|auto"
+            }
+        },
+        {
+            "key": "短剧",
+            "name": "短剧",
+            "type": 3,
+            "api": "csp_Djtt",
+            "searchable": 1,
+            "quickSearch": 1,
+            "changeable": 1
+        },
+        {
+            "key": "文采",
+            "name": "文采",
+            "type": 3,
+            "api": "csp_Jpys",
+            "playerType": 2,
+            "searchable": 1,
+            "quickSearch": 1,
+            "changeable": 1
+        },
+        {
+            "key": "蛋蛋",
+            "name": "蛋蛋",
+            "type": 3,
+            "api": "csp_Cddys",
+            "timeout": 15,
+            "playerType": 2,
+            "searchable": 1,
+            "quickSearch": 1,
+            "changeable": 1
+        },
+        {
+            "key": "专线",
+            "name": "专线",
+            "type": 3,
+            "api": "csp_Zx4k",
+            "timeout": 15,
+            "playerType": 2,
             "searchable": 1,
             "quickSearch": 1,
             "changeable": 1
@@ -256,14 +232,25 @@
             "ext": "https://www.zxzjhd.com/"
         },
         {
-            "key": "小点",
-            "name": "小点",
+            "key": "低端",
+            "name": "低端",
             "type": 3,
-            "api": "csp_Xdys",
+            "api": "csp_Ddrk",
+            "playerType": "2",
             "searchable": 1,
             "quickSearch": 1,
-            "filterable": 1,
-            "changeable": 0
+            "changeable": 1
+        },
+        {
+            "key": "可可",
+            "name": "可可",
+            "type": 3,
+            "api": "csp_Kekys",
+            "timeout": 15,
+            "playerType": 2,
+            "searchable": 1,
+            "quickSearch": 1,
+            "changeable": 1
         },
         {
             "key": "热播",
@@ -298,28 +285,8 @@
             "changeable": 1
         },
         {
-            "key": "比特",
-            "name": "比特",
-            "type": 3,
-            "api": "csp_Bttwoo",
-            "searchable": 1,
-            "quickSearch": 1,
-            "changeable": 1
-        },
-        {
-            "key": "可可",
-            "name": "可可",
-            "type": 3,
-            "api": "csp_Kekys",
-            "timeout": 15,
-            "playerType": 2,
-            "searchable": 1,
-            "quickSearch": 1,
-            "changeable": 1
-        },
-        {
             "key": "Auete",
-            "name": "奥特",
+            "name": "Auete",
             "type": 3,
             "api": "csp_Auete",
             "timeout": 15,
@@ -336,7 +303,25 @@
             "searchable": 1,
             "quickSearch": 1,
             "changeable": 0,
-            "ext": "http://www.xb6v.com/"
+            "ext": "https://www.xb6v.com/"
+        },
+        {
+            "key": "Dm84",
+            "name": "动漫巴士",
+            "type": 3,
+            "api": "csp_Dm84",
+            "searchable": 1,
+            "quickSearch": 1,
+            "changeable": 1
+        },
+        {
+            "key": "比特",
+            "name": "比特",
+            "type": 3,
+            "api": "csp_Bttwoo",
+            "searchable": 1,
+            "quickSearch": 1,
+            "changeable": 1
         },
         {
             "key": "haiwaikan",

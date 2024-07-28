@@ -6,7 +6,7 @@
     "sites": [
         {
             "key": "豆豆",
-            "name": "玩偶新添加优汐线路",
+            "name": "全接口智能过滤广告",
             "type": 3,
             "api": "csp_DouDou",
             "searchable": 0,
@@ -24,7 +24,7 @@
             "ext": {
                 "Cloud-drive": "tvfan/Cloud-drive.txt",
                 "from": "4k|auto",
-                "siteUrl": "https://www.wogg.link/",
+                "siteUrl": "https://www.wogg.net/",
                 "danMu": "弹"
             }
         },
@@ -70,7 +70,7 @@
             }
         },
         {
-            "key": "Zx4k",
+            "key": "专线",
             "name": "🚝专线┃秒播",
             "type": 3,
             "api": "csp_Zx4k",
@@ -79,6 +79,16 @@
             "searchable": 1,
             "quickSearch": 1,
             "changeable": 1
+        },
+        {
+            "key": "小点",
+            "name": "💥小点┃多线",
+            "type": 3,
+            "api": "csp_Appxdys",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "changeable": 0
         },
         {
             "key": "原创",
@@ -111,16 +121,6 @@
             "quickSearch": 1,
             "changeable": 1,
             "ext": "https://www.czys.pro/"
-        },
-        {
-            "key": "小点",
-            "name": "💥小点┃多线",
-            "type": 3,
-            "api": "csp_Xdys",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1,
-            "changeable": 0
         },
         {
             "key": "文采",
@@ -206,15 +206,6 @@
             "timeout": 15,
             "playerType": 1,
             "ext": "AO7TcBkd8Iifux0Y8Qze6tVlMg=="
-        },
-        {
-            "key": "比特",
-            "name": "🍄比特┃秒播",
-            "type": 3,
-            "api": "csp_Bttwoo",
-            "searchable": 1,
-            "quickSearch": 1,
-            "changeable": 1
         },
         {
             "key": "南瓜",

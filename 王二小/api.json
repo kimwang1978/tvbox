@@ -555,7 +555,7 @@
         },
         {
             "key": "自定义",
-            "name": "🥇DIY┃播放🥇",
+            "name": "🥇全能┃DIY🥇",
             "type": 3,
             "api": "csp_Wexdiy",
             "searchable": 1,
@@ -563,6 +563,14 @@
             "style": {
                 "type": "list"
             }
+        },
+        {
+            "key": "AList",
+            "name": "🥇Alist┃DIY🥇",
+            "type": 3,
+            "api": "csp_AList",
+            "searchable": 1,
+            "changeable": 0
         },
         {
             "key": "上方需用在线接口",

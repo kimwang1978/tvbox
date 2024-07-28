@@ -3,7 +3,7 @@
 {
     "spider": "./spider.jar",
     "wallpaper": "http://like.xn--z7x900a.com/ppic/feimao.php",
-    "logo": "http://like.xn--z7x900a.com/panda/0262.png",
+    "logo": "https://like.xn--z7x900a.com/panda/0262.png",
     "sites": [
         {
             "key": "drpy_js_豆瓣",
@@ -19,6 +19,13 @@
             "api": "csp_YGP",
             "playerType": 2,
             "searchable": 0
+        },
+        {
+            "key": "config",
+            "name": "🐼┃配置┃中心",
+            "type": 3,
+            "api": "csp_Config",
+            "playerType": 2
         },
         {
             "key": "csp_Duopan",
@@ -37,10 +44,10 @@
             "api": "./api/ng_open.js"
         },
         {
-            "key": "csp_KmeiJu",
-            "name": "🌎┃美剧┃影视",
+            "key": "csp_J",
+            "name": "🌎┃饺子┃外剧",
             "type": 3,
-            "api": "csp_KmeiJu",
+            "api": "csp_Jiaozi",
             "playerType": 2
         },
         {
@@ -50,13 +57,26 @@
             "api": "csp_Xinsj",
             "searchable": 1,
             "quickSearch": 1,
-            "filterable": 1
+            "filterable": 1,
+            "ext": "https://www.3ayy.com"
         },
         {
             "key": "csp_SuBaiBai",
             "name": "🏳️┃素白┃影视",
             "type": 3,
             "api": "csp_SuBaiBai"
+        },
+        {
+            "key": "csp_Nongm",
+            "name": "🌾️┃农民┃影视",
+            "type": 3,
+            "api": "csp_Nongm"
+        },
+        {
+            "key": "csp_Quanwk",
+            "name": "🗺️️┃全网┃影视",
+            "type": 3,
+            "api": "csp_Quanwk"
         },
         {
             "key": "csp_Zx1080",
@@ -66,17 +86,18 @@
             "playerType": 2
         },
         {
+            "key": "csp_Kanke",
+            "name": " 👀┃看客┃影视",
+            "type": 3,
+            "api": "csp_Kanke",
+            "playerType": 2
+        },
+        {
             "key": "csp_Ikan",
             "name": "💕┃爱看┃影视",
             "type": 3,
             "api": "csp_Ikan",
             "playerType": 2
-        },
-        {
-            "key": "csp_PTT",
-            "name": "🦨┃屁颠┃影视",
-            "type": 3,
-            "api": "csp_PTT"
         },
         {
             "key": "csp_Taozi",
@@ -106,13 +127,6 @@
             "type": 3,
             "playerType": "2",
             "api": "csp_Nkdy"
-        },
-        {
-            "key": "csp_Juqq",
-            "name": "⭕┃剧圈┃影视",
-            "type": 3,
-            "playerType": "2",
-            "api": "csp_Juqq"
         },
         {
             "key": "csp_LiteApple",
@@ -303,15 +317,6 @@
                 "分类": "电影$1#电视剧$2#动漫$3#综艺$4",
                 "分类url": "http://fagmn.com/list/{cateId}_{catePg}.html?order=time"
             }
-        },
-        {
-            "key": "csp_SC1080",
-            "name": "🏰┃圣城┃影视",
-            "type": 3,
-            "api": "csp_SC1080",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1
         },
         {
             "key": "csp_SP360",

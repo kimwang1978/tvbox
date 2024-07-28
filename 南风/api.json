@@ -24,21 +24,6 @@
             "ext": "https://czys.pro/"
         },
         {
-            "key": "农民",
-            "name": "🥝农民",
-            "type": 3,
-            "api": "csp_XBPQ",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1,
-            "ext": {
-                "数组": "<li>&&</li>",
-                "图片": "src=\"&&\"",
-                "分类url": "https://www.wwgz.cn/vod-list-id-{cateId}-pg-{catePg}-order--by--class-0-year-{year}-letter--area-{area}-lang-.html",
-                "分类": "短剧$26#电视剧$2#电影$1#动漫$4#综艺$3"
-            }
-        },
-        {
             "key": "csp_TianTian",
             "name": "🦉天天",
             "type": 3,
@@ -78,6 +63,17 @@
             "changeable": 1
         },
         {
+            "key": "csp_Zx4k",
+            "name": "🚝专线",
+            "type": 3,
+            "api": "csp_Zx4k",
+            "playerType": 2,
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "changeable": 1
+        },
+        {
             "key": "csp_LiteApple",
             "name": "🍎小苹果",
             "type": 3,
@@ -98,23 +94,77 @@
             "changeable": 1
         },
         {
-            "key": "csp_AppRZ",
-            "name": "🕵忍者",
+            "key": "csp_Dadag",
+            "name": "🐢达达龟",
             "type": 3,
-            "api": "csp_AppRZ",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1,
-            "ext": "http://www.rzys.cc/"
-        },
-        {
-            "key": "csp_FreeOK",
-            "name": "🆗FreeOK",
-            "type": 3,
-            "api": "csp_FreeOK",
+            "api": "csp_Dadag",
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 1
+        },
+        {
+            "key": "csp_Qiyou",
+            "name": "🦌奇优",
+            "type": 3,
+            "api": "csp_Qiyou",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1
+        },
+        {
+            "key": "csp_Ikan",
+            "name": "💖爱看",
+            "type": 3,
+            "api": "csp_Ikan",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1
+        },
+        {
+            "key": "csp_SuBaiBai",
+            "name": "⛅️素白白",
+            "type": 3,
+            "api": "csp_SuBaiBai",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1
+        },
+        {
+            "key": "csp_Kanke",
+            "name": "🕵看客",
+            "type": 3,
+            "api": "csp_Kanke",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1
+        },
+        {
+            "key": "csp_Tvyb",
+            "name": "☁️TVB云播",
+            "type": 3,
+            "api": "csp_Tvyb",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1
+        },
+        {
+            "key": "csp_Dyxs",
+            "name": "🎬电影先生",
+            "type": 3,
+            "api": "csp_Dyxs",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1
+        },
+        {
+            "key": "csp_Pptv",
+            "name": "🐸皮皮",
+            "type": 3,
+            "api": "csp_Pptv",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "ext": "https://www.myd04.com"
         },
         {
             "key": "csp_MaoLv",
@@ -133,6 +183,25 @@
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 1
+        },
+        {
+            "key": "csp_Jiaozi",
+            "name": "🥣饺子",
+            "type": 3,
+            "api": "csp_Jiaozi",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1
+        },
+        {
+            "key": "csp_csp_Appxdys",
+            "name": "💥兄弟",
+            "type": 3,
+            "api": "csp_csp_Appxdys",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "changeable": 0
         },
         {
             "key": "csp_DiDuan",
@@ -164,6 +233,17 @@
             "quickSearch": 1,
             "filterable": 1,
             "ext": "AO7TcBkd8Jqf5UgA7xXA6dVlLcc="
+        },
+        {
+            "key": "csp_Cddys",
+            "name": "🍓蛋蛋",
+            "type": 3,
+            "api": "csp_Cddys",
+            "playerType": 2,
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "changeable": 1
         },
         {
             "key": "csp_NanGua",
@@ -234,6 +314,66 @@
             "ext": "https://auete.pro/"
         },
         {
+            "key": "农民",
+            "name": "💢农民",
+            "type": 3,
+            "api": "csp_XBPQ",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "ext": {
+                "数组": "<li>&&</li>",
+                "图片": "src=\"&&\"",
+                "分类url": "https://www.wwgz.cn/vod-list-id-{cateId}-pg-{catePg}-order--by--class-0-year-{year}-letter--area-{area}-lang-.html",
+                "分类": "短剧$26#电视剧$2#电影$1#动漫$4#综艺$3"
+            }
+        },
+        {
+            "key": "Freeok",
+            "name": "💢Freeok",
+            "type": 3,
+            "api": "csp_XBPQ",
+            "playerType": "2",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "ext": {
+                "分类url": "https://www.freeok.vip/vod-show/{cateId}-{area}-------{catePg}---{year}.html;;ar1",
+                "请求头": "User-Agent$Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36",
+                "分类": "电影&剧集&动漫&综艺",
+                "分类值": "1&2&3&4",
+                "副标题": "<div class=\"module-item-note\">&&</div>",
+                "嗅探词": "m3u8#.m3u8#.mp4#freeok.mp4#/obj/",
+                "线路数组": "data-dropdown-value=&&</div>[不包含:夸克]",
+                "线路标题": "<span>&&</small>",
+                "导演": "导演：&&</div>",
+                "主演": "主演：&&</div>",
+                "简介": "<p>&&</p>"
+            }
+        },
+        {
+            "key": "骚火",
+            "name": "💢骚火",
+            "type": 3,
+            "api": "csp_XBPQ",
+            "playerType": "2",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "ext": {
+                "嗅探词": ".m3u8#.mp4#.m3u8?#freeok.mp4",
+                "分类url": "https://shdy2.com/list/{cateId}-{catePg}.html;;vr1au0",
+                "分类": "电影$1#电视剧$2#韩剧$22#美剧$23#动漫$4",
+                "数组二次截取": "class=\"v_list\">&&</ul>",
+                "数组": "\"v_img\"&&/div>",
+                "标题": "title=\"&&\"",
+                "副标题": "v_note\"&&</div",
+                "跳转播放链接": "<iframe*src=\"&&\"",
+                "二次跳转播放链接": "https://hhjx.hhplayer.com/api.php;post;url=+var url*\"&&\"+&t=+var t*\"&&\"+&key=+var key*\"&&\"+&act=0+&play=1",
+                "三次跳转播放链接": "\"url\"*\"&&\""
+            }
+        },
+        {
             "key": "csp_Jianpian",
             "name": "🧲荐片",
             "type": 3,
@@ -241,7 +381,7 @@
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 1,
-            "ext": "http://api2.rinhome.com"
+            "ext": "http://112.124.0.131:20000"
         },
         {
             "key": "csp_Mp4Mov",
@@ -394,7 +534,7 @@
             "ext": {
                 "Cloud-drive": "http://127.0.0.1:9978/file/TVBox/Cloud-drive.txt",
                 "from": "4k|auto",
-                "siteUrl": "https://www.wogg.link/",
+                "siteUrl": "https://www.wogg.net/",
                 "danMu": "弹"
             }
         },
@@ -419,6 +559,16 @@
             "ext": "./txt/token.txt"
         },
         {
+            "key": "csp_XYQHikerAL_蜡笔",
+            "name": "🖍︎蜡笔",
+            "type": 3,
+            "api": "csp_XYQHikerAL",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "ext": "./json/蜡笔.json"
+        },
+        {
             "key": "csp_XYQHikerAL_阿里土豆",
             "name": "🥔阿里土豆",
             "type": 3,
@@ -437,16 +587,6 @@
             "quickSearch": 1,
             "filterable": 1,
             "ext": "./json/六趣.json"
-        },
-        {
-            "key": "csp_XYQHikerAL_蜡笔",
-            "name": "🖍︎蜡笔",
-            "type": 3,
-            "api": "csp_XYQHikerAL",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1,
-            "ext": "./json/蜡笔.json"
         },
         {
             "key": "csp_XYQHikerAL__影搜",
@@ -567,52 +707,6 @@
             "searchable": 0,
             "quickSearch": 0,
             "filterable": 1
-        },
-        {
-            "key": "骚火",
-            "name": "💢骚火",
-            "type": 3,
-            "api": "csp_XBPQ",
-            "playerType": "2",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1,
-            "ext": {
-                "嗅探词": ".m3u8#.mp4#.m3u8?#freeok.mp4",
-                "分类url": "https://shdy2.com/list/{cateId}-{catePg}.html;;vr1au0",
-                "分类": "电影$1#电视剧$2#韩剧$22#美剧$23#动漫$4",
-                "数组二次截取": "class=\"v_list\">&&</ul>",
-                "数组": "\"v_img\"&&/div>",
-                "标题": "title=\"&&\"",
-                "副标题": "v_note\"&&</div",
-                "跳转播放链接": "<iframe*src=\"&&\"",
-                "二次跳转播放链接": "https://hhjx.hhplayer.com/api.php;post;url=+var url*\"&&\"+&t=+var t*\"&&\"+&key=+var key*\"&&\"+&act=0+&play=1",
-                "三次跳转播放链接": "\"url\"*\"&&\""
-            }
-        },
-        {
-            "key": "晴天",
-            "name": "💢晴天",
-            "type": 3,
-            "api": "csp_XBPQ",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1,
-            "ext": {
-                "分类url": "https://www.qinttv.com/qtyy/{cateId}/area/{area}/page/{catePg}/year/{year}.html",
-                "搜索url": "https://www.qinttv.com/qtcz.html;post;wd={wd}&submit=",
-                "分类": "电影$dianying#电视剧$dianshiju#动漫$dongmna#综艺$zongyi"
-            }
-        },
-        {
-            "key": "奇优",
-            "name": "️💢奇优",
-            "type": 3,
-            "api": "csp_XBPQ",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1,
-            "ext": "./json/奇优.json"
         },
         {
             "key": "虎牙",

@@ -144,7 +144,8 @@
             "api": "csp_Mp4Mov",
             "searchable": 1,
             "quickSearch": 1,
-            "filterable": 1
+            "filterable": 1,
+            "ext": "https://www.domp4.cc"
         },
         {
             "key": "csp_New6v",
@@ -175,6 +176,16 @@
             "quickSearch": 1,
             "filterable": 1,
             "ext": "https://www.kubady2.com"
+        },
+        {
+            "key": "csp_MeijuTT",
+            "name": "🧲美剧天堂",
+            "type": 3,
+            "api": "csp_MeijuTT",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "ext": "https://www.meijutt.net"
         },
         {
             "key": "csp_MeijuMi",
@@ -230,7 +241,18 @@
             "api": "csp_Bdys",
             "searchable": 1,
             "quickSearch": 1,
-            "filterable": 1
+            "filterable": 1,
+            "ext": "https://www.yjys02.com"
+        },
+        {
+            "key": "csp_XYQHiker_哔嘀影视",
+            "name": "🧲哔嘀影视(XYQH)",
+            "type": 3,
+            "api": "csp_XYQHiker",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "ext": "./json/哔嘀影视.json"
         },
         {
             "key": "csp_Ddys",

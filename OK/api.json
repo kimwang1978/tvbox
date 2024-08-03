@@ -7,7 +7,7 @@
     "sites": [
         {
             "key": "豆瓣",
-            "name": "🤓公众号┃OK猫开发",
+            "name": "🤓QQ频道┃OK杰克",
             "type": 3,
             "api": "csp_Douban",
             "searchable": 0,
@@ -131,6 +131,16 @@
             "name": "🌸厂长┃直连",
             "type": 3,
             "api": "csp_Czzy",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "timeout": 10
+        },
+        {
+            "key": "文才",
+            "name": "🌺文才┃在线",
+            "type": 3,
+            "api": "csp_Jpys",
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 1,
@@ -370,42 +380,11 @@
             "timeout": 20
         },
         {
-            "key": "sp360",
-            "name": "🐛360┃解析",
-            "type": 3,
-            "api": "csp_Sp360",
-            "searchable": 1,
-            "filterable": 1,
-            "changeable": 1,
-            "timeout": 25
-        },
-        {
             "key": "追风",
             "name": "🍊追风┃采集",
             "type": 1,
             "api": "http://www.zfsp.cc/api.php/provide/vod",
             "searchable": 1,
-            "filterable": 1,
-            "changeable": 1,
-            "timeout": 10
-        },
-        {
-            "key": "木耳",
-            "name": "🪴木耳┃采集",
-            "type": 1,
-            "api": "https://json.heimuer.xyz/api.php/provide/vod",
-            "searchable": 1,
-            "filterable": 1,
-            "changeable": 1,
-            "timeout": 10
-        },
-        {
-            "key": "华为",
-            "name": "🍇华为┃采集",
-            "type": 1,
-            "api": "https://cjhwba.com/api.php/provide/vod",
-            "searchable": 1,
-            "quickSearch": 1,
             "filterable": 1,
             "changeable": 1,
             "timeout": 10
@@ -531,6 +510,23 @@
             "timeout": 10
         },
         {
+            "key": "bilimd",
+            "name": "🅱哔哩┃影视",
+            "type": 3,
+            "api": "csp_Bilimd",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "style": {
+                "type": "rect",
+                "ratio": 1.433
+            },
+            "ext": {
+                "cookie": "file://TV/bili_cookie.txt"
+            },
+            "timeout": 10
+        },
+        {
             "key": "bili",
             "name": "🅱哔哔┃合集",
             "type": 3,
@@ -553,7 +549,7 @@
             "name": "🅱哔哔┃歌曲",
             "type": 3,
             "api": "csp_Bili",
-            "searchable": 1,
+            "searchable": 0,
             "quickSearch": 1,
             "filterable": 1,
             "style": {
@@ -770,16 +766,6 @@
             "url": "https://jx.dj6u.com/?url="
         },
         {
-            "name": "-虾米-",
-            "type": 0,
-            "url": "https://jx.xmflv.com/?url="
-        },
-        {
-            "name": "-虾米2-",
-            "type": 0,
-            "url": "https://jx.xmflv.cc/?url="
-        },
-        {
             "name": "-云析-",
             "type": 0,
             "url": "https://jx.yparse.com/index.php?url="
@@ -839,6 +825,12 @@
     ],
     "lives": [
         {
+            "name": "电影",
+            "type": 0,
+            "url": "./lives/电影.txt",
+            "epg": ""
+        },
+        {
             "name": "live-1",
             "type": 0,
             "url": "./lives/live-1.txt",
@@ -854,12 +846,6 @@
             "name": "live-3",
             "type": 0,
             "url": "./lives/live-3.txt",
-            "epg": "http://epg.112114.xyz/?ch={name}&date={date}"
-        },
-        {
-            "name": "高清",
-            "type": 0,
-            "url": "./lives/高清.txt",
             "epg": "http://epg.112114.xyz/?ch={name}&date={date}"
         },
         {

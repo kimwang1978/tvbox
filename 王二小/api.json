@@ -70,6 +70,14 @@
             "changeable": 1
         },
         {
+            "key": "Wexnullname",
+            "name": "💓无名┃4K💓",
+            "type": 3,
+            "api": "csp_Wexnullname",
+            "searchable": 1,
+            "changeable": 1
+        },
+        {
             "key": "Wexwanni",
             "name": "💓玩你┃4K💓",
             "type": 3,
@@ -615,6 +623,14 @@
                 "type": "rect",
                 "ratio": 2
             }
+        },
+        {
+            "key": "Wexwwe",
+            "name": "🌐格斗┃WWE🌐",
+            "type": 3,
+            "api": "csp_Wexwwe",
+            "searchable": 1,
+            "changeable": 0
         },
         {
             "key": "看球",

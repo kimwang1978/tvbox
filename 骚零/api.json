@@ -91,6 +91,15 @@
             "ext": "https://www.czys.pro/"
         },
         {
+            "key": "煤球",
+            "name": "煤球",
+            "type": 3,
+            "api": "csp_Appmq",
+            "searchable": 1,
+            "quickSearch": 1,
+            "changeable": 1
+        },
+        {
             "key": "IK",
             "name": "IK",
             "type": 1,
@@ -187,6 +196,16 @@
             "searchable": 1,
             "quickSearch": 1,
             "changeable": 1
+        },
+        {
+            "key": "腐剧",
+            "name": "腐剧",
+            "type": 3,
+            "api": "csp_AppYsV2",
+            "searchable": 1,
+            "quickSearch": 1,
+            "changeable": 1,
+            "ext": "http://www.fuju2024.cc:8013/ruifenglb_api.php/v1.vod"
         },
         {
             "key": "文采",
@@ -367,7 +386,7 @@
         },
         {
             "key": "YiSo",
-            "name": "易搜┃搜索",
+            "name": "易搜（阿里限速啦不好用了）",
             "type": 3,
             "api": "csp_YiSo",
             "searchable": 1,
@@ -380,7 +399,7 @@
         },
         {
             "key": "PanSou",
-            "name": "盘搜┃搜索",
+            "name": "盘搜（阿里限速啦不好用了）",
             "type": 3,
             "api": "csp_PanSou",
             "searchable": 1,
@@ -393,7 +412,7 @@
         },
         {
             "key": "UpYun",
-            "name": "Up搜┃搜索",
+            "name": "Up搜（阿里限速啦不好用了）",
             "type": 3,
             "api": "csp_UpYun",
             "searchable": 1,
@@ -406,7 +425,7 @@
         },
         {
             "key": "PanSearch",
-            "name": "盘Se┃搜索",
+            "name": "盘Se（阿里限速啦不好用了）",
             "type": 3,
             "api": "csp_PanSearch",
             "searchable": 1,

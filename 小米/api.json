@@ -2,7 +2,7 @@
 
 {
     "spider": "./spider.jar",
-    "logo": "https://www.xit.edu.cn/wlaq/UploadFiles_4283/202110/2021102616050834.gif",
+    "logo": "http://www.ppxys.vip/upload/mxprocms/20240615-1/ac058e14dbf22f6f7520868d5022c65f.gif",
     "wallpaper": "http://www.mpanso.com/%E5%B0%8F%E7%B1%B3/mpansou.php",
     "sites": [
         {
@@ -14,7 +14,7 @@
         },
         {
             "key": "csp_Netfixtv",
-            "name": "👀至臻┃自营4K",
+            "name": "👀至臻┃自建4K",
             "type": 3,
             "api": "csp_Duopan",
             "playerType": 2,
@@ -23,23 +23,37 @@
         },
         {
             "key": "csp_wanou",
-            "name": "🧸玩偶┃无广4K",
+            "name": "🧸玩偶┃自建4K",
             "api": "csp_Wogg",
             "type": 3,
             "searchable": 1,
             "playerType": 2,
             "timeout": 30,
             "changeable": 0,
-            "ext": "https://wogg.888484.xyz/"
+            "ext": "https://wogg.xxooo.cf/"
+        },
+        {
+            "key": "csp_LiteApple",
+            "name": "🍎苹果┃1080P",
+            "type": 3,
+            "searchable": 1,
+            "api": "csp_LiteApple",
+            "playerType": 1,
+            "filterable": 1
+        },
+        {
+            "key": "freeok",
+            "name": "🦁freeOK┃独家",
+            "type": 3,
+            "click": "document.querySelector(\"#playleft iframe\").contentWindow.document.querySelector(\"#start\").click();",
+            "api": "csp_FreeOK"
         },
         {
             "key": "配置",
-            "name": "⚙️配置┃中心",
+            "name": "⚙️网盘┃配置",
             "type": 3,
-            "searchable": 1,
-            "api": "csp_Config",
-            "filterable": 1,
-            "ext": ""
+            "searchable": 0,
+            "api": "csp_Config"
         },
         {
             "key": "csp_NanGua",
@@ -66,13 +80,6 @@
             "filterable": 1
         },
         {
-            "key": "freeok",
-            "name": "🦁free┃独家",
-            "type": 3,
-            "click": "document.querySelector(\"#playleft iframe\").contentWindow.document.querySelector(\"#start\").click();",
-            "api": "csp_FreeOK"
-        },
-        {
             "key": "huohuo",
             "name": "💥火火┃独家",
             "type": 3,
@@ -80,12 +87,18 @@
             "api": "csp_SaoHuo"
         },
         {
-            "key": "drpy_哔哩",
-            "name": "🎵哔哩┃合集",
+            "key": "Bili",
+            "name": "哔哔┃合集",
             "type": 3,
-            "api": "./api/drpy2.min.js",
-            "playerType": 1,
-            "ext": "./js/B站.js"
+            "api": "csp_Bili",
+            "style": {
+                "type": "rect",
+                "ratio": 1.597
+            },
+            "searchable": 1,
+            "quickSearch": 0,
+            "changeable": 0,
+            "ext": "./json/bilibili.json"
         },
         {
             "key": "csp_农民",
@@ -97,7 +110,7 @@
             "key": "csp_全网",
             "name": "🥣全网┃独家",
             "type": 3,
-            "api": "csp_Quanwk"
+            "api": "csp_Xdys"
         },
         {
             "key": "csp_SP360",
@@ -361,7 +374,7 @@
         {
             "name": "小米",
             "type": 1,
-            "url": "",
+            "url": "http://466.jxjx.8.ahrljk.cn:8663/api/?key=gG4Iq5xVZXc8R4jmTn&url=",
             "ext": {
                 "flag": [
                     "qq",
@@ -390,15 +403,15 @@
     ],
     "lives": [
         {
-            "name": "tvlive",
+            "name": "不再提供直播接口",
             "type": 0,
-            "url": "./lives/tvlive.txt",
+            "url": "",
             "epg": ""
         },
         {
-            "name": "嗅探",
+            "name": "请自行找资源替代",
             "type": 0,
-            "url": "./lives/嗅探.txt",
+            "url": "",
             "epg": ""
         }
     ]

@@ -145,7 +145,7 @@
             "api": "csp_Netfixtv",
             "playerType": 2,
             "filterable": 1,
-            "ext": ""
+            "ext": "http://mpanso.com"
         },
         {
             "key": "csp_Panda_玩偶哥哥",

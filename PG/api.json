@@ -4,6 +4,16 @@
     "spider": "./pg.jar",
     "sites": [
         {
+            "key": "豆瓣",
+            "name": "豆瓣",
+            "type": 3,
+            "api": "csp_Douban",
+            "searchable": 0,
+            "changeable": 1,
+            "indexs": 1,
+            "ext": "./lib/douban.json"
+        },
+        {
             "key": "Youtube",
             "name": "Youtube",
             "type": 3,
@@ -25,16 +35,6 @@
                 "type": "rect",
                 "ratio": 1.77
             }
-        },
-        {
-            "key": "豆瓣",
-            "name": "豆瓣",
-            "type": 3,
-            "api": "csp_Douban",
-            "searchable": 0,
-            "changeable": 1,
-            "indexs": 1,
-            "ext": "./lib/douban.json"
         },
         {
             "key": "网盘配置",
@@ -108,7 +108,7 @@
             "name": "夸克云盘分享",
             "type": 3,
             "api": "csp_QuarkShare",
-            "searchable": 0,
+            "searchable": 1,
             "quickSearch": 0,
             "changeable": 0,
             "filterable": 0,
@@ -128,8 +128,24 @@
             "quickSearch": 0,
             "changeable": 0,
             "filterable": 0,
-            "timeout": 60,
+            "timeout": 120,
             "ext": "./lib/tokenm.json$$$./lib/115share.txt$$$db$$$1",
+            "style": {
+                "type": "list",
+                "ratio": 1.1
+            }
+        },
+        {
+            "key": "UCShare",
+            "name": "UC云盘分享",
+            "type": 3,
+            "api": "csp_UCShare",
+            "searchable": 1,
+            "quickSearch": 0,
+            "changeable": 0,
+            "filterable": 0,
+            "timeout": 60,
+            "ext": "./lib/tokenm.json$$$./lib/ucshare.txt$$$db$$$1",
             "style": {
                 "type": "list",
                 "ratio": 1.1
@@ -140,7 +156,7 @@
             "name": "迅雷云盘分享",
             "type": 3,
             "api": "csp_ThunderShare",
-            "searchable": 0,
+            "searchable": 1,
             "quickSearch": 0,
             "changeable": 0,
             "filterable": 0,
@@ -256,7 +272,11 @@
             "changeable": 1,
             "filterable": 1,
             "timeout": 60,
-            "ext": "./lib/tokenm.json$$$null$$$noproxy$$$1"
+            "ext": "./lib/tokenm.json$$$null$$$noproxy$$$1",
+            "style": {
+                "type": "list",
+                "ratio": 1.1
+            }
         },
         {
             "key": "Xpanpan",
@@ -892,6 +912,14 @@
             "changeable": 1,
             "ext": "./lib/jianpian.json$$$1",
             "timeout": 60
+        },
+        {
+            "key": "黑木耳",
+            "name": "黑木耳",
+            "type": 1,
+            "api": "http://127.0.0.1:10079/p/0/null/https://json.heimuer.xyz/api.php/provide/vod/",
+            "searchable": 1,
+            "quickSearch": 1
         },
         {
             "key": "索尼资源",

@@ -302,7 +302,7 @@
             "changeable": 1,
             "filterable": 1,
             "timeout": 60,
-            "ext": "./lib/tokenm.json$$$https://wogg.888484.xyz/$$$noproxy$$$1$$$./lib/wogg.json"
+            "ext": "./lib/tokenm.json$$$https://wogg.888484.xyz/$$$noproxy$$$1$$$./lib/wogg.json$$$WOGG"
         },
         {
             "key": "Wo4k",
@@ -468,6 +468,14 @@
             "quickSearch": 1,
             "timeout": 60,
             "ext": "./lib/tokenm.json$$$https://www.yjys01.com/$$$proxy$$$1"
+        },
+        {
+            "key": "TGYunPan",
+            "name": "TG搜索|网盘搜索",
+            "type": 3,
+            "api": "csp_TGYunPan",
+            "timeout": 60,
+            "ext": "./lib/tokenm.json$$$http://144.126.217.226:8000/$$$hao115,Aliyundrive_Share_Channel,kuakeyun$$$noproxy$$$1"
         },
         {
             "key": "YunPan",

@@ -46,16 +46,6 @@
             "ext": "./txt/yanchanghui.txt"
         },
         {
-            "key": "csp_XBPQ_短视频",
-            "name": "☘️短视频",
-            "type": 3,
-            "api": "csp_XBPQ",
-            "searchable": 0,
-            "quickSearch": 0,
-            "filterable": 1,
-            "ext": "./json/duanshipin.json"
-        },
-        {
             "key": "88js",
             "name": "⚽ 88┃看球",
             "type": 3,
@@ -93,20 +83,6 @@
             "quickSearch": 1,
             "filterable": 0,
             "ext": "./js/310.js"
-        },
-        {
-            "key": "企鹅体育xp",
-            "name": "🐧鹅鹅┃体育",
-            "type": 3,
-            "api": "csp_XPath",
-            "playerType": 1,
-            "style": {
-                "type": "list"
-            },
-            "searchable": 0,
-            "quickSearch": 0,
-            "changeable": 0,
-            "ext": "./json/企鹅直播.json"
         },
         {
             "key": "虎牙直播",

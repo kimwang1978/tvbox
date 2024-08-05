@@ -6,7 +6,7 @@
     "sites": [
         {
             "key": "豆豆",
-            "name": "非会员阿狸原提速",
+            "name": "非会员阿狸提速",
             "type": 3,
             "api": "csp_DouDou",
             "searchable": 0,
@@ -157,17 +157,6 @@
             "type": 3,
             "api": "csp_Ddrk",
             "playerType": "2",
-            "searchable": 1,
-            "quickSearch": 1,
-            "changeable": 1
-        },
-        {
-            "key": "蛋蛋",
-            "name": "🍓蛋蛋┃多线",
-            "type": 3,
-            "api": "csp_Cddys",
-            "timeout": 15,
-            "playerType": 2,
             "searchable": 1,
             "quickSearch": 1,
             "changeable": 1
@@ -466,19 +455,6 @@
             "name": "🦊盘搜┃阿狸",
             "type": 3,
             "api": "csp_PanSou",
-            "searchable": 1,
-            "quickSearch": 1,
-            "changeable": 0,
-            "ext": {
-                "Cloud-drive": "tvfan/Cloud-drive.txt",
-                "from": "4k|auto"
-            }
-        },
-        {
-            "key": "UpYun",
-            "name": "😻Up搜┃阿狸",
-            "type": 3,
-            "api": "csp_UpYun",
             "searchable": 1,
             "quickSearch": 1,
             "changeable": 0,

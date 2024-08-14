@@ -130,15 +130,6 @@
             "filterable": 1
         },
         {
-            "key": "csp_Kanke",
-            "name": "🕵看客",
-            "type": 3,
-            "api": "csp_Kanke",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1
-        },
-        {
             "key": "csp_Tvyb",
             "name": "☁️TVB云播",
             "type": 3,
@@ -155,16 +146,6 @@
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 1
-        },
-        {
-            "key": "csp_Pptv",
-            "name": "🐸皮皮",
-            "type": 3,
-            "api": "csp_Pptv",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1,
-            "ext": "https://www.myd04.com"
         },
         {
             "key": "csp_MaoLv",
@@ -494,6 +475,15 @@
             "filterable": 1
         },
         {
+            "key": "csp_YGP",
+            "name": "🌎叨观荐影",
+            "type": 3,
+            "api": "csp_YGP",
+            "searchable": 0,
+            "quickSearch": 0,
+            "filterable": 1
+        },
+        {
             "key": "csp_Djtt",
             "name": "🌈短剧",
             "type": 3,
@@ -556,16 +546,6 @@
             "quickSearch": 1,
             "changeable": 0,
             "ext": "./txt/token.txt"
-        },
-        {
-            "key": "csp_XYQHikerAL__影搜",
-            "name": "😈影搜",
-            "type": 3,
-            "api": "csp_XYQHikerAL",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1,
-            "ext": "./json/影搜.json"
         },
         {
             "key": "csp_XYQHikerAL__ED3000",

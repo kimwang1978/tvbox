@@ -6,7 +6,7 @@
     "sites": [
         {
             "key": "豆豆",
-            "name": "非会员阿狸提速",
+            "name": "公众号【神秘的哥哥们】",
             "type": 3,
             "api": "csp_DouDou",
             "searchable": 0,
@@ -80,24 +80,6 @@
             "changeable": 1
         },
         {
-            "key": "小点",
-            "name": "💥小点┃多线",
-            "type": 3,
-            "api": "csp_Appxdys",
-            "searchable": 1,
-            "quickSearch": 1,
-            "changeable": 0
-        },
-        {
-            "key": "煤球",
-            "name": "🍓煤球┃多线",
-            "type": 3,
-            "api": "csp_Appmq",
-            "searchable": 1,
-            "quickSearch": 1,
-            "changeable": 1
-        },
-        {
             "key": "专线",
             "name": "🚝专线┃秒播",
             "type": 3,
@@ -139,6 +121,24 @@
             "quickSearch": 1,
             "changeable": 1,
             "ext": "https://www.czys.pro/"
+        },
+        {
+            "key": "煤球",
+            "name": "🍓煤球┃多线",
+            "type": 3,
+            "api": "csp_Appmq",
+            "searchable": 1,
+            "quickSearch": 1,
+            "changeable": 1
+        },
+        {
+            "key": "小点",
+            "name": "💥小点┃多线",
+            "type": 3,
+            "api": "csp_Appxdys",
+            "searchable": 1,
+            "quickSearch": 1,
+            "changeable": 0
         },
         {
             "key": "zxzj",

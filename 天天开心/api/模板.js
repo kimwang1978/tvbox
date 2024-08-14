@@ -67,7 +67,8 @@ function getMubans() {
                 "desc": ".module-info-item:eq(1)&&Text;.module-info-item:eq(2)&&Text;.module-info-item:eq(3)&&Text",
                 "content": ".module-info-introduction&&Text",
                 "tabs": ".module-tab-item",
-                "lists": ".module-play-list:eq(#id) a"
+                "lists": ".module-play-list:eq(#id) a",
+                "tab_text": "div--small&&Text",
             },
             搜索: 'body .module-item;.module-card-item-title&&Text;.lazyload&&data-original;.module-item-note&&Text;a&&href;.module-info-item-content&&Text',
         }, mxone5: {
@@ -91,7 +92,8 @@ function getMubans() {
                 "desc": ".video-info-items:eq(0)&&Text;.video-info-items:eq(1)&&Text;.video-info-items:eq(2)&&Text;.video-info-items:eq(3)&&Text",
                 "content": ".vod_content&&Text",
                 "tabs": ".module-tab-item",
-                "lists": ".module-player-list:eq(#id)&&.scroll-content&&a"
+                "lists": ".module-player-list:eq(#id)&&.scroll-content&&a",
+                "tab_text": "div--small&&Text",
             },
             搜索: '.module-items .module-search-item;a&&title;img&&data-src;.video-serial&&Text;a&&href',
         }, 首图: {

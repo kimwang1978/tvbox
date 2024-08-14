@@ -6,14 +6,14 @@
     "logo": "http://php.540734621.xyz/logo/logo.php",
     "sites": [
         {
-            "key": "py_cctv",
-            "name": "🌔央视大全",
+            "key": "戏 曲",
+            "name": "🎈国粹戏曲",
             "type": 3,
-            "api": "py_cctv",
-            "searchable": 0,
-            "quickSearch": 0,
+            "api": "csp_Bili",
+            "searchable": 1,
+            "quickSearch": 1,
             "filterable": 1,
-            "ext": "./py/cctv.py"
+            "ext": "./json/Blixq.json"
         },
         {
             "key": "相声小品",
@@ -26,14 +26,14 @@
             "ext": "./json/Blixs.json"
         },
         {
-            "key": "戏 曲",
-            "name": "🎈国粹戏曲",
+            "key": "潮 汕",
+            "name": "🥨潮汕",
             "type": 3,
             "api": "csp_Bili",
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 1,
-            "ext": "./json/Blixq.json"
+            "ext": "./json/Bli潮汕.json"
         },
         {
             "key": "演唱会",
@@ -43,7 +43,85 @@
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 1,
-            "ext": "./txt/yanchanghui.txt"
+            "ext": "./json/演唱会.json"
+        },
+        {
+            "key": "哔哩哔哩",
+            "name": "🅱️哔哩大全",
+            "type": 3,
+            "api": "csp_Bili",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "ext": "./json/Bili.json"
+        },
+        {
+            "key": "哔哩直播",
+            "name": "🅱️哔哩直播",
+            "type": 3,
+            "api": "./api/drpy2.min.js",
+            "searchable": 0,
+            "quickSearch": 0,
+            "filterable": 1,
+            "ext": "./js/blzb.js"
+        },
+        {
+            "key": "csp_Bili短剧",
+            "name": "🅱️哔哩短剧",
+            "type": 3,
+            "api": "csp_Bili",
+            "searchable": 0,
+            "quickSearch": 0,
+            "filterable": 1,
+            "ext": "./json/Bili短剧.json"
+        },
+        {
+            "key": "酷奇",
+            "name": "🎤酷奇┃MV",
+            "type": 3,
+            "api": "./api/drpy2.min.js",
+            "ext": "./js/酷奇MV.js",
+            "style": {
+                "type": "rect",
+                "ratio": 1.597
+            },
+            "searchable": 0,
+            "quickSearch": 0,
+            "changeable": 0
+        },
+        {
+            "key": "MTV",
+            "name": "🎧明星┃MV",
+            "type": 3,
+            "api": "csp_Bili",
+            "style": {
+                "type": "rect",
+                "ratio": 1.597
+            },
+            "searchable": 0,
+            "quickSearch": 0,
+            "changeable": 0,
+            "ext": "./json/MTV.json"
+        },
+        {
+            "key": "js_a8音乐",
+            "name": "🎸A8音乐",
+            "type": 3,
+            "api": "./api/drpy2.min.js",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "ext": "./js/a8yy.js"
+        },
+        {
+            "key": "影视解说",
+            "name": "🎬影视解说",
+            "type": 3,
+            "api": "csp_Bili",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "ext": "./json/影视解说.json"
         },
         {
             "key": "88js",
@@ -103,152 +181,6 @@
             "quickSearch": 0,
             "filterable": 1,
             "ext": "./js/douyu.js"
-        },
-        {
-            "key": "兔小贝",
-            "name": "🐰兔小贝",
-            "type": 3,
-            "api": "./api/drpy2.min.js",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1,
-            "ext": "./js/tuxiaobei.js"
-        },
-        {
-            "key": "哔哩哔哩",
-            "name": "🅱️哔哩大全",
-            "type": 3,
-            "api": "csp_Bili",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1,
-            "ext": "./json/Bili.json"
-        },
-        {
-            "key": "哔哩直播",
-            "name": "🅱️哔哩直播",
-            "type": 3,
-            "api": "./api/drpy2.min.js",
-            "searchable": 0,
-            "quickSearch": 0,
-            "filterable": 1,
-            "ext": "./js/blzb.js"
-        },
-        {
-            "key": "csp_Bili短剧",
-            "name": "🅱️哔哩短剧",
-            "type": 3,
-            "api": "csp_Bili",
-            "searchable": 0,
-            "quickSearch": 0,
-            "filterable": 1,
-            "ext": "./json/Bili短剧.json"
-        },
-        {
-            "key": "学习园地",
-            "name": "📚┃学习园地",
-            "type": 3,
-            "api": "csp_Bili",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1,
-            "ext": "./json/Blixt.json"
-        },
-        {
-            "key": "学外语",
-            "name": "📚┃学外语",
-            "type": 3,
-            "api": "csp_Bili",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1,
-            "ext": "./json/waiyu.json"
-        },
-        {
-            "key": "js_博看听书",
-            "name": "📚️听书┃博看",
-            "type": 3,
-            "api": "./api/drpy2.min.js",
-            "changeable": 0,
-            "style": {
-                "type": "rect",
-                "ratio": 1
-            },
-            "ext": "./js/bokan.js"
-        },
-        {
-            "key": "js_六月听书",
-            "name": "📚️听书┃六月",
-            "type": 3,
-            "api": "./api/drpy2.min.js",
-            "changeable": 0,
-            "style": {
-                "type": "rect",
-                "ratio": 1
-            },
-            "ext": "./js/6yue.js"
-        },
-        {
-            "key": "js_有声小说",
-            "name": "📚️听书┃有声",
-            "type": 3,
-            "api": "./api/drpy2.min.js",
-            "changeable": 0,
-            "style": {
-                "type": "rect",
-                "ratio": 1
-            },
-            "ext": "./js/yousheng.js"
-        },
-        {
-            "key": "js_中华听书网",
-            "name": "📚️听书┃中华",
-            "type": 3,
-            "api": "./api/drpy2.min.js",
-            "changeable": 0,
-            "style": {
-                "type": "rect",
-                "ratio": 1
-            },
-            "ext": "./js/zhonghua.js"
-        },
-        {
-            "key": "酷奇",
-            "name": "🎤酷奇┃MV",
-            "type": 3,
-            "api": "./api/drpy2.min.js",
-            "ext": "./js/酷奇MV.js",
-            "style": {
-                "type": "rect",
-                "ratio": 1.597
-            },
-            "searchable": 0,
-            "quickSearch": 0,
-            "changeable": 0
-        },
-        {
-            "key": "MTV",
-            "name": "🎧明星┃MV",
-            "type": 3,
-            "api": "csp_Bili",
-            "style": {
-                "type": "rect",
-                "ratio": 1.597
-            },
-            "searchable": 0,
-            "quickSearch": 0,
-            "changeable": 0,
-            "ext": "./json/MTV.json"
-        },
-        {
-            "key": "js_a8音乐",
-            "name": "🎸A8音乐",
-            "type": 3,
-            "api": "./api/drpy2.min.js",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1,
-            "ext": "./js/a8yy.js"
         }
     ],
     "parses": [

@@ -14,24 +14,6 @@
             "filterable": 1
         },
         {
-            "key": "csp_秒播短剧",
-            "name": "🍡秒播短剧",
-            "type": 3,
-            "api": "csp_Wexduanjuvop",
-            "searchable": 1,
-            "changeable": 1,
-            "jar": "./jars/csp_秒播短剧.jar"
-        },
-        {
-            "key": "csp_极品短剧",
-            "name": "🍡极品短剧",
-            "type": 3,
-            "api": "csp_Wexduanjuvmp",
-            "searchable": 1,
-            "changeable": 1,
-            "jar": "./jars/csp_秒播短剧.jar"
-        },
-        {
             "key": "csp_无忧短剧",
             "name": "🍡无忧短剧",
             "type": 3,
@@ -41,23 +23,16 @@
             "jar": "./jars/csp_无忧短剧.jar"
         },
         {
-            "key": "csp_星芽短剧",
-            "name": "🍡星芽短剧",
+            "key": "短剧吧",
+            "name": "🍡短剧吧",
             "type": 3,
-            "api": "csp_AppXY",
-            "searchable": 1,
-            "quickSearch": 0,
-            "filterable": 0,
-            "jar": "./jars/csp_秒播短剧.jar"
-        },
-        {
-            "key": "河马短剧",
-            "name": "🍡河马短剧",
-            "type": 3,
-            "api": "csp_Wexduanjuhema",
-            "searchable": 1,
-            "changeable": 1,
-            "jar": "./jars/csp_秒播短剧.jar"
+            "api": "csp_XBPQ",
+            "ext": {
+                "简介": "醉卧东风祝您观影愉快",
+                "分类": "恋爱$lianai#反转$fanzhuan#悬疑$xuanyi#穿越$chuanyue#古装$guzhuang#都市$dushi",
+                "分类url": "https://duanju8.cc/type/{cateId}/page/{catePg}.html"
+            },
+            "jar": "./jars/短剧吧.jar"
         },
         {
             "key": "短剧tv",
@@ -74,19 +49,18 @@
                 "分类url": "http://www.duanjutv.cc/vodtype/{cateId}-{catePg}.html;;m",
                 "分类": "抖音短剧$20#快手短剧$21#视频号短剧$22#热播短剧$23"
             },
-            "jar": "./jars/短剧tv.jar"
+            "jar": "./jars/短剧吧.jar"
         },
         {
-            "key": "短剧吧",
-            "name": "🍡短剧吧",
+            "key": "hipy_js_短剧TV网",
+            "name": "短剧TV网_HIPY",
             "type": 3,
-            "api": "csp_XBPQ",
-            "ext": {
-                "简介": "醉卧东风祝您观影愉快",
-                "分类": "恋爱$lianai#反转$fanzhuan#悬疑$xuanyi#穿越$chuanyue#古装$guzhuang#都市$dushi",
-                "分类url": "https://duanju8.cc/type/{cateId}/page/{catePg}.html"
-            },
-            "jar": "./jars/短剧tv.jar"
+            "api": "./api/drpy2.min.js",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "order_num": 0,
+            "ext": "./js/短剧TV网.js"
         },
         {
             "key": "短剧天堂",
@@ -103,7 +77,93 @@
                 "分类数组": "col-lg-5 col-md-5 col-sm-5 col-xs-3\">&&</li>",
                 "分类ID": "/vodtype/&&.html"
             },
-            "jar": "./jars/短剧tv.jar"
+            "jar": "./jars/短剧吧.jar"
+        },
+        {
+            "key": "hipy_js_短剧天堂",
+            "name": "短剧天堂_HIPY",
+            "type": 3,
+            "api": "./api/drpy2.min.js",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "order_num": 0,
+            "ext": "./js/短剧天堂.js"
+        },
+        {
+            "key": "fty-短剧",
+            "name": "🌈短剧天堂[影视]_SP",
+            "type": 3,
+            "api": "csp_Djtt",
+            "searchable": 1,
+            "quickSearch": 1,
+            "changeable": 1,
+            "jar": "./jars/fty-短剧.jar"
+        },
+        {
+            "key": "csp_秒播短剧",
+            "name": "🍡秒播短剧",
+            "type": 3,
+            "api": "csp_Wexduanjuvop",
+            "searchable": 1,
+            "changeable": 1,
+            "jar": "./jars/csp_秒播短剧.jar"
+        },
+        {
+            "key": "Wexduanjuhema",
+            "name": "🍡河马短剧",
+            "type": 3,
+            "api": "csp_Wexduanjuhema",
+            "searchable": 1,
+            "changeable": 1,
+            "jar": "./jars/csp_秒播短剧.jar"
+        },
+        {
+            "key": "Wexduanjuv1mp",
+            "name": "🍡极品短剧",
+            "type": 3,
+            "api": "csp_Wexduanjuvmp",
+            "searchable": 1,
+            "changeable": 1,
+            "jar": "./jars/csp_秒播短剧.jar"
+        },
+        {
+            "key": "vipWexduanju",
+            "name": "🌸短劇┃精品┃直连",
+            "type": 3,
+            "api": "csp_Wexvipduanju",
+            "searchable": 1,
+            "changeable": 1,
+            "jar": "./jars/csp_秒播短剧.jar"
+        },
+        {
+            "key": "Wexduanjuvip",
+            "name": "🌸短劇┃良品┃直连",
+            "type": 3,
+            "api": "csp_Wexduanjuvip",
+            "searchable": 1,
+            "changeable": 1,
+            "jar": "./jars/csp_秒播短剧.jar"
+        },
+        {
+            "key": "星芽短剧",
+            "name": "🍡星芽短剧",
+            "type": 3,
+            "api": "csp_AppXY",
+            "searchable": 1,
+            "quickSearch": 0,
+            "filterable": 0,
+            "jar": "./jars/星芽短剧.jar"
+        },
+        {
+            "key": "星芽短剧1",
+            "name": "🏅星芽",
+            "type": 3,
+            "api": "csp_AppXY",
+            "searchable": 1,
+            "quickSearch": 0,
+            "filterable": 0,
+            "jar": "./jars/星芽短剧1.jar"
         },
         {
             "key": "csp_HK_91短剧",
@@ -138,7 +198,7 @@
                 "分类": "短剧$duanju",
                 "分类url": "https://www.rarbt.fun/vod/show/id/{cateId}/area/{area}/class/{class}/page/{catePg}/year/{year}.html"
             },
-            "jar": "./jars/短剧tv.jar"
+            "jar": "./jars/短剧吧.jar"
         },
         {
             "key": "新视觉影院",
@@ -153,9 +213,9 @@
                 "播放数组": "\"scroll-content\"&&</div>",
                 "线路数组": "data-dropdown-value=&&</div>[不包含:夸克]",
                 "分类": "短剧$59",
-                "分类url": "https://www.6080yy4.com/vodshow/{cateId}-{area}-{by}-{class}-----{catePg}---{year}.html"
+                "分类url": "https://www.6080yy3.com/vodshow/{cateId}-{area}-{by}-{class}-----{catePg}---{year}.html"
             },
-            "jar": "./jars/短剧tv.jar"
+            "jar": "./jars/短剧吧.jar"
         },
         {
             "key": "毒舌影视",
@@ -182,7 +242,7 @@
                 "分类": "短剧$6",
                 "分类url": "https://www.dushe7.app/show/{cateId}-{class}-{area}--{year}-{by}-{catePg}.html"
             },
-            "jar": "./jars/短剧tv.jar"
+            "jar": "./jars/短剧吧.jar"
         },
         {
             "key": "555zxdy",
@@ -194,7 +254,7 @@
                 "分类": "短剧$45",
                 "分类url": "https://www.555zxdy.com/vod/show/by/{by}/area/{area}/class/{class}/id/{cateId}/page/{catePg}/year/{year}.html"
             },
-            "jar": "./jars/短剧tv.jar"
+            "jar": "./jars/短剧吧.jar"
         },
         {
             "key": "csp_XBPQ_vstv",
@@ -209,7 +269,7 @@
                 "分类url": "https://www.ytshengde.com/sanyisw/{cateId}-{area}-------{catePg}---{year}.html",
                 "分类": "短剧$5"
             },
-            "jar": "./jars/短剧tv.jar"
+            "jar": "./jars/短剧吧.jar"
         },
         {
             "key": "短剧网",
@@ -221,7 +281,38 @@
                 "分类": "逆袭$逆袭#甜宠$甜宠#虐恋$虐恋#穿越$穿越#重生$重生",
                 "分类url": "http://2ju.cc/show/duanju/class/{cateId}/page/{catePg}.html"
             },
-            "jar": "./jars/短剧tv.jar"
+            "jar": "./jars/短剧吧.jar"
+        },
+        {
+            "key": "hipy_短剧天堂",
+            "name": "🏅短剧[影视]_HIPY",
+            "type": 3,
+            "api": "./api/drpy2.min.js",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "order_num": 87,
+            "ext": "./js/短剧天堂.js"
+        },
+        {
+            "key": "hipy_js_星芽短剧",
+            "name": "🏅星芽短剧",
+            "type": 3,
+            "api": "./api/drpy2.min.js",
+            "ext": "./js/星芽短剧.js"
+        },
+        {
+            "key": "T4-mmdj",
+            "name": "短剧-MM(T4)",
+            "type": 4,
+            "api": "https://catbox.n13.club/t9/mmdj.php"
+        },
+        {
+            "key": "hipy_js_榜一短剧",
+            "name": "🏅榜一短剧",
+            "type": 3,
+            "api": "./api/drpy2.min.js",
+            "ext": "./js/榜一短剧.js"
         }
     ],
     "lives": [

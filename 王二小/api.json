@@ -342,19 +342,10 @@
             "changeable": 1
         },
         {
-            "key": "Wexjiazitv",
-            "name": "🌺甲子┃4K🌺",
-            "type": 3,
-            "api": "csp_Wexjiazitv",
-            "searchable": 1,
-            "changeable": 1,
-            "playerType": 1
-        },
-        {
             "key": "Wexkoukou",
             "name": "🌺扣扣┃4K🌺",
             "type": 3,
-            "api": "csp_Wexkoukou2",
+            "api": "csp_Wexkoukou",
             "searchable": 1,
             "changeable": 1
         },
@@ -426,8 +417,16 @@
             "changeable": 1
         },
         {
-            "key": "Wexduanjuvip",
+            "key": "Wexduanju001",
             "name": "🍉短剧┃极品🍉",
+            "type": 3,
+            "api": "csp_Wexduanju001",
+            "searchable": 1,
+            "changeable": 1
+        },
+        {
+            "key": "Wexduanjuvip",
+            "name": "🍉短剧┃精品🍉",
             "type": 3,
             "api": "csp_Wexduanjuvip",
             "searchable": 1,

@@ -1,3 +1,24 @@
+奥运2024频道,#genre#
+ELTA奥运1台,https://api.btbt.im/live?id=elta-oly1
+ELTA奥运2台,https://api.btbt.im/live?id=elta-oly2
+ELTA奥运3台,https://api.btbt.im/live?id=elta-oly3
+ELTA奥运4台,https://api.btbt.im/live?id=elta-oly4
+ELTA奥运5台,https://api.btbt.im/live?id=elta-oly5
+ELTA奥运6台,https://api.btbt.im/live?id=elta-oly6
+ELTA奥运7台,https://api.btbt.im/live?id=elta-oly7
+Astro OLY 1,https://api.btbt.im/live?id=astro-oly1
+Astro OLY 2,https://api.btbt.im/live?id=astro-oly2
+Astro OLY 3,https://api.btbt.im/live?id=astro-oly3
+Astro OLY 4,https://api.btbt.im/live?id=astro-oly4
+Astro OLY 5,https://api.btbt.im/live?id=astro-oly5
+MyTVSuper奥运801,https://api.btbt.im/live?id=mytvsuper-oly801
+MyTVSuper奥运802,https://api.btbt.im/live?id=mytvsuper-oly802
+MyTVSuper奥运803,https://api.btbt.im/live?id=mytvsuper-oly803
+MyTVSuper奥运804,https://api.btbt.im/live?id=mytvsuper-oly804
+MyTVSuper奥运805,https://api.btbt.im/live?id=mytvsuper-oly805
+MyTVSuper奥运806,https://api.btbt.im/live?id=mytvsuper-oly806
+MyTVSuper奥运807,https://api.btbt.im/live
+
 央视频道,#genre#
 CCTV教育1,http://113.9.152.139:88/hls/94/index.m3u8
 CCTV1,http://113.57.109.48:1111/tsfile/live/1000_1.m3u8?key=txiptv&playlive=1&authid=0

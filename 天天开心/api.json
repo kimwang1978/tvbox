@@ -110,7 +110,7 @@
         {
             "name": "⑥蓝影兔源",
             "type": 0,
-            "url": "https://dimaston.github.io/live.m3u",
+            "url": "./lives/⑥蓝影兔源.txt",
             "epg": "https://epg.112114.eu.org/?ch={name}&date={date}"
         },
         {
@@ -603,15 +603,11 @@
             "ext": "./json/采集静态.json"
         },
         {
-            "key": "hipy_js星芽短剧",
-            "name": "🎦星芽短剧(drpy_t3)",
+            "key": "ainidj",
+            "name": "🎦爱你短剧",
             "type": 3,
             "api": "./api/drpy2.min.js",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1,
-            "order_num": 0,
-            "ext": "./js/星芽短剧[优].js"
+            "ext": "./js/爱你短剧.js"
         },
         {
             "key": "360zy",
@@ -2044,24 +2040,112 @@
     ],
     "parses": [
         {
-            "name": "超级并发",
+            "name": "Web聚合",
             "type": 3,
-            "url": "Demo"
+            "url": "Web"
         },
         {
-            "name": "天天",
-            "type": 1,
-            "url": "http://119.91.123.253:2345/Api/yun.php?url="
+            "name": "-咸鱼-",
+            "type": 0,
+            "url": "https://jx.xyflv.cc/?url=",
+            "ext": {
+                "header": {
+                    "user-agent": "Mozilla/5.0 (Linux; Android 13; V2049A Build/TP1A.220624.014; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/116.0.0.0 Mobile Safari/537.36",
+                    "referer": "https://www.xyflv.cc/"
+                }
+            }
         },
         {
-            "name": "开心",
-            "type": 1,
-            "url": "http://122.228.84.103:7777/api/?key=rSqUtltpbfk1xsQFjz&url="
+            "name": "-虾米-",
+            "type": 0,
+            "url": "https://jx.xmflv.com/?url=",
+            "ext": {
+                "header": {
+                    "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36 Edg/110.0.1587.57"
+                }
+            }
         },
         {
-            "name": "上限万",
-            "type": 1,
-            "url": "https://svip.cygc.xyz/api/?key=cygctest&url="
+            "name": "-爱酷-",
+            "type": 0,
+            "url": "https://jx.zhanlangbu.com/?url=",
+            "ext": {
+                "flag": [
+                    "qq",
+                    "腾讯",
+                    "qiyi",
+                    "爱奇艺",
+                    "奇艺",
+                    "youku",
+                    "优酷",
+                    "mgtv",
+                    "芒果",
+                    "letv",
+                    "乐视",
+                    "pptv",
+                    "PPTV",
+                    "sohu",
+                    "bilibili",
+                    "哔哩哔哩",
+                    "哔哩"
+                ],
+                "ext": {
+                    "header": {
+                        "user-agent": "Mozilla/5.0 (Linux; Android 13; V2049A Build/TP1A.220624.014; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/116.0.0.0 Mobile Safari/537.36"
+                    }
+                }
+            }
+        },
+        {
+            "name": "-云解析-",
+            "type": 0,
+            "url": "https://jx.yparse.com/index.php?url=",
+            "ext": {
+                "header": {
+                    "user-agent": "Mozilla/5.0 (Linux; Android 13; V2049A Build/TP1A.220624.014; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/116.0.0.0 Mobile Safari/537.36"
+                }
+            }
+        },
+        {
+            "name": "-777-",
+            "type": 0,
+            "url": "https://jx.jsonplayer.com/player/?url=",
+            "ext": {
+                "header": {
+                    "user-agent": "Mozilla/5.0 (Linux; Android 13; V2049A Build/TP1A.220624.014; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/116.0.0.0 Mobile Safari/537.36"
+                }
+            }
+        },
+        {
+            "name": "-剖云-",
+            "type": 0,
+            "url": "https://www.kkvip2022.com/vip/jiexi1/?url=",
+            "ext": {
+                "header": {
+                    "user-agent": "Mozilla/5.0 (Linux; Android 13; V2049A Build/TP1A.220624.014; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/116.0.0.0 Mobile Safari/537.36"
+                }
+            }
+        },
+        {
+            "name": "-全看-",
+            "type": 0,
+            "url": "https://jx.quankan.app/?url=",
+            "ext": {
+                "header": {
+                    "user-agent": "Mozilla/5.0 (Linux; Android 13; V2049A Build/TP1A.220624.014; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/116.0.0.0 Mobile Safari/537.36"
+                }
+            }
+        },
+        {
+            "name": "-爱豆-",
+            "type": 0,
+            "url": "https://jx.aidouer.net/?url=",
+            "ext": {
+                "header": {
+                    "user-agent": "Mozilla/5.0 (Linux; Android 13; V2049A Build/TP1A.220624.014; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/116.0.0.0 Mobile Safari/537.36",
+                    "referer": "https://jiejie.uk/"
+                }
+            }
         }
     ],
     "flags": [
@@ -2122,37 +2206,41 @@
             "name": "暴风",
             "hosts": [
                 "bfzy",
-                "bfbfvip"
+                "bfbfvip",
+                "bfengbf"
             ],
             "regex": [
-                "#EXTINF.*?\\s+.*?adjump.*?\\.ts\\s+"
+                "#EXTINF.*?\\s+.*?adjump.*?\\.ts"
             ]
         },
         {
-            "name": "量子广告",
+            "name": "量子",
             "hosts": [
                 "vip.lz",
                 "hd.lz",
-                ".cdnlz",
-                ".cdnlz*"
+                ".cdnlz"
             ],
             "regex": [
-                "#EXTINF.*?\\s+[a-z0-9]{18}\\.ts",
-                "[a-z0-9]{18}\\.ts\\s+",
-                "#EXT-X-DISCONTINUITY\\r*\\n*#EXTINF.*?\\s+[a-z0-9]{18}\\.ts[\\s\\S]*?#EXT-X-DISCONTINUITY"
+                "#EXT-X-DISCONTINUITY\\r*\\n*#EXTINF:7\\.166667,[\\s\\S]*?#EXT-X-DISCONTINUITY",
+                "#EXT-X-DISCONTINUITY\\r*\\n*#EXTINF:4\\.066667,[\\s\\S]*?#EXT-X-DISCONTINUITY",
+                "17.19"
             ]
         },
         {
-            "name": "非凡广告",
+            "name": "非凡",
             "hosts": [
                 "vip.ffzy",
                 "hd.ffzy",
-                ".ffzy*"
+                "super.ffzy"
             ],
             "regex": [
-                "#EXT-X-DISCONTINUITY\\r*\\n*#EXTINF.*?\\s+[0-9]{11}[1-9]{2}.*?\\.ts[\\s\\S]*?#EXT-X-DISCONTINUITY",
-                "#EXT-X-DISCONTINUITY\\r*\\n*#EXTINF:5.033333,[\\s\\S]*?#EXT-X-DISCONTINUITY\\r*\\n*#EXTINF:3.960000",
-                "#EXTINF.*?\\s+.*?1171.*?\\.ts\\s+"
+                "#EXT-X-DISCONTINUITY\\r*\\n*#EXTINF:6\\.400000,[\\s\\S]*?#EXT-X-DISCONTINUITY",
+                "#EXT-X-DISCONTINUITY\\r*\\n*#EXTINF:6\\.666667,[\\s\\S]*?#EXT-X-DISCONTINUITY",
+                "#EXTINF.*?\\s+.*?1171(057).*?\\.ts",
+                "#EXTINF.*?\\s+.*?6d7b(077).*?\\.ts",
+                "#EXTINF.*?\\s+.*?6718a(403).*?\\.ts",
+                "17.99",
+                "14.45"
             ]
         },
         {
@@ -2162,8 +2250,8 @@
             ],
             "regex": [
                 "#EXT-X-DISCONTINUITY\\r*\\n*#EXTINF:1\\.000000,[\\s\\S]*?#EXT-X-DISCONTINUITY",
-                "#EXTINF.*?\\s+.*?p1ayer.*?\\.ts\\s+",
-                "#EXTINF.*?\\s+.*?\\/video\\/original.*?\\.ts\\s+"
+                "#EXTINF.*?\\s+.*?p1ayer.*?\\.ts",
+                "#EXTINF.*?\\s+.*?\\/video\\/original.*?\\.ts"
             ]
         },
         {
@@ -2173,7 +2261,36 @@
             ],
             "regex": [
                 "#EXT-X-KEY:METHOD=NONE\\r*\\n*#EXTINF:5,[\\s\\S]*?#EXT-X-DISCONTINUITY",
-                "#EXT-X-KEY:METHOD=NONE\\r*\\n*#EXTINF:2\\.4,[\\s\\S]*?#EXT-X-DISCONTINUITY"
+                "#EXT-X-KEY:METHOD=NONE\\r*\\n*#EXTINF:2\\.4,[\\s\\S]*?#EXT-X-DISCONTINUITY",
+                "#EXT-X-KEY:METHOD=NONE\\r*\\n*#EXTINF:1\\.467,[\\s\\S]*?#EXT-X-DISCONTINUITY"
+            ]
+        },
+        {
+            "name": "leshiyun",
+            "hosts": [
+                "leshiyuncdn"
+            ],
+            "regex": [
+                "15.92"
+            ]
+        },
+        {
+            "name": "1080zyk",
+            "hosts": [
+                "high24-playback",
+                "high20-playback"
+            ],
+            "regex": [
+                "16.63"
+            ]
+        },
+        {
+            "name": "555DM",
+            "hosts": [
+                "cqxfjz"
+            ],
+            "regex": [
+                "10.56"
             ]
         },
         {

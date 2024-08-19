@@ -41,6 +41,7 @@
             "api": "csp_Wex115share",
             "searchable": 1,
             "changeable": 1,
+            "timeout": 50,
             "style": {
                 "type": "list"
             }
@@ -82,6 +83,22 @@
             "name": "💓玩你┃4K💓",
             "type": 3,
             "api": "csp_Wexwanni",
+            "searchable": 1,
+            "changeable": 1
+        },
+        {
+            "key": "Wexmuougg",
+            "name": "💓木偶┃4K💓",
+            "type": 3,
+            "api": "csp_Wexmuougg",
+            "searchable": 1,
+            "changeable": 1
+        },
+        {
+            "key": "Wexlabi",
+            "name": "💓蜡笔┃4K💓",
+            "type": 3,
+            "api": "csp_Wexlabi",
             "searchable": 1,
             "changeable": 1
         },
@@ -366,6 +383,14 @@
             "changeable": 1
         },
         {
+            "key": "Wexhanjutv",
+            "name": "🌺韩剧┃秒播🌺",
+            "type": 3,
+            "api": "csp_Wexhanjutv",
+            "searchable": 1,
+            "changeable": 1
+        },
+        {
             "key": "Wexhanxiaoquan",
             "name": "🌺韩圈┃秒播🌺",
             "type": 3,
@@ -556,14 +581,6 @@
             "changeable": 0
         },
         {
-            "key": "上方需用在线接口",
-            "name": "🥁⬆️上方需用在线接口⬆️🥁",
-            "type": 3,
-            "api": "csp_Douban",
-            "searchable": 1,
-            "changeable": 1
-        },
-        {
             "key": "Wexqingfengdj",
             "name": "🎼舞曲┃摇头🎼",
             "type": 3,
@@ -632,40 +649,8 @@
             "ext": "./json/qie.json"
         },
         {
-            "key": "櫻花",
-            "name": "🤡櫻花┃动漫🤡",
-            "type": 3,
-            "api": "csp_WexYing",
-            "searchable": 1,
-            "changeable": 1
-        },
-        {
-            "key": "巴士",
-            "name": "🤡巴士┃动漫🤡",
-            "type": 3,
-            "api": "csp_WexDm84",
-            "searchable": 1,
-            "changeable": 1
-        },
-        {
-            "key": "異界",
-            "name": "🤡異界┃动漫🤡",
-            "type": 3,
-            "api": "csp_WexYsj",
-            "searchable": 1,
-            "changeable": 1
-        },
-        {
-            "key": "Wexciliso",
-            "name": "🛩️磁力┃聚合┃搜",
-            "type": 3,
-            "api": "csp_Wexciliso",
-            "searchable": 1,
-            "changeable": 0
-        },
-        {
             "key": "Wexmiso",
-            "name": "🎠小米┃综合┃搜",
+            "name": "🎠米搜┃综合🎠",
             "type": 3,
             "api": "csp_Wexmiso",
             "searchable": 1,
@@ -673,7 +658,7 @@
         },
         {
             "key": "Wexed3000",
-            "name": "🎠易迪┃阿里┃搜",
+            "name": "🎠易迪┃综合🎠",
             "type": 3,
             "api": "csp_Wexed3000",
             "searchable": 1,
@@ -681,47 +666,23 @@
         },
         {
             "key": "易搜",
-            "name": "🎠易搜┃阿里┃搜",
+            "name": "🎠易搜┃综合🎠",
             "type": 3,
             "api": "csp_YiSo",
             "searchable": 1,
             "changeable": 0
         },
         {
-            "key": "雲搜",
-            "name": "🎠雲搜┃阿里┃搜",
-            "type": 3,
-            "api": "csp_UpYun",
-            "searchable": 1,
-            "changeable": 0
-        },
-        {
             "key": "盤搜",
-            "name": "🎠盤搜┃阿里┃搜",
-            "type": 3,
-            "api": "csp_PanSou",
-            "searchable": 1,
-            "changeable": 0
-        },
-        {
-            "key": "盤搜索",
-            "name": "🎠盤搜索┃阿里┃搜",
+            "name": "🎠盤搜┃综合🎠",
             "type": 3,
             "api": "csp_PanSearch",
             "searchable": 1,
             "changeable": 0
         },
         {
-            "key": "搜吧",
-            "name": "🎠搜吧┃综合┃搜",
-            "type": 3,
-            "api": "csp_Wexbtso",
-            "searchable": 1,
-            "changeable": 0
-        },
-        {
             "key": "Wexyingso",
-            "name": "🎠影子┃综合┃搜",
+            "name": "🎠影子┃综合🎠",
             "type": 3,
             "api": "csp_Wexyingso",
             "searchable": 1,

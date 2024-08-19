@@ -63,17 +63,6 @@
             "changeable": 1
         },
         {
-            "key": "csp_Zx4k",
-            "name": "🚝专线",
-            "type": 3,
-            "api": "csp_Zx4k",
-            "playerType": 2,
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1,
-            "changeable": 1
-        },
-        {
             "key": "csp_LiteApple",
             "name": "🍎小苹果",
             "type": 3,
@@ -134,6 +123,7 @@
             "name": "☁️TVB云播",
             "type": 3,
             "api": "csp_Tvyb",
+            "playerType": 2,
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 1
@@ -143,15 +133,6 @@
             "name": "🎬电影先生",
             "type": 3,
             "api": "csp_Dyxs",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1
-        },
-        {
-            "key": "csp_MaoLv",
-            "name": "🐴毛驴",
-            "type": 3,
-            "api": "csp_MaoLv",
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 1
@@ -173,16 +154,6 @@
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 1
-        },
-        {
-            "key": "csp_csp_Appxdys",
-            "name": "💥兄弟",
-            "type": 3,
-            "api": "csp_csp_Appxdys",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1,
-            "changeable": 0
         },
         {
             "key": "csp_Appmq",
@@ -294,6 +265,17 @@
             "ext": "https://auete.pro/"
         },
         {
+            "key": "csp_Zx4k",
+            "name": "🚝专线",
+            "type": 3,
+            "api": "csp_Zx4k",
+            "playerType": 2,
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "changeable": 1
+        },
+        {
             "key": "农民",
             "name": "💢农民",
             "type": 3,
@@ -368,15 +350,6 @@
             "name": "🧲Mp4电影",
             "type": 3,
             "api": "csp_Mp4Mov",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1
-        },
-        {
-            "key": "csp_SeedHub",
-            "name": "🧲SeedHub",
-            "type": 3,
-            "api": "csp_SeedHub",
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 1
@@ -475,15 +448,6 @@
             "filterable": 1
         },
         {
-            "key": "csp_YGP",
-            "name": "🌎叨观荐影",
-            "type": 3,
-            "api": "csp_YGP",
-            "searchable": 0,
-            "quickSearch": 0,
-            "filterable": 1
-        },
-        {
             "key": "csp_Djtt",
             "name": "🌈短剧",
             "type": 3,
@@ -546,16 +510,6 @@
             "quickSearch": 1,
             "changeable": 0,
             "ext": "./txt/token.txt"
-        },
-        {
-            "key": "csp_XYQHikerAL__ED3000",
-            "name": "0️⃣ED3000",
-            "type": 3,
-            "api": "csp_XYQHikerAL",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1,
-            "ext": "./json/ED3000.json"
         },
         {
             "key": "csp_YiSo",

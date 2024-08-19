@@ -7,7 +7,7 @@
     "sites": [
         {
             "key": "豆瓣",
-            "name": "🌈豆瓣┃反馈QQ群:665981772",
+            "name": "🌈豆瓣┃反馈QQ群:665981772 公众号：叨观荐影",
             "type": 3,
             "api": "csp_Douban",
             "searchable": 0
@@ -52,19 +52,8 @@
             "filterable": 1
         },
         {
-            "key": "酷影",
-            "name": "🥥酷影┃4K",
-            "playerType": 1,
-            "type": 3,
-            "api": "csp_AppYsV2",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1,
-            "ext": "http://122.228.85.203:3366/api.php/app/"
-        },
-        {
             "key": "君君",
-            "name": "🚗君君┃4K",
+            "name": "🚗君君┃4K4K",
             "playerType": 1,
             "type": 3,
             "api": "csp_AppYsV2",
@@ -96,14 +85,6 @@
             "filterable": 1
         },
         {
-            "key": "csp_官源",
-            "name": "🥛官源┃APP",
-            "type": 1,
-            "api": "https://jx.yingshi.xyz/caiji.php",
-            "playerType": 2,
-            "filterable": 1
-        },
-        {
             "key": "csp_Nkdy",
             "name": "🥛耐看┃APP",
             "type": 3,
@@ -115,7 +96,6 @@
             "key": "huohuo",
             "name": "💥火火┃独家",
             "type": 3,
-            "click": "document.querySelector(\"#playleft iframe\").contentWindow.document.querySelector(\"#start\").click();",
             "api": "csp_SaoHuo"
         },
         {
@@ -144,6 +124,22 @@
             "type": 3,
             "api": "csp_Quanwk",
             "ext": "https://888.qkw1.cc/"
+        },
+        {
+            "key": "csp_Jqq2",
+            "name": "🎃圈圈┃影视",
+            "type": 3,
+            "api": "csp_Jqq",
+            "playerType": 2,
+            "filterable": 1
+        },
+        {
+            "key": "csp_pptv",
+            "name": "🫧泡泡┃影视",
+            "type": 3,
+            "api": "csp_Pptv",
+            "playerType": 2,
+            "filterable": 1
         },
         {
             "key": "csp_SP360",
@@ -191,13 +187,6 @@
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 1
-        },
-        {
-            "key": "csp_DADAG",
-            "name": "⭕️剧圈┃影视",
-            "type": 3,
-            "playerType": "2",
-            "api": "csp_Dadag"
         },
         {
             "key": "QIYIU",
@@ -256,7 +245,7 @@
         },
         {
             "key": "小米",
-            "name": "📺小米┃独家",
+            "name": "📺米米┃独家",
             "type": 3,
             "searchable": 1,
             "quickSearch": 1,
@@ -296,7 +285,7 @@
         },
         {
             "key": "小MI",
-            "name": "📺米搜┃独家",
+            "name": "🥝搜搜┃独家",
             "type": 3,
             "searchable": 1,
             "quickSearch": 1,
@@ -332,6 +321,51 @@
                 "跳转解析": "默认#http://pan.qiaoji8.com/tvbox/neibu.php?url=#mytv$http://pan.qiaoji8.com/tvbox/neibu.php?url=#BTOL$http://pan.qiaoji8.com/tvbox/gouzi.php?url=#BBA$http://pan.qiaoji8.com/tvbox/gouzi.php?url=#nmys2$http://pan.qiaoji8.com/tvbox/gouzi.php?url=",
                 "播放链接": "解析+$&&\"",
                 "跳转播放链接": "url\"*\"&&\""
+            }
+        },
+        {
+            "key": "酷酷",
+            "name": "🍍腾腾┃4K4K",
+            "type": 3,
+            "searchable": 1,
+            "quickSearch": 1,
+            "changeable": 1,
+            "jar": "./jars/4K.jar",
+            "playerType": "2",
+            "api": "csp_XBPQ",
+            "ext": {
+                "请求头": "User-Agent$okhttp/3.12.11",
+                "分类": "电影&电视剧&综艺&动漫",
+                "分类值": "1&2&3&4",
+                "分类url": "http://122.228.85.203:3366/api.php/app/video?tid={cateId}&class={class}&area={area}&lang={lang}&year={year}&limit=18&pg={catePg}",
+                "数组二次截取": "list\":[&&]",
+                "数组": "{&&}",
+                "图片": "vod_pic\"*\"&&\"",
+                "标题": "vod_name\"*\"&&\"",
+                "副标题": "vod_remarks\"*\"&&\"",
+                "链接": "http://122.228.85.203:3366/api.php/app/video_detail?id=+vod_id\":&&,",
+                "搜索url": "http://122.228.85.203:3366/api.php/app/search?text={wd}&pg=",
+                "搜索模式": "1",
+                "搜索二次截取": "list\":[&&]",
+                "搜索数组": "{&&}",
+                "搜索图片": "vod_pic\"*\"&&\"",
+                "搜索标题": "vod_name\"*\"&&\"",
+                "搜索副标题": "vod_remarks\"*\"&&\"",
+                "搜索链接": "http://122.228.85.203:3366/api.php/app/video_detail?id=+vod_id\":&&,",
+                "影片类型": "vod_class\"*\"&&\"",
+                "导演": "vod_director\"*\"&&\"",
+                "主演": "vod_actor\"*\"&&\"",
+                "简介": "vod_content\"*\"&&\"",
+                "线路数组": "vod_play_from\":&&,",
+                "线路标题": "\"&&\"",
+                "播放数组": "vod_play_url\":&&,[替换:\">>链表题#$>>题链#\\#>>链表表题]",
+                "播放列表": "表&&表",
+                "播放标题": "题&&题",
+                "播放链接": "http://198.44.173.91:1234/c1/json.php?url=+链&&链",
+                "跳转播放链接": "url\": \"&&\"",
+                "过滤词": "51.la#cnzz.com#baidu.com#bilibili.com",
+                "播放请求头": "User-Agent$Mozilla/5.0 (Linux; Android 13) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Mobile Safari/537.36uacq",
+                "免嗅": "1"
             }
         },
         {
@@ -403,7 +437,7 @@
         {
             "name": "小米无敌",
             "type": 1,
-            "url": "http://www.mpanso.com/62-2.php?url=",
+            "url": "https://cdn.suxun.site/api/?key=7QeqS18ZCrJgj0BSOn&url=",
             "ext": {
                 "flag": [
                     "qq",
@@ -430,9 +464,38 @@
             }
         },
         {
-            "name": "小米",
+            "name": "小米无敌2",
             "type": 1,
-            "url": "http://www.mpanso.com/62-1.php?url=",
+            "url": "http://117.50.183.202:8036/?ip=111.55.12.236&url=",
+            "ext": {
+                "flag": [
+                    "qq",
+                    "腾讯",
+                    "qiyi",
+                    "爱奇艺",
+                    "奇艺",
+                    "youku",
+                    "优酷",
+                    "sohu",
+                    "搜狐",
+                    "letv",
+                    "乐视",
+                    "mgtv",
+                    "芒果",
+                    "tnmb",
+                    "seven",
+                    "bilibili",
+                    "1905"
+                ],
+                "header": {
+                    "User-Agent": "okhttp/4.9.1"
+                }
+            }
+        },
+        {
+            "name": "腾4K",
+            "type": 1,
+            "url": "http://www.mpanso.com/woaini.php?url=",
             "ext": {
                 "flag": [
                     "qq",

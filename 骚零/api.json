@@ -28,14 +28,27 @@
             "filterable": 0
         },
         {
-            "key": "快看",
-            "name": "快看",
+            "key": "Auete",
+            "name": "Auete",
             "type": 3,
-            "api": "csp_Kkys",
+            "api": "csp_Auete",
             "timeout": 15,
             "searchable": 1,
             "quickSearch": 1,
-            "changeable": 1
+            "changeable": 1,
+            "ext": "https://auete.pro/"
+        },
+        {
+            "key": "厂长",
+            "name": "厂长",
+            "type": 3,
+            "api": "csp_NewCz",
+            "timeout": 15,
+            "playerType": 2,
+            "searchable": 1,
+            "quickSearch": 1,
+            "changeable": 1,
+            "ext": "https://www.czys.pro/"
         },
         {
             "key": "荐片",
@@ -64,27 +77,6 @@
             "name": "苹果",
             "type": 3,
             "api": "csp_LiteApple",
-            "searchable": 1,
-            "quickSearch": 1,
-            "changeable": 1
-        },
-        {
-            "key": "厂长",
-            "name": "厂长",
-            "type": 3,
-            "api": "csp_NewCz",
-            "timeout": 15,
-            "playerType": 2,
-            "searchable": 1,
-            "quickSearch": 1,
-            "changeable": 1,
-            "ext": "https://www.czys.pro/"
-        },
-        {
-            "key": "煤球",
-            "name": "煤球",
-            "type": 3,
-            "api": "csp_Appmq",
             "searchable": 1,
             "quickSearch": 1,
             "changeable": 1
@@ -278,15 +270,14 @@
             "changeable": 1
         },
         {
-            "key": "Auete",
-            "name": "Auete",
+            "key": "快看",
+            "name": "快看",
             "type": 3,
-            "api": "csp_Auete",
+            "api": "csp_Kkys",
             "timeout": 15,
             "searchable": 1,
             "quickSearch": 1,
-            "changeable": 1,
-            "ext": "https://auete.pro/"
+            "changeable": 1
         },
         {
             "key": "新6V",

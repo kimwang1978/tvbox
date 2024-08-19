@@ -55,48 +55,11 @@ CCTV-8K 超高清,https://tv.cry33.com/ys4k.php?id=8k
 CGTN英语,http://live.cgtn.com/1000/prog_index.m3u8
 CGTN记录,http://[2409:8087:5e01:34::20]:6610/ZTE_CMS/00000001000000060000000000000528/index.m3u8?IAS
 CGTN记录,https://news.cgtn.com/resource/live/document/cgtn-doc.m3u8
-CCTV-1 综合,https://pi.0472.org/live/cctv1.m3u8?token=162210
-CCTV-2 财经,https://pi.0472.org/live/cctv2.m3u8?token=162210
-CCTV-3 综艺,https://pi.0472.org/live/cctv3.m3u8?token=162210
-CCTV-4 国际,https://pi.0472.org/live/cctv4.m3u8?token=162210
-CCTV-5 体育,https://pi.0472.org/live/cctv5.m3u8?token=162210
-CCTV-5+ 体育赛事,https://pi.0472.org/live/cctv5p.m3u8?token=162210
-CCTV-6 电影,https://pi.0472.org/live/cctv6.m3u8?token=162210
-CCTV-7 国防军事,https://pi.0472.org/live/cctv7.m3u8?token=162210
-CCTV-8 电视剧,https://pi.0472.org/live/cctv8.m3u8?token=162210
-CCTV-9 记录,https://pi.0472.org/live/cctv9.m3u8?token=162210
-CCTV-10 科教,https://pi.0472.org/live/cctv10.m3u8?token=162210
-CCTV-11 戏曲,https://pi.0472.org/live/cctv11.m3u8?token=162210
-CCTV-12 社会与法,https://pi.0472.org/live/cctv12.m3u8?token=162210
-CCTV-13 新闻,https://pi.0472.org/live/cctv13.m3u8?token=162210
-CCTV-14 少儿,https://pi.0472.org/live/cctv14.m3u8?token=162210
-CCTV-15 音乐,https://pi.0472.org/live/cctv15.m3u8?token=162210
-CCTV-16 奥林匹克,https://pi.0472.org/live/cctv16.m3u8?token=162210
-CCTV-16 奥林匹克4K,https://pi.0472.org/live/cctv16-4k.m3u8?token=162210
-CCTV-17 农业农村,https://pi.0472.org/live/cctv17.m3u8?token=162210
-CCTV-4K 超高清,https://pi.0472.org/live/cctv4k.m3u8?token=162210
-CCTV-8K 超高清,https://pi.0472.org/live/cctv8k.m3u8?token=162210
-CCTV兵器科技,https://pi.0472.org/live/bqkj.m3u8?token=162210
-CCTV第一剧场,https://pi.0472.org/live/dyjc.m3u8?token=162210
-CCTV怀旧剧场,https://pi.0472.org/live/hjjc.m3u8?token=162210
-CCTV风云剧场,https://pi.0472.org/live/fyjc.m3u8?token=162210
-CCTV风云音乐,https://pi.0472.org/live/fyyy.m3u8?token=162210
-CCTV风云足球,https://pi.0472.org/live/fyzq.m3u8?token=162210
-CCTV电视指南,https://pi.0472.org/live/dszn.m3u8?token=162210
-CCTV女性时尚,https://pi.0472.org/live/nxss.m3u8?token=162210
-CCTV央视文化精品,https://pi.0472.org/live/whjp.m3u8?token=162210
-CCTV世界地理,https://pi.0472.org/live/sjdl.m3u8?token=162210
-CCTV高尔夫网球,https://pi.0472.org/live/gefwq.m3u8?token=162210
-CCTV央视台球,https://pi.0472.org/live/ystq.m3u8?token=162210
-CCTV卫生健康,https://pi.0472.org/live/wsjk.m3u8?token=162210
-CGTN英语,https://pi.0472.org/live/cgtn.m3u8?token=162210
-CGTN纪录,https://pi.0472.org/live/cgtnjl.m3u8?token=162210
-CGTN西语,https://pi.0472.org/live/cgtne.m3u8?token=162210
-CGTN法语,https://pi.0472.org/live/cgtnf.m3u8?token=162210
-CGTN阿语,https://pi.0472.org/live/cgtna.m3u8?token=162210
-CGTN俄语,https://pi.0472.org/live/cgtnr.m3u8?token=162210
 
 卫视,#genre#
+凤凰中文,http://116.162.6.192/1.v.smtcdns.net/qctv.fengshows.cn/live/0701pcc72.m3u8
+凤凰资讯,http://116.162.6.192/1.v.smtcdns.net/qctv.fengshows.cn/live/0701pin72.m3u8
+凤凰香港,http://116.162.6.192/1.v.smtcdns.net/qctv.fengshows.cn/live/0701phk72.m3u8
 凤凰中文,http://play-flive.ifeng.com/live/06OLEGEGM4G.m3u8
 凤凰资讯,http://play-flive.ifeng.com/live/06OLEEWQKN4.m3u8
 凤凰资讯,http://113.64.145.91:8081/hls/36/index.m3u8
@@ -227,29 +190,6 @@ CETV-4,http://[2409:8087:1a0b:df::4020]:80/ottrrs.hl.chinamobile.com/PLTV/888888
 超级综艺,http://[2409:8087:5e00:24::1e]:6060/200000001898/460000089800010062/1.m3u8
 金牌综艺,http://[2409:8087:1a01:df::7005]:80/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225666/index.m3u8
 金牌综艺,http://[2409:8087:5e00:24::1e]:6060/200000001898/460000089800010086/1.m3u8
-北京卫视,https://pi.0472.org/live/bjws.m3u8?token=162210
-东方卫视,https://pi.0472.org/live/dfws.m3u8?token=162210
-天津卫视,https://pi.0472.org/live/tjws.m3u8?token=162210
-重庆卫视,https://pi.0472.org/live/cqws.m3u8?token=162210
-黑龙江卫视,https://pi.0472.org/live/hljws.m3u8?token=162210
-辽宁卫视,https://pi.0472.org/live/lnws.m3u8?token=162210
-河北卫视,https://pi.0472.org/live/hbws.m3u8?token=162210
-山东卫视,https://pi.0472.org/live/sdws.m3u8?token=162210
-安徽卫视,https://pi.0472.org/live/ahws.m3u8?token=162210
-河南卫视,https://pi.0472.org/live/hnws.m3u8?token=162210
-湖北卫视,https://pi.0472.org/live/hubws.m3u8?token=162210
-湖南卫视,https://pi.0472.org/live/hunws.m3u8?token=162210
-江西卫视,https://pi.0472.org/live/jxws.m3u8?token=162210
-江苏卫视,https://pi.0472.org/live/jsws.m3u8?token=162210
-浙江卫视,https://pi.0472.org/live/zjws.m3u8?token=162210
-东南卫视,https://pi.0472.org/live/dnws.m3u8?token=162210
-广东卫视,https://pi.0472.org/live/gdws.m3u8?token=162210
-深圳卫视,https://pi.0472.org/live/szws.m3u8?token=162210
-广西卫视,https://pi.0472.org/live/gxws.m3u8?token=162210
-贵州卫视,https://pi.0472.org/live/gzws.m3u8?token=162210
-四川卫视,https://pi.0472.org/live/scws.m3u8?token=162210
-新疆卫视,https://pi.0472.org/live/xjws.m3u8?token=162210
-海南卫视,https://pi.0472.org/live/hinws.m3u8?token=162210
 
 港•澳•台,#genre#
 BBC Lifestyle,P2p://generationnexxxt.com:19806/213ee36f11ba4b9896c8440290ebca3b

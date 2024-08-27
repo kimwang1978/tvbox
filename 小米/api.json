@@ -13,21 +13,18 @@
             "searchable": 0
         },
         {
-            "key": "csp_zhizhen",
-            "name": "🌹至臻┃4K4K",
+            "key": "csp_瓜子",
+            "name": "🌰瓜子┃1080P",
+            "api": "csp_Gz360",
             "type": 3,
-            "api": "csp_Duopan",
-            "filterable": 1,
-            "ext": {
-                "site_urls": [
-                    "http://mihdr.top",
-                    "http://mpanso.com"
-                ]
-            }
+            "searchable": 1,
+            "playerType": 2,
+            "timeout": 30,
+            "changeable": 0
         },
         {
             "key": "csp_wanou",
-            "name": "🧸玩偶┃自建4K",
+            "name": "🧸玩偶┃盘聚4K",
             "api": "csp_Wogg",
             "type": 3,
             "searchable": 1,
@@ -43,6 +40,26 @@
             }
         },
         {
+            "key": "csp_zhizhen",
+            "name": "🌹至臻┃盘聚4K",
+            "type": 3,
+            "api": "csp_Duopan",
+            "filterable": 1,
+            "ext": {
+                "site_urls": [
+                    "http://mihdr.top",
+                    "http://mpanso.com"
+                ]
+            }
+        },
+        {
+            "key": "米搜",
+            "name": "🌾米搜┃夸克4K",
+            "type": 3,
+            "api": "csp_MiSou",
+            "ext": "./txt/kk.txt"
+        },
+        {
             "key": "csp_LiteApple",
             "name": "🍎苹果┃1080P",
             "type": 3,
@@ -53,7 +70,7 @@
         },
         {
             "key": "君君",
-            "name": "🚗君君┃4K4K",
+            "name": "🚗君君┃1080P",
             "playerType": 1,
             "type": 3,
             "api": "csp_AppYsV2",
@@ -77,6 +94,51 @@
             "api": "csp_Config"
         },
         {
+            "key": "酷酷",
+            "name": "🍍腾腾┃解析4K",
+            "type": 3,
+            "searchable": 1,
+            "quickSearch": 1,
+            "changeable": 1,
+            "jar": "./jars/酷酷.jar",
+            "playerType": "2",
+            "api": "csp_XBPQ",
+            "ext": {
+                "请求头": "User-Agent$okhttp/3.12.11",
+                "分类": "电影&电视剧&综艺&动漫",
+                "分类值": "1&2&3&4",
+                "分类url": "http://ly4k.llys.online/api.php/app/video?tid={cateId}&class={class}&area={area}&lang={lang}&year={year}&limit=18&pg={catePg}",
+                "数组二次截取": "list\":[&&]",
+                "数组": "{&&}",
+                "图片": "vod_pic\"*\"&&\"",
+                "标题": "vod_name\"*\"&&\"",
+                "副标题": "小米无敌",
+                "链接": "http://ly4k.llys.online/api.php/app/video_detail?id=+vod_id\":&&,",
+                "搜索url": "http://ly4k.llys.online/api.php/app/search?text={wd}&pg=",
+                "搜索模式": "1",
+                "搜索二次截取": "list\":[&&]",
+                "搜索数组": "{&&}",
+                "搜索图片": "vod_pic\"*\"&&\"",
+                "搜索标题": "vod_name\"*\"&&\"",
+                "搜索副标题": "小米无敌",
+                "搜索链接": "http://ly4k.llys.online/api.php/app/video_detail?id=+vod_id\":&&,",
+                "影片类型": "vod_class\"*\"&&\"",
+                "导演": "vod_director\"*\"&&\"",
+                "主演": "vod_actor\"*\"&&\"",
+                "简介": "vod_content\"*\"&&\"",
+                "线路数组": "vod_play_from\":&&,",
+                "线路标题": "\"&&\"",
+                "播放数组": "vod_play_url\":&&,[替换:\">>链表题#$>>题链#\\#>>链表表题]",
+                "播放列表": "表&&表",
+                "播放标题": "题&&题",
+                "播放链接": "http://39.104.230.177:1122/lxjx/myyk.php?url=+链&&链",
+                "跳转播放链接": "urll\": \"&&\"",
+                "过滤词": "51.la#cnzz.com#baidu.com#bilibili.com",
+                "播放请求头": "User-Agent$Mozilla/5.0 (Linux; Android 13) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Mobile Safari/537.36uacq",
+                "免嗅": "1"
+            }
+        },
+        {
             "key": "csp_NanGua",
             "name": "🎃南瓜┃APP",
             "type": 3,
@@ -85,8 +147,17 @@
             "filterable": 1
         },
         {
+            "key": "csp_paopao",
+            "name": "🫧菠菜┃1080P",
+            "type": 3,
+            "api": "csp_Pptv",
+            "playerType": 2,
+            "filterable": 1,
+            "ext": "https://yigeg.pro"
+        },
+        {
             "key": "csp_Nkdy",
-            "name": "🥛耐看┃APP",
+            "name": "🥛耐看┃1080P",
             "type": 3,
             "api": "csp_Nkdy",
             "playerType": 2,
@@ -94,7 +165,7 @@
         },
         {
             "key": "huohuo",
-            "name": "💥火火┃独家",
+            "name": "💥火火┃1080P",
             "type": 3,
             "api": "csp_SaoHuo"
         },
@@ -114,42 +185,26 @@
         },
         {
             "key": "csp_农民",
-            "name": "🐶汪汪┃独家",
+            "name": "🐶汪汪┃1080P",
             "type": 3,
             "api": "csp_Nongm"
         },
         {
             "key": "csp_全网",
-            "name": "🥣全网┃独家",
+            "name": "🥣全网┃1080P",
             "type": 3,
             "api": "csp_Quanwk",
-            "ext": "https://888.qkw1.cc/"
-        },
-        {
-            "key": "csp_Jqq2",
-            "name": "🎃圈圈┃影视",
-            "type": 3,
-            "api": "csp_Jqq",
-            "playerType": 2,
-            "filterable": 1
-        },
-        {
-            "key": "csp_pptv",
-            "name": "🫧泡泡┃影视",
-            "type": 3,
-            "api": "csp_Pptv",
-            "playerType": 2,
-            "filterable": 1
+            "ext": "https://1.qkw1.cc/"
         },
         {
             "key": "csp_SP360",
-            "name": "🐠360┃官源",
+            "name": "🐠360┃1080P",
             "type": 3,
             "api": "csp_SP360"
         },
         {
             "key": "蚂蚁",
-            "name": "🌞去广┃测试",
+            "name": "🌞去广┃1080P",
             "type": 1,
             "api": "https://360zy.com/api.php/provide/vod",
             "playUrl": "json:http://110.42.3.99:880/rmm.php/?url=",
@@ -180,77 +235,21 @@
             ]
         },
         {
-            "key": "云播",
-            "name": "☁️云播┃影视",
-            "type": 3,
-            "api": "csp_Tvyb",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1
-        },
-        {
             "key": "QIYIU",
-            "name": "🦌奇优┃影视",
+            "name": "🦌奇优┃1080P",
             "type": 3,
             "changeable": 1,
             "api": "csp_Qiyou",
             "playerType": "1"
         },
         {
-            "key": "4K",
-            "name": "🦊超强┃影视",
-            "type": 3,
-            "searchable": 1,
-            "quickSearch": 1,
-            "changeable": 1,
-            "playerType": "2",
-            "api": "csp_XBPQ",
-            "jar": "./jars/4K.jar",
-            "ext": {
-                "请求头": "User-Agent$Mozilla/5.0 (iPhone; CPU iPhone OS 15_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0 Mobile/15E148 Safari/604.1",
-                "编码": "UTF-8",
-                "主页url": "https://4k-av.com",
-                "首页": "120",
-                "起始页": "1",
-                "分类url": "/{cateId}{class}/page-{catePg}.html[https://4k-av.com/{cateId}{class}];;rcS1",
-                "分类": "电影&剧集",
-                "分类值": "movie&tv",
-                "数组": "tags\">&&</a>",
-                "标题": "alt=\"&&海报",
-                "图片": "src=\"&&\"",
-                "副标题": "标签:&&</label>",
-                "链接": "href=\"&&\"",
-                "影片年代": "年份:&&</a>",
-                "影片地区": "片长:&&</label>",
-                "影片类型": "标签:&&</div>",
-                "状态": "videodetail\">&&</label>",
-                "简介": "cnline\">&&</p>",
-                "线路数组": "videoinfo\">&&</div>",
-                "线路标题": "超强影视",
-                "播放二次截取": "infomain\">&&reidnull[替换:href>>rtlist\"><img<span>第1集</span>src#poster.jpg>>\"</li></ul>]",
-                "播放数组": "rtlist\">&&</ul>",
-                "倒序": "0",
-                "播放列表": "<img&&</li>[替换:screenshot.jpg>>空]",
-                "播放标题": "<span*>&&</span>",
-                "播放链接": "src=\"&&\"",
-                "跳转播放链接": "<source src=\"&&\"",
-                "搜索请求头": "User-Agent$Mozilla/5.0 (iPhone; CPU iPhone OS 15_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0 Mobile/15E148 Safari/604.1",
-                "搜索url": "/s?q={wd}",
-                "搜索模式": "1",
-                "搜索标题": "title=\"&&/",
-                "搜索图片": "src=\"&&\"",
-                "搜索副标题": "标签:&&</label>",
-                "搜索链接": "href=\"&&\""
-            }
-        },
-        {
             "key": "小米",
-            "name": "📺米米┃独家",
+            "name": "📺米米┃1080P",
             "type": 3,
             "searchable": 1,
             "quickSearch": 1,
             "changeable": 1,
-            "jar": "./jars/4K.jar",
+            "jar": "./jars/酷酷.jar",
             "playerType": "2",
             "api": "csp_XBPQ",
             "ext": {
@@ -278,107 +277,24 @@
                 "播放数组": "vod_play_url\"&&\"vod_[替换:\\#>>\",:\"]",
                 "播放列表": ":&&,",
                 "播放标题": "\"&&$",
-                "跳转解析": "nmys$http://pan.qiaoji8.com/tvbox/neibu.php?url=#BBA$http://pan.qiaoji8.com/tvbox/gouzi.php?url=",
+                "跳转解析": "默认$http://pan.qiaoji8.com/tvbox/neibu.php?url=",
                 "播放链接": "解析+$&&\"",
                 "跳转播放链接": "url\"*\"&&\""
             }
         },
         {
-            "key": "小MI",
-            "name": "🥝搜搜┃独家",
+            "key": "有声小说js",
+            "name": "🎧有声┃小说",
             "type": 3,
-            "searchable": 1,
-            "quickSearch": 1,
-            "changeable": 1,
-            "jar": "./jars/4K.jar",
-            "playerType": "2",
-            "api": "csp_XBPQ",
-            "ext": {
-                "请求头": "User-Agent$okhttp/4.1.0",
-                "主页url": "http://124.222.116.5/mb/sxys/api.php/provide/vod/?ac=list&ac=detail",
-                "分类url": "http://124.222.116.5/mb/sxys/api.php/provide/vod/?ac=detail&t={cateId}&pg={catePg};;v",
-                "搜索模式": "1",
-                "搜索url": "http://124.222.116.5/mb/sxys/api.php/provide/vod/?ac=videolist&wd={wd}",
-                "数组二次截取": "",
-                "数组": "{\"v&&}",
-                "图片": "vod_pic\":\"&&\"",
-                "标题": "vod_name\":\"&&\"",
-                "副标题": "vod_remarks\":\"&&\"",
-                "链接": "http://124.222.116.5/mb/sxys/api.php/provide/vod/?ac=detail&ids=+od_id\":&&,",
-                "影片类型": "vod_class\"*\"&&\"",
-                "影片年代": "vod_year\"*\"&&\"",
-                "影片地区": "vod_area\"*\"&&\"",
-                "导演": "vod_director\"*\"&&\"",
-                "主演": "vod_actor\"*\"&&\"",
-                "简介": "vod_remarks\"*\"&&\"+vod_content\"*\"&&\"",
-                "线路二次截取": "",
-                "线路数组": "\"vod_play_from\":&&,",
-                "线路标题": "\"&&\"",
-                "播放二次截取": "",
-                "播放数组": "vod_play_url\"&&\"vod_[替换:\\#>>\",:\"]",
-                "播放列表": ":&&,",
-                "播放标题": "\"&&$",
-                "跳转解析": "默认#http://pan.qiaoji8.com/tvbox/neibu.php?url=#mytv$http://pan.qiaoji8.com/tvbox/neibu.php?url=#BTOL$http://pan.qiaoji8.com/tvbox/gouzi.php?url=#BBA$http://pan.qiaoji8.com/tvbox/gouzi.php?url=#nmys2$http://pan.qiaoji8.com/tvbox/gouzi.php?url=",
-                "播放链接": "解析+$&&\"",
-                "跳转播放链接": "url\"*\"&&\""
-            }
-        },
-        {
-            "key": "酷酷",
-            "name": "🍍腾腾┃4K4K",
-            "type": 3,
-            "searchable": 1,
-            "quickSearch": 1,
-            "changeable": 1,
-            "jar": "./jars/4K.jar",
-            "playerType": "2",
-            "api": "csp_XBPQ",
-            "ext": {
-                "请求头": "User-Agent$okhttp/3.12.11",
-                "分类": "电影&电视剧&综艺&动漫",
-                "分类值": "1&2&3&4",
-                "分类url": "http://122.228.85.203:3366/api.php/app/video?tid={cateId}&class={class}&area={area}&lang={lang}&year={year}&limit=18&pg={catePg}",
-                "数组二次截取": "list\":[&&]",
-                "数组": "{&&}",
-                "图片": "vod_pic\"*\"&&\"",
-                "标题": "vod_name\"*\"&&\"",
-                "副标题": "vod_remarks\"*\"&&\"",
-                "链接": "http://122.228.85.203:3366/api.php/app/video_detail?id=+vod_id\":&&,",
-                "搜索url": "http://122.228.85.203:3366/api.php/app/search?text={wd}&pg=",
-                "搜索模式": "1",
-                "搜索二次截取": "list\":[&&]",
-                "搜索数组": "{&&}",
-                "搜索图片": "vod_pic\"*\"&&\"",
-                "搜索标题": "vod_name\"*\"&&\"",
-                "搜索副标题": "vod_remarks\"*\"&&\"",
-                "搜索链接": "http://122.228.85.203:3366/api.php/app/video_detail?id=+vod_id\":&&,",
-                "影片类型": "vod_class\"*\"&&\"",
-                "导演": "vod_director\"*\"&&\"",
-                "主演": "vod_actor\"*\"&&\"",
-                "简介": "vod_content\"*\"&&\"",
-                "线路数组": "vod_play_from\":&&,",
-                "线路标题": "\"&&\"",
-                "播放数组": "vod_play_url\":&&,[替换:\">>链表题#$>>题链#\\#>>链表表题]",
-                "播放列表": "表&&表",
-                "播放标题": "题&&题",
-                "播放链接": "http://198.44.173.91:1234/c1/json.php?url=+链&&链",
-                "跳转播放链接": "url\": \"&&\"",
-                "过滤词": "51.la#cnzz.com#baidu.com#bilibili.com",
-                "播放请求头": "User-Agent$Mozilla/5.0 (Linux; Android 13) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Mobile Safari/537.36uacq",
-                "免嗅": "1"
-            }
-        },
-        {
-            "key": "csp_YouShengBook",
-            "name": "📖有声┃小说",
-            "type": 3,
-            "playerType": "2",
-            "api": "csp_YouShengBook",
-            "searchable": 0,
+            "api": "./api/drpy2.min.js",
+            "ext": "./js/有声小说吧.js",
             "style": {
                 "type": "rect",
-                "ratio": 1.333
-            }
+                "ratio": 1
+            },
+            "searchable": 0,
+            "quickSearch": 0,
+            "changeable": 0
         },
         {
             "key": "csp_FirstAid",
@@ -394,6 +310,50 @@
             "gridview": "0-0-4.1"
         },
         {
+            "key": "dr_兔小贝",
+            "name": "📚儿童┃启蒙",
+            "type": 3,
+            "api": "./api/drpy2.min.js",
+            "ext": "./js/兔小贝.js",
+            "style": {
+                "type": "rect",
+                "ratio": 1.597
+            },
+            "searchable": 0,
+            "quickSearch": 0,
+            "changeable": 0
+        },
+        {
+            "key": "虎牙直播js",
+            "name": "🐯虎牙┃直播",
+            "type": 3,
+            "api": "./api/drpy2.min.js",
+            "ext": "./js/huya2.js",
+            "style": {
+                "type": "rect",
+                "ratio": 1.755
+            },
+            "playerType": "1",
+            "searchable": 0,
+            "quickSearch": 0,
+            "changeable": 0
+        },
+        {
+            "key": "斗鱼js",
+            "name": "🐟斗鱼┃直播",
+            "type": 3,
+            "api": "./api/drpy2.min.js",
+            "ext": "./js/斗鱼直播.js",
+            "style": {
+                "type": "rect",
+                "ratio": 1.755
+            },
+            "playerType": "1",
+            "searchable": 0,
+            "quickSearch": 0,
+            "changeable": 0
+        },
+        {
             "key": "Jrsjs",
             "name": "🏀JRS┃球迷",
             "type": 3,
@@ -405,13 +365,6 @@
             "searchable": 0,
             "quickSearch": 0,
             "changeable": 0
-        },
-        {
-            "key": "米搜",
-            "name": "🌾米搜┃自营",
-            "type": 3,
-            "api": "csp_MiSou",
-            "ext": "./txt/kk.txt"
         },
         {
             "key": "push_agent",
@@ -435,67 +388,38 @@
             "url": "Web"
         },
         {
-            "name": "小米无敌",
-            "type": 1,
-            "url": "https://cdn.suxun.site/api/?key=7QeqS18ZCrJgj0BSOn&url=",
-            "ext": {
-                "flag": [
-                    "qq",
-                    "腾讯",
-                    "qiyi",
-                    "爱奇艺",
-                    "奇艺",
-                    "youku",
-                    "优酷",
-                    "sohu",
-                    "搜狐",
-                    "letv",
-                    "乐视",
-                    "mgtv",
-                    "芒果",
-                    "tnmb",
-                    "seven",
-                    "bilibili",
-                    "1905"
-                ],
-                "header": {
-                    "User-Agent": "okhttp/4.9.1"
-                }
-            }
-        },
-        {
-            "name": "小米无敌2",
-            "type": 1,
-            "url": "http://117.50.183.202:8036/?ip=111.55.12.236&url=",
-            "ext": {
-                "flag": [
-                    "qq",
-                    "腾讯",
-                    "qiyi",
-                    "爱奇艺",
-                    "奇艺",
-                    "youku",
-                    "优酷",
-                    "sohu",
-                    "搜狐",
-                    "letv",
-                    "乐视",
-                    "mgtv",
-                    "芒果",
-                    "tnmb",
-                    "seven",
-                    "bilibili",
-                    "1905"
-                ],
-                "header": {
-                    "User-Agent": "okhttp/4.9.1"
-                }
-            }
-        },
-        {
-            "name": "腾4K",
+            "name": "4K解析",
             "type": 1,
             "url": "http://www.mpanso.com/woaini.php?url=",
+            "ext": {
+                "flag": [
+                    "qq",
+                    "腾讯",
+                    "qiyi",
+                    "爱奇艺",
+                    "奇艺",
+                    "youku",
+                    "优酷",
+                    "sohu",
+                    "搜狐",
+                    "letv",
+                    "乐视",
+                    "mgtv",
+                    "芒果",
+                    "tnmb",
+                    "seven",
+                    "bilibili",
+                    "1905"
+                ],
+                "header": {
+                    "User-Agent": "okhttp/4.9.1"
+                }
+            }
+        },
+        {
+            "name": "1080解析",
+            "type": 1,
+            "url": "https://cdn.suxun.site/api/?key=7QeqS18ZCrJgj0BSOn&url=",
             "ext": {
                 "flag": [
                     "qq",

@@ -145,7 +145,7 @@
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 1,
-            "ext": "https://www.domp4.cc"
+            "ext": "https://www.padmp4.com"
         },
         {
             "key": "csp_New6v",
@@ -393,6 +393,26 @@
             "quickSearch": 0,
             "filterable": 1,
             "ext": "./json/Bili短剧.json"
+        },
+        {
+            "key": "csp_XYQHiker_爱你短剧",
+            "name": "爱你短剧",
+            "type": 3,
+            "api": "csp_XYQHiker",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "ext": "./json/爱你短剧.json"
+        },
+        {
+            "key": "csp_XYQHiker_河马短剧",
+            "name": "河马短剧",
+            "type": 3,
+            "api": "csp_XYQHiker",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "ext": "./json/河马短剧.json"
         },
         {
             "key": "csp_XYQHiker_农民影视",

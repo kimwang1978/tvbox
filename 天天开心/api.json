@@ -12,6 +12,12 @@
             "epg": "http://diyp2.112114.xyz/?ch={name}&date={date}"
         },
         {
+            "name": "Live(EXO)",
+            "type": 0,
+            "url": "./lives/Live(EXO).txt",
+            "epg": "https://epg.112114.eu.org/?ch={name}&date={date}"
+        },
+        {
             "name": "猫TV线路",
             "type": 0,
             "url": "./lives/猫TV线路.txt",
@@ -105,12 +111,6 @@
             "name": "⑤天微线路",
             "type": 0,
             "url": "./lives/⑤天微线路.txt",
-            "epg": "https://epg.112114.eu.org/?ch={name}&date={date}"
-        },
-        {
-            "name": "⑥蓝影兔源",
-            "type": 0,
-            "url": "./lives/⑥蓝影兔源.txt",
             "epg": "https://epg.112114.eu.org/?ch={name}&date={date}"
         },
         {
@@ -361,64 +361,11 @@
             "changeable": 1
         },
         {
-            "key": "Lib",
-            "name": "🎦立播┃秒播",
-            "type": 3,
-            "api": "csp_Libvio",
-            "searchable": 1,
-            "quickSearch": 1,
-            "changeable": 1,
-            "ext": {
-                "Cloud-drive": "tvfan/Cloud-drive.txt",
-                "from": "4k|auto"
-            }
-        },
-        {
             "key": "文采",
             "name": "🎦文采┃秒播",
             "type": 3,
             "api": "csp_Jpys",
             "playerType": 2,
-            "searchable": 1,
-            "quickSearch": 1,
-            "changeable": 1
-        },
-        {
-            "key": "煤球",
-            "name": "🎦煤球┃多线",
-            "type": 3,
-            "api": "csp_Appmq",
-            "searchable": 1,
-            "quickSearch": 1,
-            "changeable": 1
-        },
-        {
-            "key": "专线",
-            "name": "🎦专线┃秒播",
-            "type": 3,
-            "api": "csp_Zx4k",
-            "timeout": 15,
-            "playerType": 2,
-            "searchable": 1,
-            "quickSearch": 1,
-            "changeable": 1
-        },
-        {
-            "key": "小点",
-            "name": "🎦小点┃多线",
-            "type": 3,
-            "api": "csp_Appxdys",
-            "searchable": 1,
-            "quickSearch": 1,
-            "changeable": 0
-        },
-        {
-            "key": "原创",
-            "name": "🎦原创┃不卡",
-            "type": 3,
-            "api": "csp_YCyz",
-            "timeout": 15,
-            "playerType": 1,
             "searchable": 1,
             "quickSearch": 1,
             "changeable": 1
@@ -433,6 +380,38 @@
             "changeable": 1
         },
         {
+            "key": "小点",
+            "name": "🎦小点┃多线",
+            "type": 3,
+            "api": "csp_Appxd",
+            "searchable": 1,
+            "quickSearch": 1,
+            "changeable": 0,
+            "ext": "FbjEd1ddiJ6bwA0Z8ijG89k6OstPBosSHy5L8uXWgRZGSNrCqC7DmxucvvflR3fsMy/Wnih3xSpmA3pwCNspfAcIH4fYhmOEdGxX3jEdjqUpC+m0fSxkNAbkIy0diJWirn+WOtBkBcYhsgA8u1igBBUadbO0s0MCPsYcbHFRNw=="
+        },
+        {
+            "key": "煤球",
+            "name": "🎦煤球┃多线",
+            "type": 3,
+            "api": "csp_Appmq",
+            "searchable": 1,
+            "quickSearch": 1,
+            "changeable": 1
+        },
+        {
+            "key": "Lib",
+            "name": "🎦立播┃秒播",
+            "type": 3,
+            "api": "csp_Libvio",
+            "searchable": 1,
+            "quickSearch": 1,
+            "changeable": 1,
+            "ext": {
+                "Cloud-drive": "tvfan/Cloud-drive.txt",
+                "from": "4k|auto"
+            }
+        },
+        {
             "key": "厂长",
             "name": "🎦厂长┃不卡",
             "type": 3,
@@ -443,6 +422,17 @@
             "quickSearch": 1,
             "changeable": 1,
             "ext": "https://www.czys.pro/"
+        },
+        {
+            "key": "原创",
+            "name": "🎦原创┃不卡",
+            "type": 3,
+            "api": "csp_YCyz",
+            "timeout": 15,
+            "playerType": 1,
+            "searchable": 1,
+            "quickSearch": 1,
+            "changeable": 1
         },
         {
             "key": "zxzj",
@@ -531,6 +521,15 @@
             "ext": "https://auete.pro/"
         },
         {
+            "key": "短剧",
+            "name": "🎦上头┃短剧",
+            "type": 3,
+            "api": "csp_Djtt",
+            "searchable": 1,
+            "quickSearch": 1,
+            "changeable": 1
+        },
+        {
             "key": "csp_JianPian",
             "name": "🎦荐片",
             "type": 3,
@@ -603,11 +602,46 @@
             "ext": "./json/采集静态.json"
         },
         {
-            "key": "ainidj",
-            "name": "🎦爱你短剧",
+            "key": "hipy_js_哔哩影视[官]",
+            "name": "🎦哔哩影视[官](drpy_t3)",
             "type": 3,
             "api": "./api/drpy2.min.js",
-            "ext": "./js/爱你短剧.js"
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "order_num": 73,
+            "ext": "./js/哔哩影视[官].js"
+        },
+        {
+            "key": "hipy_js_4k剧院",
+            "name": "🎦4k剧院(drpy_t3)",
+            "type": 3,
+            "api": "./api/drpy2.min.js",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "order_num": 6,
+            "ext": "./js/4k剧院.js"
+        },
+        {
+            "key": "csp_XYQHiker_爱你短剧",
+            "name": "🎦爱你短剧",
+            "type": 3,
+            "api": "csp_XYQHiker",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "ext": "./json/爱你短剧.json"
+        },
+        {
+            "key": "csp_XYQHiker_河马短剧",
+            "name": "🎦河马短剧",
+            "type": 3,
+            "api": "csp_XYQHiker",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "ext": "./json/河马短剧.json"
         },
         {
             "key": "360zy",

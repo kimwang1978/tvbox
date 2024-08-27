@@ -1,11 +1,11 @@
 #EXTM3U x-tvg-url="https://epg.iill.top/epg"
-#EXTINF:-1 tvg-name="免费订阅" tvg-logo="https://epg.iill.top/logo/温馨提示.png" group-title="•温馨提示",维护时间：2024-07-24 #佛系维护...
+#EXTINF:-1 tvg-name="免费订阅" tvg-logo="https://epg.iill.top/logo/温馨提示.png" group-title="•温馨提示",维护时间：2024-08-23 #佛系维护...
 https://github.com/YanG-1989
-#EXTINF:-1 tvg-name="免费订阅" tvg-logo="https://epg.iill.top/logo/温馨提示.png" group-title="•温馨提示",维护内容：维护 Gather「修复失效 IPV6 源」
+#EXTINF:-1 tvg-name="免费订阅" tvg-logo="https://epg.iill.top/logo/温馨提示.png" group-title="•温馨提示",维护内容：维护 Gather「新增 凤凰三台·HD / 修复 YouTube 代理」
 https://github.com/YanG-1989
-#EXTINF:-1 tvg-name="免费订阅" tvg-logo="https://epg.iill.top/logo/温馨提示.png" group-title="•温馨提示",特别公告：请使用正确的播放器...
+#EXTINF:-1 tvg-name="免费订阅" tvg-logo="https://epg.iill.top/logo/温馨提示.png" group-title="•温馨提示",公告说明：请使用正确的播放器...
 https://github.com/YanG-1989
-#EXTINF:-1 tvg-name="免费订阅" tvg-logo="https://epg.iill.top/logo/温馨提示.png" group-title="•温馨提示",特殊分组：恢复·IP限制-建议固定节点.
+#EXTINF:-1 tvg-name="免费订阅" tvg-logo="https://epg.iill.top/logo/温馨提示.png" group-title="•温馨提示",限制条件：UA·IP 限制-建议固定节点.
 https://github.com/YanG-1989
 #EXTINF:-1 tvg-name="LOVE NATURE 4K" tvg-logo="https://epg.iill.top/logo/LoveNature4K.png" group-title="•4K「IPV4」",Love Nature 4K「自然」
 https://d18dyiwu97wm6q.cloudfront.net/playlist2160p.m3u8
@@ -512,40 +512,64 @@ http://gslbserv.itv.cmvideo.cn:80/3000000020000011530/index.m3u8?channel-id=Fifa
 #EXTINF:-1 tvg-logo="https://epg.iill.top/logo/咪咕.png" group-title="•咪咕「移动」",咪咕直播 𝟜𝟝「移动」
 http://gslbserv.itv.cmvideo.cn:80/3000000020000011531/index.m3u8?channel-id=FifastbLive&Contentid=3000000020000011531&livemode=1&stbId=3
 #INSERT_HERE
-#EXTINF:-1 tvg-logo="https://epg.iill.top/logo/咪咕.png" group-title="•咪咕「体育」", 「意甲」00:20 联赛 博洛尼亚vs乌迪内斯 解说
+#EXTINF:-1 tvg-logo="https://epg.iill.top/logo/咪咕.png" group-title="•咪咕「体育」", 「CBA」15:20 夏季联赛 江苏肯帝亚vs天津先行者 解说
 https://tv.iill.top/Migu/1
-#EXTINF:-1 tvg-logo="https://epg.iill.top/logo/咪咕.png" group-title="•咪咕「体育」", 「意甲」00:20 联赛 维罗纳vs那不勒斯 解说
+#EXTINF:-1 tvg-logo="https://epg.iill.top/logo/咪咕.png" group-title="•咪咕「体育」", 「CBA」15:20 清流播出
 https://tv.iill.top/Migu/2
-#EXTINF:-1 tvg-logo="https://epg.iill.top/logo/咪咕.png" group-title="•咪咕「体育」", 「西甲」00:50 联赛 皇家社会vs巴列卡诺 解说
+#EXTINF:-1 tvg-logo="https://epg.iill.top/logo/咪咕.png" group-title="•咪咕「体育」", 「CBA」17:50 夏季联赛 新疆伊力特vs浙江稠州金租 解说
 https://tv.iill.top/Migu/3
-#EXTINF:-1 tvg-logo="https://epg.iill.top/logo/咪咕.png" group-title="•咪咕「体育」", 「意甲」02:35 联赛 卡利亚里vs罗马 解说
+#EXTINF:-1 tvg-logo="https://epg.iill.top/logo/咪咕.png" group-title="•咪咕「体育」", 「CBA」17:50 清流播出
 https://tv.iill.top/Migu/4
-#EXTINF:-1 tvg-logo="https://epg.iill.top/logo/咪咕.png" group-title="•咪咕「体育」", 「意甲」02:35 联赛 拉齐奥vs威尼斯 解说
+#EXTINF:-1 tvg-logo="https://epg.iill.top/logo/咪咕.png" group-title="•咪咕「体育」", 「网球」20:00 早安美网第1期
 https://tv.iill.top/Migu/5
-#EXTINF:-1 tvg-logo="https://epg.iill.top/logo/咪咕.png" group-title="•咪咕「体育」", 「法甲」02:35 联赛 雷恩vs里昂 解说
+#EXTINF:-1 tvg-logo="https://epg.iill.top/logo/咪咕.png" group-title="•咪咕「体育」", 「CBA」20:20 夏季联赛 南京头排苏酒vs深圳马可波罗 解说
 https://tv.iill.top/Migu/6
-#EXTINF:-1 tvg-logo="https://epg.iill.top/logo/咪咕.png" group-title="•咪咕「体育」", 「西甲」03:15 联赛 马略卡vs皇家马德里 解说
+#EXTINF:-1 tvg-logo="https://epg.iill.top/logo/咪咕.png" group-title="•咪咕「体育」", 「CBA」20:20 清流播出
 https://tv.iill.top/Migu/7
-#EXTINF:-1 tvg-logo="https://epg.iill.top/logo/咪咕.png" group-title="•咪咕「体育」", 「NBL」19:20 江苏汤沟国藏vs广西威壮 现场解说
+#EXTINF:-1 tvg-logo="https://epg.iill.top/logo/咪咕.png" group-title="•咪咕「体育」", 「网球」22:50 美网单打首轮：世界第一斯瓦泰克辛纳接场出战 阿瑟阿什球场解说
 https://tv.iill.top/Migu/8
-#EXTINF:-1 tvg-logo="https://epg.iill.top/logo/咪咕.png" group-title="•咪咕「体育」", 「NBL」19:20 江苏汤沟国藏vs广西威壮 原声
+#EXTINF:-1 tvg-logo="https://epg.iill.top/logo/咪咕.png" group-title="•咪咕「体育」", 「网球」22:50 美网单打首轮：世界第一斯瓦泰克辛纳接场出战 阿瑟阿什球场解说
 https://tv.iill.top/Migu/9
-#EXTINF:-1 tvg-logo="https://epg.iill.top/logo/咪咕.png" group-title="•咪咕「体育」", 「NBL」19:20 长沙湾田勇胜vs江西赣驰 现场解说
+#EXTINF:-1 tvg-logo="https://epg.iill.top/logo/咪咕.png" group-title="•咪咕「体育」", 「网球」22:50 阿瑟阿什球场
 https://tv.iill.top/Migu/10
-#EXTINF:-1 tvg-logo="https://epg.iill.top/logo/咪咕.png" group-title="•咪咕「体育」", 「NBL」19:20 长沙湾田勇胜vs江西赣驰 原声
+#EXTINF:-1 tvg-logo="https://epg.iill.top/logo/咪咕.png" group-title="•咪咕「体育」", 「网球」22:50 路易斯阿姆斯特朗球场
 https://tv.iill.top/Migu/11
-#EXTINF:-1 tvg-logo="https://epg.iill.top/logo/咪咕.png" group-title="•咪咕「体育」", 「NBL」19:20 武汉锟鹏vs香港金牛 现场解说
+#EXTINF:-1 tvg-logo="https://epg.iill.top/logo/咪咕.png" group-title="•咪咕「体育」", 「网球」22:50 大看台球场
 https://tv.iill.top/Migu/12
-#EXTINF:-1 tvg-logo="https://epg.iill.top/logo/咪咕.png" group-title="•咪咕「体育」", 「NBL」19:20 武汉锟鹏vs香港金牛 原声
+#EXTINF:-1 tvg-logo="https://epg.iill.top/logo/咪咕.png" group-title="•咪咕「体育」", 「网球」22:50 4号球场
 https://tv.iill.top/Migu/13
-#EXTINF:-1 tvg-logo="https://epg.iill.top/logo/咪咕.png" group-title="•咪咕「体育」", 「NBL」19:20 合肥狂风峻茂vs河南赊店老酒 现场解说
+#EXTINF:-1 tvg-logo="https://epg.iill.top/logo/咪咕.png" group-title="•咪咕「体育」", 「网球」22:50 5号球场
 https://tv.iill.top/Migu/14
-#EXTINF:-1 tvg-logo="https://epg.iill.top/logo/咪咕.png" group-title="•咪咕「体育」", 「NBL」19:20 合肥狂风峻茂vs河南赊店老酒 原声
+#EXTINF:-1 tvg-logo="https://epg.iill.top/logo/咪咕.png" group-title="•咪咕「体育」", 「网球」22:50 6号球场
 https://tv.iill.top/Migu/15
-#EXTINF:-1 tvg-logo="https://epg.iill.top/logo/咪咕.png" group-title="•咪咕「体育」", 「NBL」19:20 安徽文一vs石家庄翔蓝 现场解说
+#EXTINF:-1 tvg-logo="https://epg.iill.top/logo/咪咕.png" group-title="•咪咕「体育」", 「网球」22:50 7号球场
 https://tv.iill.top/Migu/16
-#EXTINF:-1 tvg-logo="https://epg.iill.top/logo/咪咕.png" group-title="•咪咕「体育」", 「NBL」19:20 安徽文一vs石家庄翔蓝 原声
+#EXTINF:-1 tvg-logo="https://epg.iill.top/logo/咪咕.png" group-title="•咪咕「体育」", 「网球」22:50 8号球场
 https://tv.iill.top/Migu/17
+#EXTINF:-1 tvg-logo="https://epg.iill.top/logo/咪咕.png" group-title="•咪咕「体育」", 「网球」22:50 10号球场
+https://tv.iill.top/Migu/18
+#EXTINF:-1 tvg-logo="https://epg.iill.top/logo/咪咕.png" group-title="•咪咕「体育」", 「网球」22:50 11号球场
+https://tv.iill.top/Migu/19
+#EXTINF:-1 tvg-logo="https://epg.iill.top/logo/咪咕.png" group-title="•咪咕「体育」", 「网球」22:50 12号球场
+https://tv.iill.top/Migu/20
+#EXTINF:-1 tvg-logo="https://epg.iill.top/logo/咪咕.png" group-title="•咪咕「体育」", 「网球」22:50 13号球场
+https://tv.iill.top/Migu/21
+#EXTINF:-1 tvg-logo="https://epg.iill.top/logo/咪咕.png" group-title="•咪咕「体育」", 「网球」22:50 14号球场
+https://tv.iill.top/Migu/22
+#EXTINF:-1 tvg-logo="https://epg.iill.top/logo/咪咕.png" group-title="•咪咕「体育」", 「网球」22:50 15号球场
+https://tv.iill.top/Migu/23
+#EXTINF:-1 tvg-logo="https://epg.iill.top/logo/咪咕.png" group-title="•咪咕「体育」", 「网球」22:50 16号球场
+https://tv.iill.top/Migu/24
+#EXTINF:-1 tvg-logo="https://epg.iill.top/logo/咪咕.png" group-title="•咪咕「体育」", 「网球」22:50 17号球场
+https://tv.iill.top/Migu/25
+#EXTINF:-1 tvg-logo="https://epg.iill.top/logo/咪咕.png" group-title="•咪咕「体育」", 「网球」22:50 美网单打首轮：张帅、张之臻、王欣瑜出战 5号球场解说
+https://tv.iill.top/Migu/26
+#EXTINF:-1 tvg-logo="https://epg.iill.top/logo/咪咕.png" group-title="•咪咕「体育」", 「网球」22:50 美网单打首轮：张帅、张之臻、王欣瑜出战 8号球场解说
+https://tv.iill.top/Migu/27
+#EXTINF:-1 tvg-logo="https://epg.iill.top/logo/咪咕.png" group-title="•咪咕「体育」", 「网球」22:50 美网单打首轮：张帅、张之臻、王欣瑜出战 11号球场解说
+https://tv.iill.top/Migu/28
+#EXTINF:-1 tvg-logo="https://epg.iill.top/logo/咪咕.png" group-title="•咪咕「体育」", 「网球」22:50 美网单打首轮：张帅、张之臻、王欣瑜出战 12号球场解说
+https://tv.iill.top/Migu/29
 #EXTINF:-1 tvg-id="CCTV-1" tvg-name="CCTV1" tvg-logo="https://epg.iill.top/logo/CCTV1.png" group-title="•咪咕「TV」",CCTV 1 综合
 https://tv.iill.top/migu/cctv1
 #EXTINF:-1 tvg-id="CCTV-2" tvg-name="CCTV2" tvg-logo="https://epg.iill.top/logo/CCTV2.png" group-title="•咪咕「TV」",CCTV 2 财经
@@ -936,6 +960,12 @@ https://tv.iill.top/tv/dfws
 https://tv.iill.top/tv/bjws
 #EXTINF:-1 tvg-name="湖北卫视" tvg-logo="https://epg.iill.top/logo/湖北卫视.png" group-title="•央视「境外」",湖北卫视
 https://tv.iill.top/tv/hbws
+#EXTINF:-1 tvg-name="鳳凰中文" tvg-logo="https://epg.iill.top/logo/凤凰中文.png" group-title="•港澳台「壹」",鳳凰衛視·中文「限UA」
+https://tv.iill.top/phenix/fhzw
+#EXTINF:-1 tvg-name="鳳凰資訊" tvg-logo="https://epg.iill.top/logo/凤凰资讯.png" group-title="•港澳台「壹」",鳳凰衛視·資訊「限UA」
+https://tv.iill.top/phenix/fhzx
+#EXTINF:-1 tvg-name="鳳凰香港" tvg-logo="https://epg.iill.top/logo/凤凰香港.png" group-title="•港澳台「壹」",鳳凰衛視·香港「限UA」
+https://tv.iill.top/phenix/fhhk
 #EXTINF:-1 tvg-id="TVB Xing He (HD)" tvg-name="星河台" tvg-logo="https://epg.iill.top/logo/星河台.png" group-title="•港澳台「壹」",星河台
 http://v2h.jdshipin.com/xinghe/xinghe.stream/chunklist.m3u8
 #EXTINF:-1 tvg-name="TVB Plus" tvg-logo="https://epg.iill.top/logo/TVBPlus.png" group-title="•港澳台「壹」",TVB Plus
@@ -967,7 +997,7 @@ https://tv.iill.top/tv/fhzw
 #EXTINF:-1 tvg-name="鳳凰資訊" tvg-logo="https://epg.iill.top/logo/凤凰资讯.png" group-title="•港台马「壹」",鳳凰衛視·資訊
 https://tv.iill.top/tv/fhzx
 #EXTINF:-1 tvg-name="鳳凰香港" tvg-logo="https://epg.iill.top/logo/凤凰香港.png" group-title="•港台马「壹」",鳳凰衛視·香港
-https://tv.iill.top/tv/fhxg
+https://tv.iill.top/tv/fhhk
 #EXTINF:-1 tvg-id="无线新闻" tvg-name="無綫新聞台" tvg-logo="https://epg.iill.top/logo/无线新闻.png" group-title="•港台马「壹」",無綫新聞台
 https://tv.iill.top/tv/wxxw
 #EXTINF:-1 tvg-name="翡翠台" tvg-logo="https://epg.iill.top/logo/翡翠台.png" group-title="•港台马「壹」",翡翠台
@@ -1448,10 +1478,10 @@ https://tv.iill.top/litv/litv-ftv16
 https://tv.iill.top/litv/litv-ftv17
 #EXTINF:-1 tvg-id="東森購物" tvg-name="東森購物一台" tvg-logo="https://assets.livednow.com/logo/東森購物.png" group-title="•台湾「专辑」", 東森購物一台
 https://tv.iill.top/4gtv/173
-#EXTINF:-1 tvg-id="東森購物" tvg-name="東森購物三台" tvg-logo="https://assets.livednow.com/logo/東森購物.png" group-title="•台湾「专辑」", 東森購物三台
-https://tv.iill.top/4gtv/287
 #EXTINF:-1 tvg-id="東森購物" tvg-name="東森購物二台" tvg-logo="https://assets.livednow.com/logo/東森購物.png" group-title="•台湾「专辑」", 東森購物二台
 https://tv.iill.top/4gtv/174
+#EXTINF:-1 tvg-id="東森購物" tvg-name="東森購物三台" tvg-logo="https://assets.livednow.com/logo/東森購物.png" group-title="•台湾「专辑」", 東森購物三台
+https://tv.iill.top/4gtv/287
 #EXTINF:-1 tvg-id="東森購物" tvg-name="東森購物四台" tvg-logo="https://assets.livednow.com/logo/東森購物.png" group-title="•台湾「专辑」", 東森購物四台
 https://tv.iill.top/4gtv/286
 #EXTINF:-1 tvg-id="1905极限反转" tvg-name="1905极限反转" tvg-logo="https://epg.iill.top/logo/1905.png" group-title="•特色「混搭」",1905 极限反转

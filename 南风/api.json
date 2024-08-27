@@ -14,6 +14,17 @@
             "filterable": 1
         },
         {
+            "key": "ConfigCenter",
+            "name": "🅿网盘配置中心",
+            "type": 3,
+            "api": "csp_ConfigCenter",
+            "searchable": 0,
+            "changeable": 0,
+            "ext": {
+                "commonConfig": "http://127.0.0.1:9978/file/TVBox/peizhi.json"
+            }
+        },
+        {
             "key": "csp_NewCz",
             "name": "🏭厂长",
             "type": 3,
@@ -31,16 +42,6 @@
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 1
-        },
-        {
-            "key": "csp_Ikanbot",
-            "name": "❤️Ikanbot",
-            "type": 3,
-            "api": "csp_Ikanbot",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1,
-            "ext": "https://v.aikanbot.com"
         },
         {
             "key": "csp_Kkys",
@@ -156,16 +157,6 @@
             "filterable": 1
         },
         {
-            "key": "csp_Appmq",
-            "name": "🍓煤球",
-            "type": 3,
-            "api": "csp_Appmq",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1,
-            "changeable": 1
-        },
-        {
             "key": "csp_DiDuan",
             "name": "📺低端",
             "type": 3,
@@ -173,17 +164,6 @@
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 0
-        },
-        {
-            "key": "热播",
-            "name": "🚀热播",
-            "type": 3,
-            "api": "csp_AppTT",
-            "playerType": 2,
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1,
-            "ext": "AO7TcBkd8I/B5wQc4Qma+pU="
         },
         {
             "key": "萌米",
@@ -194,7 +174,7 @@
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 1,
-            "ext": "AO7TcBkd8Jqf5UgA7xXA6dVlLcc="
+            "ext": "AO7TcBkd8Iifux0Y8Qze6tVlMg=="
         },
         {
             "key": "csp_NanGua",
@@ -207,15 +187,6 @@
             "changeable": 1
         },
         {
-            "key": "csp_Bttwoo",
-            "name": "✌比特",
-            "type": 3,
-            "api": "csp_Bttwoo",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1
-        },
-        {
             "key": "csp_Kekys",
             "name": "👻可可",
             "type": 3,
@@ -224,16 +195,6 @@
             "searchable": 1,
             "quickSearch": 1,
             "changeable": 1
-        },
-        {
-            "key": "csp_Lib",
-            "name": "🔷LibVio",
-            "type": 3,
-            "api": "csp_Libvio",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1,
-            "ext": "https://www.libvio.cc/"
         },
         {
             "key": "csp_Kuaikan",
@@ -265,15 +226,14 @@
             "ext": "https://auete.pro/"
         },
         {
-            "key": "csp_Zx4k",
-            "name": "🚝专线",
+            "key": "csp_Jianpian",
+            "name": "🧲荐片",
             "type": 3,
-            "api": "csp_Zx4k",
-            "playerType": 2,
+            "api": "csp_Jianpian",
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 1,
-            "changeable": 1
+            "ext": "http://112.124.0.131:20000"
         },
         {
             "key": "农民",
@@ -336,61 +296,6 @@
             }
         },
         {
-            "key": "csp_Jianpian",
-            "name": "🧲荐片",
-            "type": 3,
-            "api": "csp_Jianpian",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1,
-            "ext": "http://112.124.0.131:20000"
-        },
-        {
-            "key": "csp_Mp4Mov",
-            "name": "🧲Mp4电影",
-            "type": 3,
-            "api": "csp_Mp4Mov",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1
-        },
-        {
-            "key": "csp_KubaCL",
-            "name": "🧲酷吧电影",
-            "type": 3,
-            "api": "csp_KubaCL",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1
-        },
-        {
-            "key": "csp_MeijuMi",
-            "name": "🧲美剧迷",
-            "type": 3,
-            "api": "csp_MeijuMi",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1
-        },
-        {
-            "key": "csp_Xunlei8",
-            "name": "🧲迅雷吧",
-            "type": 3,
-            "api": "csp_Xunlei8",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1
-        },
-        {
-            "key": "csp_MeijuTT",
-            "name": "🧲美剧天堂",
-            "type": 3,
-            "api": "csp_MeijuTT",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1
-        },
-        {
             "key": "csp_SixV",
             "name": "🧲新6V",
             "type": 3,
@@ -399,16 +304,6 @@
             "quickSearch": 1,
             "filterable": 0,
             "ext": "https://www.xb6v.com/"
-        },
-        {
-            "key": "csp_XYQHikerAL_4KHDR",
-            "name": "🧲4KHDR",
-            "type": 3,
-            "api": "csp_XYQHikerAL",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1,
-            "ext": "./json/4KHDR.json"
         },
         {
             "key": "csp_SP360",
@@ -458,6 +353,21 @@
             "changeable": 1
         },
         {
+            "key": "csp_Kugou",
+            "name": "🐶酷狗",
+            "type": 3,
+            "api": "csp_Kugou",
+            "playerType": 2,
+            "ext": {
+                "classes": [
+                    {
+                        "type_name": "酷狗",
+                        "type_id": "kugou"
+                    }
+                ]
+            }
+        },
+        {
             "key": "csp_Yj1211",
             "name": "📽️JustLive",
             "type": 3,
@@ -477,117 +387,142 @@
             "changeable": 0
         },
         {
-            "key": "csp_WoGG",
+            "key": "玩偶gg",
             "name": "👽玩偶哥哥",
             "type": 3,
-            "api": "csp_WoGG",
+            "api": "csp_Wogg",
             "searchable": 1,
-            "quickSearch": 1,
             "changeable": 0,
             "ext": {
-                "Cloud-drive": "http://127.0.0.1:9978/file/TVBox/Cloud-drive.txt",
-                "from": "4k|auto",
+                "commonConfig": "http://127.0.0.1:9978/file/TVBox/peizhi.json",
                 "siteUrl": "https://www.wogg.net/",
-                "danMu": "弹"
+                "filter": "http://127.0.0.1:9978/file/TVBox/wogg.json"
             }
         },
         {
-            "key": "csp_Yisou",
-            "name": "🆎XYQ易搜",
+            "key": "蜡笔",
+            "name": "🖍︎蜡笔",
             "type": 3,
-            "api": "csp_Yisou",
+            "api": "csp_kongbai",
             "searchable": 1,
-            "quickSearch": 1,
             "changeable": 0,
-            "ext": "./txt/token.txt"
+            "ext": {
+                "commonConfig": "http://127.0.0.1:9978/file/TVBox/peizhi.json",
+                "siteUrl": "https://duopan.fun",
+                "filter": "https://ghproxy.net/https://raw.githubusercontent.com/yoursmile66/TVBox/main/sub/wogg.json"
+            }
         },
         {
-            "key": "csp_Gitcafe",
-            "name": "📜小纸条",
+            "key": "星剧社",
+            "name": "⭐️星剧社",
             "type": 3,
-            "api": "csp_Gitcafe",
+            "api": "csp_Star",
             "searchable": 1,
-            "quickSearch": 1,
-            "changeable": 0,
-            "ext": "./txt/token.txt"
+            "filterable": 0,
+            "switchable": 0,
+            "ext": {
+                "commonConfig": "http://127.0.0.1:9978/file/TVBox/peizhi.json"
+            }
         },
         {
-            "key": "csp_YiSo",
+            "key": "易搜",
             "name": "🆎易搜",
             "type": 3,
             "api": "csp_YiSo",
             "searchable": 1,
-            "quickSearch": 1,
-            "changeable": 0,
+            "filterable": 0,
+            "switchable": 0,
             "ext": {
-                "Cloud-drive": "http://127.0.0.1:9978/file/TVBox/Cloud-drive.txt",
-                "from": "4k|auto"
-            }
-        },
-        {
-            "key": "csp_PanSou",
-            "name": "📀盘搜",
-            "type": 3,
-            "api": "csp_PanSou",
-            "searchable": 1,
-            "quickSearch": 1,
-            "changeable": 0,
-            "ext": {
-                "Cloud-drive": "http://127.0.0.1:9978/file/TVBox/Cloud-drive.txt",
-                "from": "4k|auto"
+                "commonConfig": "http://127.0.0.1:9978/file/TVBox/peizhi.json"
             }
         },
         {
             "key": "csp_PanSearch",
-            "name": "🙀盘搜索",
+            "name": "📀盘搜索",
             "type": 3,
             "api": "csp_PanSearch",
             "searchable": 1,
-            "quickSearch": 1,
             "changeable": 0,
             "ext": {
-                "Cloud-drive": "http://127.0.0.1:9978/file/TVBox/Cloud-drive.txt",
-                "from": "4k|auto"
+                "commonConfig": "http://127.0.0.1:9978/file/TVBox/peizhi.json"
             }
         },
         {
-            "key": "csp_PanTa",
-            "name": "🍄盘他",
+            "key": "网盘集合",
+            "name": "🅿网盘集合|4K",
             "type": 3,
-            "api": "csp_PanTa",
+            "api": "csp_网盘集合",
             "searchable": 1,
-            "quickSearch": 1,
-            "changeable": 0,
+            "filterable": 0,
+            "switchable": 0,
             "ext": {
-                "Cloud-drive": "http://127.0.0.1:9978/file/TVBox/Cloud-drive.txt",
-                "from": "4k|auto"
+                "commonConfig": "http://127.0.0.1:9978/file/TVBox/peizhi.json",
+                "share": "https://ghproxy.net/https://raw.githubusercontent.com/yoursmile66/TVBox/main/sub/网盘集合.json"
             }
         },
         {
-            "key": "csp_MIPanSo",
-            "name": "🦋米搜",
+            "key": "TgYunPanLocal1",
+            "name": "🅿TgYunPanLocal（墙外）",
             "type": 3,
-            "api": "csp_MIPanSo",
+            "api": "csp_TgYunPanLocal",
             "searchable": 1,
-            "quickSearch": 1,
-            "changeable": 0,
+            "filterable": 0,
+            "switchable": 0,
             "ext": {
-                "Cloud-drive": "http://127.0.0.1:9978/file/TVBox/Cloud-drive.txt",
-                "from": "4k|auto"
+                "channelUsername": "yunpanshare",
+                "commonConfig": "http://127.0.0.1:9978/file/TVBox/peizhi.json"
             }
         },
         {
-            "key": "csp_PanSearch",
-            "name": "🐌夸搜",
+            "key": "TgYunPanLocal2",
+            "name": "🅿TgYunPanLocal2（墙外）",
             "type": 3,
-            "api": "csp_PanSearch",
+            "api": "csp_TgYunPanLocal",
             "searchable": 1,
-            "quickSearch": 1,
-            "changeable": 0,
+            "filterable": 0,
+            "switchable": 0,
             "ext": {
-                "pan": "quark",
-                "Cloud-drive": "http://127.0.0.1:9978/file/TVBox/Cloud-drive.txt",
-                "from": "4k|auto"
+                "channelUsername": "shareAliyun",
+                "commonConfig": "http://127.0.0.1:9978/file/TVBox/peizhi.json"
+            }
+        },
+        {
+            "key": "TgYunPanLocal3",
+            "name": "🅿TgYunPanLocal3（墙外）",
+            "type": 3,
+            "api": "csp_TgYunPanLocal",
+            "searchable": 1,
+            "filterable": 0,
+            "switchable": 0,
+            "ext": {
+                "channelUsername": "kuakeyun",
+                "commonConfig": "http://127.0.0.1:9978/file/TVBox/peizhi.json"
+            }
+        },
+        {
+            "key": "TgYunPanLocal4",
+            "name": "🅿TgYunPanLocal4（墙外）",
+            "type": 3,
+            "api": "csp_TgYunPanLocal",
+            "searchable": 1,
+            "filterable": 0,
+            "switchable": 0,
+            "ext": {
+                "channelUsername": "qixingzhenren",
+                "commonConfig": "http://127.0.0.1:9978/file/TVBox/peizhi.json"
+            }
+        },
+        {
+            "key": "TgYunPanLocal5",
+            "name": "🅿TgYunPanLocal5（墙外）",
+            "type": 3,
+            "api": "csp_TgYunPanLocal",
+            "searchable": 1,
+            "filterable": 0,
+            "switchable": 0,
+            "ext": {
+                "channelUsername": "guaguale115",
+                "commonConfig": "http://127.0.0.1:9978/file/TVBox/peizhi.json"
             }
         },
         {
@@ -598,8 +533,7 @@
             "searchable": 0,
             "quickSearch": 0,
             "ext": {
-                "Cloud-drive": "http://127.0.0.1:9978/file/TVBox/Cloud-drive.txt",
-                "from": "4k|auto"
+                "commonConfig": "http://127.0.0.1:9978/file/TVBox/peizhi.json"
             }
         },
         {
@@ -610,26 +544,6 @@
             "searchable": 0,
             "quickSearch": 0,
             "filterable": 1
-        },
-        {
-            "key": "虎牙",
-            "name": "🐯虎牙",
-            "type": 3,
-            "api": "csp_XYQHiker",
-            "searchable": 0,
-            "quickSearch": 0,
-            "filterable": 1,
-            "ext": "./json/虎牙直播.json"
-        },
-        {
-            "key": "斗鱼",
-            "name": "🐠斗鱼",
-            "type": 3,
-            "api": "csp_XYQHiker",
-            "searchable": 0,
-            "quickSearch": 0,
-            "filterable": 1,
-            "ext": "./json/斗鱼直播.json"
         },
         {
             "key": "虎牙直播",

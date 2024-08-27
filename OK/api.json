@@ -7,7 +7,7 @@
     "sites": [
         {
             "key": "豆瓣",
-            "name": "🤓QQ频道┃OK杰克",
+            "name": "🤓公众号┃OK猫开发",
             "type": 3,
             "api": "csp_Douban",
             "searchable": 0,
@@ -167,17 +167,6 @@
             "filterable": 1,
             "timeout": 10,
             "ext": "{\"cateUrl\":\"https://www.taozi007.com/show/{cateId}--------{page}---.html\", \"cate\":\"电影$1#剧集$2#动漫$3#综艺$4#短剧$5\",\"playFrom\":\".module-tab-items .module-tab-item span\",\"playUrl\":\".module-list .module-play-list\", \"search\":\"/search/{search}-------------.html\", \"webview\":1}"
-        },
-        {
-            "key": "可可",
-            "name": "😝可可┃在线",
-            "type": 3,
-            "api": "csp_Keke",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1,
-            "timeout": 10,
-            "ext": "{\"cateUrl\":\"https://www.keke1.app/show/{cateId}-----3-{page}.html\", \"cate\":\"电影$1#剧集$2#动漫$3#综艺$4#短剧$6\",\"playFrom\":\".swiper-slide .source-item span\",\"playUrl\":\".episode-box-main .episode-list\", \"search\":\"/search?k={search}\"}"
         },
         {
             "key": "荐片",

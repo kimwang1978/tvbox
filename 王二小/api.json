@@ -424,14 +424,6 @@
             "changeable": 1
         },
         {
-            "key": "Wexdiguatv",
-            "name": "🌺追剧┃秒播🌺",
-            "type": 3,
-            "api": "csp_Wexdiguatv",
-            "searchable": 1,
-            "changeable": 1
-        },
-        {
             "key": "Wexshandian",
             "name": "🌺闪电┃秒播🌺",
             "type": 3,
@@ -710,6 +702,14 @@
             "name": "🎠影子┃综合🎠",
             "type": 3,
             "api": "csp_Wexyingso",
+            "searchable": 1,
+            "changeable": 0
+        },
+        {
+            "key": "Wextyso",
+            "name": "🎠给力┃天逸🎠",
+            "type": 3,
+            "api": "csp_Wextyso",
             "searchable": 1,
             "changeable": 0
         },

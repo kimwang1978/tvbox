@@ -27,47 +27,35 @@ var rule = {
     class_url: 'choice&movie&tv&variety&cartoon&child&doco',
     limit: 20,
     play_parse:true,
-  // play_parse:true,
-lazy: $js.toString(() => {
-  let d = [];
-
-  try {
-    // 发起请求并获取响应，添加请求头
-    let headers = {
-      'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36' // 替换为您的 User-Agent 字符串
-    };
-    let responseText = request("http://39.104.230.177:1122/lxjx/mivip.php?url=" + input, { headers: headers });
-    console.log("响应文本:", responseText); // 查看原始响应内容
-
-    // 解析 JSON 数据
-    let response = JSON.parse(responseText);
-
-    // 查找以 'url' 开头的字段
-    let urlField = Object.keys(response).find(key => key.startsWith('url'));
-
-    // 提取找到的字段值
-    let urlValue = urlField ? response[urlField] : null;
-
-    console.log("提取的随机字段值:", urlValue); // 查看提取的值
-
-    if (urlValue) {
-      // 处理 urlValue，或将其用于 input
-      input = {
-        url: urlValue,
-        parse: 0,
-        header: rule.headers
-      };
+    lazy: $js.toString(() => {
+    let d = [];
+    
+    // 发起请求并解析返回的 JSON 数据
+    let response = JSON.parse(request("http://39.104.230.177:1122/lxjx/vipvip.php?url=" + input));
+    
+    // 获取所有字段名
+    let keys = Object.keys(response);
+    
+    // 查找以 'url' 开头的字段名
+    let urlKey = keys.find(key => key.startsWith('12'));
+    
+    // 提取对应的值
+    let url = urlKey ? response[urlKey] : null;
+    
+    if (url) {
+        // 处理 url，或将其用于 input
+        input = {
+            url: url,
+            parse: 0,
+            header: rule.headers
+        };
     } else {
-      // 处理没有找到字段的情况
-      console.error("没有找到以 'url' 开头的字段");
+        // 处理没有找到 url 字段的情况
+        console.error("没有找到以 'url' 开头的字段");
     }
-  } catch (error) {
-    console.error("处理请求或数据时发生错误：", error);
-  }
-
-  setResult(d);
+    
+    setResult(d);
 }),
-
     推荐: '.list_item;img&&alt;img&&src;a&&Text;a&&data-float',
     一级: '.list_item;img&&alt;img&&src;a&&Text;a&&data-float',
     二级: $js.toString(() => {

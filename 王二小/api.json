@@ -44,6 +44,14 @@
             "indexs": 0
         },
         {
+            "key": "Wexalllive",
+            "name": "💓‍聚合┃直播💓‍",
+            "type": 3,
+            "api": "csp_Wexalllive",
+            "searchable": 1,
+            "changeable": 1
+        },
+        {
             "key": "115",
             "name": "💓‍115┃4K💓‍",
             "type": 3,
@@ -112,6 +120,22 @@
             "changeable": 1
         },
         {
+            "key": "Wexzhizhen",
+            "name": "💓至臻┃4K💓",
+            "type": 3,
+            "api": "csp_Wexzhizhen",
+            "searchable": 1,
+            "changeable": 1
+        },
+        {
+            "key": "Wexxingyun",
+            "name": "💓幸运┃4K💓",
+            "type": 3,
+            "api": "csp_Wexxingyun",
+            "searchable": 1,
+            "changeable": 1
+        },
+        {
             "key": "賤賤",
             "name": "📓賤片┃p2p📓",
             "type": 3,
@@ -120,34 +144,10 @@
             "changeable": 1
         },
         {
-            "key": "Wexxiongdiys",
-            "name": "💥基友┃影视💥",
-            "type": 3,
-            "api": "csp_Wexxiongdiys",
-            "searchable": 1,
-            "changeable": 1
-        },
-        {
-            "key": "Wexyuyueys",
-            "name": "💥雨落┃影视💥",
-            "type": 3,
-            "api": "csp_Wexyuyueys",
-            "searchable": 1,
-            "changeable": 1
-        },
-        {
             "key": "南瓜",
             "name": "💥瓜瓜┃影视💥",
             "type": 3,
             "api": "csp_WexNgys",
-            "searchable": 1,
-            "changeable": 1
-        },
-        {
-            "key": "Wexkukantv",
-            "name": "😁看呗┃影视😁",
-            "type": 3,
-            "api": "csp_Wexkukantv",
             "searchable": 1,
             "changeable": 1
         },
@@ -164,22 +164,6 @@
             "name": "😁腐剧┃影视😁",
             "type": 3,
             "api": "csp_WexFujutv",
-            "searchable": 1,
-            "changeable": 1
-        },
-        {
-            "key": "WexTiantianys",
-            "name": "🎇明天┃秒播🎇",
-            "type": 3,
-            "api": "csp_WexTiantianys",
-            "searchable": 1,
-            "changeable": 1
-        },
-        {
-            "key": "Wexjiohub",
-            "name": "🎇啾啾┃秒播🎇",
-            "type": 3,
-            "api": "csp_Wexjiohub",
             "searchable": 1,
             "changeable": 1
         },
@@ -204,14 +188,6 @@
             "name": "🎇拜拜┃秒播🎇",
             "type": 3,
             "api": "csp_Subaibai",
-            "searchable": 1,
-            "changeable": 1
-        },
-        {
-            "key": "WexShijuedy",
-            "name": "🎇看看┃秒播🎇",
-            "type": 3,
-            "api": "csp_WexShijuedy",
             "searchable": 1,
             "changeable": 1
         },
@@ -892,9 +868,15 @@
     ],
     "lives": [
         {
-            "name": "IPv6001",
+            "name": "王二小放牛娃推荐使用",
             "type": 0,
-            "url": "./lives/IPv6001.txt",
+            "url": "./lives/王二小放牛娃推荐使用.txt",
+            "epg": "http://epg.112114.xyz/?ch={name}&date={date}"
+        },
+        {
+            "name": "IPV6",
+            "type": 0,
+            "url": "./lives/IPV6.txt",
             "epg": "http://epg.112114.xyz/?ch={name}&date={date}"
         },
         {
@@ -925,12 +907,6 @@
             "name": "IPV4",
             "type": 0,
             "url": "./lives/IPV4.txt",
-            "epg": "http://epg.112114.xyz/?ch={name}&date={date}"
-        },
-        {
-            "name": "IPV6",
-            "type": 0,
-            "url": "./lives/IPV6.txt",
             "epg": "http://epg.112114.xyz/?ch={name}&date={date}"
         }
     ]

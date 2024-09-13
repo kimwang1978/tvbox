@@ -2,7 +2,11 @@ var rule = {
     title: '百忙无果[官]',
     host: 'https://pianku.api.%6d%67%74%76.com',
     homeUrl: '',
-    searchUrl: 'https://mobileso.bz.%6d%67%74%76.com/pc/search/v1?q=**&pn=fypage&pc=10',
+    // searchUrl: 'https://mobileso.bz.%6d%67%74%76.com/pc/search/v1?q=**&pn=fypage&pc=10',
+    // 新版接口搜索变成v2并且加了验证，蛋疼
+    // searchUrl: 'https://mobileso.bz.mgtv.com/pc/search/v2?allowedRC=1&src=mgtv&did=cf03b959-6945-4cb6-bcb3-88762459354d&timestamp=2024-06-21T15%3A52%3A55Z&signVersion=1&signNonce=8dae67a1fafc4bda984ec8deb47666ad&q=**&pn=fypage&pc=10&corr=1&_support=10000000&signature=4e27fddcd2a1a66d6c1764ed6b74bab7',
+    // 用手机的吧，搞不定这个
+    searchUrl: 'https://mobileso.bz.%6d%67%74%76.com/msite/search/v2?q=**&pn=fypage&pc=10',
     detailUrl: 'https://pcweb.api.mgtv.com/episode/list?page=1&size=50&video_id=fyid',
     searchable: 2,
     quickSearch: 0,
@@ -14,56 +18,16 @@ var rule = {
     filter_url: 'year={{fl.year or "all"}}&sort={{fl.sort or "all"}}&chargeInfo={{fl.chargeInfo or "all"}}',
     headers: {
         'User-Agent': 'PC_UA'
-       
     },
     timeout: 5000,
-    class_name: '电视剧&电影&综艺&动漫&纪录片&教育&少儿',
-    class_url: '2&3&1&50&51&115&10',
+    class_name: '电影&电视剧&综艺&动漫&纪录片&教育&少儿',
+    class_url: '3&2&1&50&51&115&10',
     filter: 'H4sIAAAAAAAAA+2XvUrDUBSA3+XOHc65adraN+jm5CIdYok/GFupWiilIBalIFYoIh1EBxEKIih0MOZ1msS+hbc1yTni4mKms6XfIbnnC/mG9hSq6mZP7btdVVWNXae949aa2y1VUE3nwDVsHkw+Z378FoT3l4Z2HO/EXd3SNMPwfLoYTJfY/HA8T/UL6eDK3JUMtjDjnb3DFOoMbtTW45tpOHxPR1Y2Sk4/86PxSzotqn59Of/e+ajVPqZto9E4/Lj+tWd0dxrdviYPaNA6hseD9MEN2ih+eJr7o8XzJBxepNOfx3Zdp03Hhv5sHjz+/fVo0MUEry4Zt4hbnGvimnMkjpwDcWAc1zJuLhmvEK9wXiZe5rxEvMS5TdzmnHyR+yL5IvdF8kXui+SL3BfJF7kvkC9wXyBf4L5AvsB9gXyB+wL5AvcF8oXVl1MvKC2pSWqSWh6pWZKapCap5ZGaDdKatCat5dKa/FuT1qS1XFpD80YkNolNYvv32PpfCLkneIcUAAA=',
     limit: 20,
     play_parse: true,
-    lazy: $js.toString(() => {
-  let d = [];
-
-  try {
-    // 发起请求并获取响应，添加请求头
-    let headers = {
-      'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36'
-      
-    };
-    let responseText = request("http://39.104.230.177:1122/lxjx/myyk.php?url=" + input, { headers: headers });
-    console.log("响应文本:", responseText); // 查看原始响应内容
-
-    // 解析 JSON 数据
-    let response = JSON.parse(responseText);
-
-    // 查找以 'url' 开头的字段
-    let urlField = Object.keys(response).find(key => key.startsWith('url'));
-
-    // 提取找到的字段值
-    let urlValue = urlField ? response[urlField] : null;
-
-    console.log("提取的随机字段值:", urlValue); // 查看提取的值
-
-    if (urlValue) {
-      // 处理 urlValue，或将其用于 input
-      input = {
-        url: urlValue,
-        parse: 0,
-        header: rule.headers
-      };
-    } else {
-      // 处理没有找到字段的情况
-      console.error("没有找到以 'url' 开头的字段");
-    }
-  } catch (error) {
-    console.error("处理请求或数据时发生错误：", error);
-  }
-
-  setResult(d);
-}),
+    
     // 手动调用解析请求json的url,此lazy不方便
-   //  lazy:'js:print(input);fetch_params.headers["user-agent"]=MOBILE_UA;let html=request(input);let rurl=html.match(/window\\.open\\(\'(.*?)\',/)[1];rurl=urlDeal(rurl);input={parse:1,url:rurl};',
+    // lazy:'js:print(input);fetch_params.headers["user-agent"]=MOBILE_UA;let html=request(input);let rurl=html.match(/window\\.open\\(\'(.*?)\',/)[1];rurl=urlDeal(rurl);input={parse:1,url:rurl};',
     // 推荐:'.list_item;img&&alt;img&&src;a&&Text;a&&data-float',
     一级: 'json:data.hitDocs;title;img;updateInfo||rightCorner.text;playPartId',
     // 一级:'json:data.hitDocs;title;img;updateInfo;playPartId',
@@ -165,13 +129,47 @@ var rule = {
         } else {
             print(input + "暂无片源")
         }
-        VOD.vod_play_from = "mgtv";
+        VOD.vod_play_from = "1080P";
         VOD.vod_play_url = d.map(function (it) {
             return it.title + "$" + it.url
         }).join("#");
         setResult(d);
     }),
 
+    // 搜索: $js.toString(() => {
+    //     fetch_params.headers.Referer = "https://www.mgtv.com";
+    //     fetch_params.headers["User-Agent"] = UA;
+    //     let d = [];
+    //     let html = request(input);
+    //     let json = JSON.parse(html);
+    //     json.data.contents.forEach(function (data) {
+    //         if (data.data.sourceList || data.data.yearList) {
+    //             let list = data.data.sourceList ? data.data.sourceList : data.data.yearList[0].sourceList;
+    //             let desc = "";
+    //             list.forEach(function (it) {
+    //                 desc += it.name + "\t"
+    //             });
+    //             let fyclass = '';
+    //             if (list[0].source === "imgo") {
+    //                 let img = data.data.pic ? data.data.pic : data.data.yearList[0].pic;
+    //                 try {
+    //                     fyclass = data.data.desc.find(it => it.label === '类型').url.match(/lib\/(\d+)/)[1] + '$';
+    //                 } catch (e) {
+    //                     fyclass = '';
+    //                 }
+    //                 log(fyclass);
+    //                 d.push({
+    //                     title: data.data.title ? data.data.title : data.data.yearList[0].title,
+    //                     img: img,
+    //                     content: data.data.story ? data.data.story : data.data.yearList[0].story,
+    //                     desc: data.data.playTime,
+    //                     url: fyclass + list[0].vid
+    //                 })
+    //             }
+    //         }
+    //     });
+    //     setResult(d);
+    // }),
     搜索: $js.toString(() => {
         fetch_params.headers.Referer = "https://www.mgtv.com";
         fetch_params.headers["User-Agent"] = UA;
@@ -179,27 +177,25 @@ var rule = {
         let html = request(input);
         let json = JSON.parse(html);
         json.data.contents.forEach(function (data) {
-            if (data.data.sourceList || data.data.yearList) {
-                let list = data.data.sourceList ? data.data.sourceList : data.data.yearList[0].sourceList;
-                let desc = "";
-                list.forEach(function (it) {
-                    desc += it.name + "\t"
-                });
+            if (data.type && data.type == 'media') {
+                let item = data.data[0];
+                let desc = item.desc.join(',');
                 let fyclass = '';
-                if (list[0].source === "imgo") {
-                    let img = data.data.pic ? data.data.pic : data.data.yearList[0].pic;
+                if (item.source === "imgo") {
+                    let img = item.img ? item.img : '';
                     try {
-                        fyclass = data.data.desc.find(it => it.label === '类型').url.match(/lib\/(\d+)/)[1] + '$';
+                        fyclass = item.rpt.match(/idx=(.*?)&/)[1] + '$';
                     } catch (e) {
+                        log(e.message);
                         fyclass = '';
                     }
                     log(fyclass);
                     d.push({
-                        title: data.data.title ? data.data.title : data.data.yearList[0].title,
+                        title: item.title.replace(/<B>|<\/B>/g, ''),
                         img: img,
-                        content: data.data.story ? data.data.story : data.data.yearList[0].story,
-                        desc: data.data.playTime,
-                        url: fyclass + list[0].vid
+                        content: '',
+                        desc: desc,
+                        url: fyclass + item.url.match(/.*\/(.*?)\.html/)[1]
                     })
                 }
             }

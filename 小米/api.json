@@ -55,7 +55,7 @@
         },
         {
             "key": "米搜",
-            "name": "🌾米搜┃夸克4K",
+            "name": "🌾米搜┃盘盘4K",
             "type": 3,
             "api": "csp_MiSou",
             "changeable": 0,
@@ -75,7 +75,6 @@
         {
             "key": "君君",
             "name": "🚗君君┃1080P",
-            "playerType": 1,
             "type": 3,
             "changeable": 0,
             "api": "csp_AppYsV2",
@@ -83,6 +82,13 @@
             "quickSearch": 1,
             "filterable": 1,
             "ext": "http://122.228.85.203:1000/api.php/app/"
+        },
+        {
+            "key": "csp_Xdys",
+            "name": "👬️兄弟┃108P",
+            "type": 3,
+            "api": "csp_Xdys",
+            "playerType": 2
         },
         {
             "key": "freeok",
@@ -111,6 +117,18 @@
             "order_num": 0,
             "changeable": 0,
             "ext": "./js/tx.js"
+        },
+        {
+            "key": "hipy_guazi",
+            "name": "🍉瓜子┃1080P",
+            "type": 3,
+            "api": "./api/drpy2.min.js",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "order_num": 0,
+            "changeable": 0,
+            "ext": "./js/瓜子.js"
         },
         {
             "key": "guoguo",
@@ -153,6 +171,13 @@
             "filterable": 1
         },
         {
+            "key": "csp_Dm84",
+            "name": "🎨动漫┃1080P",
+            "type": 3,
+            "api": "csp_Dm84",
+            "playerType": 2
+        },
+        {
             "key": "huohuo",
             "name": "💥火火┃1080P",
             "type": 3,
@@ -177,6 +202,7 @@
             "key": "csp_农民",
             "name": "🐶汪汪┃1080P",
             "type": 3,
+            "playerType": 1,
             "changeable": 0,
             "api": "csp_Nongm"
         },
@@ -186,7 +212,7 @@
             "type": 3,
             "changeable": 0,
             "api": "csp_Quanwk",
-            "ext": "https://1.qkw1.cc/"
+            "ext": "https://888.qkw2.cc/"
         },
         {
             "key": "csp_SP360",
@@ -278,7 +304,7 @@
         },
         {
             "key": "文采影视",
-            "name": "🌼文采┃影视",
+            "name": "🌼文采┃1080P",
             "type": 3,
             "api": "csp_XBPQ",
             "changeable": 0,
@@ -358,22 +384,7 @@
                 "type": "rect",
                 "ratio": 1.755
             },
-            "playerType": "1",
-            "searchable": 0,
-            "quickSearch": 0,
-            "changeable": 0
-        },
-        {
-            "key": "斗鱼js",
-            "name": "🐟斗鱼┃直播",
-            "type": 3,
-            "api": "./api/drpy2.min.js",
-            "ext": "./js/斗鱼直播.js",
-            "style": {
-                "type": "rect",
-                "ratio": 1.755
-            },
-            "playerType": "1",
+            "playerType": "2",
             "searchable": 0,
             "quickSearch": 0,
             "changeable": 0
@@ -415,7 +426,7 @@
         {
             "name": "4K解析",
             "type": 1,
-            "url": "http://www.mpanso.com/%E6%88%91%E7%88%B1%E4%BD%A0.php?url=",
+            "url": "http://1.xiaomi666.work.gd/aini10.php?url=",
             "ext": {
                 "flag": [
                     "qq",
@@ -444,7 +455,7 @@
         {
             "name": "1080解析",
             "type": 1,
-            "url": "https://jf.lemiaoyun.cn/api/?key=bc1e1c72813140c311929a461d167707&url=",
+            "url": "https://jf.lemiaoyun.cn/api/?key=86950663b3198d25885fdf61501a3366&url=",
             "ext": {
                 "flag": [
                     "qq",

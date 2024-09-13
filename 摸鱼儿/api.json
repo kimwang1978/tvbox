@@ -64,16 +64,14 @@
             }
         },
         {
-            "key": "万色山川",
-            "name": "🏔️万色山川┃4K纯净",
+            "key": "摸鱼瓜子",
+            "name": "❤️嗑嗑瓜子┃超清纯净",
             "type": 3,
-            "api": "./api/drpy2.min.js",
-            "searchable": 1,
-            "quickSearch": 1,
+            "api": "./api/drpy.min.js",
             "filterable": 1,
             "order_num": 0,
             "changeable": 0,
-            "ext": "./js/123qq.js"
+            "ext": "./js/guazi.js"
         },
         {
             "key": "蜡笔弹幕",
@@ -1365,7 +1363,7 @@
         {
             "name": "zhuimi",
             "type": 1,
-            "url": "http://103.117.123.51:2121/zhuimi666.php?url=",
+            "url": "http://www.mpanso.com/%E6%88%91%E7%88%B1%E4%BD%A0.php?url=",
             "ext": {
                 "flag": [
                     "qq",

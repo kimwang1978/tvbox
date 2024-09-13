@@ -14,6 +14,15 @@
             "filterable": 1
         },
         {
+            "key": "csp_YGP",
+            "name": "🚀豆瓣预告",
+            "type": 3,
+            "api": "csp_YGP",
+            "searchable": 0,
+            "quickSearch": 0,
+            "filterable": 1
+        },
+        {
             "key": "ConfigCenter",
             "name": "🅿网盘配置中心",
             "type": 3,
@@ -25,16 +34,6 @@
             }
         },
         {
-            "key": "csp_NewCz",
-            "name": "🏭厂长",
-            "type": 3,
-            "api": "csp_NewCz",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 0,
-            "ext": "https://czys.pro/"
-        },
-        {
             "key": "csp_TianTian",
             "name": "🦉天天",
             "type": 3,
@@ -42,16 +41,6 @@
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 1
-        },
-        {
-            "key": "csp_YCyz",
-            "name": "☀原创",
-            "type": 3,
-            "api": "csp_YCyz",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1,
-            "changeable": 1
         },
         {
             "key": "csp_LiteApple",
@@ -64,29 +53,76 @@
             "changeable": 1
         },
         {
-            "key": "csp_Jpys",
-            "name": "💮金牌",
+            "key": "瓜子",
+            "name": "🍉瓜子",
             "type": 3,
-            "api": "csp_Jpys",
-            "playerType": 2,
-            "searchable": 1,
-            "quickSearch": 1,
-            "changeable": 1
-        },
-        {
-            "key": "csp_Dadag",
-            "name": "🐢达达龟",
-            "type": 3,
-            "api": "csp_Dadag",
+            "api": "csp_Gz360",
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 1
         },
         {
-            "key": "csp_Qiyou",
-            "name": "🦌奇优",
+            "key": "农民",
+            "name": "👩‍🌾农民",
             "type": 3,
-            "api": "csp_Qiyou",
+            "api": "csp_Nongm",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1
+        },
+        {
+            "key": "看客",
+            "name": "👲看客",
+            "type": 3,
+            "api": "csp_Kanke",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1
+        },
+        {
+            "key": "爱看",
+            "name": "❤️爱看",
+            "type": 3,
+            "api": "csp_Ikan",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1
+        },
+        {
+            "key": "比特",
+            "name": "✌️比特",
+            "type": 3,
+            "api": "csp_Bttwo",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1
+        },
+        {
+            "key": "csp_AppRZ",
+            "name": "🕵忍者",
+            "type": 3,
+            "playerType": "2",
+            "api": "csp_AppRZ",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "ext": "http://rzys.xyz/"
+        },
+        {
+            "key": "FreeOK",
+            "name": "️🆗FreeOK",
+            "type": 3,
+            "api": "csp_FreeOK",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1
+        },
+        {
+            "key": "csp_SaoHuo",
+            "name": "🔥骚火",
+            "type": 3,
+            "api": "csp_SaoHuo",
+            "playerType": 2,
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 1
@@ -101,6 +137,15 @@
             "filterable": 1
         },
         {
+            "key": "csp_Qiyou",
+            "name": "🦌奇优",
+            "type": 3,
+            "api": "csp_Qiyou",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1
+        },
+        {
             "key": "csp_Tvyb",
             "name": "☁️TVB云播",
             "type": 3,
@@ -108,7 +153,8 @@
             "playerType": 2,
             "searchable": 1,
             "quickSearch": 1,
-            "filterable": 1
+            "filterable": 1,
+            "ext": "http://www.tvyun01.com/"
         },
         {
             "key": "csp_Dyxs",
@@ -138,6 +184,16 @@
             "filterable": 1
         },
         {
+            "key": "csp_YCyz",
+            "name": "☀原创",
+            "type": 3,
+            "api": "csp_YCyz",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "changeable": 1
+        },
+        {
             "key": "csp_SC1080",
             "name": "⛪圣城",
             "type": 3,
@@ -156,17 +212,6 @@
             "filterable": 0
         },
         {
-            "key": "萌米",
-            "name": "💥萌米",
-            "type": 3,
-            "api": "csp_AppTT",
-            "playerType": 1,
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1,
-            "ext": "AO7TcBkd8Iifux0Y8Qze6tVlMg=="
-        },
-        {
             "key": "csp_NanGua",
             "name": "🎃南瓜",
             "type": 3,
@@ -174,16 +219,6 @@
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 1,
-            "changeable": 1
-        },
-        {
-            "key": "csp_Kekys",
-            "name": "👻可可",
-            "type": 3,
-            "api": "csp_Kekys",
-            "playerType": 2,
-            "searchable": 1,
-            "quickSearch": 1,
             "changeable": 1
         },
         {
@@ -223,67 +258,7 @@
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 1,
-            "ext": "http://112.124.0.131:20000"
-        },
-        {
-            "key": "农民",
-            "name": "💢农民",
-            "type": 3,
-            "api": "csp_XBPQ",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1,
-            "ext": {
-                "数组": "<li>&&</li>",
-                "图片": "src=\"&&\"",
-                "分类url": "https://www.wwgz.cn/vod-list-id-{cateId}-pg-{catePg}-order--by--class-0-year-{year}-letter--area-{area}-lang-.html",
-                "分类": "短剧$26#电视剧$2#电影$1#动漫$4#综艺$3"
-            }
-        },
-        {
-            "key": "Freeok",
-            "name": "💢Freeok",
-            "type": 3,
-            "api": "csp_XBPQ",
-            "playerType": "2",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1,
-            "ext": {
-                "分类url": "https://www.freeok.vip/vod-show/{cateId}-{area}-------{catePg}---{year}.html;;ar1",
-                "请求头": "User-Agent$Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36",
-                "分类": "电影&剧集&动漫&综艺",
-                "分类值": "1&2&3&4",
-                "副标题": "<div class=\"module-item-note\">&&</div>",
-                "嗅探词": "m3u8#.m3u8#.mp4#freeok.mp4#/obj/",
-                "线路数组": "data-dropdown-value=&&</div>[不包含:夸克]",
-                "线路标题": "<span>&&</small>",
-                "导演": "导演：&&</div>",
-                "主演": "主演：&&</div>",
-                "简介": "<p>&&</p>"
-            }
-        },
-        {
-            "key": "骚火",
-            "name": "💢骚火",
-            "type": 3,
-            "api": "csp_XBPQ",
-            "playerType": "2",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1,
-            "ext": {
-                "嗅探词": ".m3u8#.mp4#.m3u8?#freeok.mp4",
-                "分类url": "https://shdy2.com/list/{cateId}-{catePg}.html;;vr1au0",
-                "分类": "电影$1#电视剧$2#韩剧$22#美剧$23#动漫$4",
-                "数组二次截取": "class=\"v_list\">&&</ul>",
-                "数组": "\"v_img\"&&/div>",
-                "标题": "title=\"&&\"",
-                "副标题": "v_note\"&&</div",
-                "跳转播放链接": "<iframe*src=\"&&\"",
-                "二次跳转播放链接": "https://hhjx.hhplayer.com/api.php;post;url=+var url*\"&&\"+&t=+var t*\"&&\"+&key=+var key*\"&&\"+&act=0+&play=1",
-                "三次跳转播放链接": "\"url\"*\"&&\""
-            }
+            "ext": "./json/jianpian.json"
         },
         {
             "key": "csp_SixV",
@@ -347,15 +322,6 @@
                     }
                 ]
             }
-        },
-        {
-            "key": "csp_Yj1211",
-            "name": "📽️JustLive",
-            "type": 3,
-            "api": "csp_Yj1211",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1
         },
         {
             "key": "Aid",
@@ -429,6 +395,17 @@
             }
         },
         {
+            "key": "纸条搜",
+            "name": "📜小纸条",
+            "type": 3,
+            "api": "csp_XiaoZhiTiao",
+            "searchable": 1,
+            "changeable": 0,
+            "ext": {
+                "commonConfig": "http://127.0.0.1:9978/file/TVBox/peizhi.json"
+            }
+        },
+        {
             "key": "网盘集合",
             "name": "🅿网盘集合|4K",
             "type": 3,
@@ -439,6 +416,22 @@
             "ext": {
                 "commonConfig": "http://127.0.0.1:9978/file/TVBox/peizhi.json",
                 "share": "https://github.moeyy.xyz/https://raw.githubusercontent.com/yoursmile66/TVBox/main/sub/网盘集合.json"
+            }
+        },
+        {
+            "key": "Youtube",
+            "name": "⚡Youtube（墙外）",
+            "type": 3,
+            "api": "csp_Youtube",
+            "searchable": 1,
+            "changeable": 1,
+            "style": {
+                "type": "rect",
+                "ratio": 1.433
+            },
+            "ext": {
+                "json": "https://github.moeyy.xyz/https://raw.githubusercontent.com/yoursmile66/TVBox/main/sub/youtube.json",
+                "cookie": ""
             }
         },
         {
@@ -537,16 +530,6 @@
             "ext": "./js/虎牙直播.js"
         },
         {
-            "key": "斗鱼直播",
-            "name": "🐠斗鱼直播",
-            "type": 3,
-            "api": "./api/drpy2.min.js",
-            "searchable": 0,
-            "quickSearch": 0,
-            "filterable": 0,
-            "ext": "./js/斗鱼直播.js"
-        },
-        {
             "key": "有声小说吧",
             "name": "有声小说吧",
             "type": 3,
@@ -576,28 +559,6 @@
             "quickSearch": 0,
             "filterable": 0,
             "ext": "./js/88看球.js"
-        },
-        {
-            "key": "短视频",
-            "name": "☘️短视频",
-            "type": 3,
-            "api": "csp_XBPQ",
-            "searchable": 0,
-            "quickSearch": 0,
-            "filterable": 1,
-            "ext": {
-                "主页url": "http://www.sharenice.net",
-                "直接播放": "1",
-                "嗅探词": ".m3u8#m3u8?#.mp4#mp4?#ixigua#.czspp#.flv#.mp3#.m4a#?item/video#is_play_url=1#play/?#qianpailive",
-                "分类": "抖音&快手&微视&火山&场库&美拍&秒拍&全民&梨&好兔&开眼&美女&搞笑&社会&音乐&娱乐&影视&正能量&生活&动漫&萌系&美食&体育&游戏&明星&旅游&时尚",
-                "分类值": "douyin&kuaishou&weishi&huoshan&changku&meipai&miaopai&quanmin&lishipin&haotu&kaiyan&t-576O5aWz&t-5pCe56yR&t-56S+5Lya&t-6Z+z5LmQ&t-5aix5LmQ&t-5b2x6KeG&t-5q2j6IO96YeP&t-55Sf5rS7&t-5Yqo5ryr&t-6JCM57O7&t-576O6aOf&t-5L2T6IKy&t-5ri45oiP&t-5piO5pif&t-5peF5ri4&t-5pe25bCa",
-                "分类url": "http://www.sharenice.net/{cateId}?page={catePg}",
-                "二次截取": "class=\"item-box\">&&</ul>",
-                "数组": "<li&&</li>",
-                "图片": "data-original=\"&&\"",
-                "标题": "title=\"&&\"",
-                "链接": "href=\"&&\""
-            }
         },
         {
             "key": "酷奇MV",
@@ -703,9 +664,9 @@
             "url": "Demo"
         },
         {
-            "name": "解析",
-            "type": 1,
-            "url": "http://122.228.84.103:7777/api/?key=J3RDcpC4cTTSrpyEeD&url=",
+            "name": "云",
+            "type": 0,
+            "url": "https://yparse.ik9.cc/index.php?url=",
             "ext": {
                 "flag": [
                     "qq",
@@ -715,26 +676,26 @@
                     "奇艺",
                     "youku",
                     "优酷",
-                    "sohu",
-                    "搜狐",
-                    "letv",
-                    "乐视",
                     "mgtv",
                     "芒果",
-                    "tnmb",
-                    "seven",
+                    "letv",
+                    "乐视",
+                    "pptv",
+                    "PPTV",
+                    "sohu",
                     "bilibili",
-                    "1905"
+                    "哔哩哔哩",
+                    "哔哩"
                 ],
                 "header": {
-                    "User-Agent": "okhttp/4.9.1"
+                    "User-Agent": "okhttp/4.1.0"
                 }
             }
         },
         {
-            "name": "解析2",
-            "type": 1,
-            "url": "http://122.228.84.103:7777/api/?key=4Dk5tdayvY6NZufEMG&url=",
+            "name": "云2",
+            "type": 0,
+            "url": "https://jx.yparse.com/index.php?url=",
             "ext": {
                 "flag": [
                     "qq",
@@ -744,19 +705,48 @@
                     "奇艺",
                     "youku",
                     "优酷",
-                    "sohu",
-                    "搜狐",
-                    "letv",
-                    "乐视",
                     "mgtv",
                     "芒果",
-                    "tnmb",
-                    "seven",
+                    "letv",
+                    "乐视",
+                    "pptv",
+                    "PPTV",
+                    "sohu",
                     "bilibili",
-                    "1905"
+                    "哔哩哔哩",
+                    "哔哩"
                 ],
                 "header": {
-                    "User-Agent": "okhttp/4.9.1"
+                    "User-Agent": "okhttp/4.1.0"
+                }
+            }
+        },
+        {
+            "name": "m3u8TV",
+            "type": 0,
+            "url": "https://jx.m3u8.tv/jiexi/?url=",
+            "ext": {
+                "flag": [
+                    "qq",
+                    "腾讯",
+                    "qiyi",
+                    "爱奇艺",
+                    "奇艺",
+                    "youku",
+                    "优酷",
+                    "mgtv",
+                    "芒果",
+                    "letv",
+                    "乐视",
+                    "pptv",
+                    "PPTV",
+                    "sohu",
+                    "bilibili",
+                    "哔哩哔哩",
+                    "哔哩"
+                ],
+                "header": {
+                    "User-Agent": "okhttp/4.1.0"
                 }
             }
         },
@@ -810,64 +800,6 @@
                     "哔哩哔哩",
                     "哔哩"
                 ]
-            }
-        },
-        {
-            "name": "麒麟",
-            "type": 0,
-            "url": "https://jx.quankan.app/?url=",
-            "ext": {
-                "flag": [
-                    "qq",
-                    "腾讯",
-                    "qiyi",
-                    "爱奇艺",
-                    "奇艺",
-                    "youku",
-                    "优酷",
-                    "mgtv",
-                    "芒果",
-                    "letv",
-                    "乐视",
-                    "pptv",
-                    "PPTV",
-                    "sohu",
-                    "bilibili",
-                    "哔哩哔哩",
-                    "哔哩"
-                ],
-                "header": {
-                    "User-Agent": "okhttp/4.1.0"
-                }
-            }
-        },
-        {
-            "name": "云",
-            "type": 0,
-            "url": "https://jx.yparse.com/index.php?url=",
-            "ext": {
-                "flag": [
-                    "qq",
-                    "腾讯",
-                    "qiyi",
-                    "爱奇艺",
-                    "奇艺",
-                    "youku",
-                    "优酷",
-                    "mgtv",
-                    "芒果",
-                    "letv",
-                    "乐视",
-                    "pptv",
-                    "PPTV",
-                    "sohu",
-                    "bilibili",
-                    "哔哩哔哩",
-                    "哔哩"
-                ],
-                "header": {
-                    "User-Agent": "okhttp/4.1.0"
-                }
             }
         }
     ],

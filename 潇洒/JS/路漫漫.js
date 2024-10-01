@@ -1,8 +1,8 @@
 var rule = {
     title: "路漫漫",
-    host: "https://www.lmm88.com",
+    host: "http://www.lmm88.com",
     url: "/vod/show/id/fyclassfyfilter.html",
-    searchUrl: "https://m.lmm52.com/vod/search/page/fypage/wd/**.html",
+    searchUrl: 'http://www.lmm88.com/vod/search/page/fypage/wd/**.html',
     searchable: 2,
     quickSearch: 0,
     filterable: 1,
@@ -36,5 +36,5 @@ var rule = {
         list_url: "a&&href"
     },
     detailUrl: "",
-    搜索: "*"
+    搜索: '.row .video-img-box;h6 a&&Text;.lazyload&&data-src;.label&&Text;a&&href',
 }

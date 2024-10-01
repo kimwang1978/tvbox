@@ -37,9 +37,18 @@
                 "site_urls": [
                     "https://duopan.fun",
                     "http://labipan.com",
-                    "https://mihdr.top"
+                    "https://mihdr.top",
+                    "http://feimaoai.site"
                 ]
             }
+        },
+        {
+            "key": "肥猫4K",
+            "name": "🖍┃肥猫┃4K",
+            "type": 3,
+            "api": "./api/drpy.min.js",
+            "ext": "./js/肥猫4K.js",
+            "searchable": 0
         },
         {
             "key": "nangua",
@@ -60,7 +69,7 @@
             "name": "🏸┃全网┃影视",
             "type": 3,
             "api": "csp_Quanwk",
-            "ext": "https://fm666.qkw1.cc"
+            "ext": "https://888.qkw2.cc"
         },
         {
             "key": "csp_Yhys",

@@ -1,5 +1,3 @@
-//关注微信公众号：奇奇乐分享，发送“本地包”，获取本地包更新链接与图文教程。
-
 {
     "spider": "./spider.jar",
     "wallpaper": "http://127.0.0.1:9978/file/TVBox/wallpaper.jpg",
@@ -15,7 +13,7 @@
         },
         {
             "key": "预告",
-            "name": "豆瓣｜预告",
+            "name": "新片｜预告",
             "type": 3,
             "api": "csp_YGP",
             "searchable": 0
@@ -119,36 +117,24 @@
             "filterable": 1
         },
         {
-            "key": "新感觉",
-            "name": "新感觉｜APP",
+            "key": "酷影视",
+            "name": "酷影视｜APP",
             "type": 3,
             "api": "csp_AppYsV2",
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 1,
-            "ext": "http://43.248.100.147:9891/api.php/app/"
-        },
-        {
-            "key": "六六六",
-            "name": "六六六｜APP",
-            "playerType": 1,
-            "type": 3,
-            "api": "csp_AppYsV2",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1,
-            "ext": " http://122.228.85.203:1000/api.php/app/"
+            "ext": "https://www.tvkuys.xyz/api.php/app/"
         },
         {
             "key": "丘丘影视",
             "name": "丘丘｜APP",
-            "playerType": 1,
             "type": 3,
             "api": "csp_AppYsV2",
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 1,
-            "ext": " http://111.173.115.204:2211/api.php/app/"
+            "ext": "http://111.173.115.204:2211/api.php/app/"
         },
         {
             "key": "南瓜影视",
@@ -271,7 +257,8 @@
             "ext": {
                 "token": "http://127.0.0.1:9978/file/TVBox/token.txt",
                 "cookie": "http://127.0.0.1:9978/file/TVBox/quark.txt",
-                "uc_cookie": "http://127.0.0.1:9978/file/TVBox/uc.txt"
+                "uc_cookie": "http://127.0.0.1:9978/file/TVBox/uc.txt",
+                "site": "https://libvio.link"
             }
         },
         {
@@ -482,13 +469,6 @@
             "ext": "./JS/茶杯狐.js"
         },
         {
-            "key": "在线之家",
-            "name": "在线｜影视",
-            "type": 3,
-            "api": "./JS/drpy2.min.js",
-            "ext": "./JS/在线之家.js"
-        },
-        {
             "key": "魔力高清",
             "name": "魔力｜影视",
             "type": 3,
@@ -536,13 +516,6 @@
             "type": 3,
             "api": "./JS/drpy2.min.js",
             "ext": "./JS/碟调影视.js"
-        },
-        {
-            "key": "欧帝影院",
-            "name": "欧帝｜影视",
-            "type": 3,
-            "api": "./JS/drpy2.min.js",
-            "ext": "./JS/欧帝影院.js"
         },
         {
             "key": "畅梦影视",
@@ -817,6 +790,13 @@
             ]
         },
         {
+            "key": "56动漫",
+            "name": "56｜动漫",
+            "type": 3,
+            "api": "./JS/drpy2.min.js",
+            "ext": "./JS/56动漫.js"
+        },
+        {
             "key": "58动漫",
             "name": "58｜动漫",
             "type": 3,
@@ -836,6 +816,13 @@
             "type": 3,
             "api": "./JS/drpy2.min.js",
             "ext": "./JS/Anime1.js"
+        },
+        {
+            "key": "动画片",
+            "name": "动画片｜动漫",
+            "type": 3,
+            "api": "./JS/drpy2.min.js",
+            "ext": "./JS/动画片大全.js"
         },
         {
             "key": "路漫漫",
@@ -873,18 +860,11 @@
             "ext": "./JS/异世界.js"
         },
         {
-            "key": "次元城",
-            "name": "次元城｜动漫",
+            "key": "好看动漫",
+            "name": "好看｜动漫",
             "type": 3,
             "api": "./JS/drpy2.min.js",
-            "ext": "./JS/次元城.js"
-        },
-        {
-            "key": "喵物次元",
-            "name": "喵物｜动漫",
-            "type": 3,
-            "api": "./JS/drpy2.min.js",
-            "ext": "./JS/喵物次元.js"
+            "ext": "./JS/好看动漫.js"
         },
         {
             "key": "奇米动漫",
@@ -927,20 +907,6 @@
             "type": 3,
             "api": "./JS/drpy2.min.js",
             "ext": "./JS/大米动漫.js"
-        },
-        {
-            "key": "维奇动漫",
-            "name": "维奇｜动漫",
-            "type": 3,
-            "api": "./JS/drpy2.min.js",
-            "ext": "./JS/维奇动漫.js"
-        },
-        {
-            "key": "暮暮动漫",
-            "name": "暮暮｜动漫",
-            "type": 3,
-            "api": "./JS/drpy2.min.js",
-            "ext": "./JS/暮暮动漫.js"
         },
         {
             "key": "南瓜弹幕",
@@ -1002,6 +968,7 @@
                 "token": "http://127.0.0.1:9978/file/TVBox/token.txt",
                 "cookie": "http://127.0.0.1:9978/file/TVBox/quark.txt",
                 "uc_cookie": "http://127.0.0.1:9978/file/TVBox/uc.txt",
+                "site": "https://libvio.link",
                 "danmu": true
             }
         },
@@ -1054,18 +1021,6 @@
             }
         },
         {
-            "key": "JOJO弹幕",
-            "name": "JOJO｜弹幕",
-            "type": 3,
-            "api": "csp_Jiohub",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1,
-            "ext": {
-                "danmu": true
-            }
-        },
-        {
             "key": "荐片弹幕",
             "name": "荐片｜弹幕",
             "type": 3,
@@ -1087,7 +1042,7 @@
             "quickSearch": 1,
             "filterable": 1,
             "ext": {
-                "site": "https://www.yjys02.com",
+                "site": "https://www.yjys05.com",
                 "danmu": true
             }
         },
@@ -1161,7 +1116,7 @@
             "ext": {
                 "token": "http://127.0.0.1:9978/file/TVBox/token.txt",
                 "cookie": "http://127.0.0.1:9978/file/TVBox/quark.txt",
-                "site": "https://tudou.lvdoui.top",
+                "site": "https://yunpan.yunpay.cc",
                 "danmu": true
             }
         },
@@ -1191,7 +1146,7 @@
             "ext": {
                 "token": "http://127.0.0.1:9978/file/TVBox/token.txt",
                 "cookie": "http://127.0.0.1:9978/file/TVBox/quark.txt",
-                "site": "https://duopan.fun",
+                "site": "http://labipan.com",
                 "danmu": true
             }
         },
@@ -1688,134 +1643,38 @@
             "url": "Demo"
         },
         {
-            "name": "XGJ专线",
-            "url": "http://43.248.100.147:6068/bba/781xgjjson.php?url=",
-            "flag": [
-                "BBA"
-            ],
-            "header": {
-                "User-Agent": "Dalvik/2.1.0"
-            },
-            "type": "1"
+            "name": "推荐",
+            "type": 1,
+            "url": "https://jxjson.icu/neibu.php?url=",
+            "ext": {
+                "flag": [
+                    "qq",
+                    "腾讯",
+                    "qiyi",
+                    "爱奇艺",
+                    "奇艺",
+                    "youku",
+                    "优酷",
+                    "sohu",
+                    "搜狐",
+                    "letv",
+                    "乐视",
+                    "mgtv",
+                    "芒果",
+                    "tnmb",
+                    "seven",
+                    "bilibili",
+                    "1905"
+                ],
+                "header": {
+                    "User-Agent": "okhttp/4.9.1"
+                }
+            }
         },
         {
-            "name": "XMY专线",
-            "url": "http://121.62.61.51:6888/api/?key=LHypix08ov3mx0Tyd7&url=",
-            "flag": [
-                "NBY"
-            ],
-            "header": {
-                "User-Agent": "Dalvik/2.1.0"
-            },
-            "type": "1"
-        },
-        {
-            "name": "LX专线",
-            "url": "http://llyh.xn--yi7aa.top/api/?key=5b317c16d457b31a3150d87c0a362a9e&url=",
-            "flag": [
-                "LXTX"
-            ],
-            "header": {
-                "User-Agent": "Dalvik/2.1.0"
-            },
-            "type": "1"
-        },
-        {
-            "name": "4K专线",
-            "url": "https://jf.hanliu8.cn/api/?key=qEDfo9v5Uk48DVmu6W&url=",
-            "flag": [
-                "4kvip"
-            ],
-            "header": {
-                "User-Agent": "Dalvik/2.1.0"
-            },
-            "type": "1"
-        },
-        {
-            "name": "MX专线",
-            "url": "https://jf.hanliu8.cn/api/?key=qEDfo9v5Uk48DVmu6W&url=",
-            "flag": [
-                "m78"
-            ],
-            "header": {
-                "User-Agent": "Dalvik/2.1.0"
-            },
-            "type": "1"
-        },
-        {
-            "name": "XGJ专线",
-            "url": "http://43.248.100.147:6068/KEY/70xgjgj.php?url=",
-            "flag": [
-                "youku",
-                "qq",
-                "qiyi",
-                "bilibili",
-                "mgtv",
-                "pptv",
-                "xigua"
-            ],
-            "header": {
-                "User-Agent": "Dalvik/2.1.0"
-            },
-            "type": "1"
-        },
-        {
-            "name": "LL专线",
-            "url": "http://llyh.xn--yi7aa.top/api/?key=5b317c16d457b31a3150d87c0a362a9e&url=",
-            "flag": [
-                "youku",
-                "qq",
-                "qiyi",
-                "bilibili",
-                "mgtv",
-                "pptv",
-                "xigua"
-            ],
-            "header": {
-                "User-Agent": "Dalvik/2.1.0"
-            },
-            "type": "1"
-        },
-        {
-            "name": "HH专线",
-            "url": "https://api.huohua.vip/api/?key=LqSFybBQvYzN52Tneg&url=",
-            "flag": [
-                "youku",
-                "qq",
-                "qiyi",
-                "bilibili",
-                "mgtv",
-                "pptv",
-                "xigua"
-            ],
-            "header": {
-                "User-Agent": "Dalvik/2.1.0"
-            },
-            "type": "1"
-        },
-        {
-            "name": "XGJ聚合",
-            "url": "http://43.248.100.147:6068//KEY/XGJ/root/key/44jxzy.php?url=",
-            "flag": [
-                "youku",
-                "qq",
-                "qiyi",
-                "bilibili",
-                "mgtv",
-                "pptv",
-                "xigua",
-                "NBY",
-                "ETH-",
-                "mytv",
-                "nmys",
-                "BBA",
-                "4kvip",
-                "m78"
-            ],
-            "header": {
-                "User-Agent": "Dalvik/2.1.0"
-            },
-            "type": "1"
+            "name": "推荐2",
+            "type": 1,
+            "url": "http://pan.qiaoji8.com/tvbox/neibu.php?url="
         },
         {
             "name": "线路1",
@@ -2071,6 +1930,12 @@
             "name": "直播3",
             "type": 0,
             "url": "https://tv.iill.top/m3u/Gather",
+            "playerType": 1
+        },
+        {
+            "name": "直播4",
+            "type": 0,
+            "url": "http://mmitv.top/pltv/merization.php?id=list&user=t0k1b5&token=17af41bb&text=diypbox",
             "playerType": 1
         }
     ],

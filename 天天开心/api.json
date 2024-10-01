@@ -30,27 +30,21 @@
             "epg": "https://epg.112114.eu.org/?ch={name}&date={date}"
         },
         {
-            "name": "⑤晴天专线",
+            "name": "新猫TV线路",
             "type": 0,
-            "url": "./lives/⑤晴天专线.txt",
+            "url": "./lives/新猫TV线路.txt",
             "epg": "https://epg.112114.eu.org/?ch={name}&date={date}"
         },
         {
-            "name": "⑥晴天线路",
+            "name": "猫TV线路",
             "type": 0,
-            "url": "./lives/⑥晴天线路.txt",
+            "url": "./lives/猫TV线路.txt",
             "epg": "https://epg.112114.eu.org/?ch={name}&date={date}"
         },
         {
-            "name": "⑦限时线路",
+            "name": "晴天专线",
             "type": 0,
-            "url": "./lives/⑦限时线路.txt",
-            "epg": "https://epg.112114.eu.org/?ch={name}&date={date}"
-        },
-        {
-            "name": "⑧临测线路",
-            "type": 0,
-            "url": "./lives/⑧临测线路.txt",
+            "url": "./lives/晴天专线.txt",
             "epg": "https://epg.112114.eu.org/?ch={name}&date={date}"
         },
         {
@@ -244,15 +238,18 @@
             "type_flag": 0
         },
         {
-            "key": "csp_KungFu404",
-            "name": "🎦阿里设置",
+            "key": "弹幕配置中心",
+            "name": "🎦弹幕线路配置中心",
             "type": 3,
-            "api": "csp_KungFu404",
-            "searchable": 1,
-            "filterable": 0,
+            "api": "csp_Config",
+            "jar": "./jars/弹幕配置中心.jar",
+            "ext": "http://127.0.0.1:9978/tvbox/tok.txt+4k|fhd|auto",
+            "searchable": 0,
             "changeable": 0,
-            "jar": "./jars/csp_KungFu404.jar",
-            "ext": "http://127.0.0.1:9978/tvbox/tok.txt+4k|fhd|auto"
+            "style": {
+                "type": "rect",
+                "ratio": 1.43
+            }
         },
         {
             "key": "Alist",
@@ -303,6 +300,16 @@
             "changeable": 1
         },
         {
+            "key": "糯米",
+            "name": "🎦糯米┃秒播",
+            "type": 3,
+            "api": "csp_Nmyswv",
+            "timeout": 15,
+            "searchable": 1,
+            "quickSearch": 1,
+            "changeable": 1
+        },
+        {
             "key": "苹果",
             "name": "🎦苹果┃不卡",
             "type": 3,
@@ -312,45 +319,26 @@
             "changeable": 1
         },
         {
-            "key": "厂长",
-            "name": "🎦厂长┃不卡",
-            "type": 3,
-            "api": "csp_NewCz",
-            "timeout": 15,
-            "playerType": 2,
-            "searchable": 1,
-            "quickSearch": 1,
-            "changeable": 1,
-            "ext": "https://www.czys.pro/"
-        },
-        {
-            "key": "热播",
-            "name": "🎦热播┃多线",
-            "type": 3,
-            "api": "csp_AppTT",
-            "timeout": 15,
-            "playerType": 2,
-            "searchable": 1,
-            "quickSearch": 1,
-            "changeable": 1,
-            "ext": "AO7TcBkd8I/B5wQc4Qma+pU="
-        },
-        {
-            "key": "追剧",
-            "name": "🎦追剧┃多线",
-            "type": 3,
-            "api": "csp_AppTT",
-            "playerType": 2,
-            "ext": "AO7TcBkd8IPB+BwH4Qma+opv"
-        },
-        {
             "key": "萌米",
             "name": "🎦萌米┃多线",
             "type": 3,
             "api": "csp_AppTT",
-            "timeout": 15,
-            "playerType": 1,
+            "playerType": 2,
+            "searchable": 1,
+            "quickSearch": 1,
+            "changeable": 1,
             "ext": "AO7TcBkd8Iifux0Y8Qze6tVlMg=="
+        },
+        {
+            "key": "欢视",
+            "name": "🎦欢视┃多线",
+            "type": 3,
+            "api": "csp_AppTT",
+            "playerType": 2,
+            "searchable": 1,
+            "quickSearch": 1,
+            "changeable": 1,
+            "ext": "AO7TcBkd8IPB+BwH4Qma+opv"
         },
         {
             "key": "南瓜",
@@ -364,46 +352,25 @@
             "changeable": 1
         },
         {
-            "key": "酷看",
-            "name": "🎦酷看┃秒播",
+            "key": "热播",
+            "name": "🎦热播┃多线",
             "type": 3,
-            "api": "csp_Kkys",
-            "timeout": 15,
+            "api": "csp_AppTT",
+            "playerType": 2,
             "searchable": 1,
             "quickSearch": 1,
-            "changeable": 1
-        },
-        {
-            "key": "原创",
-            "name": "🎦原创┃不卡",
-            "type": 3,
-            "api": "csp_YCyz",
-            "timeout": 15,
-            "playerType": 1,
-            "searchable": 1,
-            "quickSearch": 1,
-            "changeable": 1
+            "changeable": 1,
+            "ext": "AO7TcBkd8I/B5wQc4Qma+pU="
         },
         {
             "key": "可可",
             "name": "🎦可可┃多线",
             "type": 3,
             "api": "csp_Kekys",
-            "timeout": 15,
             "playerType": 2,
             "searchable": 1,
             "quickSearch": 1,
             "changeable": 1
-        },
-        {
-            "key": "小点",
-            "name": "🎦小点┃多线",
-            "type": 3,
-            "api": "csp_Appxd",
-            "searchable": 1,
-            "quickSearch": 1,
-            "changeable": 0,
-            "ext": "FbjEd1ddiJ6bwA0Z8ijG89k6OstPBosSHy5L8uXWgRZGSNrCqC7DmxucvvflR3fsMy/Wnih3xSpmA3pwCNspfAcIH4fYhmOEdGxX3jEdjqUpC+m0fSxkNAbkIy0diJWirn+WOtBkBcYhsgA8u1igBBUadbO0s0MCPsYcbHFRNw=="
         },
         {
             "key": "zxzj",
@@ -415,16 +382,6 @@
             "quickSearch": 1,
             "changeable": 1,
             "ext": "https://www.zxzjhd.com/"
-        },
-        {
-            "key": "在线4K",
-            "name": "🎦线线┃4K",
-            "type": 3,
-            "api": "csp_XYQHiker",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1,
-            "ext": "./json/4kav.json"
         },
         {
             "key": "低端",
@@ -446,6 +403,38 @@
             "playerType": "1",
             "api": "./api/drpy2.min.js",
             "ext": "./js/jp.js"
+        },
+        {
+            "key": "厂长",
+            "name": "🎦厂长┃不卡",
+            "type": 3,
+            "api": "csp_NewCz",
+            "timeout": 15,
+            "playerType": 2,
+            "searchable": 1,
+            "quickSearch": 1,
+            "changeable": 1,
+            "ext": "https://www.czzy77.com/"
+        },
+        {
+            "key": "原创",
+            "name": "🎦原创┃不卡",
+            "type": 3,
+            "api": "csp_YCyz",
+            "timeout": 15,
+            "playerType": 1,
+            "searchable": 1,
+            "quickSearch": 1,
+            "changeable": 1
+        },
+        {
+            "key": "比特",
+            "name": "🎦比特┃秒播",
+            "type": 3,
+            "api": "csp_Bttwoo",
+            "searchable": 1,
+            "quickSearch": 1,
+            "changeable": 1
         },
         {
             "key": "Auete",
@@ -470,6 +459,27 @@
                 "Cloud-drive": "tvfan/Cloud-drive.txt",
                 "from": "4k|auto"
             }
+        },
+        {
+            "key": "瓜子",
+            "name": "🎦瓜子",
+            "type": 3,
+            "searchable": 1,
+            "quickSearch": 1,
+            "changeable": 1,
+            "playerType": "1",
+            "api": "./api/drpy2.min.js",
+            "ext": "./js/瓜子.js"
+        },
+        {
+            "key": "在线4K",
+            "name": "🎦线线┃4K",
+            "type": 3,
+            "api": "csp_XYQHiker",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "ext": "./json/4kav.json"
         },
         {
             "key": "短剧",
@@ -698,6 +708,17 @@
             "quickSearch": 1,
             "filterable": 1,
             "ext": "./json/剧圈圈.json"
+        },
+        {
+            "key": "hipy_js_采集之王",
+            "name": "🎦采集之王[合]",
+            "type": 3,
+            "api": "./api/drpy2.min.js",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "order_num": 0,
+            "ext": "http://lib/采集之王[合].js?type=url&params=http://lib/采集静态.json$1"
         },
         {
             "key": "hipy_js_哔哩影视[官]",
@@ -1036,14 +1057,15 @@
             "ext": "./json/rebozj.json"
         },
         {
-            "key": "TVB云播",
-            "name": "🎦TVB云播",
+            "key": "hipy_js_TVB云播",
+            "name": "🎦TVB云播(drpy_t3)",
             "type": 3,
-            "api": "csp_XBPQ",
+            "api": "./api/drpy2.min.js",
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 1,
-            "ext": "./json/TVB.json"
+            "order_num": 0,
+            "ext": "./js/TVB云播.js"
         },
         {
             "key": "csp_Kuaikan",
@@ -1505,6 +1527,51 @@
             ]
         },
         {
+            "key": "爱奇异",
+            "name": "🎦爱奇艺(官)",
+            "type": 3,
+            "api": "./api/drpy2.min.js",
+            "ext": "./js/爱奇艺.js"
+        },
+        {
+            "key": "优酷",
+            "name": "🎦优酷(官)",
+            "type": 3,
+            "api": "./api/drpy2.min.js",
+            "ext": "./js/优酷.js"
+        },
+        {
+            "key": "腾讯",
+            "name": "🎦腾讯VIP(官)",
+            "type": 3,
+            "api": "./api/drpy2.min.js",
+            "ext": "./js/腾讯VIP.js"
+        },
+        {
+            "key": "芒果",
+            "name": "🎦芒果(官)",
+            "type": 3,
+            "api": "./api/drpy2.min.js",
+            "ext": "./js/芒果.js"
+        },
+        {
+            "key": "搜狗",
+            "name": "🎦搜狗(官)",
+            "type": 3,
+            "api": "./api/drpy2.min.js",
+            "ext": "./js/搜狗.js"
+        },
+        {
+            "key": "360影视",
+            "name": "🎦360影视(官)",
+            "type": 3,
+            "api": "csp_SP360",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "changeable": 0
+        },
+        {
             "key": "csp_XYQHiker_哔嘀影视",
             "name": "🧲哔嘀影视(XYQH)",
             "type": 3,
@@ -1641,14 +1708,15 @@
             "ext": "./txt/alitoken.txt"
         },
         {
-            "key": "py_cctv",
+            "key": "央视大全",
             "name": "🌔央视大全",
             "type": 3,
-            "api": "py_cctv",
-            "searchable": 0,
-            "quickSearch": 0,
+            "api": "./api/drpy2.min.js",
+            "searchable": 1,
+            "quickSearch": 1,
             "filterable": 1,
-            "ext": "./py/cctv.py"
+            "order_num": 0,
+            "ext": "./js/大全央视.js"
         },
         {
             "key": "相声小品",
@@ -1754,14 +1822,19 @@
             "ext": "./js/huyazhibo.js"
         },
         {
-            "key": "斗鱼直播",
-            "name": "🐟斗鱼直播",
+            "key": "斗鱼js",
+            "name": "🐟斗鱼┃直播",
             "type": 3,
             "api": "./api/drpy2.min.js",
+            "ext": "./js/斗鱼直播.js",
+            "style": {
+                "type": "rect",
+                "ratio": 1.755
+            },
+            "playerType": "2",
             "searchable": 0,
             "quickSearch": 0,
-            "filterable": 1,
-            "ext": "./js/douyu.js"
+            "changeable": 0
         },
         {
             "key": "Dm84",
@@ -1830,6 +1903,20 @@
             "quickSearch": 0,
             "filterable": 1,
             "ext": "./json/播视童趣.json"
+        },
+        {
+            "key": "Bili",
+            "name": "🅱️哔哩合集",
+            "type": 3,
+            "api": "csp_Bili",
+            "style": {
+                "type": "rect",
+                "ratio": 1.597
+            },
+            "searchable": 1,
+            "quickSearch": 0,
+            "changeable": 0,
+            "ext": "./json/bilibili.json"
         },
         {
             "key": "csp_Bili幼儿",
@@ -1993,6 +2080,66 @@
             "name": "Web聚合",
             "type": 3,
             "url": "Web"
+        },
+        {
+            "name": "公众号：开心软件",
+            "type": 1,
+            "url": "http://kmp.us.kg/api/?key=A2gODYCEHBd4tVLsbv&url=",
+            "ext": {
+                "flag": [
+                    "qq",
+                    "腾讯",
+                    "qiyi",
+                    "爱奇艺",
+                    "奇艺",
+                    "youku",
+                    "优酷",
+                    "sohu",
+                    "搜狐",
+                    "letv",
+                    "乐视",
+                    "mgtv",
+                    "芒果",
+                    "tnmb",
+                    "seven",
+                    "bilibili",
+                    "1905",
+                    "NetFilx"
+                ],
+                "header": {
+                    "User-Agent": "okhttp/4.9.1"
+                }
+            }
+        },
+        {
+            "name": "公众号：六趣",
+            "type": 1,
+            "url": "http://kmp.us.kg/api/?key=A2gODYCEHBd4tVLsbv&url=",
+            "ext": {
+                "flag": [
+                    "qq",
+                    "腾讯",
+                    "qiyi",
+                    "爱奇艺",
+                    "奇艺",
+                    "youku",
+                    "优酷",
+                    "sohu",
+                    "搜狐",
+                    "letv",
+                    "乐视",
+                    "mgtv",
+                    "芒果",
+                    "tnmb",
+                    "seven",
+                    "bilibili",
+                    "1905",
+                    "NetFilx"
+                ],
+                "header": {
+                    "User-Agent": "okhttp/4.9.1"
+                }
+            }
         },
         {
             "name": "-咸鱼-",

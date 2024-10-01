@@ -728,8 +728,8 @@ CGTN阿语,https://arabic-livews.cgtn.com/hls/LSveq57bErWLinBnxosqjisZ220802LSTe
 广东｜云浮文旅,https://livestream.oeeee.com/slive/17807.m3u8
 广东｜河源综合,http://tmpstream.hyrtv.cn/xwzh/sd/live.m3u8
 广东｜河源公共,http://tmpstream.hyrtv.cn/hygg/sd/live.m3u8
-广东｜潮州综合,http://time-vod-qhlive.sobeylive.com/czbtv2019/czzhpd.m3u8
-广东｜潮州民生,http://time-vod-qhlive.sobeylive.com/czbtv2019/czggpd.m3u8
+广东｜潮州综合,http://vod-zjst-time.sobeylive.com/czbtv2019/czzhpd.m3u8#http://vod-zjst-time.sobeylive.com/czbtv2019/czzhpd.m3u8#http://vod-zjst-time.sobeylive.com/czbtv2019/czzhpd.m3u8#http://vod-zjst-time.sobeylive.com/czbtv2019/czzhpd.m3u8#http://vod-zjst-time.sobeylive.com/czbtv2019/czzhpd.m3u8#http://vod-zjst-time.sobeylive.com/czbtv2019/czzhpd.m3u8#http://vod-zjst-time.sobeylive.com/czbtv2019/czzhpd.m3u8#http://vod-zjst-time.sobeylive.com/czbtv2019/czzhpd.m3u8#http://vod-zjst-time.sobeylive.com/czbtv2019/czzhpd.m3u8#http://vod-zjst-time.sobeylive.com/czbtv2019/czzhpd.m3u8
+广东｜潮州民生,http://vod-zjst-time.sobeylive.com/czbtv2019/czggpd.m3u8#http://vod-zjst-time.sobeylive.com/czbtv2019/czggpd.m3u8#http://vod-zjst-time.sobeylive.com/czbtv2019/czggpd.m3u8#http://vod-zjst-time.sobeylive.com/czbtv2019/czggpd.m3u8#http://vod-zjst-time.sobeylive.com/czbtv2019/czggpd.m3u8#http://vod-zjst-time.sobeylive.com/czbtv2019/czggpd.m3u8#http://vod-zjst-time.sobeylive.com/czbtv2019/czggpd.m3u8#http://vod-zjst-time.sobeylive.com/czbtv2019/czggpd.m3u8#http://vod-zjst-time.sobeylive.com/czbtv2019/czggpd.m3u8#http://vod-zjst-time.sobeylive.com/czbtv2019/czggpd.m3u8
 广东｜GRTN文化频道,https://glive.grtn.cn/live/wenhua_test0203.m3u8
 广东｜GRTN生活频道,http://glive.grtn.cn/live/life.m3u8
 广东｜GRTN纪录片频道,http://glive.grtn.cn/live/jilupian.m3u8

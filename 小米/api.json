@@ -7,20 +7,18 @@
     "sites": [
         {
             "key": "豆瓣",
-            "name": "🌈豆瓣┃反馈QQ群:665981772 公众号：叨观荐影",
+            "name": "🌈豆瓣┃反馈QQ群:665981772 公众号：叨观荐影 接口只兼容OK影视或者影视",
             "type": 3,
             "api": "csp_Douban",
             "searchable": 0
         },
         {
-            "key": "csp_瓜子",
-            "name": "🌰瓜子┃1080P",
-            "api": "csp_Gz360",
+            "key": "配置",
+            "name": "⚙️网盘┃配置4K",
             "type": 3,
-            "searchable": 1,
-            "playerType": 2,
-            "timeout": 30,
-            "changeable": 0
+            "changeable": 0,
+            "searchable": 0,
+            "api": "csp_Config"
         },
         {
             "key": "csp_wanou",
@@ -48,8 +46,8 @@
             "filterable": 1,
             "ext": {
                 "site_urls": [
-                    "http://mihdr.top",
-                    "http://mpanso.com"
+                    "http://mpanso.com",
+                    "http://mihdr.top"
                 ]
             }
         },
@@ -73,68 +71,101 @@
             "ext": ""
         },
         {
-            "key": "君君",
-            "name": "🚗君君┃1080P",
+            "key": "csp_JPYY",
+            "name": "🥇金牌┃1080P",
             "type": 3,
-            "changeable": 0,
-            "api": "csp_AppYsV2",
             "searchable": 1,
-            "quickSearch": 1,
+            "changeable": 1,
+            "api": "csp_Jpyy",
+            "playerType": 1,
             "filterable": 1,
-            "ext": "http://122.228.85.203:1000/api.php/app/"
+            "ext": ""
         },
         {
-            "key": "csp_Xdys",
-            "name": "👬️兄弟┃108P",
+            "key": "GUAZI",
+            "name": "🥁瓜子┃1080",
             "type": 3,
-            "api": "csp_Xdys",
+            "searchable": 1,
+            "quickSearch": 1,
+            "api": "./api/appys.js",
+            "ext": {
+                "host": "http://110.42.37.106:7788/api.php/app/",
+                "*": [
+                    "http://122.228.85.203:7979/api/?key=7cb64e30a4ba635990e54b59adf172aa&url=",
+                    ""
+                ]
+            }
+        },
+        {
+            "key": "csp_subaobai",
+            "name": "✍️白白┃1080P",
+            "type": 3,
+            "searchable": 1,
+            "changeable": 1,
+            "api": "csp_SuBaiBai",
+            "playerType": 1,
+            "filterable": 1,
+            "ext": ""
+        },
+        {
+            "key": "junjun",
+            "name": "🚗君君┃1080",
+            "type": 3,
+            "searchable": 1,
+            "quickSearch": 1,
+            "api": "./api/appys.js",
+            "ext": {
+                "host": "http://122.228.85.203:1000/api.php/app/",
+                "*": [
+                    "http://122.228.85.203:7979/api/?key=7cb64e30a4ba635990e54b59adf172aa&url=",
+                    "https://xcoo.vip/xiaojun/xiaojunjiexi.php?url="
+                ]
+            }
+        },
+        {
+            "key": "csp_Czsapp",
+            "name": "🪖厂长┃1080P",
+            "type": 3,
+            "api": "csp_Czsapp",
+            "playerType": 2,
+            "ext": "https://www.czzy.site/"
+        },
+        {
+            "key": "csp_yunbo",
+            "name": "☁️️云播┃1080",
+            "type": 3,
+            "api": "csp_Tvyb",
             "playerType": 2
         },
         {
-            "key": "freeok",
-            "name": "🦁freeOK┃独家",
+            "key": "hipy_闪电",
+            "name": "⚡️闪电┃1080P",
             "type": 3,
-            "changeable": 1,
-            "click": "document.querySelector(\"#playleft iframe\").contentWindow.document.querySelector(\"#start\").click();",
-            "api": "csp_FreeOK"
-        },
-        {
-            "key": "配置",
-            "name": "⚙️网盘┃配置",
-            "type": 3,
+            "api": "./api/drpy.min.js",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "order_num": 0,
             "changeable": 0,
-            "searchable": 0,
-            "api": "csp_Config"
+            "ext": "./js/闪电.js"
         },
         {
             "key": "hipy_js_腾云驾雾[官]",
             "name": "🌞腾腾┃解析",
             "type": 3,
-            "api": "./api/drpy2.min.js",
+            "api": "./api/drpy.min.js",
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 1,
             "order_num": 0,
             "changeable": 0,
-            "ext": "./js/tx.js"
-        },
-        {
-            "key": "hipy_guazi",
-            "name": "🍉瓜子┃1080P",
-            "type": 3,
-            "api": "./api/drpy2.min.js",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1,
-            "order_num": 0,
-            "changeable": 0,
-            "ext": "./js/瓜子.js"
+            "ext": "./js/ttt.js"
         },
         {
             "key": "guoguo",
             "name": "🌞果果┃解析",
             "type": 3,
-            "api": "./api/drpy2.min.js",
+            "api": "./api/drpy.min.js",
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 1,
@@ -143,30 +174,23 @@
             "ext": "./js/guoguo.js"
         },
         {
+            "key": "摘星",
+            "name": "✨星星┃1080P",
+            "type": 3,
+            "api": "./api/drpy.min.js",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "order_num": 0,
+            "changeable": 0,
+            "ext": "./js/摘星.js"
+        },
+        {
             "key": "csp_NanGua",
             "name": "🎃南瓜┃APP",
             "type": 3,
             "changeable": 1,
             "api": "csp_NanGua",
-            "playerType": 2,
-            "filterable": 1
-        },
-        {
-            "key": "csp_paopao",
-            "name": "🫧菠菜┃1080P",
-            "type": 3,
-            "changeable": 0,
-            "api": "csp_Pptv",
-            "playerType": 2,
-            "filterable": 1,
-            "ext": "https://yigeg.pro"
-        },
-        {
-            "key": "csp_Nkdy",
-            "name": "🥛耐看┃1080P",
-            "type": 3,
-            "changeable": 0,
-            "api": "csp_Nkdy",
             "playerType": 2,
             "filterable": 1
         },
@@ -196,7 +220,7 @@
             "searchable": 1,
             "quickSearch": 0,
             "changeable": 0,
-            "ext": "./json/bilibili.json"
+            "ext": "./json/Bili.json"
         },
         {
             "key": "csp_农民",
@@ -303,37 +327,6 @@
             }
         },
         {
-            "key": "文采影视",
-            "name": "🌼文采┃1080P",
-            "type": 3,
-            "api": "csp_XBPQ",
-            "changeable": 0,
-            "jar": "./jars/小米.jar",
-            "ext": {
-                "主页url": "https://www.hkybqufgh.com/",
-                "简介": "</label>&&</div>",
-                "嗅探词": "m3u8",
-                "影片类型": "tags\">&&director\">",
-                "影片状态": "bottom\">&&</div>",
-                "二次截取": "videoList\":\\[&&\\]",
-                "数组": "{&&}[不包含:伦理剧]",
-                "图片": "https+://ywxohs.com+obs.gduamoe.com&&\",",
-                "标题": "vodName\":\"&&\"",
-                "副标题": "vodRemarks\":\"&&\"",
-                "链接": "https://www.hkybqufgh.com/detail/+vodId\":&&,",
-                "导演": "导演:</div>&&主演",
-                "主演": "主演:</div>&&别名",
-                "线路标题": "小米文采",
-                "播放数组": "listitem\">&&info\">",
-                "播放列表": "<a&&</a>",
-                "倒序": "否",
-                "搜索url": "https://www.hkybqufgh.com/vod/search/{wd}",
-                "搜索副标题": "class=\"boottom\"*<div>&&</div",
-                "分类": "电影$1#电视剧$2#综艺$3#动漫$4",
-                "分类url": "https://www.hkybqufgh.com/vod/show/id/{cateId}/class/{class}/year/{year}/area/{area}/page/{catePg}"
-            }
-        },
-        {
             "key": "有声小说js",
             "name": "🎧有声┃小说",
             "type": 3,
@@ -426,7 +419,65 @@
         {
             "name": "4K解析",
             "type": 1,
-            "url": "http://1.xiaomi666.work.gd/aini10.php?url=",
+            "url": "",
+            "ext": {
+                "flag": [
+                    "qq",
+                    "腾讯",
+                    "qiyi",
+                    "爱奇艺",
+                    "奇艺",
+                    "youku",
+                    "优酷",
+                    "sohu",
+                    "搜狐",
+                    "letv",
+                    "乐视",
+                    "mgtv",
+                    "芒果",
+                    "tnmb",
+                    "seven",
+                    "bilibili",
+                    "1905"
+                ],
+                "header": {
+                    "User-Agent": "okhttp/4.9.1"
+                }
+            }
+        },
+        {
+            "name": "反弹",
+            "type": 1,
+            "url": "http://27.25.141.188:6688/api/?key=cc10901237ea968438714d7f0303986b&url=",
+            "ext": {
+                "flag": [
+                    "qq",
+                    "腾讯",
+                    "qiyi",
+                    "爱奇艺",
+                    "奇艺",
+                    "youku",
+                    "优酷",
+                    "sohu",
+                    "搜狐",
+                    "letv",
+                    "乐视",
+                    "mgtv",
+                    "芒果",
+                    "tnmb",
+                    "seven",
+                    "bilibili",
+                    "1905"
+                ],
+                "header": {
+                    "User-Agent": "okhttp/4.9.1"
+                }
+            }
+        },
+        {
+            "name": "1080解析1",
+            "type": 1,
+            "url": "",
             "ext": {
                 "flag": [
                     "qq",
@@ -455,7 +506,7 @@
         {
             "name": "1080解析",
             "type": 1,
-            "url": "https://jf.lemiaoyun.cn/api/?key=86950663b3198d25885fdf61501a3366&url=",
+            "url": "http://117.50.183.202:8036/?ip=111.55.12.236&url=",
             "ext": {
                 "flag": [
                     "qq",

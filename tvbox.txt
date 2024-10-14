@@ -1,35 +1,35 @@
-{ "urls": [{ "url": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/kimwang1978/tvbox/main/饭太硬/api.json", "name": "饭太硬" },
+{ "urls": [{ "url": "https://ghp.ci/https://raw.githubusercontent.com/kimwang1978/tvbox/main/饭太硬/api.json", "name": "饭太硬" },
 
-{ "url": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/kimwang1978/tvbox/main/小米/api.json", "name": "小米" },
+{ "url": "https://ghp.ci/https://raw.githubusercontent.com/kimwang1978/tvbox/main/小米/api.json", "name": "小米" },
 
-{ "url": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/kimwang1978/tvbox/main/肥猫/api.json", "name": "肥猫" },
+{ "url": "https://ghp.ci/https://raw.githubusercontent.com/kimwang1978/tvbox/main/肥猫/api.json", "name": "肥猫" },
 
-{ "url": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/kimwang1978/tvbox/main/菜妮丝/api.json", "name": "菜妮丝" },
+{ "url": "https://ghp.ci/https://raw.githubusercontent.com/kimwang1978/tvbox/main/菜妮丝/api.json", "name": "菜妮丝" },
 
-{ "url": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/kimwang1978/tvbox/main/王二小/api.json", "name": "王二小" },
+{ "url": "https://ghp.ci/https://raw.githubusercontent.com/kimwang1978/tvbox/main/王二小/api.json", "name": "王二小" },
 
-{ "url": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/kimwang1978/tvbox/main/摸鱼儿/api.json", "name": "摸鱼儿" },
+{ "url": "https://ghp.ci/https://raw.githubusercontent.com/kimwang1978/tvbox/main/摸鱼儿/api.json", "name": "摸鱼儿" },
 
-{ "url": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/kimwang1978/tvbox/main/PG/api.json", "name": "PG" },
-{ "url": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/kimwang1978/tvbox/main/潇洒/api.json", "name": "潇洒" },
+{ "url": "https://ghp.ci/https://raw.githubusercontent.com/kimwang1978/tvbox/main/PG/api.json", "name": "PG" },
+{ "url": "https://ghp.ci/https://raw.githubusercontent.com/kimwang1978/tvbox/main/潇洒/api.json", "name": "潇洒" },
 
 
 
-{ "url": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/kimwang1978/tvbox/main/天天开心/api.json", "name": "天天开心" },
+{ "url": "https://ghp.ci/https://raw.githubusercontent.com/kimwang1978/tvbox/main/天天开心/api.json", "name": "天天开心" },
 
-{ "url": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/kimwang1978/tvbox/main/香雅情/api.json", "name": "香雅情" },
-{ "url": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/kimwang1978/tvbox/main/南风/api.json", "name": "南风" },
+{ "url": "https://ghp.ci/https://raw.githubusercontent.com/kimwang1978/tvbox/main/香雅情/api.json", "name": "香雅情" },
+{ "url": "https://ghp.ci/https://raw.githubusercontent.com/kimwang1978/tvbox/main/南风/api.json", "name": "南风" },
 
-{ "url": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/kimwang1978/tvbox/main/骚零/api.json", "name": "骚零" },
+{ "url": "https://ghp.ci/https://raw.githubusercontent.com/kimwang1978/tvbox/main/骚零/api.json", "name": "骚零" },
 
-{ "url": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/kimwang1978/tvbox/main/白嫖/api.json", "name": "白嫖" },
+{ "url": "https://ghp.ci/https://raw.githubusercontent.com/kimwang1978/tvbox/main/白嫖/api.json", "name": "白嫖" },
 
-{ "url": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/kimwang1978/tvbox/main/OK/api.json", "name": "OK" },
+{ "url": "https://ghp.ci/https://raw.githubusercontent.com/kimwang1978/tvbox/main/OK/api.json", "name": "OK" },
 
-{ "url": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/kimwang1978/tvbox/main/戏曲音乐/api.json", "name": "戏曲音乐" },
+{ "url": "https://ghp.ci/https://raw.githubusercontent.com/kimwang1978/tvbox/main/戏曲音乐/api.json", "name": "戏曲音乐" },
 
-{ "url": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/kimwang1978/tvbox/main/短剧频道/api.json", "name": "短剧频道" },
+{ "url": "https://ghp.ci/https://raw.githubusercontent.com/kimwang1978/tvbox/main/短剧频道/api.json", "name": "短剧频道" },
 
-{ "url": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/kimwang1978/tvbox/main/少儿频道/api.json", "name": "少儿频道" },
+{ "url": "https://ghp.ci/https://raw.githubusercontent.com/kimwang1978/tvbox/main/少儿频道/api.json", "name": "少儿频道" },
 
-{ "url": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/kimwang1978/tvbox/main/动漫频道/api.json", "name": "动漫频道" }]}
+{ "url": "https://ghp.ci/https://raw.githubusercontent.com/kimwang1978/tvbox/main/动漫频道/api.json", "name": "动漫频道" }]}

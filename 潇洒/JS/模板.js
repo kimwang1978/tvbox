@@ -424,5 +424,6 @@ function getMubans() {
 var mubanDict = getMubans();
 var muban = getMubans();
 export default {
-    muban, getMubans
+    muban,
+    getMubans
 };

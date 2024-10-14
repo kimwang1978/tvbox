@@ -1,0 +1,20 @@
+{
+    "请求头": "User-Agent$MOBILE_UA",
+    "编码": "UTF-8",
+    "主页url": "https://m.82mao.com/List1/53.html",
+    "二次截取": "<ul id=\"movielist\" class=\"channel-list\">&&</ul>",
+    "数组": "<li>&&</li>",
+    "图片": "< img src=\"&&\"",
+    "标题": "<h3>&&</h3>",
+    "链接": "href=\"&&\"",
+    "副标题": "✨+<span>&&</span>",
+    "线路数组": "<div class=\"series\">&&</div>",
+    "线路标题": "✨乐哥推荐✨+</i>&&47</",
+    "播放数组": "<div class=\"view-item\">&&</div>",
+    "播放标题": "✨+>&&</",
+    "简介": "✨指间的黑客为您介绍剧情✨+<p>&&</p>",
+    "搜索url": "https://m.82mao.com/Search/{wd}----------{pg}---.html",
+    "分类": "短剧&古装&悬疑&穿越&",
+     "分类值":"*",
+    "分类url": "https://m.82mao.com/List/53---{cateId}-----{catePg}---.html"
+}

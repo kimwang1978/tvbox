@@ -52,12 +52,36 @@
             }
         },
         {
+            "key": "FERRR",
+            "name": "👀FREE┃1080P",
+            "type": 3,
+            "api": "./api/drpy2.min.js",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "order_num": 0,
+            "changeable": 0,
+            "ext": "./js/FREE.js"
+        },
+        {
             "key": "米搜",
             "name": "🌾米搜┃盘盘4K",
             "type": 3,
             "api": "csp_MiSou",
             "changeable": 0,
             "ext": "./txt/kk.txt"
+        },
+        {
+            "key": "88看球",
+            "name": "🏀看球┃直播",
+            "type": 3,
+            "api": "./api/drpy2.min.js",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "order_num": 0,
+            "changeable": 0,
+            "ext": "./js/kanqiu.js"
         },
         {
             "key": "csp_LiteApple",
@@ -72,7 +96,7 @@
         },
         {
             "key": "csp_JPYY",
-            "name": "🥇金牌┃1080P",
+            "name": "🥇文采┃1080P",
             "type": 3,
             "searchable": 1,
             "changeable": 1,
@@ -91,7 +115,7 @@
             "ext": {
                 "host": "http://110.42.37.106:7788/api.php/app/",
                 "*": [
-                    "http://122.228.85.203:7979/api/?key=7cb64e30a4ba635990e54b59adf172aa&url=",
+                    "http://122.228.85.203:7979/api/?key=29a5e65c75bf3d339dec1bf50155cf87&url=",
                     ""
                 ]
             }
@@ -117,10 +141,46 @@
             "ext": {
                 "host": "http://122.228.85.203:1000/api.php/app/",
                 "*": [
-                    "http://122.228.85.203:7979/api/?key=7cb64e30a4ba635990e54b59adf172aa&url=",
                     "https://xcoo.vip/xiaojun/xiaojunjiexi.php?url="
                 ]
             }
+        },
+        {
+            "key": "非凡┃无广",
+            "name": "📺非凡┃测试",
+            "type": 0,
+            "api": "http://yonghu.ffzyapi8.com/api.php/provide/vod/from/ffm3u8/at/xml/",
+            "playUrl": "json:https://jx.ke-mi.vip:2087/123456/json.php?url=",
+            "searchable": 1,
+            "filterable": 1,
+            "quickSearch": 1,
+            "changeable": 1,
+            "categories": [
+                "欧美剧",
+                "香港剧",
+                "韩国剧",
+                "日本剧",
+                "台湾剧",
+                "泰国剧",
+                "海外剧",
+                "动作片",
+                "喜剧片",
+                "科幻片",
+                "恐怖片",
+                "爱情片",
+                "剧情片",
+                "战争片",
+                "纪录片",
+                "大陆综艺",
+                "欧美综艺",
+                "日韩综艺",
+                "港台综艺",
+                "国产动漫",
+                "欧美动漫",
+                "日韩动漫",
+                "港台动漫",
+                "海外动漫"
+            ]
         },
         {
             "key": "csp_Czsapp",
@@ -138,46 +198,34 @@
             "playerType": 2
         },
         {
-            "key": "hipy_闪电",
-            "name": "⚡️闪电┃1080P",
-            "type": 3,
-            "api": "./api/drpy.min.js",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1,
-            "order_num": 0,
-            "changeable": 0,
-            "ext": "./js/闪电.js"
-        },
-        {
             "key": "hipy_js_腾云驾雾[官]",
             "name": "🌞腾腾┃解析",
             "type": 3,
-            "api": "./api/drpy.min.js",
+            "api": "./api/drpy2.min.js",
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 1,
             "order_num": 0,
             "changeable": 0,
-            "ext": "./js/ttt.js"
+            "ext": "./js/ttt111222.js"
         },
         {
             "key": "guoguo",
             "name": "🌞果果┃解析",
             "type": 3,
-            "api": "./api/drpy.min.js",
+            "api": "./api/drpy2.min.js",
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 1,
             "order_num": 0,
             "changeable": 0,
-            "ext": "./js/guoguo.js"
+            "ext": "./js/guoguo111222.js"
         },
         {
             "key": "摘星",
             "name": "✨星星┃1080P",
             "type": 3,
-            "api": "./api/drpy.min.js",
+            "api": "./api/drpy2.min.js",
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 1,
@@ -223,12 +271,29 @@
             "ext": "./json/Bili.json"
         },
         {
+            "key": "荐片",
+            "name": "🎬荐片┃磁力",
+            "api": "csp_Jianpian",
+            "type": 3,
+            "playerType": "1",
+            "ext": "http://api2.rinhome.com"
+        },
+        {
             "key": "csp_农民",
             "name": "🐶汪汪┃1080P",
             "type": 3,
             "playerType": 1,
             "changeable": 0,
-            "api": "csp_Nongm"
+            "api": "csp_Nongm",
+            "ext": "https://www.wwgz.cn/"
+        },
+        {
+            "key": "csp_yigeg",
+            "name": "🥬菠菜┃1080P",
+            "type": 3,
+            "changeable": 0,
+            "api": "csp_Pptv",
+            "ext": "https://yigeg.pro/"
         },
         {
             "key": "csp_全网",
@@ -244,39 +309,6 @@
             "type": 3,
             "changeable": 0,
             "api": "csp_SP360"
-        },
-        {
-            "key": "蚂蚁",
-            "name": "🌞去广┃1080P",
-            "type": 1,
-            "changeable": 0,
-            "api": "https://360zy.com/api.php/provide/vod",
-            "playUrl": "json:http://110.42.3.99:880/rmm.php/?url=",
-            "categories": [
-                "爽文短剧",
-                "国产剧",
-                "国产动漫",
-                "动画电影",
-                "网络电影",
-                "动作片",
-                "喜剧片",
-                "灾难片",
-                "爱情片",
-                "科幻片",
-                "恐怖片",
-                "剧情片",
-                "战争片",
-                "港台剧",
-                "日韩剧",
-                "欧美剧",
-                "惊悚片",
-                "犯罪片",
-                "冒险片",
-                "悬疑片",
-                "武侠片",
-                "奇幻片",
-                "国产综艺"
-            ]
         },
         {
             "key": "QIYIU",
@@ -327,20 +359,6 @@
             }
         },
         {
-            "key": "有声小说js",
-            "name": "🎧有声┃小说",
-            "type": 3,
-            "api": "./api/drpy2.min.js",
-            "ext": "./js/有声小说吧.js",
-            "style": {
-                "type": "rect",
-                "ratio": 1
-            },
-            "searchable": 0,
-            "quickSearch": 0,
-            "changeable": 0
-        },
-        {
             "key": "csp_FirstAid",
             "name": "🍧急救┃教学",
             "type": 3,
@@ -352,48 +370,6 @@
                 "ratio": 3.8
             },
             "gridview": "0-0-4.1"
-        },
-        {
-            "key": "dr_兔小贝",
-            "name": "📚儿童┃启蒙",
-            "type": 3,
-            "api": "./api/drpy2.min.js",
-            "ext": "./js/兔小贝.js",
-            "style": {
-                "type": "rect",
-                "ratio": 1.597
-            },
-            "searchable": 0,
-            "quickSearch": 0,
-            "changeable": 0
-        },
-        {
-            "key": "虎牙直播js",
-            "name": "🐯虎牙┃直播",
-            "type": 3,
-            "api": "./api/drpy2.min.js",
-            "ext": "./js/huya2.js",
-            "style": {
-                "type": "rect",
-                "ratio": 1.755
-            },
-            "playerType": "2",
-            "searchable": 0,
-            "quickSearch": 0,
-            "changeable": 0
-        },
-        {
-            "key": "Jrsjs",
-            "name": "🏀JRS┃球迷",
-            "type": 3,
-            "api": "./api/drpy2.min.js",
-            "ext": "./js/jrk.js",
-            "style": {
-                "type": "list"
-            },
-            "searchable": 0,
-            "quickSearch": 0,
-            "changeable": 0
         },
         {
             "key": "push_agent",

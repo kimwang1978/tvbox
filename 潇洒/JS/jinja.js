@@ -21,7 +21,9 @@
 /*global require, exports, module, define */
 
 (function(global, factory) {
-    typeof exports === 'object' && typeof module !== 'undefined' ? factory(exports) : typeof define === 'function' && define.amd ? define(['exports'], factory) : (global = typeof globalThis !== 'undefined' ? globalThis : global || self, factory(global.jinja = {}));
+    typeof exports === 'object' && typeof module !== 'undefined' ? factory(exports) :
+        typeof define === 'function' && define.amd ? define(['exports'], factory) :
+        (global = typeof globalThis !== 'undefined' ? globalThis : global || self, factory(global.jinja = {}));
 })(this, (function(jinja) {
     "use strict";
     var STRINGS = /'(\\.|[^'])*'|"(\\.|[^"'"])*"/g;
@@ -401,19 +403,20 @@
         var _toString = Object.prototype.toString;
         var _hasOwnProperty = Object.prototype.hasOwnProperty;
         var getKeys = Object.keys || function(obj) {
-                var keys = [];
-                for (var n in obj) if (_hasOwnProperty.call(obj, n)) keys.push(n);
-                return keys;
-            };
+            var keys = [];
+            for (var n in obj)
+                if (_hasOwnProperty.call(obj, n)) keys.push(n);
+            return keys;
+        };
         var isArray = Array.isArray || function(obj) {
-                return _toString.call(obj) === '[object Array]';
-            };
+            return _toString.call(obj) === '[object Array]';
+        };
         var create = Object.create || function(obj) {
-                function F() {}
+            function F() {}
 
-                F.prototype = obj;
-                return new F();
-            };
+            F.prototype = obj;
+            return new F();
+        };
         var toString = function(val) {
             if (val == null) return '';
             return (typeof val.toString == 'function') ? val.toString() : _toString.call(val);

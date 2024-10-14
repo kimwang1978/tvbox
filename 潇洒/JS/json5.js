@@ -1,5 +1,7 @@
 (function(global, factory) {
-    typeof exports === 'object' && typeof module !== 'undefined' ? module.exports = factory() : typeof define === 'function' && define.amd ? define(factory) : (global = typeof globalThis !== 'undefined' ? globalThis : global || self, global.JSON5 = factory());
+    typeof exports === 'object' && typeof module !== 'undefined' ? module.exports = factory() :
+        typeof define === 'function' && define.amd ? define(factory) :
+        (global = typeof globalThis !== 'undefined' ? globalThis : global || self, global.JSON5 = factory());
 }(this, (function() {
     'use strict';
 
@@ -11,10 +13,11 @@
 
     var _global = createCommonjsModule(function(module) {
         // https://github.com/zloirock/core-js/issues/86#issuecomment-115759028
-        var global = module.exports = typeof window != 'undefined' && window.Math == Math ? window : typeof self != 'undefined' && self.Math == Math ? self
-        // eslint-disable-next-line no-new-func
-        :
-        Function('return this')();
+        var global = module.exports = typeof window != 'undefined' && window.Math == Math ?
+            window : typeof self != 'undefined' && self.Math == Math ? self
+            // eslint-disable-next-line no-new-func
+            :
+            Function('return this')();
         if (typeof __g == 'number') {
             __g = global;
         } // eslint-disable-line no-undef
@@ -97,22 +100,23 @@
     var dP = Object.defineProperty;
 
     var f = _descriptors ? Object.defineProperty : function defineProperty(O, P, Attributes) {
-            _anObject(O);
-            P = _toPrimitive(P, true);
-            _anObject(Attributes);
-            if (_ie8DomDefine) {
-                try {
-                    return dP(O, P, Attributes);
-                } catch (e) { /* empty */}
-            }
-            if ('get' in Attributes || 'set' in Attributes) {
-                throw TypeError('Accessors not supported!');
-            }
-            if ('value' in Attributes) {
-                O[P] = Attributes.value;
-            }
-            return O;
-        };
+        _anObject(O);
+        P = _toPrimitive(P, true);
+        _anObject(Attributes);
+        if (_ie8DomDefine) {
+            try {
+                return dP(O, P, Attributes);
+            } catch (e) {
+                /* empty */ }
+        }
+        if ('get' in Attributes || 'set' in Attributes) {
+            throw TypeError('Accessors not supported!');
+        }
+        if ('value' in Attributes) {
+            O[P] = Attributes.value;
+        }
+        return O;
+    };
 
     var _objectDp = {
         f: f
@@ -128,11 +132,11 @@
     };
 
     var _hide = _descriptors ? function(object, key, value) {
-            return _objectDp.f(object, key, _propertyDesc(1, value));
-        } : function(object, key, value) {
-            object[key] = value;
-            return object;
-        };
+        return _objectDp.f(object, key, _propertyDesc(1, value));
+    } : function(object, key, value) {
+        object[key] = value;
+        return object;
+    };
 
     var hasOwnProperty = {}.hasOwnProperty;
     var _has = function(it, key) {
@@ -306,7 +310,9 @@
                 return TO_STRING ? '' : undefined;
             }
             a = s.charCodeAt(i);
-            return a < 0xd800 || a > 0xdbff || i + 1 === l || (b = s.charCodeAt(i + 1)) < 0xdc00 || b > 0xdfff ? TO_STRING ? s.charAt(i) : a : TO_STRING ? s.slice(i, i + 2) : (a - 0xd800 << 10) + (b - 0xdc00) + 0x10000;
+            return a < 0xd800 || a > 0xdbff || i + 1 === l || (b = s.charCodeAt(i + 1)) < 0xdc00 || b > 0xdfff ?
+                TO_STRING ? s.charAt(i) : a :
+                TO_STRING ? s.slice(i, i + 2) : (a - 0xd800 << 10) + (b - 0xdc00) + 0x10000;
         };
     };
 
@@ -331,7 +337,7 @@
     var $fromCodePoint = String.fromCodePoint;
 
     // length should be 1, old FF problem
-    _export(_export.S + _export.F * ( !! $fromCodePoint && $fromCodePoint.length != 1), 'String', {
+    _export(_export.S + _export.F * (!!$fromCodePoint && $fromCodePoint.length != 1), 'String', {
         // 21.1.2.2 String.fromCodePoint(...codePoints)
         fromCodePoint: function fromCodePoint(x) {
             var arguments$1 = arguments;
@@ -345,7 +351,10 @@
                 if (_toAbsoluteIndex(code, 0x10ffff) !== code) {
                     throw RangeError(code + ' is not a valid code point');
                 }
-                res.push(code < 0x10000 ? fromCharCode(code) : fromCharCode(((code -= 0x10000) >> 10) + 0xd800, code % 0x400 + 0xdc00));
+                res.push(code < 0x10000 ?
+                    fromCharCode(code) :
+                    fromCharCode(((code -= 0x10000) >> 10) + 0xd800, code % 0x400 + 0xdc00)
+                );
             }
             return res.join('');
         }
@@ -371,12 +380,22 @@
 
         isIdStartChar: function isIdStartChar(c) {
             return typeof c === 'string' && (
-            (c >= 'a' && c <= 'z') || (c >= 'A' && c <= 'Z') || (c === '$') || (c === '_') || unicode.ID_Start.test(c))
+                (c >= 'a' && c <= 'z') ||
+                (c >= 'A' && c <= 'Z') ||
+                (c === '$') || (c === '_') ||
+                unicode.ID_Start.test(c)
+            )
         },
 
         isIdContinueChar: function isIdContinueChar(c) {
             return typeof c === 'string' && (
-            (c >= 'a' && c <= 'z') || (c >= 'A' && c <= 'Z') || (c >= '0' && c <= '9') || (c === '$') || (c === '_') || (c === '‌') || (c === '‍') || unicode.ID_Continue.test(c))
+                (c >= 'a' && c <= 'z') ||
+                (c >= 'A' && c <= 'Z') ||
+                (c >= '0' && c <= '9') ||
+                (c === '$') || (c === '_') ||
+                (c === '\u200C') || (c === '\u200D') ||
+                unicode.ID_Continue.test(c)
+            )
         },
 
         isDigit: function isDigit(c) {
@@ -526,12 +545,12 @@
                 case '\v':
                 case '\f':
                 case ' ':
-                case ' ':
-                case '﻿':
+                case '\u00A0':
+                case '\uFEFF':
                 case '\n':
                 case '\r':
-                case ' ':
-                case ' ':
+                case '\u2028':
+                case '\u2029':
                     read();
                     return
 
@@ -611,8 +630,8 @@
             switch (c) {
                 case '\n':
                 case '\r':
-                case ' ':
-                case ' ':
+                case '\u2028':
+                case '\u2029':
                     read();
                     lexState = 'default';
                     return
@@ -727,8 +746,8 @@
             switch (c) {
                 case '$':
                 case '_':
-                case '‌':
-                case '‍':
+                case '\u200C':
+                case '\u200D':
                     buffer += read();
                     return
 
@@ -756,8 +775,8 @@
             switch (u) {
                 case '$':
                 case '_':
-                case '‌':
-                case '‍':
+                case '\u200C':
+                case '\u200D':
                     break
 
                 default:
@@ -986,8 +1005,8 @@
                 case '\r':
                     throw invalidChar(read())
 
-                case ' ':
-                case ' ':
+                case '\u2028':
+                case '\u2029':
                     separatorChar(c);
                     break
 
@@ -1162,8 +1181,8 @@
                 return unicodeEscape()
 
             case '\n':
-            case ' ':
-            case ' ':
+            case '\u2028':
+            case '\u2029':
                 read();
                 return ''
 
@@ -1482,8 +1501,8 @@
             '\t': '\\t',
             '\v': '\\v',
             '\0': '\\0',
-            ' ': '\\u2028',
-            ' ': '\\u2029',
+            '\u2028': '\\u2028',
+            '\u2029': '\\u2029',
         };
 
         if (replacements[c]) {
@@ -1514,7 +1533,10 @@
         var quote;
 
         if (
-        replacer != null && typeof replacer === 'object' && !Array.isArray(replacer)) {
+            replacer != null &&
+            typeof replacer === 'object' &&
+            !Array.isArray(replacer)
+        ) {
             space = replacer.space;
             quote = replacer.quote;
             replacer = replacer.replacer;
@@ -1532,7 +1554,10 @@
                 if (typeof v === 'string') {
                     item = v;
                 } else if (
-                typeof v === 'number' || v instanceof String || v instanceof Number) {
+                    typeof v === 'number' ||
+                    v instanceof String ||
+                    v instanceof Number
+                ) {
                     item = String(v);
                 }
 
@@ -1624,8 +1649,8 @@
                 '\t': '\\t',
                 '\v': '\\v',
                 '\0': '\\0',
-                ' ': '\\u2028',
-                ' ': '\\u2029',
+                '\u2028': '\\u2028',
+                '\u2029': '\\u2029',
             };
 
             var product = '';

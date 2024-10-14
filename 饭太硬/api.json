@@ -101,7 +101,6 @@
             "name": "🍓糯米┃秒播",
             "type": 3,
             "api": "csp_Nmyswv",
-            "timeout": 15,
             "searchable": 1,
             "quickSearch": 1,
             "changeable": 1
@@ -111,6 +110,27 @@
             "name": "🍎苹果┃不卡",
             "type": 3,
             "api": "csp_LiteApple",
+            "searchable": 1,
+            "quickSearch": 1,
+            "changeable": 1
+        },
+        {
+            "key": "厂长",
+            "name": "📔厂长┃不卡",
+            "type": 3,
+            "api": "csp_NewCz",
+            "playerType": 2,
+            "searchable": 1,
+            "quickSearch": 1,
+            "changeable": 1,
+            "ext": "https://www.czzy77.com/"
+        },
+        {
+            "key": "原创",
+            "name": "☀原创┃不卡",
+            "type": 3,
+            "api": "csp_YCyz",
+            "playerType": 1,
             "searchable": 1,
             "quickSearch": 1,
             "changeable": 1
@@ -142,7 +162,6 @@
             "name": "🎃南瓜┃多线",
             "type": 3,
             "api": "csp_NanGua",
-            "timeout": 15,
             "playerType": 2,
             "searchable": 1,
             "quickSearch": 1,
@@ -200,29 +219,6 @@
             "playerType": "1",
             "api": "./api/drpy2.min.js",
             "ext": "./js/jp.js"
-        },
-        {
-            "key": "厂长",
-            "name": "📔厂长┃不卡",
-            "type": 3,
-            "api": "csp_NewCz",
-            "timeout": 15,
-            "playerType": 2,
-            "searchable": 1,
-            "quickSearch": 1,
-            "changeable": 1,
-            "ext": "https://www.czzy77.com/"
-        },
-        {
-            "key": "原创",
-            "name": "☀原创┃不卡",
-            "type": 3,
-            "api": "csp_YCyz",
-            "timeout": 15,
-            "playerType": 1,
-            "searchable": 1,
-            "quickSearch": 1,
-            "changeable": 1
         },
         {
             "key": "比特",
@@ -374,7 +370,7 @@
             "key": "虎牙直播js",
             "name": "🐯虎牙┃直播",
             "type": 3,
-            "api": "./api/drpy2.min.js",
+            "api": "./api/drpy2.js",
             "ext": "./js/huya2.js",
             "style": {
                 "type": "rect",
@@ -618,12 +614,6 @@
             "name": "IPV6",
             "type": 0,
             "url": "./lives/IPV6.txt",
-            "epg": ""
-        },
-        {
-            "name": "IPV4",
-            "type": 0,
-            "url": "./lives/IPV4.txt",
             "epg": ""
         }
     ]

@@ -8,7 +8,7 @@
     "sites": [
         {
             "key": "豆豆",
-            "name": "🌕️豆瓣┃首页┃推荐",
+            "name": "🥹新地址：http:我不是.摸鱼儿.com",
             "type": 3,
             "api": "csp_DouDou",
             "searchable": 0,
@@ -64,6 +64,47 @@
             }
         },
         {
+            "key": "笔触琉璃",
+            "name": "❤️笔触琉璃┃4K弹幕",
+            "type": 3,
+            "api": "csp_Bilimd",
+            "jar": "./jars/配置中心.jar",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "style": {
+                "type": "rect",
+                "ratio": 1.433
+            },
+            "ext": {
+                "cookie": "file://tvbox/bilibili.txt"
+            },
+            "timeout": 10
+        },
+        {
+            "key": "醉挽清风",
+            "name": "🌀醉挽清风┃4K纯净",
+            "type": 3,
+            "api": "./api/drpy.min.js",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "order_num": 0,
+            "ext": "./js/qingfeng.js"
+        },
+        {
+            "key": "小满万全",
+            "name": "🌀小满万全┃4K纯净",
+            "type": 3,
+            "api": "./api/drpy.min.js",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "order_num": 0,
+            "changeable": 0,
+            "ext": "./js/mgtv.js"
+        },
+        {
             "key": "alllive",
             "name": "📽️星河共影┃2K直播",
             "type": 3,
@@ -82,17 +123,6 @@
             "order_num": 0,
             "changeable": 0,
             "ext": "./js/guazi.js"
-        },
-        {
-            "key": "醉挽清风",
-            "name": "🍁醉挽清风┃4K纯净",
-            "type": 3,
-            "api": "./api/drpy.min.js",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1,
-            "order_num": 0,
-            "ext": "./js/qingfeng.js"
         },
         {
             "key": "南瓜影视",
@@ -818,7 +848,7 @@
                 "token": "http://127.0.0.1:9978/file/TVBox/token.txt",
                 "cookie": "http://127.0.0.1:9978/file/TVBox/quark.txt",
                 "uc_cookie": "http://127.0.0.1:9978/file/TVBox/uc.txt",
-                "site": "http://mogg.top",
+                "site": "http://mogg.小胡.top",
                 "danmu": true
             }
         },
@@ -1343,7 +1373,7 @@
         {
             "name": "zhuimi-super",
             "type": 1,
-            "url": "http://103.117.123.51:6523/zhuimi666.php?url=",
+            "url": "http://moyu.zhuimi.top/zhuimi666.php?url=",
             "ext": {
                 "flag": [
                     "qq",

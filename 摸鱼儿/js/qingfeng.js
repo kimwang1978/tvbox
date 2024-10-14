@@ -31,7 +31,7 @@ var rule = {
    
    lazy: $js.toString(() => {
     let d = [];
-    let response = JSON.parse(request("http://39.104.230.177:1122/lxjx/vipvip.php?url=" + input));
+    let response = JSON.parse(request("http://103.38.82.59:9527/zhuimi666.php?url=" + input));
     
     // 获取所有字段名
     let keys = Object.keys(response);

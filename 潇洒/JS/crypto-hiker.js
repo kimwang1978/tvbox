@@ -1097,7 +1097,15 @@ var CryptoJS = CryptoJS || (function(Math, undefined) {
 
         // Convert other array views to uint8
         if (
-        typedArray instanceof Int8Array || (typeof Uint8ClampedArray !== "undefined" && typedArray instanceof Uint8ClampedArray) || typedArray instanceof Int16Array || typedArray instanceof Uint16Array || typedArray instanceof Int32Array || typedArray instanceof Uint32Array || typedArray instanceof Float32Array || typedArray instanceof Float64Array) {
+            typedArray instanceof Int8Array ||
+            (typeof Uint8ClampedArray !== "undefined" && typedArray instanceof Uint8ClampedArray) ||
+            typedArray instanceof Int16Array ||
+            typedArray instanceof Uint16Array ||
+            typedArray instanceof Int32Array ||
+            typedArray instanceof Uint32Array ||
+            typedArray instanceof Float32Array ||
+            typedArray instanceof Float64Array
+        ) {
             typedArray = new Uint8Array(typedArray.buffer, typedArray.byteOffset, typedArray.byteLength);
         }
 
@@ -1313,7 +1321,7 @@ var CryptoJS = CryptoJS || (function(Math, undefined) {
                 var triplet = (byte1 << 16) | (byte2 << 8) | byte3;
 
                 for (var j = 0;
-                (j < 4) && (i + j * 0.75 < sigBytes); j++) {
+                    (j < 4) && (i + j * 0.75 < sigBytes); j++) {
                     base64Chars.push(map.charAt((triplet >>> (6 * (3 - j))) & 0x3f));
                 }
             }
@@ -1424,8 +1432,9 @@ var CryptoJS = CryptoJS || (function(Math, undefined) {
     var MD5 = C_algo.MD5 = Hasher.extend({
         _doReset: function() {
             this._hash = new WordArray.init([
-            0x67452301, 0xefcdab89,
-            0x98badcfe, 0x10325476]);
+                0x67452301, 0xefcdab89,
+                0x98badcfe, 0x10325476
+            ]);
         },
 
         _doProcessBlock: function(M, offset) {
@@ -1436,7 +1445,9 @@ var CryptoJS = CryptoJS || (function(Math, undefined) {
                 var M_offset_i = M[offset_i];
 
                 M[offset_i] = (
-                (((M_offset_i << 8) | (M_offset_i >>> 24)) & 0x00ff00ff) | (((M_offset_i << 24) | (M_offset_i >>> 8)) & 0xff00ff00));
+                    (((M_offset_i << 8) | (M_offset_i >>> 24)) & 0x00ff00ff) |
+                    (((M_offset_i << 24) | (M_offset_i >>> 8)) & 0xff00ff00)
+                );
             }
 
             // Shortcuts
@@ -1555,9 +1566,13 @@ var CryptoJS = CryptoJS || (function(Math, undefined) {
             var nBitsTotalH = Math.floor(nBitsTotal / 0x100000000);
             var nBitsTotalL = nBitsTotal;
             dataWords[(((nBitsLeft + 64) >>> 9) << 4) + 15] = (
-            (((nBitsTotalH << 8) | (nBitsTotalH >>> 24)) & 0x00ff00ff) | (((nBitsTotalH << 24) | (nBitsTotalH >>> 8)) & 0xff00ff00));
+                (((nBitsTotalH << 8) | (nBitsTotalH >>> 24)) & 0x00ff00ff) |
+                (((nBitsTotalH << 24) | (nBitsTotalH >>> 8)) & 0xff00ff00)
+            );
             dataWords[(((nBitsLeft + 64) >>> 9) << 4) + 14] = (
-            (((nBitsTotalL << 8) | (nBitsTotalL >>> 24)) & 0x00ff00ff) | (((nBitsTotalL << 24) | (nBitsTotalL >>> 8)) & 0xff00ff00));
+                (((nBitsTotalL << 8) | (nBitsTotalL >>> 24)) & 0x00ff00ff) |
+                (((nBitsTotalL << 24) | (nBitsTotalL >>> 8)) & 0xff00ff00)
+            );
 
             data.sigBytes = (dataWords.length + 1) * 4;
 
@@ -1573,7 +1588,8 @@ var CryptoJS = CryptoJS || (function(Math, undefined) {
                 // Shortcut
                 var H_i = H[i];
 
-                H[i] = (((H_i << 8) | (H_i >>> 24)) & 0x00ff00ff) | (((H_i << 24) | (H_i >>> 8)) & 0xff00ff00);
+                H[i] = (((H_i << 8) | (H_i >>> 24)) & 0x00ff00ff) |
+                    (((H_i << 24) | (H_i >>> 8)) & 0xff00ff00);
             }
 
             // Return final computed hash
@@ -1672,9 +1688,10 @@ var CryptoJS = CryptoJS || (function(Math, undefined) {
     var SHA1 = C_algo.SHA1 = Hasher.extend({
         _doReset: function() {
             this._hash = new WordArray.init([
-            0x67452301, 0xefcdab89,
-            0x98badcfe, 0x10325476,
-            0xc3d2e1f0]);
+                0x67452301, 0xefcdab89,
+                0x98badcfe, 0x10325476,
+                0xc3d2e1f0
+            ]);
         },
 
         _doProcessBlock: function(M, offset) {
@@ -1872,10 +1889,14 @@ var CryptoJS = CryptoJS || (function(Math, undefined) {
                     W[i] = M[offset + i] | 0;
                 } else {
                     var gamma0x = W[i - 15];
-                    var gamma0 = ((gamma0x << 25) | (gamma0x >>> 7)) ^ ((gamma0x << 14) | (gamma0x >>> 18)) ^ (gamma0x >>> 3);
+                    var gamma0 = ((gamma0x << 25) | (gamma0x >>> 7)) ^
+                        ((gamma0x << 14) | (gamma0x >>> 18)) ^
+                        (gamma0x >>> 3);
 
                     var gamma1x = W[i - 2];
-                    var gamma1 = ((gamma1x << 15) | (gamma1x >>> 17)) ^ ((gamma1x << 13) | (gamma1x >>> 19)) ^ (gamma1x >>> 10);
+                    var gamma1 = ((gamma1x << 15) | (gamma1x >>> 17)) ^
+                        ((gamma1x << 13) | (gamma1x >>> 19)) ^
+                        (gamma1x >>> 10);
 
                     W[i] = gamma0 + W[i - 7] + gamma1 + W[i - 16];
                 }
@@ -1998,8 +2019,9 @@ var CryptoJS = CryptoJS || (function(Math, undefined) {
     var SHA224 = C_algo.SHA224 = SHA256.extend({
         _doReset: function() {
             this._hash = new WordArray.init([
-            0xc1059ed8, 0x367cd507, 0x3070dd17, 0xf70e5939,
-            0xffc00b31, 0x68581511, 0x64f98fa7, 0xbefa4fa4]);
+                0xc1059ed8, 0x367cd507, 0x3070dd17, 0xf70e5939,
+                0xffc00b31, 0x68581511, 0x64f98fa7, 0xbefa4fa4
+            ]);
         },
 
         _doFinalize: function() {
@@ -2068,46 +2090,47 @@ var CryptoJS = CryptoJS || (function(Math, undefined) {
 
     // Constants
     var K = [
-    X64Word_create(0x428a2f98, 0xd728ae22), X64Word_create(0x71374491, 0x23ef65cd),
-    X64Word_create(0xb5c0fbcf, 0xec4d3b2f), X64Word_create(0xe9b5dba5, 0x8189dbbc),
-    X64Word_create(0x3956c25b, 0xf348b538), X64Word_create(0x59f111f1, 0xb605d019),
-    X64Word_create(0x923f82a4, 0xaf194f9b), X64Word_create(0xab1c5ed5, 0xda6d8118),
-    X64Word_create(0xd807aa98, 0xa3030242), X64Word_create(0x12835b01, 0x45706fbe),
-    X64Word_create(0x243185be, 0x4ee4b28c), X64Word_create(0x550c7dc3, 0xd5ffb4e2),
-    X64Word_create(0x72be5d74, 0xf27b896f), X64Word_create(0x80deb1fe, 0x3b1696b1),
-    X64Word_create(0x9bdc06a7, 0x25c71235), X64Word_create(0xc19bf174, 0xcf692694),
-    X64Word_create(0xe49b69c1, 0x9ef14ad2), X64Word_create(0xefbe4786, 0x384f25e3),
-    X64Word_create(0x0fc19dc6, 0x8b8cd5b5), X64Word_create(0x240ca1cc, 0x77ac9c65),
-    X64Word_create(0x2de92c6f, 0x592b0275), X64Word_create(0x4a7484aa, 0x6ea6e483),
-    X64Word_create(0x5cb0a9dc, 0xbd41fbd4), X64Word_create(0x76f988da, 0x831153b5),
-    X64Word_create(0x983e5152, 0xee66dfab), X64Word_create(0xa831c66d, 0x2db43210),
-    X64Word_create(0xb00327c8, 0x98fb213f), X64Word_create(0xbf597fc7, 0xbeef0ee4),
-    X64Word_create(0xc6e00bf3, 0x3da88fc2), X64Word_create(0xd5a79147, 0x930aa725),
-    X64Word_create(0x06ca6351, 0xe003826f), X64Word_create(0x14292967, 0x0a0e6e70),
-    X64Word_create(0x27b70a85, 0x46d22ffc), X64Word_create(0x2e1b2138, 0x5c26c926),
-    X64Word_create(0x4d2c6dfc, 0x5ac42aed), X64Word_create(0x53380d13, 0x9d95b3df),
-    X64Word_create(0x650a7354, 0x8baf63de), X64Word_create(0x766a0abb, 0x3c77b2a8),
-    X64Word_create(0x81c2c92e, 0x47edaee6), X64Word_create(0x92722c85, 0x1482353b),
-    X64Word_create(0xa2bfe8a1, 0x4cf10364), X64Word_create(0xa81a664b, 0xbc423001),
-    X64Word_create(0xc24b8b70, 0xd0f89791), X64Word_create(0xc76c51a3, 0x0654be30),
-    X64Word_create(0xd192e819, 0xd6ef5218), X64Word_create(0xd6990624, 0x5565a910),
-    X64Word_create(0xf40e3585, 0x5771202a), X64Word_create(0x106aa070, 0x32bbd1b8),
-    X64Word_create(0x19a4c116, 0xb8d2d0c8), X64Word_create(0x1e376c08, 0x5141ab53),
-    X64Word_create(0x2748774c, 0xdf8eeb99), X64Word_create(0x34b0bcb5, 0xe19b48a8),
-    X64Word_create(0x391c0cb3, 0xc5c95a63), X64Word_create(0x4ed8aa4a, 0xe3418acb),
-    X64Word_create(0x5b9cca4f, 0x7763e373), X64Word_create(0x682e6ff3, 0xd6b2b8a3),
-    X64Word_create(0x748f82ee, 0x5defb2fc), X64Word_create(0x78a5636f, 0x43172f60),
-    X64Word_create(0x84c87814, 0xa1f0ab72), X64Word_create(0x8cc70208, 0x1a6439ec),
-    X64Word_create(0x90befffa, 0x23631e28), X64Word_create(0xa4506ceb, 0xde82bde9),
-    X64Word_create(0xbef9a3f7, 0xb2c67915), X64Word_create(0xc67178f2, 0xe372532b),
-    X64Word_create(0xca273ece, 0xea26619c), X64Word_create(0xd186b8c7, 0x21c0c207),
-    X64Word_create(0xeada7dd6, 0xcde0eb1e), X64Word_create(0xf57d4f7f, 0xee6ed178),
-    X64Word_create(0x06f067aa, 0x72176fba), X64Word_create(0x0a637dc5, 0xa2c898a6),
-    X64Word_create(0x113f9804, 0xbef90dae), X64Word_create(0x1b710b35, 0x131c471b),
-    X64Word_create(0x28db77f5, 0x23047d84), X64Word_create(0x32caab7b, 0x40c72493),
-    X64Word_create(0x3c9ebe0a, 0x15c9bebc), X64Word_create(0x431d67c4, 0x9c100d4c),
-    X64Word_create(0x4cc5d4be, 0xcb3e42b6), X64Word_create(0x597f299c, 0xfc657e2a),
-    X64Word_create(0x5fcb6fab, 0x3ad6faec), X64Word_create(0x6c44198c, 0x4a475817)];
+        X64Word_create(0x428a2f98, 0xd728ae22), X64Word_create(0x71374491, 0x23ef65cd),
+        X64Word_create(0xb5c0fbcf, 0xec4d3b2f), X64Word_create(0xe9b5dba5, 0x8189dbbc),
+        X64Word_create(0x3956c25b, 0xf348b538), X64Word_create(0x59f111f1, 0xb605d019),
+        X64Word_create(0x923f82a4, 0xaf194f9b), X64Word_create(0xab1c5ed5, 0xda6d8118),
+        X64Word_create(0xd807aa98, 0xa3030242), X64Word_create(0x12835b01, 0x45706fbe),
+        X64Word_create(0x243185be, 0x4ee4b28c), X64Word_create(0x550c7dc3, 0xd5ffb4e2),
+        X64Word_create(0x72be5d74, 0xf27b896f), X64Word_create(0x80deb1fe, 0x3b1696b1),
+        X64Word_create(0x9bdc06a7, 0x25c71235), X64Word_create(0xc19bf174, 0xcf692694),
+        X64Word_create(0xe49b69c1, 0x9ef14ad2), X64Word_create(0xefbe4786, 0x384f25e3),
+        X64Word_create(0x0fc19dc6, 0x8b8cd5b5), X64Word_create(0x240ca1cc, 0x77ac9c65),
+        X64Word_create(0x2de92c6f, 0x592b0275), X64Word_create(0x4a7484aa, 0x6ea6e483),
+        X64Word_create(0x5cb0a9dc, 0xbd41fbd4), X64Word_create(0x76f988da, 0x831153b5),
+        X64Word_create(0x983e5152, 0xee66dfab), X64Word_create(0xa831c66d, 0x2db43210),
+        X64Word_create(0xb00327c8, 0x98fb213f), X64Word_create(0xbf597fc7, 0xbeef0ee4),
+        X64Word_create(0xc6e00bf3, 0x3da88fc2), X64Word_create(0xd5a79147, 0x930aa725),
+        X64Word_create(0x06ca6351, 0xe003826f), X64Word_create(0x14292967, 0x0a0e6e70),
+        X64Word_create(0x27b70a85, 0x46d22ffc), X64Word_create(0x2e1b2138, 0x5c26c926),
+        X64Word_create(0x4d2c6dfc, 0x5ac42aed), X64Word_create(0x53380d13, 0x9d95b3df),
+        X64Word_create(0x650a7354, 0x8baf63de), X64Word_create(0x766a0abb, 0x3c77b2a8),
+        X64Word_create(0x81c2c92e, 0x47edaee6), X64Word_create(0x92722c85, 0x1482353b),
+        X64Word_create(0xa2bfe8a1, 0x4cf10364), X64Word_create(0xa81a664b, 0xbc423001),
+        X64Word_create(0xc24b8b70, 0xd0f89791), X64Word_create(0xc76c51a3, 0x0654be30),
+        X64Word_create(0xd192e819, 0xd6ef5218), X64Word_create(0xd6990624, 0x5565a910),
+        X64Word_create(0xf40e3585, 0x5771202a), X64Word_create(0x106aa070, 0x32bbd1b8),
+        X64Word_create(0x19a4c116, 0xb8d2d0c8), X64Word_create(0x1e376c08, 0x5141ab53),
+        X64Word_create(0x2748774c, 0xdf8eeb99), X64Word_create(0x34b0bcb5, 0xe19b48a8),
+        X64Word_create(0x391c0cb3, 0xc5c95a63), X64Word_create(0x4ed8aa4a, 0xe3418acb),
+        X64Word_create(0x5b9cca4f, 0x7763e373), X64Word_create(0x682e6ff3, 0xd6b2b8a3),
+        X64Word_create(0x748f82ee, 0x5defb2fc), X64Word_create(0x78a5636f, 0x43172f60),
+        X64Word_create(0x84c87814, 0xa1f0ab72), X64Word_create(0x8cc70208, 0x1a6439ec),
+        X64Word_create(0x90befffa, 0x23631e28), X64Word_create(0xa4506ceb, 0xde82bde9),
+        X64Word_create(0xbef9a3f7, 0xb2c67915), X64Word_create(0xc67178f2, 0xe372532b),
+        X64Word_create(0xca273ece, 0xea26619c), X64Word_create(0xd186b8c7, 0x21c0c207),
+        X64Word_create(0xeada7dd6, 0xcde0eb1e), X64Word_create(0xf57d4f7f, 0xee6ed178),
+        X64Word_create(0x06f067aa, 0x72176fba), X64Word_create(0x0a637dc5, 0xa2c898a6),
+        X64Word_create(0x113f9804, 0xbef90dae), X64Word_create(0x1b710b35, 0x131c471b),
+        X64Word_create(0x28db77f5, 0x23047d84), X64Word_create(0x32caab7b, 0x40c72493),
+        X64Word_create(0x3c9ebe0a, 0x15c9bebc), X64Word_create(0x431d67c4, 0x9c100d4c),
+        X64Word_create(0x4cc5d4be, 0xcb3e42b6), X64Word_create(0x597f299c, 0xfc657e2a),
+        X64Word_create(0x5fcb6fab, 0x3ad6faec), X64Word_create(0x6c44198c, 0x4a475817)
+    ];
 
     // Reusable objects
     var W = [];
@@ -2123,10 +2146,11 @@ var CryptoJS = CryptoJS || (function(Math, undefined) {
     var SHA512 = C_algo.SHA512 = Hasher.extend({
         _doReset: function() {
             this._hash = new X64WordArray.init([
-            new X64Word.init(0x6a09e667, 0xf3bcc908), new X64Word.init(0xbb67ae85, 0x84caa73b),
-            new X64Word.init(0x3c6ef372, 0xfe94f82b), new X64Word.init(0xa54ff53a, 0x5f1d36f1),
-            new X64Word.init(0x510e527f, 0xade682d1), new X64Word.init(0x9b05688c, 0x2b3e6c1f),
-            new X64Word.init(0x1f83d9ab, 0xfb41bd6b), new X64Word.init(0x5be0cd19, 0x137e2179)]);
+                new X64Word.init(0x6a09e667, 0xf3bcc908), new X64Word.init(0xbb67ae85, 0x84caa73b),
+                new X64Word.init(0x3c6ef372, 0xfe94f82b), new X64Word.init(0xa54ff53a, 0x5f1d36f1),
+                new X64Word.init(0x510e527f, 0xade682d1), new X64Word.init(0x9b05688c, 0x2b3e6c1f),
+                new X64Word.init(0x1f83d9ab, 0xfb41bd6b), new X64Word.init(0x5be0cd19, 0x137e2179)
+            ]);
         },
 
         _doProcessBlock: function(M, offset) {
@@ -2379,10 +2403,11 @@ var CryptoJS = CryptoJS || (function(Math, undefined) {
     var SHA384 = C_algo.SHA384 = SHA512.extend({
         _doReset: function() {
             this._hash = new X64WordArray.init([
-            new X64Word.init(0xcbbb9d5d, 0xc1059ed8), new X64Word.init(0x629a292a, 0x367cd507),
-            new X64Word.init(0x9159015a, 0x3070dd17), new X64Word.init(0x152fecd8, 0xf70e5939),
-            new X64Word.init(0x67332667, 0xffc00b31), new X64Word.init(0x8eb44a87, 0x68581511),
-            new X64Word.init(0xdb0c2e0d, 0x64f98fa7), new X64Word.init(0x47b5481d, 0xbefa4fa4)]);
+                new X64Word.init(0xcbbb9d5d, 0xc1059ed8), new X64Word.init(0x629a292a, 0x367cd507),
+                new X64Word.init(0x9159015a, 0x3070dd17), new X64Word.init(0x152fecd8, 0xf70e5939),
+                new X64Word.init(0x67332667, 0xffc00b31), new X64Word.init(0x8eb44a87, 0x68581511),
+                new X64Word.init(0xdb0c2e0d, 0x64f98fa7), new X64Word.init(0x47b5481d, 0xbefa4fa4)
+            ]);
         },
 
         _doFinalize: function() {
@@ -2547,9 +2572,13 @@ var CryptoJS = CryptoJS || (function(Math, undefined) {
 
                 // Swap endian
                 M2i = (
-                (((M2i << 8) | (M2i >>> 24)) & 0x00ff00ff) | (((M2i << 24) | (M2i >>> 8)) & 0xff00ff00));
+                    (((M2i << 8) | (M2i >>> 24)) & 0x00ff00ff) |
+                    (((M2i << 24) | (M2i >>> 8)) & 0xff00ff00)
+                );
                 M2i1 = (
-                (((M2i1 << 8) | (M2i1 >>> 24)) & 0x00ff00ff) | (((M2i1 << 24) | (M2i1 >>> 8)) & 0xff00ff00));
+                    (((M2i1 << 8) | (M2i1 >>> 24)) & 0x00ff00ff) |
+                    (((M2i1 << 24) | (M2i1 >>> 8)) & 0xff00ff00)
+                );
 
                 // Absorb message into state
                 var lane = state[i];
@@ -2679,9 +2708,13 @@ var CryptoJS = CryptoJS || (function(Math, undefined) {
 
                 // Swap endian
                 laneMsw = (
-                (((laneMsw << 8) | (laneMsw >>> 24)) & 0x00ff00ff) | (((laneMsw << 24) | (laneMsw >>> 8)) & 0xff00ff00));
+                    (((laneMsw << 8) | (laneMsw >>> 24)) & 0x00ff00ff) |
+                    (((laneMsw << 24) | (laneMsw >>> 8)) & 0xff00ff00)
+                );
                 laneLsw = (
-                (((laneLsw << 8) | (laneLsw >>> 24)) & 0x00ff00ff) | (((laneLsw << 24) | (laneLsw >>> 8)) & 0xff00ff00));
+                    (((laneLsw << 8) | (laneLsw >>> 24)) & 0x00ff00ff) |
+                    (((laneLsw << 24) | (laneLsw >>> 8)) & 0xff00ff00)
+                );
 
                 // Squeeze state to retrieve hash
                 hashWords.push(laneLsw);
@@ -2764,29 +2797,33 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND 
 
     // Constants table
     var _zl = WordArray.create([
-    0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15,
-    7, 4, 13, 1, 10, 6, 15, 3, 12, 0, 9, 5, 2, 14, 11, 8,
-    3, 10, 14, 4, 9, 15, 8, 1, 2, 7, 0, 6, 13, 11, 5, 12,
-    1, 9, 11, 10, 0, 8, 12, 4, 13, 3, 7, 15, 14, 5, 6, 2,
-    4, 0, 5, 9, 7, 12, 2, 10, 14, 1, 3, 8, 11, 6, 15, 13]);
+        0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15,
+        7, 4, 13, 1, 10, 6, 15, 3, 12, 0, 9, 5, 2, 14, 11, 8,
+        3, 10, 14, 4, 9, 15, 8, 1, 2, 7, 0, 6, 13, 11, 5, 12,
+        1, 9, 11, 10, 0, 8, 12, 4, 13, 3, 7, 15, 14, 5, 6, 2,
+        4, 0, 5, 9, 7, 12, 2, 10, 14, 1, 3, 8, 11, 6, 15, 13
+    ]);
     var _zr = WordArray.create([
-    5, 14, 7, 0, 9, 2, 11, 4, 13, 6, 15, 8, 1, 10, 3, 12,
-    6, 11, 3, 7, 0, 13, 5, 10, 14, 15, 8, 12, 4, 9, 1, 2,
-    15, 5, 1, 3, 7, 14, 6, 9, 11, 8, 12, 2, 10, 0, 4, 13,
-    8, 6, 4, 1, 3, 11, 15, 0, 5, 12, 2, 13, 9, 7, 10, 14,
-    12, 15, 10, 4, 1, 5, 8, 7, 6, 2, 13, 14, 0, 3, 9, 11]);
+        5, 14, 7, 0, 9, 2, 11, 4, 13, 6, 15, 8, 1, 10, 3, 12,
+        6, 11, 3, 7, 0, 13, 5, 10, 14, 15, 8, 12, 4, 9, 1, 2,
+        15, 5, 1, 3, 7, 14, 6, 9, 11, 8, 12, 2, 10, 0, 4, 13,
+        8, 6, 4, 1, 3, 11, 15, 0, 5, 12, 2, 13, 9, 7, 10, 14,
+        12, 15, 10, 4, 1, 5, 8, 7, 6, 2, 13, 14, 0, 3, 9, 11
+    ]);
     var _sl = WordArray.create([
-    11, 14, 15, 12, 5, 8, 7, 9, 11, 13, 14, 15, 6, 7, 9, 8,
-    7, 6, 8, 13, 11, 9, 7, 15, 7, 12, 15, 9, 11, 7, 13, 12,
-    11, 13, 6, 7, 14, 9, 13, 15, 14, 8, 13, 6, 5, 12, 7, 5,
-    11, 12, 14, 15, 14, 15, 9, 8, 9, 14, 5, 6, 8, 6, 5, 12,
-    9, 15, 5, 11, 6, 8, 13, 12, 5, 12, 13, 14, 11, 8, 5, 6]);
+        11, 14, 15, 12, 5, 8, 7, 9, 11, 13, 14, 15, 6, 7, 9, 8,
+        7, 6, 8, 13, 11, 9, 7, 15, 7, 12, 15, 9, 11, 7, 13, 12,
+        11, 13, 6, 7, 14, 9, 13, 15, 14, 8, 13, 6, 5, 12, 7, 5,
+        11, 12, 14, 15, 14, 15, 9, 8, 9, 14, 5, 6, 8, 6, 5, 12,
+        9, 15, 5, 11, 6, 8, 13, 12, 5, 12, 13, 14, 11, 8, 5, 6
+    ]);
     var _sr = WordArray.create([
-    8, 9, 9, 11, 13, 15, 15, 5, 7, 7, 8, 11, 14, 14, 12, 6,
-    9, 13, 15, 7, 12, 8, 9, 11, 7, 7, 12, 7, 6, 15, 13, 11,
-    9, 7, 15, 11, 8, 6, 6, 14, 12, 13, 5, 14, 13, 13, 7, 5,
-    15, 5, 8, 11, 14, 14, 6, 14, 6, 9, 12, 9, 12, 5, 15, 8,
-    8, 5, 12, 9, 12, 5, 14, 6, 8, 13, 6, 5, 15, 13, 11, 11]);
+        8, 9, 9, 11, 13, 15, 15, 5, 7, 7, 8, 11, 14, 14, 12, 6,
+        9, 13, 15, 7, 12, 8, 9, 11, 7, 7, 12, 7, 6, 15, 13, 11,
+        9, 7, 15, 11, 8, 6, 6, 14, 12, 13, 5, 14, 13, 13, 7, 5,
+        15, 5, 8, 11, 14, 14, 6, 14, 6, 9, 12, 9, 12, 5, 15, 8,
+        8, 5, 12, 9, 12, 5, 14, 6, 8, 13, 6, 5, 15, 13, 11, 11
+    ]);
 
     var _hl = WordArray.create([0x00000000, 0x5A827999, 0x6ED9EBA1, 0x8F1BBCDC, 0xA953FD4E]);
     var _hr = WordArray.create([0x50A28BE6, 0x5C4DD124, 0x6D703EF3, 0x7A6D76E9, 0x00000000]);
@@ -2809,7 +2846,9 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND 
 
                 // Swap
                 M[offset_i] = (
-                (((M_offset_i << 8) | (M_offset_i >>> 24)) & 0x00ff00ff) | (((M_offset_i << 24) | (M_offset_i >>> 8)) & 0xff00ff00));
+                    (((M_offset_i << 8) | (M_offset_i >>> 24)) & 0x00ff00ff) |
+                    (((M_offset_i << 24) | (M_offset_i >>> 8)) & 0xff00ff00)
+                );
             }
             // Shortcut
             var H = this._hash.words;
@@ -2894,7 +2933,9 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND 
             // Add padding
             dataWords[nBitsLeft >>> 5] |= 0x80 << (24 - nBitsLeft % 32);
             dataWords[(((nBitsLeft + 64) >>> 9) << 4) + 14] = (
-            (((nBitsTotal << 8) | (nBitsTotal >>> 24)) & 0x00ff00ff) | (((nBitsTotal << 24) | (nBitsTotal >>> 8)) & 0xff00ff00));
+                (((nBitsTotal << 8) | (nBitsTotal >>> 24)) & 0x00ff00ff) |
+                (((nBitsTotal << 24) | (nBitsTotal >>> 8)) & 0xff00ff00)
+            );
             data.sigBytes = (dataWords.length + 1) * 4;
 
             // Hash final blocks
@@ -2910,7 +2951,8 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND 
                 var H_i = H[i];
 
                 // Swap
-                H[i] = (((H_i << 8) | (H_i >>> 24)) & 0x00ff00ff) | (((H_i << 24) | (H_i >>> 8)) & 0xff00ff00);
+                H[i] = (((H_i << 8) | (H_i >>> 24)) & 0x00ff00ff) |
+                    (((H_i << 24) | (H_i >>> 8)) & 0xff00ff00);
             }
 
             // Return final computed hash
@@ -2936,15 +2978,15 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND 
     }
 
     function f3(x, y, z) {
-        return (((x) | (~ (y))) ^ (z));
+        return (((x) | (~(y))) ^ (z));
     }
 
     function f4(x, y, z) {
-        return (((x) & (z)) | ((y) & (~ (z))));
+        return (((x) & (z)) | ((y) & (~(z))));
     }
 
     function f5(x, y, z) {
-        return ((x) ^ ((y) | (~ (z))));
+        return ((x) ^ ((y) | (~(z))));
 
     }
 
@@ -3472,7 +3514,7 @@ CryptoJS.lib.Cipher || (function(undefined) {
     var StreamCipher = C_lib.StreamCipher = Cipher.extend({
         _doFinalize: function() {
             // Process partial blocks
-            var finalProcessedBlocks = this._process( !! 'flush');
+            var finalProcessedBlocks = this._process(!!'flush');
 
             return finalProcessedBlocks;
         },
@@ -3753,10 +3795,10 @@ CryptoJS.lib.Cipher || (function(undefined) {
                 padding.pad(this._data, this.blockSize);
 
                 // Process final blocks
-                finalProcessedBlocks = this._process( !! 'flush');
+                finalProcessedBlocks = this._process(!!'flush');
             } else /* if (this._xformMode == this._DEC_XFORM_MODE) */ {
                 // Process final blocks
-                finalProcessedBlocks = this._process( !! 'flush');
+                finalProcessedBlocks = this._process(!!'flush');
 
                 // Unpad data
                 padding.unpad(finalProcessedBlocks);
@@ -4764,7 +4806,8 @@ CryptoJS.pad.NoPadding = {
                 if (invKsRow < 4 || ksRow <= 4) {
                     invKeySchedule[invKsRow] = t;
                 } else {
-                    invKeySchedule[invKsRow] = INV_SUB_MIX_0[SBOX[t >>> 24]] ^ INV_SUB_MIX_1[SBOX[(t >>> 16) & 0xff]] ^ INV_SUB_MIX_2[SBOX[(t >>> 8) & 0xff]] ^ INV_SUB_MIX_3[SBOX[t & 0xff]];
+                    invKeySchedule[invKsRow] = INV_SUB_MIX_0[SBOX[t >>> 24]] ^ INV_SUB_MIX_1[SBOX[(t >>> 16) & 0xff]] ^
+                        INV_SUB_MIX_2[SBOX[(t >>> 8) & 0xff]] ^ INV_SUB_MIX_3[SBOX[t & 0xff]];
                 }
             }
         },
@@ -4857,555 +4900,566 @@ CryptoJS.pad.NoPadding = {
 
     // Permuted Choice 1 constants
     var PC1 = [
-    57, 49, 41, 33, 25, 17, 9, 1,
-    58, 50, 42, 34, 26, 18, 10, 2,
-    59, 51, 43, 35, 27, 19, 11, 3,
-    60, 52, 44, 36, 63, 55, 47, 39,
-    31, 23, 15, 7, 62, 54, 46, 38,
-    30, 22, 14, 6, 61, 53, 45, 37,
-    29, 21, 13, 5, 28, 20, 12, 4];
+        57, 49, 41, 33, 25, 17, 9, 1,
+        58, 50, 42, 34, 26, 18, 10, 2,
+        59, 51, 43, 35, 27, 19, 11, 3,
+        60, 52, 44, 36, 63, 55, 47, 39,
+        31, 23, 15, 7, 62, 54, 46, 38,
+        30, 22, 14, 6, 61, 53, 45, 37,
+        29, 21, 13, 5, 28, 20, 12, 4
+    ];
 
     // Permuted Choice 2 constants
     var PC2 = [
-    14, 17, 11, 24, 1, 5,
-    3, 28, 15, 6, 21, 10,
-    23, 19, 12, 4, 26, 8,
-    16, 7, 27, 20, 13, 2,
-    41, 52, 31, 37, 47, 55,
-    30, 40, 51, 45, 33, 48,
-    44, 49, 39, 56, 34, 53,
-    46, 42, 50, 36, 29, 32];
+        14, 17, 11, 24, 1, 5,
+        3, 28, 15, 6, 21, 10,
+        23, 19, 12, 4, 26, 8,
+        16, 7, 27, 20, 13, 2,
+        41, 52, 31, 37, 47, 55,
+        30, 40, 51, 45, 33, 48,
+        44, 49, 39, 56, 34, 53,
+        46, 42, 50, 36, 29, 32
+    ];
 
     // Cumulative bit shift constants
     var BIT_SHIFTS = [1, 2, 4, 6, 8, 10, 12, 14, 15, 17, 19, 21, 23, 25, 27, 28];
 
     // SBOXes and round permutation constants
     var SBOX_P = [{
-        0x0: 0x808200,
-        0x10000000: 0x8000,
-        0x20000000: 0x808002,
-        0x30000000: 0x2,
-        0x40000000: 0x200,
-        0x50000000: 0x808202,
-        0x60000000: 0x800202,
-        0x70000000: 0x800000,
-        0x80000000: 0x202,
-        0x90000000: 0x800200,
-        0xa0000000: 0x8200,
-        0xb0000000: 0x808000,
-        0xc0000000: 0x8002,
-        0xd0000000: 0x800002,
-        0xe0000000: 0x0,
-        0xf0000000: 0x8202,
-        0x8000000: 0x0,
-        0x18000000: 0x808202,
-        0x28000000: 0x8202,
-        0x38000000: 0x8000,
-        0x48000000: 0x808200,
-        0x58000000: 0x200,
-        0x68000000: 0x808002,
-        0x78000000: 0x2,
-        0x88000000: 0x800200,
-        0x98000000: 0x8200,
-        0xa8000000: 0x808000,
-        0xb8000000: 0x800202,
-        0xc8000000: 0x800002,
-        0xd8000000: 0x8002,
-        0xe8000000: 0x202,
-        0xf8000000: 0x800000,
-        0x1: 0x8000,
-        0x10000001: 0x2,
-        0x20000001: 0x808200,
-        0x30000001: 0x800000,
-        0x40000001: 0x808002,
-        0x50000001: 0x8200,
-        0x60000001: 0x200,
-        0x70000001: 0x800202,
-        0x80000001: 0x808202,
-        0x90000001: 0x808000,
-        0xa0000001: 0x800002,
-        0xb0000001: 0x8202,
-        0xc0000001: 0x202,
-        0xd0000001: 0x800200,
-        0xe0000001: 0x8002,
-        0xf0000001: 0x0,
-        0x8000001: 0x808202,
-        0x18000001: 0x808000,
-        0x28000001: 0x800000,
-        0x38000001: 0x200,
-        0x48000001: 0x8000,
-        0x58000001: 0x800002,
-        0x68000001: 0x2,
-        0x78000001: 0x8202,
-        0x88000001: 0x8002,
-        0x98000001: 0x800202,
-        0xa8000001: 0x202,
-        0xb8000001: 0x808200,
-        0xc8000001: 0x800200,
-        0xd8000001: 0x0,
-        0xe8000001: 0x8200,
-        0xf8000001: 0x808002
-    }, {
-        0x0: 0x40084010,
-        0x1000000: 0x4000,
-        0x2000000: 0x80000,
-        0x3000000: 0x40080010,
-        0x4000000: 0x40000010,
-        0x5000000: 0x40084000,
-        0x6000000: 0x40004000,
-        0x7000000: 0x10,
-        0x8000000: 0x84000,
-        0x9000000: 0x40004010,
-        0xa000000: 0x40000000,
-        0xb000000: 0x84010,
-        0xc000000: 0x80010,
-        0xd000000: 0x0,
-        0xe000000: 0x4010,
-        0xf000000: 0x40080000,
-        0x800000: 0x40004000,
-        0x1800000: 0x84010,
-        0x2800000: 0x10,
-        0x3800000: 0x40004010,
-        0x4800000: 0x40084010,
-        0x5800000: 0x40000000,
-        0x6800000: 0x80000,
-        0x7800000: 0x40080010,
-        0x8800000: 0x80010,
-        0x9800000: 0x0,
-        0xa800000: 0x4000,
-        0xb800000: 0x40080000,
-        0xc800000: 0x40000010,
-        0xd800000: 0x84000,
-        0xe800000: 0x40084000,
-        0xf800000: 0x4010,
-        0x10000000: 0x0,
-        0x11000000: 0x40080010,
-        0x12000000: 0x40004010,
-        0x13000000: 0x40084000,
-        0x14000000: 0x40080000,
-        0x15000000: 0x10,
-        0x16000000: 0x84010,
-        0x17000000: 0x4000,
-        0x18000000: 0x4010,
-        0x19000000: 0x80000,
-        0x1a000000: 0x80010,
-        0x1b000000: 0x40000010,
-        0x1c000000: 0x84000,
-        0x1d000000: 0x40004000,
-        0x1e000000: 0x40000000,
-        0x1f000000: 0x40084010,
-        0x10800000: 0x84010,
-        0x11800000: 0x80000,
-        0x12800000: 0x40080000,
-        0x13800000: 0x4000,
-        0x14800000: 0x40004000,
-        0x15800000: 0x40084010,
-        0x16800000: 0x10,
-        0x17800000: 0x40000000,
-        0x18800000: 0x40084000,
-        0x19800000: 0x40000010,
-        0x1a800000: 0x40004010,
-        0x1b800000: 0x80010,
-        0x1c800000: 0x0,
-        0x1d800000: 0x4010,
-        0x1e800000: 0x40080010,
-        0x1f800000: 0x84000
-    }, {
-        0x0: 0x104,
-        0x100000: 0x0,
-        0x200000: 0x4000100,
-        0x300000: 0x10104,
-        0x400000: 0x10004,
-        0x500000: 0x4000004,
-        0x600000: 0x4010104,
-        0x700000: 0x4010000,
-        0x800000: 0x4000000,
-        0x900000: 0x4010100,
-        0xa00000: 0x10100,
-        0xb00000: 0x4010004,
-        0xc00000: 0x4000104,
-        0xd00000: 0x10000,
-        0xe00000: 0x4,
-        0xf00000: 0x100,
-        0x80000: 0x4010100,
-        0x180000: 0x4010004,
-        0x280000: 0x0,
-        0x380000: 0x4000100,
-        0x480000: 0x4000004,
-        0x580000: 0x10000,
-        0x680000: 0x10004,
-        0x780000: 0x104,
-        0x880000: 0x4,
-        0x980000: 0x100,
-        0xa80000: 0x4010000,
-        0xb80000: 0x10104,
-        0xc80000: 0x10100,
-        0xd80000: 0x4000104,
-        0xe80000: 0x4010104,
-        0xf80000: 0x4000000,
-        0x1000000: 0x4010100,
-        0x1100000: 0x10004,
-        0x1200000: 0x10000,
-        0x1300000: 0x4000100,
-        0x1400000: 0x100,
-        0x1500000: 0x4010104,
-        0x1600000: 0x4000004,
-        0x1700000: 0x0,
-        0x1800000: 0x4000104,
-        0x1900000: 0x4000000,
-        0x1a00000: 0x4,
-        0x1b00000: 0x10100,
-        0x1c00000: 0x4010000,
-        0x1d00000: 0x104,
-        0x1e00000: 0x10104,
-        0x1f00000: 0x4010004,
-        0x1080000: 0x4000000,
-        0x1180000: 0x104,
-        0x1280000: 0x4010100,
-        0x1380000: 0x0,
-        0x1480000: 0x10004,
-        0x1580000: 0x4000100,
-        0x1680000: 0x100,
-        0x1780000: 0x4010004,
-        0x1880000: 0x10000,
-        0x1980000: 0x4010104,
-        0x1a80000: 0x10104,
-        0x1b80000: 0x4000004,
-        0x1c80000: 0x4000104,
-        0x1d80000: 0x4010000,
-        0x1e80000: 0x4,
-        0x1f80000: 0x10100
-    }, {
-        0x0: 0x80401000,
-        0x10000: 0x80001040,
-        0x20000: 0x401040,
-        0x30000: 0x80400000,
-        0x40000: 0x0,
-        0x50000: 0x401000,
-        0x60000: 0x80000040,
-        0x70000: 0x400040,
-        0x80000: 0x80000000,
-        0x90000: 0x400000,
-        0xa0000: 0x40,
-        0xb0000: 0x80001000,
-        0xc0000: 0x80400040,
-        0xd0000: 0x1040,
-        0xe0000: 0x1000,
-        0xf0000: 0x80401040,
-        0x8000: 0x80001040,
-        0x18000: 0x40,
-        0x28000: 0x80400040,
-        0x38000: 0x80001000,
-        0x48000: 0x401000,
-        0x58000: 0x80401040,
-        0x68000: 0x0,
-        0x78000: 0x80400000,
-        0x88000: 0x1000,
-        0x98000: 0x80401000,
-        0xa8000: 0x400000,
-        0xb8000: 0x1040,
-        0xc8000: 0x80000000,
-        0xd8000: 0x400040,
-        0xe8000: 0x401040,
-        0xf8000: 0x80000040,
-        0x100000: 0x400040,
-        0x110000: 0x401000,
-        0x120000: 0x80000040,
-        0x130000: 0x0,
-        0x140000: 0x1040,
-        0x150000: 0x80400040,
-        0x160000: 0x80401000,
-        0x170000: 0x80001040,
-        0x180000: 0x80401040,
-        0x190000: 0x80000000,
-        0x1a0000: 0x80400000,
-        0x1b0000: 0x401040,
-        0x1c0000: 0x80001000,
-        0x1d0000: 0x400000,
-        0x1e0000: 0x40,
-        0x1f0000: 0x1000,
-        0x108000: 0x80400000,
-        0x118000: 0x80401040,
-        0x128000: 0x0,
-        0x138000: 0x401000,
-        0x148000: 0x400040,
-        0x158000: 0x80000000,
-        0x168000: 0x80001040,
-        0x178000: 0x40,
-        0x188000: 0x80000040,
-        0x198000: 0x1000,
-        0x1a8000: 0x80001000,
-        0x1b8000: 0x80400040,
-        0x1c8000: 0x1040,
-        0x1d8000: 0x80401000,
-        0x1e8000: 0x400000,
-        0x1f8000: 0x401040
-    }, {
-        0x0: 0x80,
-        0x1000: 0x1040000,
-        0x2000: 0x40000,
-        0x3000: 0x20000000,
-        0x4000: 0x20040080,
-        0x5000: 0x1000080,
-        0x6000: 0x21000080,
-        0x7000: 0x40080,
-        0x8000: 0x1000000,
-        0x9000: 0x20040000,
-        0xa000: 0x20000080,
-        0xb000: 0x21040080,
-        0xc000: 0x21040000,
-        0xd000: 0x0,
-        0xe000: 0x1040080,
-        0xf000: 0x21000000,
-        0x800: 0x1040080,
-        0x1800: 0x21000080,
-        0x2800: 0x80,
-        0x3800: 0x1040000,
-        0x4800: 0x40000,
-        0x5800: 0x20040080,
-        0x6800: 0x21040000,
-        0x7800: 0x20000000,
-        0x8800: 0x20040000,
-        0x9800: 0x0,
-        0xa800: 0x21040080,
-        0xb800: 0x1000080,
-        0xc800: 0x20000080,
-        0xd800: 0x21000000,
-        0xe800: 0x1000000,
-        0xf800: 0x40080,
-        0x10000: 0x40000,
-        0x11000: 0x80,
-        0x12000: 0x20000000,
-        0x13000: 0x21000080,
-        0x14000: 0x1000080,
-        0x15000: 0x21040000,
-        0x16000: 0x20040080,
-        0x17000: 0x1000000,
-        0x18000: 0x21040080,
-        0x19000: 0x21000000,
-        0x1a000: 0x1040000,
-        0x1b000: 0x20040000,
-        0x1c000: 0x40080,
-        0x1d000: 0x20000080,
-        0x1e000: 0x0,
-        0x1f000: 0x1040080,
-        0x10800: 0x21000080,
-        0x11800: 0x1000000,
-        0x12800: 0x1040000,
-        0x13800: 0x20040080,
-        0x14800: 0x20000000,
-        0x15800: 0x1040080,
-        0x16800: 0x80,
-        0x17800: 0x21040000,
-        0x18800: 0x40080,
-        0x19800: 0x21040080,
-        0x1a800: 0x0,
-        0x1b800: 0x21000000,
-        0x1c800: 0x1000080,
-        0x1d800: 0x40000,
-        0x1e800: 0x20040000,
-        0x1f800: 0x20000080
-    }, {
-        0x0: 0x10000008,
-        0x100: 0x2000,
-        0x200: 0x10200000,
-        0x300: 0x10202008,
-        0x400: 0x10002000,
-        0x500: 0x200000,
-        0x600: 0x200008,
-        0x700: 0x10000000,
-        0x800: 0x0,
-        0x900: 0x10002008,
-        0xa00: 0x202000,
-        0xb00: 0x8,
-        0xc00: 0x10200008,
-        0xd00: 0x202008,
-        0xe00: 0x2008,
-        0xf00: 0x10202000,
-        0x80: 0x10200000,
-        0x180: 0x10202008,
-        0x280: 0x8,
-        0x380: 0x200000,
-        0x480: 0x202008,
-        0x580: 0x10000008,
-        0x680: 0x10002000,
-        0x780: 0x2008,
-        0x880: 0x200008,
-        0x980: 0x2000,
-        0xa80: 0x10002008,
-        0xb80: 0x10200008,
-        0xc80: 0x0,
-        0xd80: 0x10202000,
-        0xe80: 0x202000,
-        0xf80: 0x10000000,
-        0x1000: 0x10002000,
-        0x1100: 0x10200008,
-        0x1200: 0x10202008,
-        0x1300: 0x2008,
-        0x1400: 0x200000,
-        0x1500: 0x10000000,
-        0x1600: 0x10000008,
-        0x1700: 0x202000,
-        0x1800: 0x202008,
-        0x1900: 0x0,
-        0x1a00: 0x8,
-        0x1b00: 0x10200000,
-        0x1c00: 0x2000,
-        0x1d00: 0x10002008,
-        0x1e00: 0x10202000,
-        0x1f00: 0x200008,
-        0x1080: 0x8,
-        0x1180: 0x202000,
-        0x1280: 0x200000,
-        0x1380: 0x10000008,
-        0x1480: 0x10002000,
-        0x1580: 0x2008,
-        0x1680: 0x10202008,
-        0x1780: 0x10200000,
-        0x1880: 0x10202000,
-        0x1980: 0x10200008,
-        0x1a80: 0x2000,
-        0x1b80: 0x202008,
-        0x1c80: 0x200008,
-        0x1d80: 0x0,
-        0x1e80: 0x10000000,
-        0x1f80: 0x10002008
-    }, {
-        0x0: 0x100000,
-        0x10: 0x2000401,
-        0x20: 0x400,
-        0x30: 0x100401,
-        0x40: 0x2100401,
-        0x50: 0x0,
-        0x60: 0x1,
-        0x70: 0x2100001,
-        0x80: 0x2000400,
-        0x90: 0x100001,
-        0xa0: 0x2000001,
-        0xb0: 0x2100400,
-        0xc0: 0x2100000,
-        0xd0: 0x401,
-        0xe0: 0x100400,
-        0xf0: 0x2000000,
-        0x8: 0x2100001,
-        0x18: 0x0,
-        0x28: 0x2000401,
-        0x38: 0x2100400,
-        0x48: 0x100000,
-        0x58: 0x2000001,
-        0x68: 0x2000000,
-        0x78: 0x401,
-        0x88: 0x100401,
-        0x98: 0x2000400,
-        0xa8: 0x2100000,
-        0xb8: 0x100001,
-        0xc8: 0x400,
-        0xd8: 0x2100401,
-        0xe8: 0x1,
-        0xf8: 0x100400,
-        0x100: 0x2000000,
-        0x110: 0x100000,
-        0x120: 0x2000401,
-        0x130: 0x2100001,
-        0x140: 0x100001,
-        0x150: 0x2000400,
-        0x160: 0x2100400,
-        0x170: 0x100401,
-        0x180: 0x401,
-        0x190: 0x2100401,
-        0x1a0: 0x100400,
-        0x1b0: 0x1,
-        0x1c0: 0x0,
-        0x1d0: 0x2100000,
-        0x1e0: 0x2000001,
-        0x1f0: 0x400,
-        0x108: 0x100400,
-        0x118: 0x2000401,
-        0x128: 0x2100001,
-        0x138: 0x1,
-        0x148: 0x2000000,
-        0x158: 0x100000,
-        0x168: 0x401,
-        0x178: 0x2100400,
-        0x188: 0x2000001,
-        0x198: 0x2100000,
-        0x1a8: 0x0,
-        0x1b8: 0x2100401,
-        0x1c8: 0x100401,
-        0x1d8: 0x400,
-        0x1e8: 0x2000400,
-        0x1f8: 0x100001
-    }, {
-        0x0: 0x8000820,
-        0x1: 0x20000,
-        0x2: 0x8000000,
-        0x3: 0x20,
-        0x4: 0x20020,
-        0x5: 0x8020820,
-        0x6: 0x8020800,
-        0x7: 0x800,
-        0x8: 0x8020000,
-        0x9: 0x8000800,
-        0xa: 0x20800,
-        0xb: 0x8020020,
-        0xc: 0x820,
-        0xd: 0x0,
-        0xe: 0x8000020,
-        0xf: 0x20820,
-        0x80000000: 0x800,
-        0x80000001: 0x8020820,
-        0x80000002: 0x8000820,
-        0x80000003: 0x8000000,
-        0x80000004: 0x8020000,
-        0x80000005: 0x20800,
-        0x80000006: 0x20820,
-        0x80000007: 0x20,
-        0x80000008: 0x8000020,
-        0x80000009: 0x820,
-        0x8000000a: 0x20020,
-        0x8000000b: 0x8020800,
-        0x8000000c: 0x0,
-        0x8000000d: 0x8020020,
-        0x8000000e: 0x8000800,
-        0x8000000f: 0x20000,
-        0x10: 0x20820,
-        0x11: 0x8020800,
-        0x12: 0x20,
-        0x13: 0x800,
-        0x14: 0x8000800,
-        0x15: 0x8000020,
-        0x16: 0x8020020,
-        0x17: 0x20000,
-        0x18: 0x0,
-        0x19: 0x20020,
-        0x1a: 0x8020000,
-        0x1b: 0x8000820,
-        0x1c: 0x8020820,
-        0x1d: 0x20800,
-        0x1e: 0x820,
-        0x1f: 0x8000000,
-        0x80000010: 0x20000,
-        0x80000011: 0x800,
-        0x80000012: 0x8020020,
-        0x80000013: 0x20820,
-        0x80000014: 0x20,
-        0x80000015: 0x8020000,
-        0x80000016: 0x8000000,
-        0x80000017: 0x8000820,
-        0x80000018: 0x8020820,
-        0x80000019: 0x8000020,
-        0x8000001a: 0x8000800,
-        0x8000001b: 0x0,
-        0x8000001c: 0x20800,
-        0x8000001d: 0x820,
-        0x8000001e: 0x20020,
-        0x8000001f: 0x8020800
-    }];
+            0x0: 0x808200,
+            0x10000000: 0x8000,
+            0x20000000: 0x808002,
+            0x30000000: 0x2,
+            0x40000000: 0x200,
+            0x50000000: 0x808202,
+            0x60000000: 0x800202,
+            0x70000000: 0x800000,
+            0x80000000: 0x202,
+            0x90000000: 0x800200,
+            0xa0000000: 0x8200,
+            0xb0000000: 0x808000,
+            0xc0000000: 0x8002,
+            0xd0000000: 0x800002,
+            0xe0000000: 0x0,
+            0xf0000000: 0x8202,
+            0x8000000: 0x0,
+            0x18000000: 0x808202,
+            0x28000000: 0x8202,
+            0x38000000: 0x8000,
+            0x48000000: 0x808200,
+            0x58000000: 0x200,
+            0x68000000: 0x808002,
+            0x78000000: 0x2,
+            0x88000000: 0x800200,
+            0x98000000: 0x8200,
+            0xa8000000: 0x808000,
+            0xb8000000: 0x800202,
+            0xc8000000: 0x800002,
+            0xd8000000: 0x8002,
+            0xe8000000: 0x202,
+            0xf8000000: 0x800000,
+            0x1: 0x8000,
+            0x10000001: 0x2,
+            0x20000001: 0x808200,
+            0x30000001: 0x800000,
+            0x40000001: 0x808002,
+            0x50000001: 0x8200,
+            0x60000001: 0x200,
+            0x70000001: 0x800202,
+            0x80000001: 0x808202,
+            0x90000001: 0x808000,
+            0xa0000001: 0x800002,
+            0xb0000001: 0x8202,
+            0xc0000001: 0x202,
+            0xd0000001: 0x800200,
+            0xe0000001: 0x8002,
+            0xf0000001: 0x0,
+            0x8000001: 0x808202,
+            0x18000001: 0x808000,
+            0x28000001: 0x800000,
+            0x38000001: 0x200,
+            0x48000001: 0x8000,
+            0x58000001: 0x800002,
+            0x68000001: 0x2,
+            0x78000001: 0x8202,
+            0x88000001: 0x8002,
+            0x98000001: 0x800202,
+            0xa8000001: 0x202,
+            0xb8000001: 0x808200,
+            0xc8000001: 0x800200,
+            0xd8000001: 0x0,
+            0xe8000001: 0x8200,
+            0xf8000001: 0x808002
+        },
+        {
+            0x0: 0x40084010,
+            0x1000000: 0x4000,
+            0x2000000: 0x80000,
+            0x3000000: 0x40080010,
+            0x4000000: 0x40000010,
+            0x5000000: 0x40084000,
+            0x6000000: 0x40004000,
+            0x7000000: 0x10,
+            0x8000000: 0x84000,
+            0x9000000: 0x40004010,
+            0xa000000: 0x40000000,
+            0xb000000: 0x84010,
+            0xc000000: 0x80010,
+            0xd000000: 0x0,
+            0xe000000: 0x4010,
+            0xf000000: 0x40080000,
+            0x800000: 0x40004000,
+            0x1800000: 0x84010,
+            0x2800000: 0x10,
+            0x3800000: 0x40004010,
+            0x4800000: 0x40084010,
+            0x5800000: 0x40000000,
+            0x6800000: 0x80000,
+            0x7800000: 0x40080010,
+            0x8800000: 0x80010,
+            0x9800000: 0x0,
+            0xa800000: 0x4000,
+            0xb800000: 0x40080000,
+            0xc800000: 0x40000010,
+            0xd800000: 0x84000,
+            0xe800000: 0x40084000,
+            0xf800000: 0x4010,
+            0x10000000: 0x0,
+            0x11000000: 0x40080010,
+            0x12000000: 0x40004010,
+            0x13000000: 0x40084000,
+            0x14000000: 0x40080000,
+            0x15000000: 0x10,
+            0x16000000: 0x84010,
+            0x17000000: 0x4000,
+            0x18000000: 0x4010,
+            0x19000000: 0x80000,
+            0x1a000000: 0x80010,
+            0x1b000000: 0x40000010,
+            0x1c000000: 0x84000,
+            0x1d000000: 0x40004000,
+            0x1e000000: 0x40000000,
+            0x1f000000: 0x40084010,
+            0x10800000: 0x84010,
+            0x11800000: 0x80000,
+            0x12800000: 0x40080000,
+            0x13800000: 0x4000,
+            0x14800000: 0x40004000,
+            0x15800000: 0x40084010,
+            0x16800000: 0x10,
+            0x17800000: 0x40000000,
+            0x18800000: 0x40084000,
+            0x19800000: 0x40000010,
+            0x1a800000: 0x40004010,
+            0x1b800000: 0x80010,
+            0x1c800000: 0x0,
+            0x1d800000: 0x4010,
+            0x1e800000: 0x40080010,
+            0x1f800000: 0x84000
+        },
+        {
+            0x0: 0x104,
+            0x100000: 0x0,
+            0x200000: 0x4000100,
+            0x300000: 0x10104,
+            0x400000: 0x10004,
+            0x500000: 0x4000004,
+            0x600000: 0x4010104,
+            0x700000: 0x4010000,
+            0x800000: 0x4000000,
+            0x900000: 0x4010100,
+            0xa00000: 0x10100,
+            0xb00000: 0x4010004,
+            0xc00000: 0x4000104,
+            0xd00000: 0x10000,
+            0xe00000: 0x4,
+            0xf00000: 0x100,
+            0x80000: 0x4010100,
+            0x180000: 0x4010004,
+            0x280000: 0x0,
+            0x380000: 0x4000100,
+            0x480000: 0x4000004,
+            0x580000: 0x10000,
+            0x680000: 0x10004,
+            0x780000: 0x104,
+            0x880000: 0x4,
+            0x980000: 0x100,
+            0xa80000: 0x4010000,
+            0xb80000: 0x10104,
+            0xc80000: 0x10100,
+            0xd80000: 0x4000104,
+            0xe80000: 0x4010104,
+            0xf80000: 0x4000000,
+            0x1000000: 0x4010100,
+            0x1100000: 0x10004,
+            0x1200000: 0x10000,
+            0x1300000: 0x4000100,
+            0x1400000: 0x100,
+            0x1500000: 0x4010104,
+            0x1600000: 0x4000004,
+            0x1700000: 0x0,
+            0x1800000: 0x4000104,
+            0x1900000: 0x4000000,
+            0x1a00000: 0x4,
+            0x1b00000: 0x10100,
+            0x1c00000: 0x4010000,
+            0x1d00000: 0x104,
+            0x1e00000: 0x10104,
+            0x1f00000: 0x4010004,
+            0x1080000: 0x4000000,
+            0x1180000: 0x104,
+            0x1280000: 0x4010100,
+            0x1380000: 0x0,
+            0x1480000: 0x10004,
+            0x1580000: 0x4000100,
+            0x1680000: 0x100,
+            0x1780000: 0x4010004,
+            0x1880000: 0x10000,
+            0x1980000: 0x4010104,
+            0x1a80000: 0x10104,
+            0x1b80000: 0x4000004,
+            0x1c80000: 0x4000104,
+            0x1d80000: 0x4010000,
+            0x1e80000: 0x4,
+            0x1f80000: 0x10100
+        },
+        {
+            0x0: 0x80401000,
+            0x10000: 0x80001040,
+            0x20000: 0x401040,
+            0x30000: 0x80400000,
+            0x40000: 0x0,
+            0x50000: 0x401000,
+            0x60000: 0x80000040,
+            0x70000: 0x400040,
+            0x80000: 0x80000000,
+            0x90000: 0x400000,
+            0xa0000: 0x40,
+            0xb0000: 0x80001000,
+            0xc0000: 0x80400040,
+            0xd0000: 0x1040,
+            0xe0000: 0x1000,
+            0xf0000: 0x80401040,
+            0x8000: 0x80001040,
+            0x18000: 0x40,
+            0x28000: 0x80400040,
+            0x38000: 0x80001000,
+            0x48000: 0x401000,
+            0x58000: 0x80401040,
+            0x68000: 0x0,
+            0x78000: 0x80400000,
+            0x88000: 0x1000,
+            0x98000: 0x80401000,
+            0xa8000: 0x400000,
+            0xb8000: 0x1040,
+            0xc8000: 0x80000000,
+            0xd8000: 0x400040,
+            0xe8000: 0x401040,
+            0xf8000: 0x80000040,
+            0x100000: 0x400040,
+            0x110000: 0x401000,
+            0x120000: 0x80000040,
+            0x130000: 0x0,
+            0x140000: 0x1040,
+            0x150000: 0x80400040,
+            0x160000: 0x80401000,
+            0x170000: 0x80001040,
+            0x180000: 0x80401040,
+            0x190000: 0x80000000,
+            0x1a0000: 0x80400000,
+            0x1b0000: 0x401040,
+            0x1c0000: 0x80001000,
+            0x1d0000: 0x400000,
+            0x1e0000: 0x40,
+            0x1f0000: 0x1000,
+            0x108000: 0x80400000,
+            0x118000: 0x80401040,
+            0x128000: 0x0,
+            0x138000: 0x401000,
+            0x148000: 0x400040,
+            0x158000: 0x80000000,
+            0x168000: 0x80001040,
+            0x178000: 0x40,
+            0x188000: 0x80000040,
+            0x198000: 0x1000,
+            0x1a8000: 0x80001000,
+            0x1b8000: 0x80400040,
+            0x1c8000: 0x1040,
+            0x1d8000: 0x80401000,
+            0x1e8000: 0x400000,
+            0x1f8000: 0x401040
+        },
+        {
+            0x0: 0x80,
+            0x1000: 0x1040000,
+            0x2000: 0x40000,
+            0x3000: 0x20000000,
+            0x4000: 0x20040080,
+            0x5000: 0x1000080,
+            0x6000: 0x21000080,
+            0x7000: 0x40080,
+            0x8000: 0x1000000,
+            0x9000: 0x20040000,
+            0xa000: 0x20000080,
+            0xb000: 0x21040080,
+            0xc000: 0x21040000,
+            0xd000: 0x0,
+            0xe000: 0x1040080,
+            0xf000: 0x21000000,
+            0x800: 0x1040080,
+            0x1800: 0x21000080,
+            0x2800: 0x80,
+            0x3800: 0x1040000,
+            0x4800: 0x40000,
+            0x5800: 0x20040080,
+            0x6800: 0x21040000,
+            0x7800: 0x20000000,
+            0x8800: 0x20040000,
+            0x9800: 0x0,
+            0xa800: 0x21040080,
+            0xb800: 0x1000080,
+            0xc800: 0x20000080,
+            0xd800: 0x21000000,
+            0xe800: 0x1000000,
+            0xf800: 0x40080,
+            0x10000: 0x40000,
+            0x11000: 0x80,
+            0x12000: 0x20000000,
+            0x13000: 0x21000080,
+            0x14000: 0x1000080,
+            0x15000: 0x21040000,
+            0x16000: 0x20040080,
+            0x17000: 0x1000000,
+            0x18000: 0x21040080,
+            0x19000: 0x21000000,
+            0x1a000: 0x1040000,
+            0x1b000: 0x20040000,
+            0x1c000: 0x40080,
+            0x1d000: 0x20000080,
+            0x1e000: 0x0,
+            0x1f000: 0x1040080,
+            0x10800: 0x21000080,
+            0x11800: 0x1000000,
+            0x12800: 0x1040000,
+            0x13800: 0x20040080,
+            0x14800: 0x20000000,
+            0x15800: 0x1040080,
+            0x16800: 0x80,
+            0x17800: 0x21040000,
+            0x18800: 0x40080,
+            0x19800: 0x21040080,
+            0x1a800: 0x0,
+            0x1b800: 0x21000000,
+            0x1c800: 0x1000080,
+            0x1d800: 0x40000,
+            0x1e800: 0x20040000,
+            0x1f800: 0x20000080
+        },
+        {
+            0x0: 0x10000008,
+            0x100: 0x2000,
+            0x200: 0x10200000,
+            0x300: 0x10202008,
+            0x400: 0x10002000,
+            0x500: 0x200000,
+            0x600: 0x200008,
+            0x700: 0x10000000,
+            0x800: 0x0,
+            0x900: 0x10002008,
+            0xa00: 0x202000,
+            0xb00: 0x8,
+            0xc00: 0x10200008,
+            0xd00: 0x202008,
+            0xe00: 0x2008,
+            0xf00: 0x10202000,
+            0x80: 0x10200000,
+            0x180: 0x10202008,
+            0x280: 0x8,
+            0x380: 0x200000,
+            0x480: 0x202008,
+            0x580: 0x10000008,
+            0x680: 0x10002000,
+            0x780: 0x2008,
+            0x880: 0x200008,
+            0x980: 0x2000,
+            0xa80: 0x10002008,
+            0xb80: 0x10200008,
+            0xc80: 0x0,
+            0xd80: 0x10202000,
+            0xe80: 0x202000,
+            0xf80: 0x10000000,
+            0x1000: 0x10002000,
+            0x1100: 0x10200008,
+            0x1200: 0x10202008,
+            0x1300: 0x2008,
+            0x1400: 0x200000,
+            0x1500: 0x10000000,
+            0x1600: 0x10000008,
+            0x1700: 0x202000,
+            0x1800: 0x202008,
+            0x1900: 0x0,
+            0x1a00: 0x8,
+            0x1b00: 0x10200000,
+            0x1c00: 0x2000,
+            0x1d00: 0x10002008,
+            0x1e00: 0x10202000,
+            0x1f00: 0x200008,
+            0x1080: 0x8,
+            0x1180: 0x202000,
+            0x1280: 0x200000,
+            0x1380: 0x10000008,
+            0x1480: 0x10002000,
+            0x1580: 0x2008,
+            0x1680: 0x10202008,
+            0x1780: 0x10200000,
+            0x1880: 0x10202000,
+            0x1980: 0x10200008,
+            0x1a80: 0x2000,
+            0x1b80: 0x202008,
+            0x1c80: 0x200008,
+            0x1d80: 0x0,
+            0x1e80: 0x10000000,
+            0x1f80: 0x10002008
+        },
+        {
+            0x0: 0x100000,
+            0x10: 0x2000401,
+            0x20: 0x400,
+            0x30: 0x100401,
+            0x40: 0x2100401,
+            0x50: 0x0,
+            0x60: 0x1,
+            0x70: 0x2100001,
+            0x80: 0x2000400,
+            0x90: 0x100001,
+            0xa0: 0x2000001,
+            0xb0: 0x2100400,
+            0xc0: 0x2100000,
+            0xd0: 0x401,
+            0xe0: 0x100400,
+            0xf0: 0x2000000,
+            0x8: 0x2100001,
+            0x18: 0x0,
+            0x28: 0x2000401,
+            0x38: 0x2100400,
+            0x48: 0x100000,
+            0x58: 0x2000001,
+            0x68: 0x2000000,
+            0x78: 0x401,
+            0x88: 0x100401,
+            0x98: 0x2000400,
+            0xa8: 0x2100000,
+            0xb8: 0x100001,
+            0xc8: 0x400,
+            0xd8: 0x2100401,
+            0xe8: 0x1,
+            0xf8: 0x100400,
+            0x100: 0x2000000,
+            0x110: 0x100000,
+            0x120: 0x2000401,
+            0x130: 0x2100001,
+            0x140: 0x100001,
+            0x150: 0x2000400,
+            0x160: 0x2100400,
+            0x170: 0x100401,
+            0x180: 0x401,
+            0x190: 0x2100401,
+            0x1a0: 0x100400,
+            0x1b0: 0x1,
+            0x1c0: 0x0,
+            0x1d0: 0x2100000,
+            0x1e0: 0x2000001,
+            0x1f0: 0x400,
+            0x108: 0x100400,
+            0x118: 0x2000401,
+            0x128: 0x2100001,
+            0x138: 0x1,
+            0x148: 0x2000000,
+            0x158: 0x100000,
+            0x168: 0x401,
+            0x178: 0x2100400,
+            0x188: 0x2000001,
+            0x198: 0x2100000,
+            0x1a8: 0x0,
+            0x1b8: 0x2100401,
+            0x1c8: 0x100401,
+            0x1d8: 0x400,
+            0x1e8: 0x2000400,
+            0x1f8: 0x100001
+        },
+        {
+            0x0: 0x8000820,
+            0x1: 0x20000,
+            0x2: 0x8000000,
+            0x3: 0x20,
+            0x4: 0x20020,
+            0x5: 0x8020820,
+            0x6: 0x8020800,
+            0x7: 0x800,
+            0x8: 0x8020000,
+            0x9: 0x8000800,
+            0xa: 0x20800,
+            0xb: 0x8020020,
+            0xc: 0x820,
+            0xd: 0x0,
+            0xe: 0x8000020,
+            0xf: 0x20820,
+            0x80000000: 0x800,
+            0x80000001: 0x8020820,
+            0x80000002: 0x8000820,
+            0x80000003: 0x8000000,
+            0x80000004: 0x8020000,
+            0x80000005: 0x20800,
+            0x80000006: 0x20820,
+            0x80000007: 0x20,
+            0x80000008: 0x8000020,
+            0x80000009: 0x820,
+            0x8000000a: 0x20020,
+            0x8000000b: 0x8020800,
+            0x8000000c: 0x0,
+            0x8000000d: 0x8020020,
+            0x8000000e: 0x8000800,
+            0x8000000f: 0x20000,
+            0x10: 0x20820,
+            0x11: 0x8020800,
+            0x12: 0x20,
+            0x13: 0x800,
+            0x14: 0x8000800,
+            0x15: 0x8000020,
+            0x16: 0x8020020,
+            0x17: 0x20000,
+            0x18: 0x0,
+            0x19: 0x20020,
+            0x1a: 0x8020000,
+            0x1b: 0x8000820,
+            0x1c: 0x8020820,
+            0x1d: 0x20800,
+            0x1e: 0x820,
+            0x1f: 0x8000000,
+            0x80000010: 0x20000,
+            0x80000011: 0x800,
+            0x80000012: 0x8020020,
+            0x80000013: 0x20820,
+            0x80000014: 0x20,
+            0x80000015: 0x8020000,
+            0x80000016: 0x8000000,
+            0x80000017: 0x8000820,
+            0x80000018: 0x8020820,
+            0x80000019: 0x8000020,
+            0x8000001a: 0x8000800,
+            0x8000001b: 0x0,
+            0x8000001c: 0x20800,
+            0x8000001d: 0x820,
+            0x8000001e: 0x20020,
+            0x8000001f: 0x8020800
+        }
+    ];
 
     // Masks that select the SBOX input
     var SBOX_MASK = [
-    0xf8000001, 0x1f800000, 0x01f80000, 0x001f8000,
-    0x0001f800, 0x00001f80, 0x000001f8, 0x8000001f];
+        0xf8000001, 0x1f800000, 0x01f80000, 0x001f8000,
+        0x0001f800, 0x00001f80, 0x000001f8, 0x8000001f
+    ];
 
     /**
      * DES block cipher algorithm.
@@ -5756,19 +5810,25 @@ CryptoJS.pad.NoPadding = {
 
             // Swap endian
             for (var i = 0; i < 4; i++) {
-                K[i] = (((K[i] << 8) | (K[i] >>> 24)) & 0x00ff00ff) | (((K[i] << 24) | (K[i] >>> 8)) & 0xff00ff00);
+                K[i] = (((K[i] << 8) | (K[i] >>> 24)) & 0x00ff00ff) |
+                    (((K[i] << 24) | (K[i] >>> 8)) & 0xff00ff00);
             }
 
             // Generate initial state values
             var X = this._X = [
-            K[0], (K[3] << 16) | (K[2] >>> 16),
-            K[1], (K[0] << 16) | (K[3] >>> 16),
-            K[2], (K[1] << 16) | (K[0] >>> 16),
-            K[3], (K[2] << 16) | (K[1] >>> 16)];
+                K[0], (K[3] << 16) | (K[2] >>> 16),
+                K[1], (K[0] << 16) | (K[3] >>> 16),
+                K[2], (K[1] << 16) | (K[0] >>> 16),
+                K[3], (K[2] << 16) | (K[1] >>> 16)
+            ];
 
             // Generate initial counter values
             var C = this._C = [
-            (K[2] << 16) | (K[2] >>> 16), (K[0] & 0xffff0000) | (K[1] & 0x0000ffff), (K[3] << 16) | (K[3] >>> 16), (K[1] & 0xffff0000) | (K[2] & 0x0000ffff), (K[0] << 16) | (K[0] >>> 16), (K[2] & 0xffff0000) | (K[3] & 0x0000ffff), (K[1] << 16) | (K[1] >>> 16), (K[3] & 0xffff0000) | (K[0] & 0x0000ffff)];
+                (K[2] << 16) | (K[2] >>> 16), (K[0] & 0xffff0000) | (K[1] & 0x0000ffff),
+                (K[3] << 16) | (K[3] >>> 16), (K[1] & 0xffff0000) | (K[2] & 0x0000ffff),
+                (K[0] << 16) | (K[0] >>> 16), (K[2] & 0xffff0000) | (K[3] & 0x0000ffff),
+                (K[1] << 16) | (K[1] >>> 16), (K[3] & 0xffff0000) | (K[0] & 0x0000ffff)
+            ];
 
             // Carry bit
             this._b = 0;
@@ -5828,7 +5888,8 @@ CryptoJS.pad.NoPadding = {
 
             for (var i = 0; i < 4; i++) {
                 // Swap endian
-                S[i] = (((S[i] << 8) | (S[i] >>> 24)) & 0x00ff00ff) | (((S[i] << 24) | (S[i] >>> 8)) & 0xff00ff00);
+                S[i] = (((S[i] << 8) | (S[i] >>> 24)) & 0x00ff00ff) |
+                    (((S[i] << 24) | (S[i] >>> 8)) & 0xff00ff00);
 
                 // Encrypt
                 M[offset + i] ^= S[i];
@@ -5935,14 +5996,19 @@ CryptoJS.pad.NoPadding = {
 
             // Generate initial state values
             var X = this._X = [
-            K[0], (K[3] << 16) | (K[2] >>> 16),
-            K[1], (K[0] << 16) | (K[3] >>> 16),
-            K[2], (K[1] << 16) | (K[0] >>> 16),
-            K[3], (K[2] << 16) | (K[1] >>> 16)];
+                K[0], (K[3] << 16) | (K[2] >>> 16),
+                K[1], (K[0] << 16) | (K[3] >>> 16),
+                K[2], (K[1] << 16) | (K[0] >>> 16),
+                K[3], (K[2] << 16) | (K[1] >>> 16)
+            ];
 
             // Generate initial counter values
             var C = this._C = [
-            (K[2] << 16) | (K[2] >>> 16), (K[0] & 0xffff0000) | (K[1] & 0x0000ffff), (K[3] << 16) | (K[3] >>> 16), (K[1] & 0xffff0000) | (K[2] & 0x0000ffff), (K[0] << 16) | (K[0] >>> 16), (K[2] & 0xffff0000) | (K[3] & 0x0000ffff), (K[1] << 16) | (K[1] >>> 16), (K[3] & 0xffff0000) | (K[0] & 0x0000ffff)];
+                (K[2] << 16) | (K[2] >>> 16), (K[0] & 0xffff0000) | (K[1] & 0x0000ffff),
+                (K[3] << 16) | (K[3] >>> 16), (K[1] & 0xffff0000) | (K[2] & 0x0000ffff),
+                (K[0] << 16) | (K[0] >>> 16), (K[2] & 0xffff0000) | (K[3] & 0x0000ffff),
+                (K[1] << 16) | (K[1] >>> 16), (K[3] & 0xffff0000) | (K[0] & 0x0000ffff)
+            ];
 
             // Carry bit
             this._b = 0;
@@ -6002,7 +6068,8 @@ CryptoJS.pad.NoPadding = {
 
             for (var i = 0; i < 4; i++) {
                 // Swap endian
-                S[i] = (((S[i] << 8) | (S[i] >>> 24)) & 0x00ff00ff) | (((S[i] << 24) | (S[i] >>> 8)) & 0xff00ff00);
+                S[i] = (((S[i] << 8) | (S[i] >>> 24)) & 0x00ff00ff) |
+                    (((S[i] << 24) | (S[i] >>> 8)) & 0xff00ff00);
 
                 // Encrypt
                 M[offset + i] ^= S[i];

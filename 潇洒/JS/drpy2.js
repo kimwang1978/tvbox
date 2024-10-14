@@ -5,7 +5,9 @@ import './node-rsa.js';
 import './pako.min.js';
 // import JSEncrypt from './jsencrypt.js'; // 会导致壳子崩溃的
 import 模板 from './模板.js'
-import { gbkTool } from './gbk.js'
+import {
+    gbkTool
+} from './gbk.js'
 import './json5.js'
 // 下面是尝试对jinja2库进行更换
 import './jinja.js'
@@ -450,7 +452,8 @@ function window_b64() {
  */
 if (typeof atob !== 'function' || typeof btoa !== 'function') {
     var {
-        atob, btoa
+        atob,
+        btoa
     } = window_b64();
 }
 
@@ -829,7 +832,8 @@ function Utf8ArrayToStr(array) {
                 char2 = array[i++];
                 char3 = array[i++];
                 out += String.fromCharCode(
-                ((c & 0x0f) << 12) | ((char2 & 0x3f) << 6) | ((char3 & 0x3f) << 0));
+                    ((c & 0x0f) << 12) | ((char2 & 0x3f) << 6) | ((char3 & 0x3f) << 0)
+                );
                 break;
         }
     }
@@ -3103,36 +3107,39 @@ function getOriginalJs(js_code) {
     }
 
     let decode_funcs = [
-    (text) => {
-        try {
-            return ungzip(text)
-        } catch (e) {
-            logger('非gzip加密');
-            return ''
-        }
-    }, (text) => {
-        try {
-            return base64Decode(text)
-        } catch (e) {
-            logger('非b64加密');
-            return ''
-        }
-    }, (text) => {
-        try {
-            return aes_decrypt(text)
-        } catch (e) {
-            logger('非aes加密');
-            return ''
-        }
-    }, (text) => {
-        try {
-            return RSA.decode(text, rsa_private_key, null)
-        } catch (e) {
-            logger('非rsa加密');
-            return ''
-        }
-    },
-    // (text)=>{try {return NODERSA.decryptRSAWithPrivateKey(text, RSA.getPrivateKey(rsa_private_key).replace(/RSA /g,''), {options: {environment: "browser", encryptionScheme: 'pkcs1',b:'1024'}});} catch (e) {log(e.message);return ''}},
+        (text) => {
+            try {
+                return ungzip(text)
+            } catch (e) {
+                logger('非gzip加密');
+                return ''
+            }
+        },
+        (text) => {
+            try {
+                return base64Decode(text)
+            } catch (e) {
+                logger('非b64加密');
+                return ''
+            }
+        },
+        (text) => {
+            try {
+                return aes_decrypt(text)
+            } catch (e) {
+                logger('非aes加密');
+                return ''
+            }
+        },
+        (text) => {
+            try {
+                return RSA.decode(text, rsa_private_key, null)
+            } catch (e) {
+                logger('非rsa加密');
+                return ''
+            }
+        },
+        // (text)=>{try {return NODERSA.decryptRSAWithPrivateKey(text, RSA.getPrivateKey(rsa_private_key).replace(/RSA /g,''), {options: {environment: "browser", encryptionScheme: 'pkcs1',b:'1024'}});} catch (e) {log(e.message);return ''}},
     ]
     let func_index = 0
     while (!current_match.test(decode_content)) {
@@ -3313,7 +3320,7 @@ function init(ext) {
             rule.sniffer = false;
         }
         rule.sniffer = rule.hasOwnProperty('sniffer') ? rule.sniffer : '';
-        rule.sniffer = !! (rule.sniffer && rule.sniffer !== '0' && rule.sniffer !== 'false');
+        rule.sniffer = !!(rule.sniffer && rule.sniffer !== '0' && rule.sniffer !== 'false');
 
         rule.isVideo = rule.hasOwnProperty('isVideo') ? rule.isVideo : '';
         if (rule.sniffer && !rule.isVideo) { // 默认辅助嗅探自动增强嗅探规则

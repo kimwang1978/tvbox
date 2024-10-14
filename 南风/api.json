@@ -71,15 +71,6 @@
             "filterable": 1
         },
         {
-            "key": "看客",
-            "name": "👲看客",
-            "type": 3,
-            "api": "csp_Kanke",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1
-        },
-        {
             "key": "比特",
             "name": "✌️比特",
             "type": 3,
@@ -148,15 +139,6 @@
             "ext": "http://www.tvyun01.com/"
         },
         {
-            "key": "csp_Dyxs",
-            "name": "🎬电影先生",
-            "type": 3,
-            "api": "csp_Dyxs",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1
-        },
-        {
             "key": "csp_FengGo",
             "name": "🐶疯狗",
             "type": 3,
@@ -203,16 +185,6 @@
             "filterable": 0
         },
         {
-            "key": "csp_NanGua",
-            "name": "🎃南瓜",
-            "type": 3,
-            "api": "csp_NanGua",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1,
-            "changeable": 1
-        },
-        {
             "key": "csp_Kuaikan",
             "name": "👀快看",
             "type": 3,
@@ -250,6 +222,16 @@
             "quickSearch": 1,
             "filterable": 1,
             "ext": "./json/jianpian.json"
+        },
+        {
+            "key": "南瓜",
+            "name": "🎃南瓜",
+            "type": 3,
+            "api": "./api/drpy2.min.js",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "ext": "./js/南瓜.js"
         },
         {
             "key": "csp_SixV",
@@ -423,7 +405,7 @@
             },
             "ext": {
                 "json": "https://github.moeyy.xyz/https://raw.githubusercontent.com/yoursmile66/TVBox/main/sub/youtube.json",
-                "cookie": ""
+                "cookie": "http://127.0.0.1:9978/file/TVBox/youtubecookie.json"
             }
         },
         {
@@ -449,15 +431,6 @@
             "ext": {
                 "commonConfig": "http://127.0.0.1:9978/file/TVBox/peizhi.json"
             }
-        },
-        {
-            "key": "csp_Local",
-            "name": "📚本地",
-            "type": 3,
-            "api": "csp_Local",
-            "searchable": 0,
-            "quickSearch": 0,
-            "filterable": 1
         },
         {
             "key": "虎牙直播",

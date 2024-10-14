@@ -1,0 +1,17 @@
+var rule = {
+title:'爱看短剧',
+host:'https://ys.110t.cn/',
+homeUrl:'/api/ajax.php?act=recommend',
+homeUrl:'/api/ajax.php?act=Daily',
+url:'/api/ajax.php?act=fyclass',
+class_name:'全部',
+class_url:'yingshilist',
+searchUrl:'/api/ajax.php?act=search&name=**',
+一级:'json:data;name;;addtime;url',
+二级:'*',
+搜索:'*',
+double:false,
+推荐:'*',
+play_parse: true,
+lazy:'js:input="push://"+input',
+}

@@ -43,12 +43,10 @@
             }
         },
         {
-            "key": "肥猫4K",
-            "name": "🖍┃肥猫┃4K",
+            "key": "csp_SuBaiBai",
+            "name": "🏳️┃素白┃影视",
             "type": 3,
-            "api": "./api/drpy.min.js",
-            "ext": "./js/肥猫4K.js",
-            "searchable": 0
+            "api": "csp_SuBaiBai"
         },
         {
             "key": "nangua",
@@ -56,6 +54,13 @@
             "type": 3,
             "playerType": "2",
             "api": "./api/ng_open.js"
+        },
+        {
+            "key": "csp_Tvyb",
+            "name": "☁︎┃云播┃影视",
+            "type": 3,
+            "api": "csp_Jiaozi",
+            "playerType": 2
         },
         {
             "key": "csp_J",
@@ -72,17 +77,12 @@
             "ext": "https://888.qkw2.cc"
         },
         {
-            "key": "csp_Yhys",
-            "name": "🚢┃宇航┃影视",
+            "key": "Ivdy",
+            "name": "💖┃Ivdy┃影视",
             "type": 3,
-            "api": "csp_Yhys",
-            "playerType": 2
-        },
-        {
-            "key": "csp_SuBaiBai",
-            "name": "🏳️┃素白┃影视",
-            "type": 3,
-            "api": "csp_SuBaiBai"
+            "api": "csp_XBPQ",
+            "ext": "./json/ivdy.json",
+            "searchable": 0
         },
         {
             "key": "csp_Nongm",
@@ -95,13 +95,27 @@
             "name": " 👀┃看客┃影视",
             "type": 3,
             "api": "csp_Kanke",
+            "playerType": 2,
+            "ext": "https://www.kmeiju.com"
+        },
+        {
+            "key": "csp_Qiyou",
+            "name": "🥝┃奇优┃影视",
+            "type": 3,
+            "api": "csp_Qiyou"
+        },
+        {
+            "key": "csp_SaoHuo",
+            "name": "🔥┃火火┃影视",
+            "type": 3,
+            "api": "csp_SaoHuo",
             "playerType": 2
         },
         {
             "key": "csp_Ikan",
             "name": "💕┃爱看┃影视",
             "type": 3,
-            "api": "csp_Ikan",
+            "api": "csp_Ikanbot",
             "playerType": 2
         },
         {
@@ -119,12 +133,6 @@
             "playerType": 2
         },
         {
-            "key": "csp_Nkdy",
-            "name": "🏔┃耐看┃影视",
-            "type": 3,
-            "api": "csp_Nkdy"
-        },
-        {
             "key": "csp_LiteApple",
             "name": "🍎┃苹果┃影视",
             "type": 3,
@@ -137,7 +145,7 @@
             "key": "csp_Netfixtv",
             "name": "💌┃至臻┃影视",
             "type": 3,
-            "api": "csp_Netfixtv",
+            "api": "csp_Duopan",
             "filterable": 1,
             "ext": "http://mpanso.com"
         },
@@ -192,16 +200,8 @@
             "api": "csp_FreeOK",
             "searchable": 1,
             "quickSearch": 1,
-            "filterable": 1
-        },
-        {
-            "key": "兄弟",
-            "name": "👯┃兄弟┃影视",
-            "type": 3,
-            "api": "csp_Xdys",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1
+            "filterable": 1,
+            "ext": "https://www.freeok.lol"
         },
         {
             "key": "可可",
@@ -211,7 +211,8 @@
             "api": "csp_Keke",
             "searchable": 1,
             "quickSearch": 1,
-            "filterable": 1
+            "filterable": 1,
+            "ext": "https://www.kkys02.com"
         },
         {
             "key": "csp_Xb6v",
@@ -281,13 +282,6 @@
             "api": "csp_Anime1"
         },
         {
-            "key": "csp_Ysj",
-            "name": "📺┃異界┃动漫",
-            "type": 3,
-            "playerType": "2",
-            "api": "csp_Ysj"
-        },
-        {
             "key": "csp_xifan",
             "name": "🍚┃稀饭┃动漫",
             "type": 3,
@@ -308,6 +302,21 @@
                 "ratio": 3.8
             },
             "gridview": "0-0-4.1"
+        },
+        {
+            "key": "酷狗",
+            "name": "🐾┃酷狗┃音乐",
+            "type": 3,
+            "api": "csp_Kugou",
+            "playerType": 2,
+            "ext": {
+                "classes": [
+                    {
+                        "type_name": "酷狗",
+                        "type_id": "kugou"
+                    }
+                ]
+            }
         },
         {
             "key": "酷奇",
@@ -355,19 +364,6 @@
             "searchable": 0,
             "quickSearch": 0,
             "ext": "./js/短视频.js"
-        },
-        {
-            "key": "看球",
-            "name": "⚾┃看球┃直播",
-            "type": 3,
-            "api": "csp_Kanqiu",
-            "searchable": 1,
-            "quickSearch": 1,
-            "changeable": 0,
-            "gridview": 3,
-            "style": {
-                "type": "list"
-            }
         },
         {
             "key": "drpy_js_310直播",
@@ -546,7 +542,7 @@
         {
             "name": "live",
             "type": 0,
-            "url": "./lives/live.txt",
+            "url": "",
             "epg": "http://epg.112114.xyz/?ch={name}&date={date}"
         }
     ]

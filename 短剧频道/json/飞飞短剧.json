@@ -1,0 +1,25 @@
+{
+                "站名": "飞飞短剧",
+                "请求头": "User-Agent$okhttp/5.0.0-alpha.14",
+                "编码": "UTF-8",
+                "主页url": "https://www.ffys.fun/type/25.html",
+                "备用地址": "https://www.ffys.top",
+                "数组": "<a&&</div></div></a>",
+                "标题": "title=\"&&\"",
+                "图片": "data-original=\"&&\"",
+                "副标题": "✨+item-note\">&&</div>",
+                "链接": "href=\"&&\"",
+                "线路数组": "data-dropdown&&</div>",
+                "线路标题": "✨乐哥推荐✨+<span>&&</+【共+<small>&&<+集】",
+                "播放数组": "module-play-list\">&&</div>",
+                "播放列表": "<a&&a>",
+                "播放链接": "href=\"&&\"",
+                "播放标题": "✨+<span>&&</",
+                "跳转播放链接": "var player_*\"url\":\"&&\"",
+                "搜索模式": "1",
+                "搜索url": "/vodsearch{wd}/page/{pg}.html",
+                
+                "分类url": "https://www.ffys.fun/vodshow/class/{cateId}/id/25/page/{catePg}.html",
+                "分类": "古装&虐恋&逆袭&悬疑&神豪&重生&复仇&穿越&甜宠&强者&言情&闪婚&都市&脑洞&仙侠",
+                "分类值": "*"
+            }

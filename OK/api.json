@@ -27,10 +27,10 @@
             }
         },
         {
-            "key": "南瓜",
-            "name": "🎃南瓜┃直连",
+            "key": "天天",
+            "name": "⛅️天天┃直连",
             "type": 3,
-            "api": "csp_Nangua",
+            "api": "csp_TianTian",
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 1,
@@ -41,6 +41,16 @@
             "name": "🌺文才┃在线",
             "type": 3,
             "api": "csp_Jpys",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "timeout": 10
+        },
+        {
+            "key": "南瓜",
+            "name": "🎃南瓜┃直连",
+            "type": 3,
+            "api": "csp_Nangua",
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 1,
@@ -63,10 +73,10 @@
             "timeout": 30
         },
         {
-            "key": "天天",
-            "name": "⛅️天天┃直连",
+            "key": "糯米",
+            "name": "🍓糯米┃秒播",
             "type": 3,
-            "api": "csp_TianTian",
+            "api": "csp_Nmys",
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 1,
@@ -90,12 +100,11 @@
             "searchable": 1,
             "filterable": 1,
             "changeable": 1,
-            "timeout": 10,
+            "timeout": 20,
             "categories": [
                 "剧情片",
                 "动作片",
                 "冒险片",
-                "同性片",
                 "喜剧片",
                 "奇幻片",
                 "恐怖片",
@@ -147,17 +156,6 @@
             }
         },
         {
-            "key": "华为",
-            "name": "🍇华为┃秒播",
-            "type": 1,
-            "api": "https://cjhwba.com/api.php/provide/vod",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1,
-            "changeable": 1,
-            "timeout": 10
-        },
-        {
             "key": "立播弹幕版",
             "name": "🐰立播┃在线",
             "type": 3,
@@ -169,8 +167,7 @@
                 "token": "file://TV/ali_token.txt",
                 "cookie": "file://TV/quark_cookie.txt",
                 "uc_cookie": "file://TV/uc_cookie.txt",
-                "site": "https://libvio.link",
-                "danmu": true
+                "site": "https://libvio.link"
             },
             "timeout": 30
         },
@@ -185,8 +182,23 @@
             "ext": {
                 "token": "file://TV/ali_token.txt",
                 "cookie": "file://TV/quark_cookie.txt",
-                "site": "https://duopan.fun",
-                "danmu": true
+                "site": "http://labipan.com"
+            },
+            "timeout": 25
+        },
+        {
+            "key": "木偶弹幕",
+            "name": "🪵木偶┃在线",
+            "type": 3,
+            "api": "csp_Wobg",
+            "quickSearch": 1,
+            "changeable": 1,
+            "filterable": 1,
+            "ext": {
+                "token": "file://TV/ali_token.txt",
+                "cookie": "file://TV/quark_cookie.txt",
+                "uc_cookie": "file://TV/uc_cookie.txt",
+                "site": "http://mogg.小胡.top"
             },
             "timeout": 25
         },
@@ -382,15 +394,6 @@
             "timeout": 20
         },
         {
-            "key": "不太灵",
-            "name": "🍄不太灵┃磁力",
-            "type": 3,
-            "api": "csp_Bt0",
-            "searchable": 1,
-            "changeable": 0,
-            "timeout": 20
-        },
-        {
             "key": "快手直播",
             "name": "😎快手┃直播",
             "type": 3,
@@ -415,15 +418,6 @@
                 "type": "rect",
                 "ratio": 1.433
             },
-            "timeout": 10
-        },
-        {
-            "key": "星星",
-            "name": "⭐️星星┃直连",
-            "type": 3,
-            "api": "csp_Star",
-            "searchable": 1,
-            "changeable": 1,
             "timeout": 10
         },
         {
@@ -709,8 +703,7 @@
             "ext": {
                 "token": "file://TV/ali_token.txt",
                 "cookie": "file://TV/quark_cookie.txt",
-                "uc_cookie": "file://TV/uc_cookie.txt",
-                "danmu": true
+                "uc_cookie": "file://TV/uc_cookie.txt"
             },
             "timeout": 5
         }

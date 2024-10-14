@@ -88,6 +88,14 @@
             "changeable": 1
         },
         {
+            "key": "Wexyingchao",
+            "name": "💓鸟巢┃4K💓",
+            "type": 3,
+            "api": "csp_Wexyingchao",
+            "searchable": 1,
+            "changeable": 1
+        },
+        {
             "key": "Wexwanni",
             "name": "💓玩你┃4K💓",
             "type": 3,
@@ -555,18 +563,18 @@
             "changeable": 0
         },
         {
-            "key": "Wexciyuancheng",
-            "name": "🤡元城┃番剧🤡",
+            "key": "WexDm84",
+            "name": "🤡巴士┃动漫🤡",
             "type": 3,
-            "api": "csp_Wexciyuancheng",
+            "api": "csp_WexDm84",
             "searchable": 1,
             "changeable": 1
         },
         {
-            "key": "Wexxifan",
-            "name": "🤡喜翻┃番剧🤡",
+            "key": "WexYsj",
+            "name": "🤡异界┃动漫🤡",
             "type": 3,
-            "api": "csp_Wexxifan",
+            "api": "csp_WexYsj",
             "searchable": 1,
             "changeable": 1
         },
@@ -638,6 +646,28 @@
             "name": "🌐88┃体育🌐",
             "type": 3,
             "api": "csp_Kanqiu",
+            "searchable": 1,
+            "changeable": 0,
+            "style": {
+                "type": "list"
+            }
+        },
+        {
+            "key": "926看球",
+            "name": "🌐926┃体育🌐",
+            "type": 3,
+            "api": "csp_Wex926kanqiu",
+            "searchable": 1,
+            "changeable": 0,
+            "style": {
+                "type": "list"
+            }
+        },
+        {
+            "key": "1直播",
+            "name": "🌐一直┃体育🌐",
+            "type": 3,
+            "api": "csp_Wexzhibo1",
             "searchable": 1,
             "changeable": 0,
             "style": {

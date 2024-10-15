@@ -1,11 +1,8 @@
 ### 自用多仓
 
-多仓短链：
-```
-~~http://gg.gg/tvbox-json~~
-```
+多仓短链： ~~http://gg.gg/tvbox-json~~ （暂时弃用）
 
-多仓短链（Backup）：
+多仓短链：
 ```
 https://tinyurl.com/tvbox-json
 ```

@@ -2,7 +2,7 @@
 
 多仓短链：
 ```
-http://gg.gg/tvbox-json
+~~http://gg.gg/tvbox-json~~
 ```
 
 多仓短链（Backup）：

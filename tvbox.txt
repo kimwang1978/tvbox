@@ -11,9 +11,8 @@
 { "url": "https://ghp.ci/https://raw.githubusercontent.com/kimwang1978/tvbox/main/摸鱼儿/api.json", "name": "摸鱼儿" },
 
 { "url": "https://ghp.ci/https://raw.githubusercontent.com/kimwang1978/tvbox/main/PG/api.json", "name": "PG" },
+
 { "url": "https://ghp.ci/https://raw.githubusercontent.com/kimwang1978/tvbox/main/潇洒/api.json", "name": "潇洒" },
-
-
 
 { "url": "https://ghp.ci/https://raw.githubusercontent.com/kimwang1978/tvbox/main/天天开心/api.json", "name": "天天开心" },
 
@@ -32,4 +31,6 @@
 
 { "url": "https://ghp.ci/https://raw.githubusercontent.com/kimwang1978/tvbox/main/少儿频道/api.json", "name": "少儿频道" },
 
-{ "url": "https://ghp.ci/https://raw.githubusercontent.com/kimwang1978/tvbox/main/动漫频道/api.json", "name": "动漫频道" }]}
+{ "url": "https://ghp.ci/https://raw.githubusercontent.com/kimwang1978/tvbox/main/动漫频道/api.json", "name": "动漫频道" },
+
+{ "url": "https://ghp.ci/https://raw.githubusercontent.com/kimwang1978/tvbox/main/WANG/api.json", "name": "Test频道" }]}

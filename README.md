@@ -1,11 +1,8 @@
 ### 自用多仓
 
-多仓短链：
-```
-http://gg.gg/tvbox-json
-```
+多仓短链： ~~http://gg.gg/tvbox-json~~ （暂时弃用）
 
-多仓短链（Backup）：
+多仓短链：
 ```
 https://tinyurl.com/tvbox-json
 ```
@@ -16,6 +13,6 @@ https://raw.githubusercontent.com/kimwang1978/tvbox/main/tvbox.txt
 ```
 镜像地址：
 ```
-https://mirror.ghproxy.com/https://raw.githubusercontent.com/kimwang1978/tvbox/main/tvbox.txt
+https://ghp.ci/https://raw.githubusercontent.com/kimwang1978/tvbox/main/tvbox.txt
 ```
 

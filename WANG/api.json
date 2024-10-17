@@ -3,17 +3,8 @@
     "wallpaper": "https://深色壁纸.xxooo.cf/",
     "sites": [
         {
-            "key": "TestWang",
-            "name": "TestWang",
-            "type": 3,
-            "api": "csp_DouDou",
-            "searchable": 0,
-            "quickSearch": 0,
-            "filterable": 0
-        },
-        {
-            "key":"好趣网TV直播",
-            "name":"Test电视",
+            "key":"TV直播test",
+            "name":"TV直播test",
             "type": 3,
             "api": "http://ttkx.live:55/lib/drpy_libs/drpy2.min.js",
             "searchable": 1,
@@ -22,6 +13,14 @@
             "order num": 87,
             "ext":"http://ttkx.live:55/lib/好趣网.js"
         },
+        {
+            "key":"可欣直播",
+            "name":"📺︎可欣直播",
+            "type":3,
+            "api":"http://ttkx.live:55/lib/sdtv.js",
+            "ext":"http://ttkx.live:55/lib/kxzb1.txt",
+            "jar":"http://ttkx.live:55/lib/sdtv.jar"
+          },
         {
             "key": "聚短视频js",
             "name": "📽┃️聚短┃视频",
@@ -42,15 +41,7 @@
                 "type": "list"
             },
             "ext": "./js/310直播.js"
-        },
-        {
-            "key":"可欣直播",
-            "name":"📺︎可欣直播",
-            "type":3,
-            "api":"http://ttkx.live:55/lib/sdtv.js",
-            "ext":"http://ttkx.live:55/lib/kxzb1.txt",
-            "jar":"http://ttkx.live:55/lib/sdtv.jar"
-          }
+        }
           
     ],
     "logo": "https://fs-im-kefu.7moor-fs1.com/ly/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/1716545739254/fc1b89e152cd4aa28d295107cb6c56c9.gif",

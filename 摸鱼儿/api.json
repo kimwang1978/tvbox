@@ -2,13 +2,13 @@
 
 {
     "spider": "./spider.jar",
-    "wallpaper": "http://我不是.摸鱼儿.top/wallpaper/moyu.php",
+    "wallpaper": "http://我不是.摸鱼儿.com/wallpaper/moyu.php",
     "logo": "https://s1.imagehub.cc/images/2024/06/11/80538bfb3835ffebf7c5fd0716280801.jpeg",
     "warningText": "摸鱼儿：资源来自网络，无盈利纯技术分享！[所有内容仅供学习使用，请勿用于违法及商业用途，请勿付费购买]",
     "sites": [
         {
             "key": "豆豆",
-            "name": "🥹新地址：http:我不是.摸鱼儿.com",
+            "name": "🌕️豆瓣┃首页┃推荐",
             "type": 3,
             "api": "csp_DouDou",
             "searchable": 0,
@@ -46,7 +46,7 @@
             "searchable": 0,
             "quickSearch": 1,
             "filterable": 0,
-            "ext": "http://我不是.摸鱼儿.top/api/moyu.php?file=lives"
+            "ext": "http://我不是.摸鱼儿.com/api/moyu.php?file=lives"
         },
         {
             "key": "玩偶",
@@ -437,7 +437,7 @@
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 1,
-            "ext": "http://我不是.摸鱼儿.top/api/moyu.php?file=55"
+            "ext": "http://我不是.摸鱼儿.com/api/moyu.php?file=55"
         },
         {
             "key": "子子影视",
@@ -448,7 +448,7 @@
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 1,
-            "ext": "http://我不是.摸鱼儿.top/api/moyu.php?file=子子影视"
+            "ext": "http://我不是.摸鱼儿.com/api/moyu.php?file=子子影视"
         },
         {
             "key": "央视经典",
@@ -458,7 +458,7 @@
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 0,
-            "ext": "http://我不是.摸鱼儿.top/api/moyu.php?file=央视经典"
+            "ext": "http://我不是.摸鱼儿.com/api/moyu.php?file=央视经典"
         },
         {
             "key": "短剧",
@@ -1196,7 +1196,7 @@
             "searchable": 0,
             "quickSearch": 0,
             "changeable": 0,
-            "ext": "http://我不是.摸鱼儿.top/api/moyu.php?file=mtv"
+            "ext": "http://我不是.摸鱼儿.com/api/moyu.php?file=mtv"
         },
         {
             "key": "Bili",
@@ -1210,7 +1210,7 @@
             "searchable": 1,
             "quickSearch": 0,
             "changeable": 0,
-            "ext": "http://我不是.摸鱼儿.top/api/moyu.php?file=哔哩合集"
+            "ext": "http://我不是.摸鱼儿.com/api/moyu.php?file=哔哩合集"
         },
         {
             "key": "Biliych",
@@ -1224,7 +1224,7 @@
             "searchable": 1,
             "quickSearch": 0,
             "changeable": 0,
-            "ext": "http://我不是.摸鱼儿.top/api/moyu.php?file=哔哩歌曲"
+            "ext": "http://我不是.摸鱼儿.com/api/moyu.php?file=哔哩歌曲"
         },
         {
             "key": "有声小说js",
@@ -1252,7 +1252,7 @@
             "searchable": 0,
             "quickSearch": 0,
             "changeable": 0,
-            "ext": "http://我不是.摸鱼儿.top/api/moyu.php?file=少儿教育"
+            "ext": "http://我不是.摸鱼儿.com/api/moyu.php?file=少儿教育"
         },
         {
             "key": "小学课堂",
@@ -1266,7 +1266,7 @@
             "searchable": 0,
             "quickSearch": 0,
             "changeable": 0,
-            "ext": "http://我不是.摸鱼儿.top/api/moyu.php?file=小学教育"
+            "ext": "http://我不是.摸鱼儿.com/api/moyu.php?file=小学教育"
         },
         {
             "key": "初中课堂",
@@ -1280,7 +1280,7 @@
             "searchable": 0,
             "quickSearch": 0,
             "changeable": 0,
-            "ext": "http://我不是.摸鱼儿.top/api/moyu.php?file=初中课堂"
+            "ext": "http://我不是.摸鱼儿.com/api/moyu.php?file=初中课堂"
         },
         {
             "key": "高中教育",
@@ -1294,7 +1294,7 @@
             "searchable": 0,
             "quickSearch": 0,
             "changeable": 0,
-            "ext": "http://我不是.摸鱼儿.top/api/moyu.php?file=高中课堂"
+            "ext": "http://我不是.摸鱼儿.com/api/moyu.php?file=高中课堂"
         },
         {
             "key": "Aid",
@@ -1373,7 +1373,7 @@
         {
             "name": "zhuimi-super",
             "type": 1,
-            "url": "http://moyu.zhuimi.top/zhuimi666.php?url=",
+            "url": "http://103.38.82.59:9527/zhuimi666.php?url=",
             "ext": {
                 "flag": [
                     "qq",

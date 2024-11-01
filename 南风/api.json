@@ -2,16 +2,20 @@
 
 {
     "spider": "./spider.jar",
-    "wallpaper": "https://tuapi.eees.cc/api.php?category=fengjing&type=302",
+    "wallpaper": "https://深色壁纸.xxooo.cf/",
     "sites": [
         {
-            "key": "csp_DouDou",
+            "key": "csp_Douban",
             "name": "🔍豆瓣┃本接口免费-🈲贩卖",
             "type": 3,
-            "api": "csp_DouDou",
+            "api": "csp_Douban",
             "searchable": 0,
-            "quickSearch": 0,
-            "filterable": 1
+            "filterable": 1,
+            "changeable": 1,
+            "ext": {
+                "commonConfig": "http://127.0.0.1:9978/file/TVBox/peizhi.json",
+                "filter": "https://github.moeyy.xyz/https://raw.githubusercontent.com/yoursmile66/TVBox/main/sub/douban.json"
+            }
         },
         {
             "key": "csp_YGP",
@@ -38,6 +42,15 @@
             "name": "🦉天天",
             "type": 3,
             "api": "csp_TianTian",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1
+        },
+        {
+            "key": "csp_ReBo",
+            "name": "☀️热播",
+            "type": 3,
+            "api": "csp_ReBo",
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 1
@@ -89,15 +102,6 @@
             "quickSearch": 1,
             "filterable": 1,
             "ext": "http://rzys.xyz/"
-        },
-        {
-            "key": "FreeOK",
-            "name": "️🆗FreeOK",
-            "type": 3,
-            "api": "csp_FreeOK",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1
         },
         {
             "key": "csp_SaoHuo",
@@ -201,7 +205,7 @@
             "searchable": 1,
             "quickSearch": 1,
             "changeable": 1,
-            "ext": "https://www.zxzja.com/"
+            "ext": "https://www.zxzjys.com/"
         },
         {
             "key": "csp_Auete",
@@ -211,7 +215,7 @@
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 1,
-            "ext": "https://auete.pro/"
+            "ext": "https://auete.com/"
         },
         {
             "key": "csp_Jianpian",
@@ -280,6 +284,16 @@
             "quickSearch": 1,
             "filterable": 1,
             "changeable": 1
+        },
+        {
+            "key": "csp_Alllive",
+            "name": "📽️一直播",
+            "type": 3,
+            "api": "csp_Alllive",
+            "playerType": 2,
+            "searchable": 0,
+            "quickSearch": 0,
+            "changeable": 0
         },
         {
             "key": "csp_Kugou",
@@ -728,10 +742,46 @@
     ],
     "lives": [
         {
-            "name": "live",
+            "name": "Yoursmile",
             "type": 0,
-            "url": "./lives/live.txt",
-            "epg": "http://epg.112114.xyz/?ch={name}&date={date}"
+            "url": "./lives/Yoursmile.txt",
+            "epg": "http://epg.51zmt.top:8000/api/diyp/?ch={name}&date={date}"
+        },
+        {
+            "name": "feiyang.allinone",
+            "type": 0,
+            "url": "./lives/feiyang.allinone.txt",
+            "epg": "http://epg.51zmt.top:8000/api/diyp/?ch={name}&date={date}"
+        },
+        {
+            "name": "feiyang.tptv",
+            "type": 0,
+            "url": "./lives/feiyang.tptv.txt",
+            "epg": "http://epg.51zmt.top:8000/api/diyp/?ch={name}&date={date}"
+        },
+        {
+            "name": "feiyang.bililive",
+            "type": 0,
+            "url": "./lives/feiyang.bililive.txt",
+            "epg": "http://epg.51zmt.top:8000/api/diyp/?ch={name}&date={date}"
+        },
+        {
+            "name": "feiyang.huyayqk",
+            "type": 0,
+            "url": "./lives/feiyang.huyayqk.txt",
+            "epg": "http://epg.51zmt.top:8000/api/diyp/?ch={name}&date={date}"
+        },
+        {
+            "name": "feiyang.douyuyqk",
+            "type": 0,
+            "url": "./lives/feiyang.douyuyqk.txt",
+            "epg": "http://epg.51zmt.top:8000/api/diyp/?ch={name}&date={date}"
+        },
+        {
+            "name": "feiyang.yylunbo",
+            "type": 0,
+            "url": "./lives/feiyang.yylunbo.txt",
+            "epg": "http://epg.51zmt.top:8000/api/diyp/?ch={name}&date={date}"
         }
     ],
     "logo": "https://github.moeyy.xyz/https://raw.githubusercontent.com/yoursmile66/TVBox/main/sub/NanFeng.gif",

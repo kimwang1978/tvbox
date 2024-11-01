@@ -4,7 +4,7 @@ globalThis.getRandomItem = function (items) {
 var rule = {
     title: '采集之王[合]',
     author: '道长',
-    version: '20240705 beta16',
+    version: '20240706 beta17',
     update_info: ``.trim(),
     host: '',
     homeTid: '',
@@ -79,6 +79,7 @@ var rule = {
                     searchable: it.searchable !== 0,
                     api: it.api || '',
                     cate_exclude: it.cate_exclude || '',
+                    cate_excludes: it.cate_excludes || [],
                 };
                 _classes.push(_obj);
                 try {
@@ -88,7 +89,9 @@ var rule = {
                     } else {
                         json1 = JSON.parse(request(urljoin(_obj.type_id, _obj.api || rule.classUrl))).class;
                     }
-                    if (_obj.cate_exclude) {
+                    if (_obj.cate_excludes && Array.isArray(_obj.cate_excludes) && _obj.cate_excludes.length > 0) {
+                        json1 = json1.filter(cl => !_obj.cate_excludes.includes(cl.type_name));
+                    } else if (_obj.cate_exclude) {
                         json1 = json1.filter(cl => !new RegExp(_obj.cate_exclude, 'i').test(cl.type_name));
                     }
                     rule.filter[_obj.type_id] = [{
@@ -208,6 +211,7 @@ var rule = {
                 log('end:' + end);
                 log('搜索模式:' + searchMode);
                 log('精准搜索:' + rule.search_match);
+                log('强制获取图片:' + rule.search_pic);
                 if (start < canSearch.length) {
                     let search_classes = canSearch.slice(start, end);
                     let urls = [];
@@ -278,7 +282,7 @@ var rule = {
                                 }
                             }
                         });
-                        let rets2 = batchFetch(reqUrls2);
+                        let rets2 = reqUrls2.length > 0 ? batchFetch(reqUrls2) : [];
                         for (let k = 0; k < results_list.length; k++) {
                             let result_data = results_list[k].data;
                             if (!results_list[k].has_pic) {

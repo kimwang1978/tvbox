@@ -1,4 +1,4 @@
-
+//关注微信公众号：奇奇乐分享，发送“本地包”，获取本地包更新链接与图文教程。
 
 {
     "spider": "./spider.jar",
@@ -373,14 +373,6 @@
             "quickSearch": 1,
             "filterable": 1,
             "ext": "./json/短剧大全.json"
-        }
-    ],
-    "lives": [
-        {
-            "name": "live",
-            "type": 0,
-            "url": "./lives/live.txt",
-            "epg": "http://epg.112114.xyz/?ch={name}&date={date}"
         }
     ],
     "rules": [

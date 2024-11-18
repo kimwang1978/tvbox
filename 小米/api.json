@@ -1,13 +1,13 @@
-
+//关注微信公众号：奇奇乐分享，发送“本地包”，获取本地包更新链接与图文教程。
 
 {
     "spider": "./spider.jar",
     "logo": "https://p3-pc-sign.douyinpic.com/tos-cn-i-0813c001/oEb9EAiMhR67DA00fZCpIXMigA8LAkAI9enDAD~tplv-dy-aweme-images-v2:3000:3000:q75.webp?biz_tag=aweme_images&from=327834062&s=PackSourceEnum_SEARCH&sc=image&se=false&x-expires=1727452800&x-signature=Q6AiH8FOO86OfzLFvuUZpJbsV4s%3D",
-    "wallpaper": "http://www.mpanso.com/%E5%B0%8F%E7%B1%B3/mpansou.php",
+    "wallpaper": "http://www.mucpan.cc/%E5%B0%8F%E7%B1%B3/mpansou.php",
     "sites": [
         {
             "key": "豆瓣",
-            "name": "🌈豆瓣┃防失联：QQ群：665981772  公众号：叨观荐影 ",
+            "name": "🌈豆瓣┃防失联：QQ群：665981772   接口被屏蔽 加群防止失联 ",
             "type": 3,
             "api": "csp_Douban",
             "searchable": 0
@@ -39,17 +39,25 @@
         },
         {
             "key": "csp_zhizhen",
-            "name": "🌹至臻┃4K4K",
+            "name": "🌹米QK┃4K4K",
             "type": 3,
             "api": "csp_Duopan",
             "changeable": 0,
             "filterable": 1,
             "ext": {
                 "site_urls": [
-                    "http://mpanso.com",
+                    "http://mucpan.cc",
                     "http://mihdr.top"
                 ]
             }
+        },
+        {
+            "key": "csp_xiaomi",
+            "name": "🌹米UC┃4K4K",
+            "type": 3,
+            "api": "csp_Duopan",
+            "changeable": 0,
+            "ext": "http://www.mucpan.cc"
         },
         {
             "key": "米搜",
@@ -62,13 +70,13 @@
             "key": "88看球",
             "name": "🏀看球┃直播",
             "type": 3,
-            "api": "./api/drpy2.min.js",
+            "api": "./api/drpy2.js",
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 1,
             "order_num": 0,
             "changeable": 0,
-            "ext": "./js/kanqiu.js"
+            "ext": "\"./js/kanqiu.js\""
         },
         {
             "key": "瓜子",
@@ -86,8 +94,17 @@
             "name": "☁️天天┃1080P",
             "type": 3,
             "api": "csp_TTian",
-            "playerType": 1,
+            "playerType": 2,
             "ext": "baHR0cDovL29wLnlzZHFqcy5jbg==",
+            "jar": "./jars/天天.jar"
+        },
+        {
+            "key": "🌟客星",
+            "name": "🌟客星┃1080P",
+            "type": 3,
+            "api": "csp_Xdai",
+            "playerType": 2,
+            "ext": "caHR0cDovLzE1NC4zNy4yMjAuMTc6NjYyMnw1ODliMTkwNmI5NWY3MTljfDU4OWIxOTA2Yjk1ZjcxOWM=",
             "jar": "./jars/天天.jar"
         },
         {
@@ -95,13 +112,13 @@
             "name": "🥝凡人┃1080P",
             "type": 3,
             "api": "csp_Frong",
-            "playerType": 1,
-            "ext": "FMy4wLjJ8aHR0cDovLzQzLjI0OC4xMjguMTM4OjMzMTV8NDJmN2EyMDl8MjV8NTY4Njg1NDM0RkVDN0M4QzI5MEFFNEZCMzI1RkYxMzB8c2hpamllbWFvdHZ8MzNhN2ZmYTljODU0MTJjNzQyZjdhMjA5fDI1fDU2ODY4NTQzNEZFQzdDOEMyOTBBRTRGQjMyNUZGMTMwfHNoaWppZW1hb3R2fDMzYTdmZmE5Yzg1NDEyYzc=",
+            "playerType": 2,
+            "ext": "FMy4wLjJ8aHR0cDovLzQzLjI0OC4xMjguMTM4OjgxMzN8NDJmN2EyMDl8MjV8NTY4Njg1NDM0RkVDN0M4QzI5MEFFNEZCMzI1RkYxMzB8c2hpamllbWFvdHZ8MzNhN2ZmYTljODU0MTJjNzQyZjdhMjA5fDI1fDU2ODY4NTQzNEZFQzdDOEMyOTBBRTRGQjMyNUZGMTMwfHNoaWppZW1hb3R2fDMzYTdmZmE5Yzg1NDEyYzc=",
             "jar": "./jars/天天.jar"
         },
         {
             "key": "csp_LiteApple",
-            "name": "🍎苹果┃1080P",
+            "name": "🍎苹果┃无光",
             "type": 3,
             "searchable": 1,
             "changeable": 1,
@@ -112,25 +129,26 @@
         },
         {
             "key": "csp_JPYY",
-            "name": "🥇文采┃1080P",
+            "name": "🥇文采┃无广",
             "type": 3,
             "searchable": 1,
             "changeable": 1,
             "api": "csp_Jpyy",
-            "playerType": 1,
+            "playerType": 2,
             "filterable": 1,
             "ext": ""
         },
         {
-            "key": "csp_subaobai",
-            "name": "✍️白白┃1080P",
+            "key": "csp_饭团",
+            "name": "🍙饭团┃点击",
             "type": 3,
             "searchable": 1,
             "changeable": 1,
-            "api": "csp_SuBaiBai",
-            "playerType": 1,
+            "api": "csp_FanTuan",
+            "playerType": 2,
             "filterable": 1,
-            "ext": ""
+            "click": "document.querySelector(\"#playleft iframe\").contentWindow.document.querySelector(\"#start\").click();",
+            "ext": "https://fantuan.vip/"
         },
         {
             "key": "csp_Nkdy",
@@ -139,28 +157,40 @@
             "api": "csp_Nkdy"
         },
         {
-            "key": "hipy_js_腾云驾雾[官]",
-            "name": "🌞腾腾┃解析",
+            "key": "xiongmao2",
+            "name": "🐼猫咪┃1080P",
             "type": 3,
-            "api": "./api/drpy2.min.js",
+            "api": "./api/drpy2.js",
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 1,
             "order_num": 0,
             "changeable": 0,
-            "ext": "./js/ttt.js"
+            "ext": "\"./js/xiongmao.js\""
+        },
+        {
+            "key": "hipy_js_腾云驾雾[官]",
+            "name": "🌞腾腾┃解析",
+            "type": 3,
+            "api": "./api/drpy2.js",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "order_num": 0,
+            "changeable": 0,
+            "ext": "\"./js/tm.js\""
         },
         {
             "key": "guoguo",
             "name": "🌞果果┃解析",
             "type": 3,
-            "api": "./api/drpy2.min.js",
+            "api": "./api/drpy2.js",
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 1,
             "order_num": 0,
             "changeable": 0,
-            "ext": "./js/guoguo.js"
+            "ext": "\"./js/guoguo.js\""
         },
         {
             "key": "csp_NanGua",
@@ -197,7 +227,7 @@
             "searchable": 1,
             "quickSearch": 0,
             "changeable": 0,
-            "ext": "./json/Bili.json"
+            "ext": "\"./json/Bili.json\""
         },
         {
             "key": "荐片",
@@ -252,7 +282,7 @@
         {
             "name": "4K解析",
             "type": 1,
-            "url": "",
+            "url": "https://jx.xiaofengtv.com/jx.php?url=",
             "ext": {
                 "flag": [
                     "qq",

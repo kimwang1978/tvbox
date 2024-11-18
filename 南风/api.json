@@ -1,20 +1,20 @@
-
+//关注微信公众号：奇奇乐分享，发送“本地包”，获取本地包更新链接与图文教程。
 
 {
     "spider": "./spider.jar",
     "wallpaper": "https://深色壁纸.xxooo.cf/",
     "sites": [
         {
-            "key": "csp_Douban",
+            "key": "csp_DouDou",
             "name": "🔍豆瓣┃本接口免费-🈲贩卖",
             "type": 3,
-            "api": "csp_Douban",
+            "api": "csp_DouDou",
             "searchable": 0,
             "filterable": 1,
             "changeable": 1,
             "ext": {
-                "commonConfig": "http://127.0.0.1:9978/file/TVBox/peizhi.json",
-                "filter": "https://github.moeyy.xyz/https://raw.githubusercontent.com/yoursmile66/TVBox/main/sub/douban.json"
+                "commonConfig": "./json/peizhi.json",
+                "filter": "./json/douban.json"
             }
         },
         {
@@ -34,8 +34,18 @@
             "searchable": 0,
             "changeable": 0,
             "ext": {
-                "commonConfig": "http://127.0.0.1:9978/file/TVBox/peizhi.json"
+                "commonConfig": "./json/peizhi.json"
             }
+        },
+        {
+            "key": "csp_Jpys",
+            "name": "🥇金牌",
+            "type": 3,
+            "api": "csp_Jpys",
+            "playerType": 2,
+            "searchable": 1,
+            "quickSearch": 1,
+            "changeable": 1
         },
         {
             "key": "csp_TianTian",
@@ -123,15 +133,6 @@
             "filterable": 1
         },
         {
-            "key": "csp_SuBaiBai",
-            "name": "⛅️素白白",
-            "type": 3,
-            "api": "csp_SuBaiBai",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1
-        },
-        {
             "key": "csp_Tvyb",
             "name": "☁️TVB云播",
             "type": 3,
@@ -143,15 +144,6 @@
             "ext": "http://www.tvyun01.com/"
         },
         {
-            "key": "csp_FengGo",
-            "name": "🐶疯狗",
-            "type": 3,
-            "api": "csp_FengGo",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1
-        },
-        {
             "key": "csp_Jiaozi",
             "name": "🥣饺子",
             "type": 3,
@@ -159,16 +151,6 @@
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 1
-        },
-        {
-            "key": "csp_YCyz",
-            "name": "☀原创",
-            "type": 3,
-            "api": "csp_YCyz",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1,
-            "changeable": 1
         },
         {
             "key": "csp_SC1080",
@@ -225,7 +207,7 @@
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 1,
-            "ext": "./json/jianpian.json"
+            "ext": "\"./json/jianpian.json\""
         },
         {
             "key": "南瓜",
@@ -235,7 +217,7 @@
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 1,
-            "ext": "./js/南瓜.js"
+            "ext": "\"./js/南瓜.js\""
         },
         {
             "key": "csp_SixV",
@@ -328,9 +310,9 @@
             "searchable": 1,
             "changeable": 0,
             "ext": {
-                "commonConfig": "http://127.0.0.1:9978/file/TVBox/peizhi.json",
+                "commonConfig": "./json/peizhi.json",
                 "siteUrl": "https://www.wogg.net/",
-                "filter": "https://github.moeyy.xyz/https://raw.githubusercontent.com/yoursmile66/TVBox/main/sub/wogg.json"
+                "filter": "./json/wogg.json"
             }
         },
         {
@@ -341,9 +323,22 @@
             "searchable": 1,
             "changeable": 0,
             "ext": {
-                "commonConfig": "http://127.0.0.1:9978/file/TVBox/peizhi.json",
+                "commonConfig": "./json/peizhi.json",
                 "siteUrl": "http://labipan.com/",
-                "filter": "https://github.moeyy.xyz/https://raw.githubusercontent.com/yoursmile66/TVBox/main/sub/wogg.json"
+                "filter": "./json/wogg.json"
+            }
+        },
+        {
+            "key": "木偶",
+            "name": "🧸木偶",
+            "type": 3,
+            "api": "csp_kongbai",
+            "searchable": 1,
+            "changeable": 0,
+            "ext": {
+                "commonConfig": "./json/peizhi.json",
+                "siteUrl": "http://mogg.xn--yetu07f.top/",
+                "filter": "./json/wogg.json"
             }
         },
         {
@@ -355,7 +350,7 @@
             "filterable": 0,
             "switchable": 0,
             "ext": {
-                "commonConfig": "http://127.0.0.1:9978/file/TVBox/peizhi.json"
+                "commonConfig": "./json/peizhi.json"
             }
         },
         {
@@ -368,7 +363,7 @@
             "switchable": 0,
             "ext": {
                 "cookie": "satoken=0eedba28-be8a-4f01-81af-2d8d44808ecf",
-                "commonConfig": "http://127.0.0.1:9978/file/TVBox/peizhi.json"
+                "commonConfig": "./json/peizhi.json"
             }
         },
         {
@@ -379,7 +374,7 @@
             "searchable": 1,
             "changeable": 0,
             "ext": {
-                "commonConfig": "http://127.0.0.1:9978/file/TVBox/peizhi.json"
+                "commonConfig": "./json/peizhi.json"
             }
         },
         {
@@ -390,7 +385,7 @@
             "searchable": 1,
             "changeable": 0,
             "ext": {
-                "commonConfig": "http://127.0.0.1:9978/file/TVBox/peizhi.json"
+                "commonConfig": "./json/peizhi.json"
             }
         },
         {
@@ -402,8 +397,8 @@
             "filterable": 0,
             "switchable": 0,
             "ext": {
-                "commonConfig": "http://127.0.0.1:9978/file/TVBox/peizhi.json",
-                "share": "https://github.moeyy.xyz/https://raw.githubusercontent.com/yoursmile66/TVBox/main/sub/网盘集合.json"
+                "commonConfig": "./json/peizhi.json",
+                "share": "./json/网盘集合.json"
             }
         },
         {
@@ -418,8 +413,22 @@
                 "ratio": 1.433
             },
             "ext": {
-                "json": "https://github.moeyy.xyz/https://raw.githubusercontent.com/yoursmile66/TVBox/main/sub/youtube.json",
-                "cookie": "http://127.0.0.1:9978/file/TVBox/youtubecookie.json"
+                "json": "./json/youtube.json",
+                "cookie": "./json/youtubecookie.json"
+            }
+        },
+        {
+            "key": "Tg | 豆瓣",
+            "name": "🅿Tg|豆瓣（墙外）",
+            "type": 3,
+            "api": "csp_TgYunDouBanPan",
+            "searchable": 1,
+            "changeable": 0,
+            "ext": {
+                "siteUrl": "http://127.0.0.1:9999",
+                "channelUsername": "hao115,guaguale115,longzbija,dianyingshare,XiangxiuNB,yunpanpan,kuakeyun,zaihuayun,Quark_Movies,alyp_4K_Movies,vip115hot,yunpanshare,ucwangpan,Quark_Share_Channel,Aliyundrive_Share_Channel,shareAliyun,ikiviyyp,wanwansubchat,wangpanziyuan2021,alyp_1,quanziyuanshe",
+                "commonConfig": "./json/peizhi.json",
+                "filter": "./json/douban.json"
             }
         },
         {
@@ -432,7 +441,7 @@
             "switchable": 0,
             "ext": {
                 "channelUsername": "hao115,guaguale115,dianyingshare,XiangxiuNB,yunpanpan,kuakeyun,zaihuayun,Quark_Movies,alyp_4K_Movies,vip115hot,yunpanshare,ucwangpan,Quark_Share_Channel,Aliyundrive_Share_Channel,shareAliyun,ikiviyyp,wanwansubchat,wangpanziyuan2021,alyp_1,quanziyuanshe",
-                "commonConfig": "http://127.0.0.1:9978/file/TVBox/peizhi.json"
+                "commonConfig": "./json/peizhi.json"
             }
         },
         {
@@ -443,7 +452,7 @@
             "searchable": 0,
             "quickSearch": 0,
             "ext": {
-                "commonConfig": "http://127.0.0.1:9978/file/TVBox/peizhi.json"
+                "commonConfig": "./json/peizhi.json"
             }
         },
         {
@@ -454,7 +463,7 @@
             "searchable": 0,
             "quickSearch": 0,
             "filterable": 0,
-            "ext": "./js/虎牙直播.js"
+            "ext": "\"./js/虎牙直播.js\""
         },
         {
             "key": "斗鱼直播",
@@ -464,7 +473,7 @@
             "searchable": 0,
             "quickSearch": 0,
             "filterable": 0,
-            "ext": "./js/斗鱼直播.js"
+            "ext": "\"./js/斗鱼直播.js\""
         },
         {
             "key": "有声小说吧",
@@ -475,7 +484,7 @@
             "searchable": 0,
             "quickSearch": 0,
             "filterable": 0,
-            "ext": "./js/有声小说吧.js"
+            "ext": "\"./js/有声小说吧.js\""
         },
         {
             "key": "JRKAN直播",
@@ -485,7 +494,7 @@
             "searchable": 0,
             "quickSearch": 0,
             "filterable": 0,
-            "ext": "./js/JRKAN直播.js"
+            "ext": "\"./js/JRKAN直播.js\""
         },
         {
             "key": "88看球",
@@ -495,7 +504,7 @@
             "searchable": 0,
             "quickSearch": 0,
             "filterable": 0,
-            "ext": "./js/88看球.js"
+            "ext": "\"./js/88看球.js\""
         },
         {
             "key": "酷奇MV",
@@ -526,7 +535,7 @@
             "searchable": 0,
             "quickSearch": 0,
             "filterable": 1,
-            "ext": "./json/Bili.json"
+            "ext": "\"./json/Bili.json\""
         },
         {
             "key": "相声小品",
@@ -536,7 +545,7 @@
             "searchable": 0,
             "quickSearch": 0,
             "filterable": 1,
-            "ext": "./json/Blixs.json"
+            "ext": "\"./json/Blixs.json\""
         },
         {
             "key": "戏曲",
@@ -546,7 +555,7 @@
             "searchable": 0,
             "quickSearch": 0,
             "filterable": 1,
-            "ext": "./json/Blixq.json"
+            "ext": "\"./json/Blixq.json\""
         },
         {
             "key": "少儿",
@@ -556,7 +565,7 @@
             "searchable": 0,
             "quickSearch": 0,
             "filterable": 1,
-            "ext": "./json/少儿教育.json"
+            "ext": "\"./json/少儿教育.json\""
         },
         {
             "key": "小学",
@@ -566,7 +575,7 @@
             "searchable": 0,
             "quickSearch": 0,
             "filterable": 1,
-            "ext": "./json/小学课堂.json"
+            "ext": "\"./json/小学课堂.json\""
         },
         {
             "key": "初中",
@@ -576,7 +585,7 @@
             "searchable": 0,
             "quickSearch": 0,
             "filterable": 1,
-            "ext": "./json/初中课堂.json"
+            "ext": "\"./json/初中课堂.json\""
         },
         {
             "key": "高中",
@@ -586,7 +595,7 @@
             "searchable": 0,
             "quickSearch": 0,
             "filterable": 1,
-            "ext": "./json/高中课堂.json"
+            "ext": "\"./json/高中课堂.json\""
         }
     ],
     "parses": [

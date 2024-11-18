@@ -1,0 +1,70 @@
+{
+  "class": [
+    {
+      "type_name": "电影",
+      "type_id": "电影"
+    },
+    {
+      "type_name": "电视剧",
+      "type_id": "电视剧"
+    },
+     {
+      "type_name": "综艺",
+      "type_id": "综艺"
+    },
+   {
+      "type_name": "新闻",
+      "type_id": "新闻"
+    },
+
+    {
+      "type_name": "纪录片",
+      "type_id": "纪录片"
+    },
+    {
+      "type_name": "音乐",
+      "type_id": "音乐"
+    },
+    {
+      "type_name": "体育",
+      "type_id": "体育"
+    },
+    {
+      "type_name": "自驾游",
+      "type_id": "自驾游"
+    },
+    {
+      "type_name": "美食",
+      "type_id": "美食"
+    },
+    {
+      "type_name": "徐云",
+      "type_id": "徐云"
+    },
+    {
+      "type_name": "汽车",
+      "type_id": "汽车测评"
+    },
+    {
+      "type_name": "数码",
+      "type_id": "手机测评"
+    },
+    {
+      "type_name": "健身",
+      "type_id": "健身"
+    },
+    {
+      "type_name": "舞蹈",
+      "type_id": "舞蹈"
+    },
+    {
+      "type_name": "演唱会",
+      "type_id": "演唱会"
+    },
+    {
+      "type_name": "动物世界",
+      "type_id": "动物世界"
+    }
+  ]
+
+}

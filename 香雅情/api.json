@@ -1,9 +1,15 @@
-
+//关注微信公众号：奇奇乐分享，发送“本地包”，获取本地包更新链接与图文教程。
 
 {
     "wallpaper": "https://picsum.photos/1280/720/?blur=2",
     "spider": "./spider.jar",
     "lives": [
+        {
+            "name": "本地live文件",
+            "type": 0,
+            "url": "./lives/本地live文件.txt",
+            "epg": "https://epg.112114.xyz/?ch={name}&date={date}"
+        },
         {
             "name": "FMM_IPV6",
             "type": 0,
@@ -242,7 +248,7 @@
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 1,
-            "ext": "https://www.yjys02.com"
+            "ext": "https://www.yjys05.com"
         },
         {
             "key": "csp_XYQHiker_哔嘀影视",
@@ -272,7 +278,7 @@
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 1,
-            "ext": "http://112.124.0.131:20000"
+            "ext": "http://apijp.rinhome.com"
         },
         {
             "key": "csp_Ikanbot",

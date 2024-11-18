@@ -1,4 +1,4 @@
-
+//关注微信公众号：奇奇乐分享，发送“本地包”，获取本地包更新链接与图文教程。
 
 {
     "wallpaper": "https://xhdwc.tk/api/img.php",
@@ -36,7 +36,7 @@
             "changeable": 1,
             "playerType": "1",
             "api": "./api/drpy2.min.js",
-            "ext": "./js/jp.js"
+            "ext": "\"./js/jp.js\""
         },
         {
             "key": "文采",
@@ -496,7 +496,7 @@
             "searchable": 1,
             "quickSearch": 0,
             "changeable": 0,
-            "ext": "./json/bilibili.json"
+            "ext": "\"./json/bilibili.json\""
         },
         {
             "key": "课堂教育",
@@ -506,7 +506,7 @@
             "searchable": 0,
             "quickSearch": 0,
             "filterable": 1,
-            "ext": "./json/xx1.json"
+            "ext": "\"./json/xx1.json\""
         },
         {
             "key": "少儿教育",
@@ -516,7 +516,7 @@
             "searchable": 0,
             "quickSearch": 0,
             "filterable": 1,
-            "ext": "./json/xx2.json"
+            "ext": "\"./json/xx2.json\""
         },
         {
             "key": "小学教育",
@@ -526,7 +526,7 @@
             "searchable": 0,
             "quickSearch": 0,
             "filterable": 1,
-            "ext": "./json/xx3.json"
+            "ext": "\"./json/xx3.json\""
         },
         {
             "key": "初中教育",
@@ -536,7 +536,7 @@
             "searchable": 0,
             "quickSearch": 0,
             "filterable": 1,
-            "ext": "./json/xx4.json"
+            "ext": "\"./json/xx4.json\""
         },
         {
             "key": "高中教育",
@@ -546,7 +546,7 @@
             "searchable": 0,
             "quickSearch": 0,
             "filterable": 1,
-            "ext": "./json/xx5.json"
+            "ext": "\"./json/xx5.json\""
         }
     ]
 }

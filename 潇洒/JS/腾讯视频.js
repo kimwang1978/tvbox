@@ -5,6 +5,7 @@ var rule = {
     homeUrl: '/x/bu/pagesheet/list?_all=1&append=1&channel=cartoon&listpage=1&offset=0&pagesize=21&iarea=-1&sort=18',
     detailUrl: 'https://node.video.%71%71.com/x/api/float_vinfo2?cid=fyid',
     searchUrl: '/x/search/?q=**&stag=fypage',
+    searchUrl: 'https://pbaccess.video.%71%71.com/trpc.videosearch.smartboxServer.HttpRountRecall/Smartbox?query=**&appID=3172&appKey=lGhFIPeD3HsO9xEp&pageNum=(fypage-1)&pageSize=10',
     searchable: 2,
     filterable: 1,
     multi: 1,
@@ -159,4 +160,24 @@ var rule = {
         });
         setResult(d);
     }),
+    搜索: $js.toString(() => {
+        let d = [];
+        let html = request(input);
+        let json = JSON.parse(html);
+        if (json.data.smartboxItemList.length > 0) {
+            let cid = json.data.smartboxItemList[0].basicDoc.id;
+            let url = 'https://node.video.qq.com/x/api/float_vinfo2?cid=' + cid;
+            let html1 = request(url);
+            let data = JSON.parse(html1);
+
+            d.push({
+                title: data.c.title,
+                img: data.c.pic,
+                url: url,
+                content: data.c.description,
+                desc: data.rec
+            });
+        }
+        setResult(d);
+    })
 }

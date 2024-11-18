@@ -1,4 +1,4 @@
-
+//关注微信公众号：奇奇乐分享，发送“本地包”，获取本地包更新链接与图文教程。
 
 {
     "spider": "./spider.jar",
@@ -13,7 +13,7 @@
             "searchable": 0,
             "quickSearch": 0,
             "filterable": 0,
-            "ext": "./json/douban.json"
+            "ext": "\"./json/douban.json\""
         },
         {
             "key": "Doubana",
@@ -23,7 +23,7 @@
             "searchable": 0,
             "quickSearch": 0,
             "filterable": 0,
-            "ext": "./json/douban.json"
+            "ext": "\"./json/douban.json\""
         },
         {
             "key": "Wexconfig",
@@ -48,6 +48,14 @@
             "name": "💓‍聚合┃直播💓‍",
             "type": 3,
             "api": "csp_Wexalllive",
+            "searchable": 1,
+            "changeable": 1
+        },
+        {
+            "key": "Wexbiliys",
+            "name": "💓‍哔哩┃影视💓‍",
+            "type": 3,
+            "api": "csp_Wexbiliys",
             "searchable": 1,
             "changeable": 1
         },
@@ -172,22 +180,6 @@
             "name": "🎇星星┃秒播🎇",
             "type": 3,
             "api": "csp_Wexbaipiao",
-            "searchable": 1,
-            "changeable": 1
-        },
-        {
-            "key": "Wex4Kav",
-            "name": "🎇急速┃秒播🎇",
-            "type": 3,
-            "api": "csp_Wex4Kav",
-            "searchable": 1,
-            "changeable": 1
-        },
-        {
-            "key": "Subaibai",
-            "name": "🎇拜拜┃秒播🎇",
-            "type": 3,
-            "api": "csp_Subaibai",
             "searchable": 1,
             "changeable": 1
         },
@@ -475,6 +467,14 @@
             "changeable": 1
         },
         {
+            "key": "Wex275tingshu",
+            "name": "🎃‍极品┃听书🎃",
+            "type": 3,
+            "api": "csp_Wex275tingshu",
+            "searchable": 1,
+            "changeable": 1
+        },
+        {
             "key": "Wexliyuan",
             "name": "🎎戏曲┃秒播🎎",
             "type": 3,
@@ -598,6 +598,38 @@
             "changeable": 0
         },
         {
+            "key": "bili",
+            "name": "🅱哔哔┃合集🅱",
+            "type": 3,
+            "api": "csp_Bili",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "style": {
+                "type": "rect",
+                "ratio": 1.433
+            },
+            "ext": {
+                "json": "./txt/bili001.txt"
+            }
+        },
+        {
+            "key": "biliych",
+            "name": "🅱哔哔┃歌曲🅱",
+            "type": 3,
+            "api": "csp_Bili",
+            "searchable": 0,
+            "quickSearch": 1,
+            "filterable": 1,
+            "style": {
+                "type": "rect",
+                "ratio": 1.433
+            },
+            "ext": {
+                "json": "./txt/bilisong.txt"
+            }
+        },
+        {
             "key": "Wexqingfengdj",
             "name": "🎼舞曲┃摇头🎼",
             "type": 3,
@@ -685,7 +717,7 @@
             "searchable": 0,
             "quickSearch": 0,
             "changeable": 0,
-            "ext": "./json/qie.json"
+            "ext": "\"./json/qie.json\""
         },
         {
             "key": "Wexmiso",

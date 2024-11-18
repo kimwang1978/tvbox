@@ -1,10 +1,7 @@
-
-
 {
     "spider": "./spider.jar",
     "wallpaper": "http://127.0.0.1:9978/file/TVBox/wallpaper.jpg",
     "logo": "http://127.0.0.1:9978/file/TVBox/logo.png",
-    "homeLogo": "http://127.0.0.1:9978/file/TVBox/logo.png",
     "sites": [
         {
             "key": "豆瓣",
@@ -127,16 +124,6 @@
             "quickSearch": 1,
             "filterable": 1,
             "ext": "https://www.tvkuys.xyz/api.php/app/"
-        },
-        {
-            "key": "新感觉",
-            "name": "新感觉｜APP",
-            "type": 3,
-            "api": "csp_AppYsV2",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1,
-            "ext": "http://43.248.100.147:9892/api.php/app/"
         },
         {
             "key": "南瓜影视",
@@ -442,16 +429,6 @@
             "filterable": 1
         },
         {
-            "key": "视频库",
-            "name": "视频库｜影视",
-            "type": 3,
-            "api": "csp_WebVidHub",
-            "searchable": 1,
-            "quickSearch": 0,
-            "filterable": 0,
-            "ext": "https://vidhub1.cc"
-        },
-        {
             "key": "素白白",
             "name": "素白白｜影视",
             "type": 3,
@@ -588,23 +565,6 @@
             "type": 3,
             "api": "./JS/drpy2.min.js",
             "ext": "./JS/碟调影视.js"
-        },
-        {
-            "key": "畅梦影视",
-            "name": "畅梦｜影视",
-            "type": 3,
-            "api": "./JS/drpy2.min.js",
-            "ext": "./JS/畅梦影视.js"
-        },
-        {
-            "key": "子子影视",
-            "name": "子子｜影视",
-            "type": 3,
-            "api": "csp_XYQHiker",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1,
-            "ext": "./XYQHiker/子子影视.json"
         },
         {
             "key": "奇趣影视",
@@ -1090,13 +1050,6 @@
             "ext": "./JS/优酷弹幕.js"
         },
         {
-            "key": "完美弹幕",
-            "name": "完美｜弹幕",
-            "type": 3,
-            "api": "./JS/drpy2.min.js",
-            "ext": "./JS/完美弹幕.js"
-        },
-        {
             "key": "悠悠弹幕",
             "name": "悠悠｜弹幕",
             "type": 3,
@@ -1123,13 +1076,6 @@
             "type": 3,
             "api": "./JS/drpy2.min.js",
             "ext": "./JS/小虎斑弹幕.js"
-        },
-        {
-            "key": "素白白弹幕",
-            "name": "素白白｜弹幕",
-            "type": 3,
-            "api": "./JS/drpy2.min.js",
-            "ext": "./JS/素白白弹幕.js"
         },
         {
             "key": "三六零弹幕",
@@ -1192,13 +1138,6 @@
                 "site": "https://www.yjys05.com",
                 "danmu": true
             }
-        },
-        {
-            "key": "四维空间弹幕",
-            "name": "四维空间｜4K弹幕",
-            "type": 3,
-            "api": "./JS/drpy2.min.js",
-            "ext": "./JS/四维空间弹幕.js"
         },
         {
             "key": "玩偶弹幕",
@@ -1608,17 +1547,6 @@
             "ext": "./XYQHiker/电影港.json"
         },
         {
-            "key": "小白网",
-            "name": "小白网｜磁力",
-            "type": 3,
-            "api": "csp_XBPQ",
-            "playerType": 1,
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1,
-            "ext": "./XBPQ/小白网.json"
-        },
-        {
             "key": "布谷TV",
             "name": "布谷TV｜磁力",
             "type": 3,
@@ -1646,16 +1574,6 @@
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 1
-        },
-        {
-            "key": "高清MP4",
-            "name": "高清MP4｜磁力",
-            "type": 3,
-            "api": "csp_XYQHiker",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1,
-            "ext": "./XYQHiker/高清MP4.json"
         },
         {
             "key": "哔嘀影视",
@@ -1838,19 +1756,6 @@
                     "DJWX",
                     "DJWT",
                     "duanju"
-                ],
-                "header": {
-                    "User-Agent": "Dalvik/2.1.0"
-                }
-            }
-        },
-        {
-            "name": "BBA专线",
-            "type": "1",
-            "url": "http://43.248.100.147:6068/bba/bbajson.php?url=",
-            "ext": {
-                "flag": [
-                    "BBA"
                 ],
                 "header": {
                     "User-Agent": "Dalvik/2.1.0"
@@ -2083,23 +1988,23 @@
     ],
     "lives": [
         {
-            "name": "直播1",
+            "name": "直播",
             "type": 0,
-            "url": "./live.txt",
-            "playerType": 1,
-            "epg": "http://epg.112114.xyz/?ch={name}&date={date}"
+            "url": "http://127.0.0.1:9978/proxy?do=live&url=https://tv.iill.top/m3u/Gather",
+            "playerType": 2
         },
         {
-            "name": "直播2",
+            "name": "范明明",
             "type": 0,
             "url": "https://live.fanmingming.com/tv/m3u/ipv6.m3u",
-            "playerType": 1
+            "playerType": 2
         },
         {
-            "name": "直播3",
-            "type": 0,
-            "url": "https://tv.iill.top/m3u/Gather",
-            "playerType": 1
+            "name": "肥羊",
+            "type": 3,
+            "api": "csp_Ysptp",
+            "ext": "./live.txt",
+            "logo": "https://live.fanmingming.com/tv/{name}.png"
         }
     ],
     "flags": [

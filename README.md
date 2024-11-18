@@ -1,18 +1,6 @@
 ### 自用多仓
 
-多仓短链： ~~http://gg.gg/tvbox-json~~ （暂时弃用）
-
-多仓短链：
+多仓：
 ```
-https://tinyurl.com/tvbox-json
+https://s.iptv365.org/tvbox
 ```
-
-多仓地址：
-```
-https://raw.githubusercontent.com/kimwang1978/tvbox/main/tvbox.txt
-```
-镜像地址：
-```
-https://ghp.ci/https://raw.githubusercontent.com/kimwang1978/tvbox/main/tvbox.txt
-```
-

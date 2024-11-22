@@ -3,7 +3,14 @@
 {
     "logo": "https://6474.kstore.space/tvbox/img/logo.png",
     "spider": "./spider.jar",
-    "lives": [],
+    "lives": [
+        {
+            "name": "百宝箱箱",
+            "type": 0,
+            "url": "https://live.iptv365.org/live.txt",
+            "epg": ""
+        }
+    ],
     "sites": [
         {
             "key": "tvyb",

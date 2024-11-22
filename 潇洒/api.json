@@ -1988,6 +1988,12 @@
     ],
     "lives": [
         {
+            "name": "百宝箱箱",
+            "type": 0,
+            "url": "https://live.iptv365.org/live.txt",
+            "epg": ""
+        },
+        {
             "name": "直播",
             "type": 0,
             "url": "http://127.0.0.1:9978/proxy?do=live&url=https://tv.iill.top/m3u/Gather",

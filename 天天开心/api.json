@@ -6,6 +6,12 @@
     "logo": "http://php.540734621.xyz/logo/logo.php",
     "lives": [
         {
+            "name": "百宝箱箱",
+            "type": 0,
+            "url": "https://live.iptv365.org/live.txt",
+            "epg": ""
+        },
+        {
             "name": "①live",
             "type": 0,
             "url": "./lives/①live.txt",

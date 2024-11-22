@@ -398,6 +398,12 @@
     ],
     "lives": [
         {
+            "name": "百宝箱箱",
+            "type": 0,
+            "url": "https://live.iptv365.org/live.txt",
+            "epg": ""
+        },
+        {
             "name": "直播",
             "type": 0,
             "url": "./lives/直播.txt",

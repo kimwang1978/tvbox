@@ -1219,6 +1219,12 @@
     ],
     "lives": [
         {
+            "name": "百宝箱箱",
+            "type": 0,
+            "url": "https://live.iptv365.org/live.txt",
+            "epg": ""
+        },
+        {
             "name": "LIVE",
             "type": 0,
             "url": "./lives/LIVE.txt",

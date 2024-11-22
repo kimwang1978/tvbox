@@ -7,6 +7,12 @@
     "warningText": "o提示:\n📢接口软件永远免费 \n📢长期维护切勿贩卖\n📢智能AI已过滤广告",
     "lives": [
         {
+            "name": "百宝箱箱",
+            "type": 0,
+            "url": "https://live.iptv365.org/live.txt",
+            "epg": ""
+        },
+        {
             "name": "o",
             "type": 0,
             "url": "./lives/o.txt",

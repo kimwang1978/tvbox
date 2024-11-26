@@ -13,7 +13,7 @@
             "searchable": 0,
             "quickSearch": 0,
             "filterable": 0,
-            "ext": "\"./json/douban.json\""
+            "ext": "./json/douban.json"
         },
         {
             "key": "Doubana",
@@ -23,7 +23,7 @@
             "searchable": 0,
             "quickSearch": 0,
             "filterable": 0,
-            "ext": "\"./json/douban.json\""
+            "ext": "./json/douban.json"
         },
         {
             "key": "Wexconfig",
@@ -80,14 +80,6 @@
             "changeable": 1
         },
         {
-            "key": "土豆",
-            "name": "💓土豆┃4K💓‍",
-            "type": 3,
-            "api": "csp_Wextudou",
-            "searchable": 1,
-            "changeable": 1
-        },
-        {
             "key": "Wexnullname",
             "name": "💓无名┃4K💓",
             "type": 3,
@@ -120,14 +112,6 @@
             "changeable": 1
         },
         {
-            "key": "Wexlabi",
-            "name": "💓蜡笔┃4K💓",
-            "type": 3,
-            "api": "csp_Wexlabi",
-            "searchable": 1,
-            "changeable": 1
-        },
-        {
             "key": "Wexzhizhen",
             "name": "💓至臻┃4K💓",
             "type": 3,
@@ -136,10 +120,10 @@
             "changeable": 1
         },
         {
-            "key": "Wexxingyun",
-            "name": "💓幸运┃4K💓",
+            "key": "Wexlabi",
+            "name": "💓蜡笔┃4K💓",
             "type": 3,
-            "api": "csp_Wexxingyun",
+            "api": "csp_Wexlabi",
             "searchable": 1,
             "changeable": 1
         },
@@ -172,6 +156,14 @@
             "name": "😁腐剧┃影视😁",
             "type": 3,
             "api": "csp_WexFujutv",
+            "searchable": 1,
+            "changeable": 1
+        },
+        {
+            "key": "Wex4Kav",
+            "name": "🎇急速┃秒播🎇",
+            "type": 3,
+            "api": "csp_Wex4Kav",
             "searchable": 1,
             "changeable": 1
         },
@@ -212,14 +204,6 @@
             "name": "🎇伯伯┃秒播🎇",
             "type": 3,
             "api": "csp_WexNmys",
-            "searchable": 1,
-            "changeable": 1
-        },
-        {
-            "key": "哔嘀影视",
-            "name": "🎇喇叭┃秒播🎇",
-            "type": 3,
-            "api": "csp_WexBDys",
             "searchable": 1,
             "changeable": 1
         },
@@ -356,22 +340,6 @@
             "name": "🌺扣扣┃4K🌺",
             "type": 3,
             "api": "csp_Wexkoukou",
-            "searchable": 1,
-            "changeable": 1
-        },
-        {
-            "key": "Wexkoukou2",
-            "name": "🌺扣扣┃4K2🌺",
-            "type": 3,
-            "api": "csp_Wexkoukou2",
-            "searchable": 1,
-            "changeable": 1
-        },
-        {
-            "key": "Wexjiazitv",
-            "name": "🌺甲子┃4K🌺",
-            "type": 3,
-            "api": "csp_Wexjiazitv",
             "searchable": 1,
             "changeable": 1
         },
@@ -717,7 +685,7 @@
             "searchable": 0,
             "quickSearch": 0,
             "changeable": 0,
-            "ext": "\"./json/qie.json\""
+            "ext": "./json/qie.json"
         },
         {
             "key": "Wexmiso",
@@ -945,12 +913,6 @@
         "pv.vipwm.cc"
     ],
     "lives": [
-        {
-            "name": "百宝箱箱",
-            "type": 0,
-            "url": "https://live.iptv365.org/live.txt",
-            "epg": ""
-        },
         {
             "name": "王二小放牛娃推荐使用",
             "type": 0,

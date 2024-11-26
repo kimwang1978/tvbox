@@ -5,18 +5,6 @@
     "spider": "./spider.jar",
     "lives": [
         {
-            "name": "百宝箱箱",
-            "type": 0,
-            "url": "https://live.iptv365.org/live.txt",
-            "epg": ""
-        },
-        {
-            "name": "本地live文件",
-            "type": 0,
-            "url": "./lives/本地live文件.txt",
-            "epg": "https://epg.112114.xyz/?ch={name}&date={date}"
-        },
-        {
             "name": "FMM_IPV6",
             "type": 0,
             "url": "./lives/FMM_IPV6.txt",

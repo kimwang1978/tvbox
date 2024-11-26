@@ -144,24 +144,6 @@
             "ext": "http://www.tvyun01.com/"
         },
         {
-            "key": "csp_Jiaozi",
-            "name": "🥣饺子",
-            "type": 3,
-            "api": "csp_Jiaozi",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1
-        },
-        {
-            "key": "csp_SC1080",
-            "name": "⛪圣城",
-            "type": 3,
-            "api": "csp_SC1080",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1
-        },
-        {
             "key": "csp_DiDuan",
             "name": "📺低端",
             "type": 3,
@@ -207,17 +189,7 @@
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 1,
-            "ext": "\"./json/jianpian.json\""
-        },
-        {
-            "key": "南瓜",
-            "name": "🎃南瓜",
-            "type": 3,
-            "api": "./api/drpy2.min.js",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1,
-            "ext": "\"./js/南瓜.js\""
+            "ext": "./json/jianpian.json"
         },
         {
             "key": "csp_SixV",
@@ -311,8 +283,19 @@
             "changeable": 0,
             "ext": {
                 "commonConfig": "./json/peizhi.json",
-                "siteUrl": "https://www.wogg.net/",
-                "filter": "./json/wogg.json"
+                "siteUrl": "./json/wogg.json"
+            }
+        },
+        {
+            "key": "多多",
+            "name": "🌟多多影音",
+            "type": 3,
+            "api": "csp_kongbai",
+            "searchable": 1,
+            "changeable": 0,
+            "ext": {
+                "commonConfig": "./json/peizhi.json",
+                "siteUrl": "./json/wogg.json"
             }
         },
         {
@@ -324,8 +307,19 @@
             "changeable": 0,
             "ext": {
                 "commonConfig": "./json/peizhi.json",
-                "siteUrl": "http://labipan.com/",
-                "filter": "./json/wogg.json"
+                "siteUrl": "./json/wogg.json"
+            }
+        },
+        {
+            "key": "至臻",
+            "name": "💌至臻",
+            "type": 3,
+            "api": "csp_kongbai",
+            "searchable": 1,
+            "changeable": 0,
+            "ext": {
+                "commonConfig": "./json/peizhi.json",
+                "siteUrl": "./json/wogg.json"
             }
         },
         {
@@ -337,8 +331,7 @@
             "changeable": 0,
             "ext": {
                 "commonConfig": "./json/peizhi.json",
-                "siteUrl": "http://mogg.xn--yetu07f.top/",
-                "filter": "./json/wogg.json"
+                "siteUrl": "./json/wogg.json"
             }
         },
         {
@@ -425,9 +418,7 @@
             "searchable": 1,
             "changeable": 0,
             "ext": {
-                "siteUrl": "http://127.0.0.1:9999",
-                "channelUsername": "hao115,guaguale115,longzbija,dianyingshare,XiangxiuNB,yunpanpan,kuakeyun,zaihuayun,Quark_Movies,alyp_4K_Movies,vip115hot,yunpanshare,ucwangpan,Quark_Share_Channel,Aliyundrive_Share_Channel,shareAliyun,ikiviyyp,wanwansubchat,wangpanziyuan2021,alyp_1,quanziyuanshe",
-                "commonConfig": "./json/peizhi.json",
+                "siteUrl": "./json/peizhi.json",
                 "filter": "./json/douban.json"
             }
         },
@@ -463,7 +454,7 @@
             "searchable": 0,
             "quickSearch": 0,
             "filterable": 0,
-            "ext": "\"./js/虎牙直播.js\""
+            "ext": "./js/虎牙直播.js"
         },
         {
             "key": "斗鱼直播",
@@ -473,7 +464,7 @@
             "searchable": 0,
             "quickSearch": 0,
             "filterable": 0,
-            "ext": "\"./js/斗鱼直播.js\""
+            "ext": "./js/斗鱼直播.js"
         },
         {
             "key": "有声小说吧",
@@ -484,7 +475,7 @@
             "searchable": 0,
             "quickSearch": 0,
             "filterable": 0,
-            "ext": "\"./js/有声小说吧.js\""
+            "ext": "./js/有声小说吧.js"
         },
         {
             "key": "JRKAN直播",
@@ -494,7 +485,7 @@
             "searchable": 0,
             "quickSearch": 0,
             "filterable": 0,
-            "ext": "\"./js/JRKAN直播.js\""
+            "ext": "./js/JRKAN直播.js"
         },
         {
             "key": "88看球",
@@ -504,7 +495,7 @@
             "searchable": 0,
             "quickSearch": 0,
             "filterable": 0,
-            "ext": "\"./js/88看球.js\""
+            "ext": "./js/88看球.js"
         },
         {
             "key": "酷奇MV",
@@ -532,10 +523,10 @@
             "name": "🅱️哔哩哔哩",
             "type": 3,
             "api": "csp_Bili",
-            "searchable": 0,
-            "quickSearch": 0,
+            "searchable": 1,
+            "quickSearch": 1,
             "filterable": 1,
-            "ext": "\"./json/Bili.json\""
+            "ext": "./json/Bili.json"
         },
         {
             "key": "相声小品",
@@ -545,7 +536,7 @@
             "searchable": 0,
             "quickSearch": 0,
             "filterable": 1,
-            "ext": "\"./json/Blixs.json\""
+            "ext": "./json/Blixs.json"
         },
         {
             "key": "戏曲",
@@ -555,7 +546,7 @@
             "searchable": 0,
             "quickSearch": 0,
             "filterable": 1,
-            "ext": "\"./json/Blixq.json\""
+            "ext": "./json/Blixq.json"
         },
         {
             "key": "少儿",
@@ -565,7 +556,7 @@
             "searchable": 0,
             "quickSearch": 0,
             "filterable": 1,
-            "ext": "\"./json/少儿教育.json\""
+            "ext": "./json/少儿教育.json"
         },
         {
             "key": "小学",
@@ -575,7 +566,7 @@
             "searchable": 0,
             "quickSearch": 0,
             "filterable": 1,
-            "ext": "\"./json/小学课堂.json\""
+            "ext": "./json/小学课堂.json"
         },
         {
             "key": "初中",
@@ -585,7 +576,7 @@
             "searchable": 0,
             "quickSearch": 0,
             "filterable": 1,
-            "ext": "\"./json/初中课堂.json\""
+            "ext": "./json/初中课堂.json"
         },
         {
             "key": "高中",
@@ -595,7 +586,7 @@
             "searchable": 0,
             "quickSearch": 0,
             "filterable": 1,
-            "ext": "\"./json/高中课堂.json\""
+            "ext": "./json/高中课堂.json"
         }
     ],
     "parses": [
@@ -750,12 +741,6 @@
         }
     ],
     "lives": [
-        {
-            "name": "百宝箱箱",
-            "type": 0,
-            "url": "https://live.iptv365.org/live.txt",
-            "epg": ""
-        },
         {
             "name": "Yoursmile",
             "type": 0,

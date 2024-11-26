@@ -1,1 +1,83 @@
-dmFyIHJ1bGUgPSB7CmF1dGhvcjogJ+Wwj+WPr+S5kC8yNDA3MDEv56ys5LqM54mIJywKdGl0bGU6ICc0S0FWJywK57G75Z6LOiAn5b2x6KeGJywKaG9zdDogJ2h0dHBzOi8vNGstYXYuY29tJywKaG9zdEpzOiAnJywKaGVhZGVyczogeydVc2VyLUFnZW50JzogJ0lPU19VQSd9LArnvJbnoIE6ICd1dGYtOCcsCnRpbWVvdXQ6IDUwMDAsCgpob21lVXJsOiAnLycsCnVybDogJy9meWNsYXNzZnlmaWx0ZXIvcGFnZS1meXBhZ2UuaHRtbFsvZnljbGFzc2Z5ZmlsdGVyXScsCmZpbHRlcl91cmw6ICd7e2ZsLmNsYXNzfX0nLApkZXRhaWxVcmw6ICcnLApzZWFyY2hVcmw6ICcvcz9xPSoqJywKc2VhcmNoYWJsZTogMSwgCnF1aWNrU2VhcmNoOiAxLCAKZmlsdGVyYWJsZTogMSwgCgpjbGFzc19uYW1lOiAn55S15b2xJuWJp+mbhicsCmNsYXNzX3VybDogJ21vdmllJnR2JywKZmlsdGVyX2RlZjoge30sCgpwbGF5X3BhcnNlOiB0cnVlLApsYXp5OiBganM6CmlmICgvbTN1OHxtcDQvLnRlc3QoaW5wdXQpKSB7CmlucHV0ID0geyBqeDogMCwgcGFyc2U6IDAsIHVybDogaW5wdXQgfQp9IGVsc2UgewpsZXQga3VybCA9IHJlcXVlc3QoaW5wdXQpLm1hdGNoKC88c291cmNlIHNyYz0iKC4qPykiLylbMV07CmlucHV0ID0geyBqeDogMCwgcGFyc2U6IDAsIHVybDoga3VybCB9Cn0KYCwKCmxpbWl0OiA5LApkb3VibGU6IGZhbHNlLArmjqjojZA6ICcqJywK5LiA57qnOiAnLk5UTWl0ZW07YSYmdGl0bGU7aW1nJiZzcmM7LnRhZ3MmJlRleHQ7YSYmaHJlZicsCuS6jOe6pzogYGpzOgpsZXQga2h0bWwgPSByZXF1ZXN0KGlucHV0KTsKVk9EID0ge307ClZPRC52b2RfaWQgPSBpbnB1dDsKVk9ELnZvZF9uYW1lID0gcGRmaChraHRtbCwgJyNNYWluQ29udGVudF90aXRsZWgxMiYmZGl2OmVxKDEpJiZUZXh0Jyk7ClZPRC50eXBlX25hbWUgPSBwZGZoKGtodG1sLCAnLnRhZ3MtLXNwYW4mJlRleHQnKTsKVk9ELnZvZF9waWMgPSBwZGZoKGtodG1sLCAnI01haW5Db250ZW50X3Bvc3RlciYmaW1nJiZzcmMnKTsKVk9ELnZvZF9yZW1hcmtzID0gcGRmaChraHRtbCwgJy52aWRlb2RldGFpbCYmbGFiZWw6ZXEoMCkmJlRleHQnKTsKVk9ELnZvZF95ZWFyID0gcGRmaChraHRtbCwgJy52aWRlb2RldGFpbCYmYSYmVGV4dCcpOwpWT0Qudm9kX2FyZWEgPSBwZGZoKGtodG1sLCAnLnZpZGVvZGV0YWlsJiZsYWJlbDplcSgxKSYmVGV4dCcpOwpWT0Qudm9kX2RpcmVjdG9yID0gJ+acquefpSc7ClZPRC52b2RfYWN0b3IgPSAn5pyq55+lJzsKVk9ELnZvZF9jb250ZW50ID0gcGRmaChraHRtbCwgJy52aWRlb2Rlc2MmJlRleHQnKTsKVk9ELnZvZF9wbGF5X2Zyb20gPSAnNEtBVuS4k+e6vyc7CgpsZXQga2xpc3RzID0gW107CmxldCBrY29kZSA9IHBkZmEoa2h0bWwsICd1bCNydGxpc3QmJmxpJyk7CmlmICgga2NvZGUgPT0gMCkgewogICAga2NvZGUgPSBwZGZhKGtodG1sLCAnI01haW5Db250ZW50X3Bvc3RlciYmYScpOwogICAga2NvZGUuZm9yRWFjaCgoa2MpID0+IHsKICAgIGxldCBrbmFtZSA9IHBkZmgoa2MsICdhJiZ0aXRsZScpLnJlcGxhY2UoJ+eUteW9sea1t+aKpScsJycpOwogICAgbGV0IGtocmVmID0gcGRmaChrYywgJ2EmJmhyZWYnKS5yZXBsYWNlKCdwb3N0ZXIuanBnJywnJyk7CiAgICBsZXQga2xpc3QgPSBrbmFtZSArICckJyArIGtocmVmOwogICAga2xpc3RzLnB1c2goa2xpc3QpOwogICAgfSk7CiAgICBWT0Qudm9kX3BsYXlfdXJsID0ga2xpc3RzLmpvaW4oJyMnKTsKfSBlbHNlIHsKICAgIGtjb2RlOwogICAga2NvZGUuZm9yRWFjaCgoa2MpID0+IHsKICAgIGxldCBrbmFtZSA9IHBkZmgoa2MsICdzcGFuJiZUZXh0Jyk7CiAgICBsZXQga2hyZWYgPSBwZGZoKGtjLCAnaW1nJiZzcmMnKS5yZXBsYWNlKCdzY3JlZW5zaG90LmpwZycsJycpOwogICAgbGV0IGtsaXN0ID0ga25hbWUgKyAnJCcgKyBraHJlZjsKICAgIGtsaXN0cy5wdXNoKGtsaXN0KTsKICAgIH0pOwogICAgVk9ELnZvZF9wbGF5X3VybCA9IGtsaXN0cy5qb2luKCcjJyk7Cn0KYCwK5pCc57SiOiAnKicsCgpmaWx0ZXI6IHsKInR2IjpbCnsia2V5IjoiY2xhc3MiLCJuYW1lIjoi5Ymn5oOFIiwidmFsdWUiOlt7Im4iOiLlhajpg6giLCJ2IjoiIn0seyJuIjoi5Yqo5L2cIiwidiI6Ii90YWcv5Yqo5L2cIn0seyJuIjoi5Ymn5oOFIiwidiI6Ii90YWcv5Ymn5oOFIn0seyJuIjoi5YaS6ZmpIiwidiI6Ii90YWcv5YaS6ZmpIn0seyJuIjoi5Zac5YmnIiwidiI6Ii90YWcv5Zac5YmnIn0seyJuIjoi5Zu95Lqn5YmnIiwidiI6Ii90YWcv5Zu95Lqn5YmnIn0seyJuIjoi5oGQ5oCWIiwidiI6Ii90YWcv5oGQ5oCWIn0seyJuIjoi5oiY5LqJIiwidiI6Ii90YWcv5oiY5LqJIn0seyJuIjoi56eR5bm7IiwidiI6Ii90YWcv56eR5bm7In0seyJuIjoi5Yqo55S7IiwidiI6Ii90YWcv5Yqo55S7In0seyJuIjoi6Z+p5YmnIiwidiI6Ii90YWcv6Z+p5YmnIn0seyJuIjoi54qv572qIiwidiI6Ii90YWcv54qv572qIn0seyJuIjoi57qq5b2V54mHIiwidiI6Ii90YWcv57qq5b2V54mHIn1dfSwKeyJrZXkiOiJjbGFzcyIsIm5hbWUiOiLliafmg4UiLCJ2YWx1ZSI6W3sibiI6IuWFqOmDqCIsInYiOiIifSx7Im4iOiIyMDI0IiwidiI6Ii8yMDI0In0seyJuIjoiMjAyMyIsInYiOiIvMjAyMyJ9LHsibiI6IjIwMjIiLCJ2IjoiLzIwMjIifSx7Im4iOiIyMDIxIiwidiI6Ii8yMDIxIn0seyJuIjoiMjAyMCIsInYiOiIvMjAyMCJ9LHsibiI6IjIwMTkiLCJ2IjoiLzIwMTkifV19Cl0KfQp9
+var rule = {
+author: '小可乐/240701/第二版',
+title: '4KAV',
+类型: '影视',
+host: 'https://4k-av.com',
+hostJs: '',
+headers: {'User-Agent': 'IOS_UA'},
+编码: 'utf-8',
+timeout: 5000,
+
+homeUrl: '/',
+url: '/fyclassfyfilter/page-fypage.html[/fyclassfyfilter]',
+filter_url: '{{fl.class}}',
+detailUrl: '',
+searchUrl: '/s?q=**',
+searchable: 1, 
+quickSearch: 1, 
+filterable: 1, 
+
+class_name: '电影&剧集',
+class_url: 'movie&tv',
+filter_def: {},
+
+play_parse: true,
+lazy: `js:
+if (/m3u8|mp4/.test(input)) {
+input = { jx: 0, parse: 0, url: input }
+} else {
+let kurl = request(input).match(/<source src="(.*?)"/)[1];
+input = { jx: 0, parse: 0, url: kurl }
+}
+`,
+
+limit: 9,
+double: false,
+推荐: '*',
+一级: '.NTMitem;a&&title;img&&src;.tags&&Text;a&&href',
+二级: `js:
+let khtml = request(input);
+VOD = {};
+VOD.vod_id = input;
+VOD.vod_name = pdfh(khtml, '#MainContent_titleh12&&div:eq(1)&&Text');
+VOD.type_name = pdfh(khtml, '.tags--span&&Text');
+VOD.vod_pic = pdfh(khtml, '#MainContent_poster&&img&&src');
+VOD.vod_remarks = pdfh(khtml, '.videodetail&&label:eq(0)&&Text');
+VOD.vod_year = pdfh(khtml, '.videodetail&&a&&Text');
+VOD.vod_area = pdfh(khtml, '.videodetail&&label:eq(1)&&Text');
+VOD.vod_director = '未知';
+VOD.vod_actor = '未知';
+VOD.vod_content = pdfh(khtml, '.videodesc&&Text');
+VOD.vod_play_from = '4KAV专线';
+
+let klists = [];
+let kcode = pdfa(khtml, 'ul#rtlist&&li');
+if ( kcode == 0) {
+    kcode = pdfa(khtml, '#MainContent_poster&&a');
+    kcode.forEach((kc) => {
+    let kname = pdfh(kc, 'a&&title').replace('电影海报','');
+    let khref = pdfh(kc, 'a&&href').replace('poster.jpg','');
+    let klist = kname + '$' + khref;
+    klists.push(klist);
+    });
+    VOD.vod_play_url = klists.join('#');
+} else {
+    kcode;
+    kcode.forEach((kc) => {
+    let kname = pdfh(kc, 'span&&Text');
+    let khref = pdfh(kc, 'img&&src').replace('screenshot.jpg','');
+    let klist = kname + '$' + khref;
+    klists.push(klist);
+    });
+    VOD.vod_play_url = klists.join('#');
+}
+`,
+搜索: '*',
+
+filter: {
+"tv":[
+{"key":"class","name":"剧情","value":[{"n":"全部","v":""},{"n":"动作","v":"/tag/动作"},{"n":"剧情","v":"/tag/剧情"},{"n":"冒险","v":"/tag/冒险"},{"n":"喜剧","v":"/tag/喜剧"},{"n":"国产剧","v":"/tag/国产剧"},{"n":"恐怖","v":"/tag/恐怖"},{"n":"战争","v":"/tag/战争"},{"n":"科幻","v":"/tag/科幻"},{"n":"动画","v":"/tag/动画"},{"n":"韩剧","v":"/tag/韩剧"},{"n":"犯罪","v":"/tag/犯罪"},{"n":"纪录片","v":"/tag/纪录片"}]},
+{"key":"class","name":"剧情","value":[{"n":"全部","v":""},{"n":"2024","v":"/2024"},{"n":"2023","v":"/2023"},{"n":"2022","v":"/2022"},{"n":"2021","v":"/2021"},{"n":"2020","v":"/2020"},{"n":"2019","v":"/2019"}]}
+]
+}
+}

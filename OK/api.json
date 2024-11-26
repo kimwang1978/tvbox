@@ -361,7 +361,7 @@
             "quickSearch": 1,
             "filterable": 1,
             "api": "./api/drpy2.min.txt?file=drpy2.min.js",
-            "ext": "\"./txt/ddys.txt\"",
+            "ext": "./txt/ddys.txt",
             "timeout": 15
         },
         {
@@ -437,7 +437,7 @@
             "name": "⚽Jrs┃球迷",
             "type": 3,
             "api": "./api/drpy2.min.txt?file=drpy2.min.js",
-            "ext": "\"./txt/jrs.txt\"",
+            "ext": "./txt/jrs.txt",
             "style": {
                 "type": "list"
             },
@@ -454,7 +454,7 @@
             "name": "⚽310┃看球",
             "type": 3,
             "api": "./api/drpy2.min.txt?file=drpy2.min.js",
-            "ext": "\"./txt/310.txt\"",
+            "ext": "./txt/310.txt",
             "style": {
                 "type": "list"
             },
@@ -468,7 +468,7 @@
             "name": "🐯虎牙┃直播",
             "type": 3,
             "api": "./api/drpy2.min.txt?file=drpy2.min.js",
-            "ext": "\"./txt/huyazhibo.txt\"",
+            "ext": "./txt/huyazhibo.txt",
             "style": {
                 "type": "rect",
                 "ratio": 1.755
@@ -483,7 +483,7 @@
             "name": "🐟斗鱼┃直播",
             "type": 3,
             "api": "./api/drpy2.min.txt?file=drpy2.min.js",
-            "ext": "\"./txt/douyuzhibo.txt\"",
+            "ext": "./txt/douyuzhibo.txt",
             "style": {
                 "type": "rect",
                 "ratio": 1.755
@@ -498,7 +498,7 @@
             "name": "📽️聚短┃视频",
             "type": 3,
             "api": "./api/drpy2.min.txt?file=drpy2.min.js",
-            "ext": "\"./txt/duanshipin.txt\"",
+            "ext": "./txt/duanshipin.txt",
             "searchable": 0,
             "quickSearch": 0,
             "changeable": 0,

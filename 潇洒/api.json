@@ -1,3 +1,5 @@
+
+
 {
     "spider": "./spider.jar",
     "wallpaper": "http://127.0.0.1:9978/file/TVBox/wallpaper.jpg",
@@ -42,11 +44,7 @@
             "type": 3,
             "api": "csp_Duanj",
             "searchable": 1,
-            "changeable": 0,
-            "style": {
-                "type": "rect",
-                "ratio": 1.433
-            }
+            "changeable": 0
         },
         {
             "key": "在线短剧",
@@ -54,17 +52,22 @@
             "type": 3,
             "api": "csp_Duanju",
             "searchable": 1,
-            "changeable": 0,
-            "style": {
-                "type": "rect",
-                "ratio": 1.433
-            }
+            "changeable": 0
         },
         {
             "key": "星芽短剧",
             "name": "星芽｜短剧",
             "type": 3,
             "api": "csp_AppXY",
+            "searchable": 1,
+            "quickSearch": 0,
+            "filterable": 0
+        },
+        {
+            "key": "河马短剧",
+            "name": "河马｜短剧",
+            "type": 3,
+            "api": "csp_AppHMDJ",
             "searchable": 1,
             "quickSearch": 0,
             "filterable": 0
@@ -80,21 +83,8 @@
             "key": "爱你短剧",
             "name": "爱你｜短剧",
             "type": 3,
-            "api": "csp_XYQHiker",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1,
-            "ext": "./XYQHiker/爱你短剧.json"
-        },
-        {
-            "key": "河马短剧",
-            "name": "河马｜短剧",
-            "type": 3,
-            "api": "csp_XYQHiker",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1,
-            "ext": "./XYQHiker/河马短剧.json"
+            "api": "./JS/drpy2.min.js",
+            "ext": "./JS/爱你短剧.js"
         },
         {
             "key": "短剧屋",
@@ -223,7 +213,7 @@
             "name": "大米｜APP",
             "type": 3,
             "api": "./JS/drpy2.min.js",
-            "ext": "./JS/APPV2.js?type=url&params=https://dmz8k4.wiki"
+            "ext": "./JS/APPV2.js?type=url&params=https://damifan.wiki"
         },
         {
             "key": "西瓜视频",
@@ -236,7 +226,7 @@
             "changeable": 0,
             "style": {
                 "type": "rect",
-                "ratio": 1.433
+                "ratio": 1.597
             }
         },
         {
@@ -244,8 +234,6 @@
             "name": "采集｜合集",
             "type": 3,
             "api": "./JS/drpy2.min.js",
-            "searchable": 1,
-            "quickSearch": 1,
             "ext": "./JS/采集之王.js?type=url&params=../JSON/采集静态.json$1$1"
         },
         {
@@ -1012,7 +1000,7 @@
             "filterable": 1,
             "style": {
                 "type": "rect",
-                "ratio": 1.433
+                "ratio": 1.597
             },
             "ext": {
                 "cookie": "http://127.0.0.1:9978/file/TVBox/bilibili.txt"
@@ -1189,8 +1177,8 @@
             }
         },
         {
-            "key": "夸克土豆弹幕",
-            "name": "土豆｜4K弹幕",
+            "key": "夸克小米弹幕",
+            "name": "小米｜4K弹幕",
             "type": 3,
             "api": "csp_Wobg",
             "quickSearch": 1,
@@ -1199,7 +1187,7 @@
             "ext": {
                 "token": "http://127.0.0.1:9978/file/TVBox/token.txt",
                 "cookie": "http://127.0.0.1:9978/file/TVBox/quark.txt",
-                "site": "https://yunpan.yunpay.cc",
+                "site": "http://ucmi.fun",
                 "danmu": true
             }
         },
@@ -1229,7 +1217,7 @@
             "ext": {
                 "token": "http://127.0.0.1:9978/file/TVBox/token.txt",
                 "cookie": "http://127.0.0.1:9978/file/TVBox/quark.txt",
-                "site": "http://labipan.com",
+                "site": "http://duopan.fun",
                 "danmu": true
             }
         },
@@ -1250,8 +1238,8 @@
             }
         },
         {
-            "key": "夸克奥秘弹幕",
-            "name": "奥秘｜4K弹幕",
+            "key": "夸克龙龙弹幕",
+            "name": "龙龙｜4K弹幕",
             "type": 3,
             "api": "csp_Wobg",
             "quickSearch": 1,
@@ -1261,23 +1249,7 @@
                 "token": "http://127.0.0.1:9978/file/TVBox/token.txt",
                 "cookie": "http://127.0.0.1:9978/file/TVBox/quark.txt",
                 "uc_cookie": "http://127.0.0.1:9978/file/TVBox/uc.txt",
-                "site": "https://vip.omii.top",
-                "danmu": true
-            }
-        },
-        {
-            "key": "夸克云星弹幕",
-            "name": "云星｜4K弹幕",
-            "type": 3,
-            "api": "csp_Wobg",
-            "quickSearch": 1,
-            "changeable": 1,
-            "filterable": 1,
-            "ext": {
-                "token": "http://127.0.0.1:9978/file/TVBox/token.txt",
-                "cookie": "http://127.0.0.1:9978/file/TVBox/quark.txt",
-                "uc_cookie": "http://127.0.0.1:9978/file/TVBox/uc.txt",
-                "site": "https://4k.4u4.cn",
+                "site": "http://wanou.龙龙.top:3108",
                 "danmu": true
             }
         },
@@ -1293,7 +1265,7 @@
                 "token": "http://127.0.0.1:9978/file/TVBox/token.txt",
                 "cookie": "http://127.0.0.1:9978/file/TVBox/quark.txt",
                 "uc_cookie": "http://127.0.0.1:9978/file/TVBox/uc.txt",
-                "site": "http://mogg.top",
+                "site": "http://mogg.小胡.top",
                 "danmu": true
             }
         },
@@ -1987,12 +1959,6 @@
         }
     ],
     "lives": [
-        {
-            "name": "百宝箱箱",
-            "type": 0,
-            "url": "https://live.iptv365.org/live.txt",
-            "epg": ""
-        },
         {
             "name": "直播",
             "type": 0,

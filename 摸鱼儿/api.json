@@ -76,7 +76,7 @@
                 "token": "./txt/token.txt",
                 "cookie": "./txt/quark.txt",
                 "uc_cookie": "./txt/uc.txt",
-                "site": "http://mogg.小胡.top",
+                "site": "http://www.muoupan.top",
                 "danmu": true
             }
         },
@@ -89,7 +89,7 @@
             "quickSearch": 1,
             "filterable": 1,
             "order_num": 0,
-            "ext": "\"./js/qingfeng.js\""
+            "ext": "./js/qingfeng.js"
         },
         {
             "key": "小满万全",
@@ -101,7 +101,7 @@
             "filterable": 1,
             "order_num": 0,
             "changeable": 0,
-            "ext": "\"./js/mgtv.js\""
+            "ext": "./js/mgtv.js"
         },
         {
             "key": "夸克蜡笔弹幕",
@@ -189,7 +189,7 @@
             "filterable": 1,
             "order_num": 0,
             "changeable": 0,
-            "ext": "\"./js/guazi.js\""
+            "ext": "./js/guazi.js"
         },
         {
             "key": "南瓜影视",
@@ -292,7 +292,7 @@
             "changeable": 1,
             "playerType": "1",
             "api": "./api/drpy2.min.js",
-            "ext": "\"./js/jp.js\""
+            "ext": "./js/jp.js"
         },
         {
             "key": "厂长",
@@ -567,14 +567,14 @@
             "name": "🛹 58┃动漫┃蓝光",
             "type": 3,
             "api": "./api/drpy.min.js",
-            "ext": "\"./js/58动漫.js\""
+            "ext": "./js/58动漫.js"
         },
         {
             "key": "去看吧",
             "name": "🫣看吧┃动漫┃蓝光",
             "type": 3,
             "api": "./api/drpy.min.js",
-            "ext": "\"./js/去看吧.js\""
+            "ext": "./js/去看吧.js"
         },
         {
             "key": "csp_Ysj",
@@ -631,7 +631,7 @@
             "name": "📚有声┃小说┃娱乐",
             "type": 3,
             "api": "./api/drpy2.min.js",
-            "ext": "\"./js/有声小说吧.js\"",
+            "ext": "./js/有声小说吧.js",
             "style": {
                 "type": "rect",
                 "ratio": 1
@@ -921,7 +921,7 @@
             "name": "🐌盘他盘他┃4K纯净",
             "type": 3,
             "api": "./api/drpy2.min.js",
-            "ext": "\"./js/盘他.js\"",
+            "ext": "./js/盘他.js",
             "searchable": 1,
             "quickSearch": 1,
             "changeable": 0
@@ -1261,7 +1261,7 @@
             "name": "⚽ 88┃看球┃直播",
             "type": 3,
             "api": "./api/drpy2.min.js",
-            "ext": "\"./js/88看球.js\"",
+            "ext": "./js/88看球.js",
             "style": {
                 "type": "list"
             },
@@ -1274,7 +1274,7 @@
             "name": "⚽ Jrs┃球迷┃直播",
             "type": 3,
             "api": "./api/drpy2.min.js",
-            "ext": "\"./js/jrk.js\"",
+            "ext": "./js/jrk.js",
             "style": {
                 "type": "list"
             },
@@ -1293,7 +1293,7 @@
             "searchable": 0,
             "quickSearch": 0,
             "changeable": 0,
-            "ext": "\"./json/企鹅直播.json\""
+            "ext": "./json/企鹅直播.json"
         },
         {
             "key": "push_agent",
@@ -1520,12 +1520,6 @@
         }
     ],
     "lives": [
-        {
-            "name": "百宝箱箱",
-            "type": 0,
-            "url": "https://live.iptv365.org/live.txt",
-            "epg": ""
-        },
         {
             "name": "SAO0",
             "type": 0,

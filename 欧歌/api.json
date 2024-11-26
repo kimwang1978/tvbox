@@ -7,27 +7,9 @@
     "warningText": "o提示:\n📢接口软件永远免费 \n📢长期维护切勿贩卖\n📢智能AI已过滤广告",
     "lives": [
         {
-            "name": "百宝箱箱",
-            "type": 0,
-            "url": "https://live.iptv365.org/live.txt",
-            "epg": ""
-        },
-        {
             "name": "o",
             "type": 0,
             "url": "./lives/o.txt",
-            "epg": ""
-        },
-        {
-            "name": "o2",
-            "type": 0,
-            "url": "./lives/o2.txt",
-            "epg": ""
-        },
-        {
-            "name": "o3",
-            "type": 0,
-            "url": "./lives/o3.txt",
             "epg": ""
         }
     ],
@@ -41,7 +23,7 @@
         },
         {
             "key": "豆瓣1",
-            "name": "📢o公告❤更新:11/16❤",
+            "name": "📢o公告❤更新:11/21❤",
             "type": 3,
             "api": "csp_Notice",
             "searchable": 0,
@@ -59,7 +41,7 @@
             "jar": "./jars/csp_woog.jar",
             "ext": {
                 "site_urls": [
-                    "https://og.nxog.eu.org",
+                    "https://woog.nxog.eu.org",
                     "https://wog.nxog.eu.org"
                 ]
             }
@@ -69,7 +51,7 @@
             "name": "🐲欧歌┃夸速4k",
             "type": 3,
             "api": "./api/4k.min.js",
-            "ext": "\"./js/og4K.js\"",
+            "ext": "./js/og4K.js",
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 1
@@ -285,7 +267,7 @@
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 1,
-            "ext": "\"./json/农民影视.json\""
+            "ext": "./json/农民影视.json"
         },
         {
             "key": "嫖嫖嫖",
@@ -566,23 +548,7 @@
                 "token": "./txt/token.txt",
                 "cookie": "http://127.0.0.1:9978/file/TV/.quark",
                 "uc_cookie": "http://127.0.0.1:9978/file/TV/.uc",
-                "site": "https://woog.nxog.eu.org",
-                "danmu": true
-            }
-        },
-        {
-            "key": "玩弹幕2",
-            "name": "❤玩表┃弹幕",
-            "type": 3,
-            "api": "csp_Wobg",
-            "quickSearch": 1,
-            "changeable": 1,
-            "filterable": 1,
-            "ext": {
-                "token": "./txt/token.txt",
-                "cookie": "http://127.0.0.1:9978/file/TV/.quark",
-                "uc_cookie": "http://127.0.0.1:9978/file/TV/.uc",
-                "site": "https://4k.4u4.cn",
+                "site": "https://wogg.nxog.eu.org",
                 "danmu": true
             }
         },
@@ -599,28 +565,12 @@
                 "token": "./txt/token.txt",
                 "cookie": "http://127.0.0.1:9978/file/TV/.quark",
                 "uc_cookie": "http://127.0.0.1:9978/file/TV/.uc",
-                "site": "http://mogg.top",
+                "site": "http://mogg.小胡.top",
                 "danmu": true
             }
         },
         {
-            "key": "夸克玩弹幕3",
-            "name": "❤玩歌┃弹幕",
-            "type": 3,
-            "api": "csp_Wobg",
-            "quickSearch": 1,
-            "changeable": 1,
-            "filterable": 1,
-            "ext": {
-                "token": "./txt/token.txt",
-                "cookie": "http://127.0.0.1:9978/file/TV/.quark",
-                "uc_cookie": "http://127.0.0.1:9978/file/TV/.uc",
-                "site": "https://yunpan.yunpay.cc",
-                "danmu": true
-            }
-        },
-        {
-            "key": "夸克玩弹幕4",
+            "key": "夸克玩弹幕2",
             "name": "❤玩姐┃弹幕",
             "type": 3,
             "api": "csp_Wobg",
@@ -636,7 +586,7 @@
             }
         },
         {
-            "key": "夸克玩弹幕5",
+            "key": "夸克玩弹幕3",
             "name": "❤玩妹┃弹幕",
             "type": 3,
             "api": "csp_Wobg",
@@ -652,7 +602,7 @@
             }
         },
         {
-            "key": "夸克玩弹幕6",
+            "key": "夸克玩弹幕4",
             "name": "❤玩弟┃弹幕",
             "type": 3,
             "api": "csp_Wobg",
@@ -664,22 +614,6 @@
                 "cookie": "http://127.0.0.1:9978/file/TV/.quark",
                 "uc_cookie": "http://127.0.0.1:9978/file/TV/.uc",
                 "site": "https://mihdr.top",
-                "danmu": true
-            }
-        },
-        {
-            "key": "夸克玩弹幕7",
-            "name": "❤玩欧┃弹幕",
-            "type": 3,
-            "api": "csp_Wobg",
-            "quickSearch": 1,
-            "changeable": 1,
-            "filterable": 1,
-            "ext": {
-                "token": "./txt/token.txt",
-                "cookie": "http://127.0.0.1:9978/file/TV/.quark",
-                "uc_cookie": "http://127.0.0.1:9978/file/TV/.uc",
-                "site": "https://vip.omii.top",
                 "danmu": true
             }
         },
@@ -707,20 +641,6 @@
             "ext": {
                 "cookie": "http://127.0.0.1:9978/file/TV/.quark",
                 "site": "https://www.misou.fun",
-                "danmu": true
-            }
-        },
-        {
-            "key": "夸克团长弹幕",
-            "name": "❤团长｜弹幕",
-            "type": 3,
-            "api": "csp_Tzfile",
-            "searchable": 1,
-            "filterable": 1,
-            "changeable": 1,
-            "ext": {
-                "token": "./txt/token.txt",
-                "cookie": "http://127.0.0.1:9978/file/TV/.quark",
                 "danmu": true
             }
         },
@@ -900,7 +820,7 @@
             "quickSearch": 0,
             "filterable": 1,
             "order_num": 142,
-            "ext": "\"./js/我的哔哩.js?type=url&params=./json/学堂教育.json\""
+            "ext": "./js/我的哔哩.js?type=url&params=./json/学堂教育.json"
         },
         {
             "key": "少儿",
@@ -911,7 +831,7 @@
             "quickSearch": 0,
             "filterable": 1,
             "order_num": 142,
-            "ext": "\"./js/我的哔哩.js?type=url&params=./json/少儿合集.json\""
+            "ext": "./js/我的哔哩.js?type=url&params=./json/少儿合集.json"
         },
         {
             "key": "小学课堂",
@@ -922,7 +842,7 @@
             "quickSearch": 0,
             "filterable": 1,
             "order_num": 142,
-            "ext": "\"./js/我的哔哩.js?type=url&params=./json/小学课堂.json\""
+            "ext": "./js/我的哔哩.js?type=url&params=./json/小学课堂.json"
         },
         {
             "key": "初中课堂",
@@ -933,7 +853,7 @@
             "quickSearch": 0,
             "filterable": 1,
             "order_num": 142,
-            "ext": "\"./js/我的哔哩.js?type=url&params=./json/初中课堂.json\""
+            "ext": "./js/我的哔哩.js?type=url&params=./json/初中课堂.json"
         },
         {
             "key": "高中课堂",
@@ -944,7 +864,7 @@
             "quickSearch": 0,
             "filterable": 1,
             "order_num": 142,
-            "ext": "\"./js/我的哔哩.js?type=url&params=./json/高中课堂.json\""
+            "ext": "./js/我的哔哩.js?type=url&params=./json/高中课堂.json"
         },
         {
             "key": "儿童口才",
@@ -955,7 +875,7 @@
             "quickSearch": 0,
             "filterable": 1,
             "order_num": 142,
-            "ext": "\"./js/我的哔哩.js?type=url&params=./json/儿童口才.json\""
+            "ext": "./js/我的哔哩.js?type=url&params=./json/儿童口才.json"
         },
         {
             "key": "儿童拼音",
@@ -966,7 +886,7 @@
             "quickSearch": 0,
             "filterable": 1,
             "order_num": 142,
-            "ext": "\"./js/我的哔哩.js?type=url&params=./json/儿童拼音.json\""
+            "ext": "./js/我的哔哩.js?type=url&params=./json/儿童拼音.json"
         },
         {
             "key": "儿童识字",
@@ -977,7 +897,7 @@
             "quickSearch": 0,
             "filterable": 1,
             "order_num": 142,
-            "ext": "\"./js/我的哔哩.js?type=url&params=./json/儿童识字.json\""
+            "ext": "./js/我的哔哩.js?type=url&params=./json/儿童识字.json"
         },
         {
             "key": "儿童思维",
@@ -988,7 +908,7 @@
             "quickSearch": 0,
             "filterable": 1,
             "order_num": 142,
-            "ext": "\"./js/我的哔哩.js?type=url&params=./json/儿童思维.json\""
+            "ext": "./js/我的哔哩.js?type=url&params=./json/儿童思维.json"
         },
         {
             "key": "儿童英语",
@@ -999,7 +919,7 @@
             "quickSearch": 0,
             "filterable": 1,
             "order_num": 142,
-            "ext": "\"./js/我的哔哩.js?type=url&params=./json/儿童英语.json\""
+            "ext": "./js/我的哔哩.js?type=url&params=./json/儿童英语.json"
         },
         {
             "key": "儿童硬笔",
@@ -1010,7 +930,7 @@
             "quickSearch": 0,
             "filterable": 1,
             "order_num": 142,
-            "ext": "\"./js/我的哔哩.js?type=url&params=./json/儿童硬笔.json\""
+            "ext": "./js/我的哔哩.js?type=url&params=./json/儿童硬笔.json"
         },
         {
             "key": "儿童编程",
@@ -1021,7 +941,7 @@
             "quickSearch": 0,
             "filterable": 1,
             "order_num": 142,
-            "ext": "\"./js/我的哔哩.js?type=url&params=./json/儿童编程.json\""
+            "ext": "./js/我的哔哩.js?type=url&params=./json/儿童编程.json"
         },
         {
             "key": "儿童武术",
@@ -1032,7 +952,7 @@
             "quickSearch": 0,
             "filterable": 1,
             "order_num": 142,
-            "ext": "\"./js/我的哔哩.js?type=url&params=./json/儿童武术.json\""
+            "ext": "./js/我的哔哩.js?type=url&params=./json/儿童武术.json"
         },
         {
             "key": "csp_BBB",
@@ -1043,7 +963,7 @@
             "quickSearch": 0,
             "filterable": 1,
             "order_num": 142,
-            "ext": "\"./js/我的哔哩.js?type=url&params=./json/哔哩套餐1.json\""
+            "ext": "./js/我的哔哩.js?type=url&params=./json/哔哩套餐1.json"
         },
         {
             "key": "Bili",
@@ -1054,7 +974,7 @@
             "quickSearch": 0,
             "filterable": 1,
             "order_num": 142,
-            "ext": "\"./js/我的哔哩.js?type=url&params=./json/哔哩套餐2.json\""
+            "ext": "./js/我的哔哩.js?type=url&params=./json/哔哩套餐2.json"
         },
         {
             "key": "软件",
@@ -1065,7 +985,7 @@
             "quickSearch": 0,
             "filterable": 1,
             "order_num": 142,
-            "ext": "\"./js/我的哔哩.js?type=url&params=./json/软件教程.json\""
+            "ext": "./js/我的哔哩.js?type=url&params=./json/软件教程.json"
         },
         {
             "key": "演唱会",
@@ -1076,7 +996,7 @@
             "quickSearch": 0,
             "filterable": 1,
             "order_num": 142,
-            "ext": "\"./js/我的哔哩.js?type=url&params=./json/演唱会.json\""
+            "ext": "./js/我的哔哩.js?type=url&params=./json/演唱会.json"
         },
         {
             "key": "戏曲",
@@ -1087,7 +1007,7 @@
             "quickSearch": 0,
             "filterable": 1,
             "order_num": 142,
-            "ext": "\"./js/我的哔哩.js?type=url&params=./json/戏曲合集.json\""
+            "ext": "./js/我的哔哩.js?type=url&params=./json/戏曲合集.json"
         },
         {
             "key": "MV",
@@ -1098,7 +1018,7 @@
             "quickSearch": 0,
             "filterable": 1,
             "order_num": 142,
-            "ext": "\"./js/我的哔哩.js?type=url&params=./json/歌曲MV.json\""
+            "ext": "./js/我的哔哩.js?type=url&params=./json/歌曲MV.json"
         },
         {
             "key": "美食",
@@ -1109,7 +1029,7 @@
             "quickSearch": 0,
             "filterable": 1,
             "order_num": 142,
-            "ext": "\"./js/我的哔哩.js?type=url&params=./json/美食.json\""
+            "ext": "./js/我的哔哩.js?type=url&params=./json/美食.json"
         },
         {
             "key": "球类",
@@ -1120,7 +1040,7 @@
             "quickSearch": 0,
             "filterable": 1,
             "order_num": 142,
-            "ext": "\"./js/我的哔哩.js?type=url&params=./json/球类合集.json\""
+            "ext": "./js/我的哔哩.js?type=url&params=./json/球类合集.json"
         },
         {
             "key": "球星",
@@ -1131,7 +1051,7 @@
             "quickSearch": 0,
             "filterable": 1,
             "order_num": 142,
-            "ext": "\"./js/我的哔哩.js?type=url&params=./json/球星合集.json\""
+            "ext": "./js/我的哔哩.js?type=url&params=./json/球星合集.json"
         },
         {
             "key": "合集",
@@ -1142,7 +1062,7 @@
             "quickSearch": 0,
             "filterable": 1,
             "order_num": 142,
-            "ext": "\"./js/我的哔哩.js?type=url&params=./json/合集.json\""
+            "ext": "./js/我的哔哩.js?type=url&params=./json/合集.json"
         },
         {
             "key": "无忧短剧",

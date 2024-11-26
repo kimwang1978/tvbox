@@ -30,7 +30,7 @@
         },
         {
             "key": "YGP",
-            "name": "🚀叨观荐影┃新片",
+            "name": "🚀叨观荐影┃预告片",
             "type": 3,
             "api": "csp_YGP",
             "searchable": 0,
@@ -48,10 +48,10 @@
             "changeable": 0
         },
         {
-            "key": "米搜",
-            "name": "🦋米盘┃搜搜",
+            "key": "抠搜",
+            "name": "🍄抠抠┃搜搜",
             "type": 3,
-            "api": "csp_MIPanSo",
+            "api": "csp_KkSs",
             "searchable": 1,
             "quickSearch": 1,
             "changeable": 0,
@@ -61,10 +61,10 @@
             }
         },
         {
-            "key": "抠搜",
-            "name": "🍄抠抠┃搜搜",
+            "key": "UC",
+            "name": "🌈优汐┃搜搜",
             "type": 3,
-            "api": "csp_KkSs",
+            "api": "csp_UuSs",
             "searchable": 1,
             "quickSearch": 1,
             "changeable": 0,
@@ -115,15 +115,6 @@
             "quickSearch": 1,
             "changeable": 1,
             "ext": "https://www.zxzjhd.com/"
-        },
-        {
-            "key": "比特",
-            "name": "🍄比特┃秒播",
-            "type": 3,
-            "api": "csp_Bttwoo",
-            "searchable": 1,
-            "quickSearch": 1,
-            "changeable": 1
         },
         {
             "key": "苹果",
@@ -227,7 +218,7 @@
             "changeable": 1,
             "playerType": "1",
             "api": "./api/drpy2.min.js",
-            "ext": "\"./js/jp.js\""
+            "ext": "./js/jp.js"
         },
         {
             "key": "Auete",
@@ -249,15 +240,6 @@
             "quickSearch": 1,
             "changeable": 0,
             "ext": "https://www.xb6v.com/"
-        },
-        {
-            "key": "短剧",
-            "name": "🌈上头┃短剧",
-            "type": 3,
-            "api": "csp_Djtt",
-            "searchable": 1,
-            "quickSearch": 1,
-            "changeable": 1
         },
         {
             "key": "Dm84",
@@ -298,24 +280,22 @@
             }
         },
         {
-            "key": "88js",
-            "name": "⚽ 88┃看球",
+            "key": "88看球",
+            "name": "⚽88┃看球",
             "type": 3,
-            "api": "./api/drpy2.min.js",
-            "ext": "\"./js/88看球.js\"",
+            "api": "csp_Sir88",
+            "searchable": 0,
+            "changeable": 0,
             "style": {
                 "type": "list"
-            },
-            "searchable": 0,
-            "quickSearch": 0,
-            "changeable": 0
+            }
         },
         {
             "key": "310js",
             "name": "⚽ 310┃看球",
             "type": 3,
             "api": "./api/drpy2.min.js",
-            "ext": "\"./js/310直播.js\"",
+            "ext": "./js/310直播.js",
             "style": {
                 "type": "list"
             },
@@ -328,7 +308,7 @@
             "name": "⚽ Jrs┃球迷",
             "type": 3,
             "api": "./api/drpy2.min.js",
-            "ext": "\"./js/jrk.js\"",
+            "ext": "./js/jrk.js",
             "style": {
                 "type": "list"
             },
@@ -341,7 +321,7 @@
             "name": "🎤酷奇┃MV",
             "type": 3,
             "api": "./api/drpy2.min.js",
-            "ext": "\"./js/酷奇MV.js\"",
+            "ext": "./js/酷奇MV.js",
             "style": {
                 "type": "rect",
                 "ratio": 1.597
@@ -371,7 +351,7 @@
             "name": "🐯虎牙┃直播",
             "type": 3,
             "api": "./api/drpy2.js",
-            "ext": "\"./js/huya2.js\"",
+            "ext": "./js/huya2.js",
             "style": {
                 "type": "rect",
                 "ratio": 1.755
@@ -386,7 +366,7 @@
             "name": "🐟斗鱼┃直播",
             "type": 3,
             "api": "./api/drpy2.min.js",
-            "ext": "\"./js/斗鱼直播.js\"",
+            "ext": "./js/斗鱼直播.js",
             "style": {
                 "type": "rect",
                 "ratio": 1.755
@@ -401,7 +381,7 @@
             "name": "🎧有声┃小说",
             "type": 3,
             "api": "./api/drpy2.min.js",
-            "ext": "\"./js/有声小说吧.js\"",
+            "ext": "./js/有声小说吧.js",
             "style": {
                 "type": "rect",
                 "ratio": 1
@@ -424,7 +404,7 @@
             }
         },
         {
-            "key": "Sso",
+            "key": "PanSso",
             "name": "🐌盘他┃三盘",
             "type": 3,
             "api": "csp_PanSso",
@@ -437,15 +417,40 @@
             }
         },
         {
-            "key": "夸搜",
-            "name": "🐟夸搜┃狸夸",
+            "key": "YpanSo",
+            "name": "🐟盘她┃三盘",
             "type": 3,
-            "api": "csp_PanSearch",
+            "api": "csp_YpanSo",
             "searchable": 1,
             "quickSearch": 1,
             "changeable": 0,
             "ext": {
-                "pan": "quark",
+                "Cloud-drive": "tvfan/Cloud-drive.txt",
+                "from": "4k|auto"
+            }
+        },
+        {
+            "key": "米搜",
+            "name": "🦋米搜┃夸父",
+            "type": 3,
+            "api": "csp_MIPanSo",
+            "searchable": 1,
+            "quickSearch": 1,
+            "changeable": 0,
+            "ext": {
+                "Cloud-drive": "tvfan/Cloud-drive.txt",
+                "from": "4k|auto"
+            }
+        },
+        {
+            "key": "Aliso",
+            "name": "🙀盘搜┃阿狸",
+            "type": 3,
+            "api": "csp_Aliso",
+            "searchable": 1,
+            "quickSearch": 1,
+            "changeable": 0,
+            "ext": {
                 "Cloud-drive": "tvfan/Cloud-drive.txt",
                 "from": "4k|auto"
             }
@@ -455,19 +460,6 @@
             "name": "😹易搜┃阿狸",
             "type": 3,
             "api": "csp_YiSo",
-            "searchable": 1,
-            "quickSearch": 1,
-            "changeable": 0,
-            "ext": {
-                "Cloud-drive": "tvfan/Cloud-drive.txt",
-                "from": "4k|auto"
-            }
-        },
-        {
-            "key": "PanSearch",
-            "name": "🙀盘Se┃阿狸",
-            "type": 3,
-            "api": "csp_PanSearch",
             "searchable": 1,
             "quickSearch": 1,
             "changeable": 0,
@@ -525,7 +517,7 @@
             "name": "📚儿童┃启蒙",
             "type": 3,
             "api": "./api/drpy2.min.js",
-            "ext": "\"./js/兔小贝.js\"",
+            "ext": "./js/兔小贝.js",
             "style": {
                 "type": "rect",
                 "ratio": 1.597
@@ -620,15 +612,9 @@
     "logo": "https://fs-im-kefu.7moor-fs1.com/ly/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/1716545739254/fc1b89e152cd4aa28d295107cb6c56c9.gif",
     "lives": [
         {
-            "name": "百宝箱箱",
+            "name": "IPV4若卡顿切IPV6",
             "type": 0,
-            "url": "https://live.iptv365.org/live.txt",
-            "epg": ""
-        },
-        {
-            "name": "IPV4",
-            "type": 0,
-            "url": "./lives/IPV4.txt",
+            "url": "./lives/IPV4若卡顿切IPV6.txt",
             "epg": ""
         },
         {

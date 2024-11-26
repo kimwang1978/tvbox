@@ -42,5 +42,29 @@
     {
         "share_name": "4K影视",
         "share_id": "wHPKUENKFsS"
+    },
+    {
+        "share_name": "诺兰全集",
+        "share_id": "gf2GebXnZHh"
+    },
+    {
+        "share_name": "纪录片",
+        "share_id": "fSNHaYST47s"
+    },
+    {
+        "share_name": "掌灯者｜港",
+        "share_id": "wHPKUENKFsS"
+    },
+    {
+        "share_name": "掌灯者｜一",
+        "share_id": "wHPKUENKFsS"
+    },
+    {
+        "share_name": "掌灯者｜二",
+        "share_id": "wHPKUENKFsS"
+    },
+    {
+        "share_name": "掌灯者｜三",
+        "share_id": "wHPKUENKFsS"
     }
 ]

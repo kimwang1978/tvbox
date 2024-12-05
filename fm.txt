@@ -1,0 +1,37 @@
+{ "urls": [{ "url": "file://？？？/饭太硬/api.json", "name": "饭太硬" },
+
+{ "url": "file://？？？/小米/api.json", "name": "小米" },
+
+{ "url": "file://？？？/肥猫/api.json", "name": "肥猫" },
+
+{ "url": "file://？？？/菜妮丝/api.json", "name": "菜妮丝" },
+
+{ "url": "file://？？？/王二小/api.json", "name": "王二小" },
+
+{ "url": "file://？？？/摸鱼儿/api.json", "name": "摸鱼儿" },
+
+{ "url": "file://？？？/PG/api.json", "name": "PG" },
+
+{ "url": "file://？？？/潇洒/api.json", "name": "潇洒" },
+
+{ "url": "file://？？？/天天开心/api.json", "name": "天天开心" },
+
+{ "url": "file://？？？/香雅情/api.json", "name": "香雅情" },
+
+{ "url": "file://？？？/南风/api.json", "name": "南风" },
+
+{ "url": "file://？？？/骚零/api.json", "name": "骚零" },
+
+{ "url": "file://？？？/白嫖/api.json", "name": "白嫖" },
+
+{ "url": "file://？？？/OK/api.json", "name": "OK" },
+
+{ "url": "file://？？？/戏曲音乐/api.json", "name": "戏曲音乐" },
+
+{ "url": "file://？？？/短剧频道/api.json", "name": "短剧频道" },
+
+{ "url": "file://？？？/少儿频道/api.json", "name": "少儿频道" },
+
+{ "url": "file://？？？/动漫频道/api.json", "name": "动漫频道" },
+
+{ "url": "file://？？？/iptv365/api.json", "name": "iptv365直播" }]}

@@ -1,5 +1,4 @@
 { "urls": [
-    { "url": "https://git.acwing.com/xcz/xcz/-/raw/master/xcz.json", "name": "小橙子" },
     
     { "url": "https://play.iptv365.org/饭太硬/api.json", "name": "饭太硬" },
 

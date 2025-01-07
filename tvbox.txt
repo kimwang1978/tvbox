@@ -14,11 +14,16 @@
 
     { "url": "https://play.iptv365.org/PG/api.json", "name": "PG" },
 
+    { "url": "https://play.iptv365.org/欧歌/api.json", "name": "欧歌" },
+
     { "url": "https://play.iptv365.org/潇洒/api.json", "name": "潇洒" },
+
+    { "url": "https://play.iptv365.org/天微/api.json", "name": "天微" },
 
     { "url": "https://play.iptv365.org/天天开心/api.json", "name": "天天开心" },
 
     { "url": "https://play.iptv365.org/香雅情/api.json", "name": "香雅情" },
+
     { "url": "https://play.iptv365.org/南风/api.json", "name": "南风" },
 
     { "url": "https://play.iptv365.org/骚零/api.json", "name": "骚零" },
@@ -36,4 +41,5 @@
     { "url": "https://play.iptv365.org/动漫频道/api.json", "name": "动漫频道" },
 
     { "url": "https://play.iptv365.org/iptv365/api.json", "name": "iptv365直播" }
+    
 ]}

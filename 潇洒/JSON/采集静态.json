@@ -49,14 +49,6 @@
         "class_url": "1&2&3&4&6&7&8&9&10&11&12&13&14&15&16&20&21&22&23&24&25&26&27&28&29&30&31&32&33&34&35&36&37&38&39&40&41&42&43&44&45&46&47&48&49&50&51&52&53&54&55&56&57&58&59&60&61&62&63"
     },
     {
-        "name": "iku喵",
-        "url": "http://caiji.ikum.cc:8099",
-        "parse_url": "",
-        "cate_exclude": "",
-        "class_name": "H4sIALGjdWYC/yXIOw5AQBRG4d3clVKMgmKEQlBNhiAoiBiPzfjdsQsxmpMvh+MJ+0j2LNh0EJrYbFashKC6t4aQ7deqv38vPaLBKVVPWTu1mo/wE/z5MomTd3KjyMocviDIGLL++wIj0AZ/awAAAA==",
-        "class_url": "1&2&3&4&20&21&22&23&24&25&26&27"
-    },
-    {
         "name": "暴风资源",
         "url": "https://bfzyapi.com",
         "parse_url": "",
@@ -114,29 +106,12 @@
         "class_url": "1&2&3&4&6&7&8&9&10&11&12&13&14&15&16&20&21&22&23&24&25&30&31"
     },
     {
-        "name": "乐视资源",
-        "url": "https://leshiapi.com",
-        "parse_url": "",
-        "cate_exclude": "电影|连续剧|动漫|综艺|电影解说|短剧|伦理片|港台三级|韩国伦理|日本伦理|其他伦理",
-        "api": "/api.php/provide/vod/at/json/",
-        "class_name": "H4sIALWjdWYC/zVRWXbCMAy8jc/JUiAJjyWvNC3Lg1KWAE1fQlkKCQ6XsS3nFrVl+yszkmc0UmB04fRIID9w+gZ+h8jnHIof7sdEJDGUfY2q7VjcUo14sGN0pt+BdxTNFqI45PdCI1EfilqkkXpru8L7YLmPtWimyoiCHYxQAUEK9IC1KWV5jNMWe0XsNPH4JlA8pJ8Tvo6rcdsSnWeQOfK+USJHMLbTDDJxL9HL+BtHJRCzxBGzpyWXP76OHDllNokS6A/gtWS8kumZ8E3H7g31spqUuG0jgSjEfVpXVuAtGH2VjV95mbK86/y11wKvzB5bGLZRiyuxmw+5O4Jp2riW8N6yqk1sQjPFdQY9SRPwzO02p+orFPWu+lGqs5arFivGrPwk/H5mxQr2T3kNiHwJxXluYhPoZ6pTNSm/Nf4BxMaYBRkCAAA=",
-        "class_url": "1&2&3&4&5&6&7&8&9&10&11&12&20&21&22&23&24&25&26&27&28&29&30&31&32&33&34&35&36&37&38&39&40&41&42&44&46&48&49&50&51&52&53&54&55&56&57&58&59"
-    },
-    {
         "name": "卧龙资源",
         "url": "https://collect.wolongzy.cc",
         "parse_url": "",
         "cate_exclude": "电影片|连续剧|综艺片|动漫片|伦理片|电影解说|体育|短剧",
         "class_name": "H4sIAFZXhmYC/1WR0VLCQAxF/6bfqXQsbB9omYEq2JEHKqtQ2iIC0nbxZ5pk+Qt303VG307uZnJvsjQ9gtqTGHr6+4WaHQjpUdNqUVsNwjdst446lTIlqWmyRKM9+g9McgKXxhLex3iXcJ+Q7hVHT10tWHtWXS2tx209x6+SafluZEuYS7qOLUFU4eXK2uMrpjnT8QxZYkkXFagZ+y53LhxNmz8GHPt3niv6Qa4w1lHV7+kCuAIyeZsHrsBD9S+ak4lvpuVKl58e+iEOFuxdnKDu80SZXvHqMA4g+uAjDHJKJhw6LEltmMqCYt/r2jXFAf/B6WAFs5Yx/QEG4wmPmwEAAA==",
         "class_url": "1&2&3&4&5&6&7&8&9&10&11&12&13&14&15&16&17&18&22&23&24&25&26&27&30&31&32&33&37&38&39&42&43&44&45&46&48&49&51&54"
-    },
-    {
-        "name": "U酷资源",
-        "url": "https://api.ukuapi.com",
-        "parse_url": "",
-        "cate_exclude": "电影|电视剧|综艺|动漫|记录片|伦理片|资讯",
-        "class_name": "H4sIAFZXhmYC/zWP3Q6CMAyF32bPqVHRcYGSIJBoQmKC8xcwhESB8TRbO95COufV+dqenLYYNVq+GEaNEZ7mgmHXG94y7V+gv5MoeUS+Zjo+TmMi3LxgsbIkQv3piGC+g1lsfVy4KWxS1XLbO0jVCkqHdwlDbSnJrTwEDgHRbyP+7tHbCj4Dtcfsan11RWKKSss9Zar+jDuPyDRLU5QM4mpMOleMp6UOfVdMgdNzf1saQJq5ArOnXZ2v3R/olyhvE30Bu+ncCxgBAAA=",
-        "class_url": "1&2&3&4&6&7&8&9&10&11&12&13&14&15&16&20&21&22&23&24&25&26&27&28&30&31&32&33&34"
     },
     {
         "name": "天空资源",

@@ -44,6 +44,14 @@
             "indexs": 0
         },
         {
+            "key": "Wexfeiyang",
+            "name": "💓‍肥羊┃直播💓‍",
+            "type": 3,
+            "api": "csp_Wexfeiyang",
+            "searchable": 1,
+            "changeable": 1
+        },
+        {
             "key": "Wexalllive",
             "name": "💓‍聚合┃直播💓‍",
             "type": 3,
@@ -70,6 +78,22 @@
             "style": {
                 "type": "list"
             }
+        },
+        {
+            "key": "盘他",
+            "name": "💓‍盘他┃4K💓‍",
+            "type": 3,
+            "api": "csp_WexYDpanta",
+            "searchable": 1,
+            "changeable": 1
+        },
+        {
+            "key": "雷鲸",
+            "name": "💓‍雷鲸┃4K💓‍",
+            "type": 3,
+            "api": "csp_Wexleijing",
+            "searchable": 1,
+            "changeable": 1
         },
         {
             "key": "玩偶",
@@ -128,14 +152,6 @@
             "changeable": 1
         },
         {
-            "key": "賤賤",
-            "name": "📓賤片┃p2p📓",
-            "type": 3,
-            "api": "csp_WexJianpian",
-            "searchable": 1,
-            "changeable": 1
-        },
-        {
             "key": "南瓜",
             "name": "💥瓜瓜┃影视💥",
             "type": 3,
@@ -156,6 +172,14 @@
             "name": "😁腐剧┃影视😁",
             "type": 3,
             "api": "csp_WexFujutv",
+            "searchable": 1,
+            "changeable": 1
+        },
+        {
+            "key": "Wexduboku",
+            "name": "🎇独播┃秒播🎇",
+            "type": 3,
+            "api": "csp_Wexduboku",
             "searchable": 1,
             "changeable": 1
         },
@@ -232,12 +256,111 @@
             "changeable": 1
         },
         {
-            "key": "Wexdyxs",
-            "name": "🎇先生┃秒播🎇",
+            "key": "WexBDys",
+            "name": "🎇滴滴┃秒播🎇",
             "type": 3,
-            "api": "csp_Wexdyxs",
+            "api": "csp_WexBDys",
             "searchable": 1,
             "changeable": 1
+        },
+        {
+            "key": "非凡",
+            "name": "🛝非凡┃采集🛝",
+            "type": 1,
+            "api": "http://api.ffzyapi.com/api.php/provide/vod",
+            "searchable": 1,
+            "filterable": 1,
+            "changeable": 1,
+            "categories": [
+                "剧情片",
+                "动作片",
+                "喜剧片",
+                "科幻片",
+                "恐怖片",
+                "爱情片",
+                "剧情片",
+                "战争片",
+                "记录片",
+                "国产剧",
+                "香港剧",
+                "韩国剧",
+                "日本剧",
+                "海外剧",
+                "泰国剧",
+                "欧美剧",
+                "短剧",
+                "大陆综艺",
+                "港台综艺",
+                "日韩综艺",
+                "欧美综艺",
+                "欧美动漫",
+                "日韩动漫",
+                "海外动漫",
+                "国产动漫",
+                "港台动漫"
+            ]
+        },
+        {
+            "key": "木耳",
+            "name": "🛝木耳┃采集🛝",
+            "type": 1,
+            "api": "https://json02.heimuer.xyz/api.php/provide/vod",
+            "searchable": 1,
+            "filterable": 1,
+            "changeable": 1,
+            "categories": [
+                "剧情片",
+                "动作片",
+                "冒险片",
+                "喜剧片",
+                "奇幻片",
+                "恐怖片",
+                "悬疑片",
+                "惊悚片",
+                "灾难片",
+                "爱情片",
+                "犯罪片",
+                "科幻片",
+                "歌舞片",
+                "战争片",
+                "经典片",
+                "动画电影",
+                "网络电影",
+                "其他片",
+                "国产剧",
+                "港剧",
+                "韩剧",
+                "日剧",
+                "泰剧",
+                "台剧",
+                "欧美剧",
+                "新马剧",
+                "其他剧",
+                "国产综艺",
+                "港台综艺",
+                "韩国综艺",
+                "日本综艺",
+                "欧美综艺",
+                "新马泰综艺",
+                "其他综艺",
+                "古装短剧",
+                "虐恋短剧",
+                "逆袭短剧",
+                "神豪短剧",
+                "重生短剧",
+                "复仇短剧",
+                "穿越短剧",
+                "甜宠短剧",
+                "强者短剧",
+                "欧美动漫",
+                "日本动漫",
+                "韩国动漫",
+                "国产动漫",
+                "港台动漫"
+            ],
+            "header": {
+                "user-agent": "Mozilla/5.0(WindowsNT10.0;Win64;x64)AppleWebKit/537.36(KHTML,likeGecko)Chrome/125.0.0.0Safari/537.36"
+            }
         },
         {
             "key": "360",
@@ -336,14 +459,6 @@
             "changeable": 1
         },
         {
-            "key": "Wexkoukou",
-            "name": "🌺扣扣┃4K🌺",
-            "type": 3,
-            "api": "csp_Wexkoukou",
-            "searchable": 1,
-            "changeable": 1
-        },
-        {
             "key": "Wexwencai",
             "name": "🌺文才┃秒播🌺",
             "type": 3,
@@ -356,14 +471,6 @@
             "name": "🌺苹果┃秒播🌺",
             "type": 3,
             "api": "csp_Wexxpgtv",
-            "searchable": 1,
-            "changeable": 1
-        },
-        {
-            "key": "Wexhanjutv",
-            "name": "🌺韩剧┃秒播🌺",
-            "type": 3,
-            "api": "csp_Wexhanjutv",
             "searchable": 1,
             "changeable": 1
         },
@@ -415,14 +522,6 @@
             "name": "🍉短剧┃极品🍉",
             "type": 3,
             "api": "csp_Wexduanju001",
-            "searchable": 1,
-            "changeable": 1
-        },
-        {
-            "key": "Wexduanjuvip",
-            "name": "🍉短剧┃精品🍉",
-            "type": 3,
-            "api": "csp_Wexduanjuvip",
             "searchable": 1,
             "changeable": 1
         },
@@ -914,45 +1013,9 @@
     ],
     "lives": [
         {
-            "name": "王二小放牛娃推荐使用",
-            "type": 0,
-            "url": "./lives/王二小放牛娃推荐使用.txt",
-            "epg": "http://epg.112114.xyz/?ch={name}&date={date}"
-        },
-        {
             "name": "IPV6",
             "type": 0,
             "url": "./lives/IPV6.txt",
-            "epg": "http://epg.112114.xyz/?ch={name}&date={date}"
-        },
-        {
-            "name": "综合1",
-            "type": 0,
-            "url": "./lives/综合1.txt",
-            "epg": "http://epg.112114.xyz/?ch={name}&date={date}"
-        },
-        {
-            "name": "综合2",
-            "type": 0,
-            "url": "./lives/综合2.txt",
-            "epg": "http://epg.112114.xyz/?ch={name}&date={date}"
-        },
-        {
-            "name": "综合3",
-            "type": 0,
-            "url": "./lives/综合3.txt",
-            "epg": "http://epg.112114.xyz/?ch={name}&date={date}"
-        },
-        {
-            "name": "综合4",
-            "type": 0,
-            "url": "./lives/综合4.txt",
-            "epg": "http://epg.112114.xyz/?ch={name}&date={date}"
-        },
-        {
-            "name": "IPV4",
-            "type": 0,
-            "url": "./lives/IPV4.txt",
             "epg": "http://epg.112114.xyz/?ch={name}&date={date}"
         }
     ]

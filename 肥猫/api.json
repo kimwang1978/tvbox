@@ -28,6 +28,19 @@
             "playerType": 2
         },
         {
+            "key": "csp_FeiMaoUC",
+            "name": "⚡┃闪电┃优汐",
+            "type": 3,
+            "api": "csp_Duopan",
+            "filterable": 1,
+            "ext": {
+                "site_urls": [
+                    "http://1.95.79.193/"
+                ],
+                "url_key": "FeiMaoUC"
+            }
+        },
+        {
             "key": "csp_Duopan",
             "name": "🖍︎┃蜡笔┃影视",
             "type": 3,
@@ -40,22 +53,22 @@
                     "http://feimaoai.site",
                     "https://mihdr.top"
                 ],
-                "url_key": "Duopan"
+                "url_key": "Duopan2"
             }
         },
         {
-            "key": "csp_FeiMaoUC",
-            "name": "🐼┃肥猫┃UC",
+            "key": "csp_Bili",
+            "name": "🅱┃️哔哩┃合集",
             "type": 3,
-            "api": "csp_Duopan",
-            "filterable": 1,
+            "api": "csp_Bili",
+            "playerType": 2,
             "ext": {
-                "site_urls": [
-                    "http://www.mucpan.cc",
-                    "http://ucmi.fun",
-                    "http://www.ucmi.fun"
-                ],
-                "url_key": "FeiMaoUC"
+                "json": "./json/bili.json",
+                "cookie": ""
+            },
+            "style": {
+                "type": "rect",
+                "ratio": 1.333
             }
         },
         {
@@ -86,6 +99,21 @@
             "ext": "http://rzys.xyz/"
         },
         {
+            "key": "csp_XMUC",
+            "name": "🍚┃小米┃UC",
+            "type": 3,
+            "api": "csp_Duopan",
+            "filterable": 1,
+            "ext": {
+                "site_urls": [
+                    "http://www.mucpan.cc",
+                    "http://ucmi.fun",
+                    "http://www.ucmi.fun"
+                ],
+                "url_key": "XMUC"
+            }
+        },
+        {
             "key": "csp_Netfixtv",
             "name": "💌┃️至臻┃影视",
             "type": 3,
@@ -93,9 +121,11 @@
             "filterable": 1,
             "ext": {
                 "site_urls": [
+                    "http://www.xhww.net",
+                    "http://xhww.net",
                     "https://xiaomiai.site"
                 ],
-                "url_key": "Netfixtv",
+                "url_key": "Netfixtv2",
                 "token": "",
                 "ucCookie": "",
                 "quarkCookie": "",
@@ -106,22 +136,39 @@
             }
         },
         {
-            "key": "csp_Nkdy",
-            "name": "🏔️┃耐看┃影视",
+            "key": "csp_Panda_玩偶哥哥",
+            "name": "👲┃玩偶┃影视",
+            "api": "csp_Wogg",
             "type": 3,
-            "api": "csp_Nkdy"
+            "searchable": 1,
+            "playerType": 2,
+            "timeout": 30,
+            "changeable": 0,
+            "ext": "https://www.wogg.net"
+        },
+        {
+            "key": "csp_Lkdy",
+            "name": "🏔️┃来看┃影视",
+            "type": 3,
+            "api": "csp_Lkdy"
+        },
+        {
+            "key": "csp_Lggys",
+            "name": "💗️┃攻阁┃影视",
+            "type": 3,
+            "api": "csp_Lggys"
+        },
+        {
+            "key": "csp_Tvyb",
+            "name": "☁️️┃云播┃影视",
+            "type": 3,
+            "api": "csp_Tvyb"
         },
         {
             "key": "csp_Kanke",
             "name": "🛳️┃看客┃影视",
             "type": 3,
             "api": "csp_Kanke"
-        },
-        {
-            "key": "csp_Dadag",
-            "name": "🐢️┃达龟┃影视",
-            "type": 3,
-            "api": "csp_Dadag"
         },
         {
             "key": "csp_Qiyou",
@@ -146,13 +193,6 @@
             "ext": "https://www.91qkw.com"
         },
         {
-            "key": "nangua",
-            "name": "🎃┃南瓜┃影视",
-            "type": 3,
-            "playerType": "2",
-            "api": "./api/ng_open.js"
-        },
-        {
             "key": "csp_J",
             "name": "🌎┃饺子┃外剧",
             "type": 3,
@@ -164,7 +204,7 @@
             "name": "💖┃Ivdy┃影视",
             "type": 3,
             "api": "csp_XBPQ",
-            "ext": "./json/ivdy.json",
+            "ext": "https://img2.gelonghui.com/library/ea5ba-5f15b1f1-2ca0-4dda-86b4-c86954b5bd37null",
             "searchable": 0
         },
         {
@@ -191,23 +231,6 @@
             "filterable": 1
         },
         {
-            "key": "csp_Panda_玩偶哥哥",
-            "name": "👲┃玩偶┃影视",
-            "api": "csp_Wogg",
-            "type": 3,
-            "searchable": 1,
-            "playerType": 2,
-            "timeout": 30,
-            "changeable": 0,
-            "ext": "https://www.wogg.net"
-        },
-        {
-            "key": "比特",
-            "name": "✌️️┃比特┃影视",
-            "type": 3,
-            "api": "csp_Bttwo"
-        },
-        {
             "key": "荐片",
             "name": "🎬┃荐片┃影视",
             "api": "csp_Jianpian",
@@ -225,39 +248,6 @@
             "quickSearch": 1,
             "filterable": 1,
             "ext": "http://www.czzyvideo.com"
-        },
-        {
-            "key": "可可",
-            "name": " 😝┃可可┃影视",
-            "type": 3,
-            "playerType": "2",
-            "api": "csp_Keke",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1,
-            "ext": "https://www.kkys02.com"
-        },
-        {
-            "key": "csp_Xb6v",
-            "name": "🐤┃6V磁力┃影视",
-            "type": 3,
-            "api": "csp_Xb6v",
-            "playerType": "2"
-        },
-        {
-            "key": "低端",
-            "name": "🛣┃低端┃影视",
-            "type": 3,
-            "playerType": "2",
-            "api": "./api/drpy2.min.js",
-            "ext": "./js/ddys.js"
-        },
-        {
-            "key": "虎虎",
-            "name": "🐯┃虎虎┃影视",
-            "type": 3,
-            "api": "csp_XBPQ",
-            "ext": "./json/虎虎.json"
         },
         {
             "key": "csp_SP360",
@@ -395,29 +385,21 @@
             "style": {
                 "type": "list"
             },
-            "ext": "./js/310直播.js"
+            "ext": "https://img2.gelonghui.com/library/d6014-7a5d5b19-3fe5-456a-8335-925bc845606fnull"
         },
         {
             "key": "米搜",
             "name": "🌖┃米搜┃网盘",
             "type": 3,
             "api": "csp_MiSou",
-            "ext": "./txt/kk.txt"
+            "ext": "http://127.0.0.1:9978/file/fatcat/kk.txt"
         },
         {
             "key": "csp_PanSearch",
             "name": "🚃┃盘搜┃网盘",
             "type": 3,
             "api": "csp_PanSearch",
-            "ext": "./txt/token.txt"
-        },
-        {
-            "key": "drpy_哔哩",
-            "name": "🅱┃哔哩┃合集",
-            "type": 3,
-            "api": "csp_Bili",
-            "playerType": 1,
-            "ext": "./json/bilibili.json"
+            "ext": "http://127.0.0.1:9978/file/fatcat/token.txt"
         },
         {
             "key": "儿童",

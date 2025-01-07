@@ -74,7 +74,7 @@ globalThis.vodids = function(ids) {
     rdata.vod_play_list.forEach((value) => {
         data.vod_play_from += value.player_info.show + '$$$';
         value.urls.forEach((v) => {
-            data.vod_play_url += v.name + '$' + value.player_info.parse + '|' + v.url + '#';
+            data.vod_play_url += v.name + '$' + value.player_info.parse + '~' + v.url + '~' + rdata.vod.vod_name + '~' + v.name + '#';
         });
         data.vod_play_url += '$$$';
     });
@@ -97,24 +97,25 @@ globalThis.ssvod = function(wd) {
     return AES_Decrypt(html.data);
 }
 //解析
-globalThis.jxx = function(id, url) {
-    /* if(""!=='104847347'){
-      return 'https://mp4.ziyuan.wang/view.php/3c120366111dde9c318be64962b5684f.mp4';
+globalThis.jxx = function(id, url, name, juji) {
+    /* if("741852963"!=='741852963'){
+      return 'https://s0.mall.tcl.com/group1/M00/00/89/CvoGBGdcOPaAAUxvADwZniVV2bc476.mp4';
      }*/
+    //console.log(id);
     if (id.startsWith('http')) {
         return {
             parse: 1,
             url: id + url,
             jx: 0,
-            danmaku: 'http://dm.sds11.top/tdm.php?url=' + url
+            danmaku: 'http://103.36.220.166:91/dmku1/tvbox/zh.php?url=' + '&jm=' + name + '&js=' + juji + '&key=741852963'
         };
     }
     if (id == 0) {
         return {
             parse: 0,
-            url: id + url,
+            url: url,
             jx: 1,
-            danmaku: 'http://dm.sds11.top/tdm.php?url=' + url
+            danmaku: 'http://103.36.220.166:91/dmku1/tvbox/zh.php?url=' + '&jm=' + name + '&js=' + juji + '&key=741852963'
         };
     }
 
@@ -140,7 +141,7 @@ globalThis.jxx = function(id, url) {
         parse: 0,
         url: matches[1],
         jx: 0,
-        danmaku: 'http://dm.sds11.top/tdm.php?url=' + matches[1]
+        danmaku: 'http://103.36.220.166:91/dmku1/tvbox/zh.php?url=' + '&jm=' + name + '&js=' + juji + '&key=741852963'
     };
 }
 
@@ -157,8 +158,8 @@ var rule = {
     class_url: '1&2&3&4',
     play_parse: true,
     lazy: $js.toString(() => {
-        const parts = input.split('|');
-        input = jxx(parts[0], parts[1]);
+        const parts = input.split('~');
+        input = jxx(parts[0], parts[1], parts[2], parts[3]);
     }),
     推荐: $js.toString(() => {
         let data = vod1(0, 0);

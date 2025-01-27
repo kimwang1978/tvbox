@@ -1,16 +1,7 @@
 {
     "spider": "./spider.jar",
     "wallpaper": "https://深色壁纸.xxooo.cf/",
-    "sites": [
-        {
-          "name":"油管电视",
-          "type":0,
-          "url":"./lives/YouTube.txt",
-          "playerType":1,
-          "ua": "okhttp/3.15",
-          "epg":"http://epg.112114.xyz/?ch={name}&date={date}",
-          "logo": "https://epg.112114.xyz/logo/{name}.png"
-        },
+    "sites": [        
         {
             "key":"TV直播test",
             "name":"TV直播test",
@@ -60,6 +51,15 @@
             "type": 0,
             "url": "https://live.iptv365.org/live.txt",
             "epg": "http://epg.51zmt.top:8000/api/diyp/?ch={name}&date={date}"
+        },
+        {
+          "name":"油管电视",
+          "type":0,
+          "url":"./lives/YouTube.txt",
+          "playerType":1,
+          "ua": "okhttp/3.15",
+          "epg":"http://epg.112114.xyz/?ch={name}&date={date}",
+          "logo": "https://epg.112114.xyz/logo/{name}.png"
         }
     ]
 }

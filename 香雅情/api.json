@@ -58,26 +58,6 @@
             "ext": "./js/百忙无果.js"
         },
         {
-            "key": "csp_Zhaozy",
-            "name": "📀找资源(搜索)",
-            "type": 3,
-            "api": "csp_Zhaozy",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 0,
-            "ext": "{\"username\":\"fanty\",\"password\":\"qqq111\",\"searchurl\":\"https://zhaoziyuan1.cc/so?filename={wd}\"}"
-        },
-        {
-            "key": "csp_AliPS",
-            "name": "📀喵狸盘搜(搜索)",
-            "type": 3,
-            "api": "csp_AliPS",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 0,
-            "ext": "./txt/alitoken.txt"
-        },
-        {
             "key": "csp_Yisou",
             "name": "📀易搜(搜索)",
             "type": 3,
@@ -85,37 +65,7 @@
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 0,
-            "ext": "./txt/alitoken.txt"
-        },
-        {
-            "key": "csp_Upyunso",
-            "name": "📀UP云搜(搜索)",
-            "type": 3,
-            "api": "csp_Upyunso",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 0,
-            "ext": "./txt/alitoken.txt"
-        },
-        {
-            "key": "csp_XYQHiker_影搜",
-            "name": "📀影搜(XYQH)",
-            "type": 3,
-            "api": "csp_XYQHiker",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1,
-            "ext": "./json/影搜.json"
-        },
-        {
-            "key": "csp_XYQHikerAL_玩偶哥哥",
-            "name": "📀玩偶哥哥(优)",
-            "type": 3,
-            "api": "csp_XYQHikerAL",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1,
-            "ext": "./json/玩偶哥哥.json"
+            "ext": "http://127.0.0.1:9978/file/XYQTVBox/alitoken.txt"
         },
         {
             "key": "csp_XYQHikerAL_云盘资源",
@@ -135,7 +85,7 @@
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 0,
-            "ext": "./txt/alitoken.txt"
+            "ext": "http://127.0.0.1:9978/file/XYQTVBox/alitoken.txt"
         },
         {
             "key": "csp_Mp4Mov",
@@ -145,7 +95,7 @@
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 1,
-            "ext": "https://www.padmp4.com"
+            "ext": "https://www.momp4.cc"
         },
         {
             "key": "csp_New6v",
@@ -168,16 +118,6 @@
             "ext": "https://www.seedhub.cc"
         },
         {
-            "key": "csp_KubaCL",
-            "name": "🧲酷吧电影",
-            "type": 3,
-            "api": "csp_KubaCL",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1,
-            "ext": "https://www.kubady2.com"
-        },
-        {
             "key": "csp_MeijuTT",
             "name": "🧲美剧天堂",
             "type": 3,
@@ -186,15 +126,6 @@
             "quickSearch": 1,
             "filterable": 1,
             "ext": "https://www.meijutt.net"
-        },
-        {
-            "key": "csp_MeijuMi",
-            "name": "🧲美剧迷",
-            "type": 3,
-            "api": "csp_MeijuMi",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1
         },
         {
             "key": "csp_Xunlei8",
@@ -232,7 +163,7 @@
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 1,
-            "ext": "https://www.czys.top"
+            "ext": "https://www.czzy77.com"
         },
         {
             "key": "csp_Bdys",
@@ -242,7 +173,7 @@
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 1,
-            "ext": "https://www.yjys05.com"
+            "ext": "https://j4yc.icu"
         },
         {
             "key": "csp_XYQHiker_哔嘀影视",
@@ -405,16 +336,6 @@
             "ext": "./json/爱你短剧.json"
         },
         {
-            "key": "csp_XYQHiker_河马短剧",
-            "name": "河马短剧",
-            "type": 3,
-            "api": "csp_XYQHiker",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1,
-            "ext": "./json/河马短剧.json"
-        },
-        {
             "key": "csp_XYQHiker_短剧屋",
             "name": "短剧屋",
             "type": 3,
@@ -455,16 +376,6 @@
             "ext": "./json/可可影视.json"
         },
         {
-            "key": "csp_Yj1211",
-            "name": "📡JustLive",
-            "type": 3,
-            "api": "csp_Yj1211",
-            "playerType": 1,
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1
-        },
-        {
             "key": "DRJS_虎牙",
             "name": "虎牙直播(JS)",
             "type": 3,
@@ -494,11 +405,11 @@
         {
             "name": "-咸鱼-",
             "type": 0,
-            "url": "https://jx.xyflv.cc/?url=",
+            "url": "https://jx.xymp4.cc/?url=",
             "ext": {
                 "header": {
                     "user-agent": "Mozilla/5.0 (Linux; Android 13; V2049A Build/TP1A.220624.014; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/116.0.0.0 Mobile Safari/537.36",
-                    "referer": "https://www.xyflv.cc/"
+                    "referer": "https://www.xymp4.cc/"
                 }
             }
         },
@@ -513,37 +424,6 @@
             }
         },
         {
-            "name": "-爱酷-",
-            "type": 0,
-            "url": "https://jx.zhanlangbu.com/?url=",
-            "ext": {
-                "flag": [
-                    "qq",
-                    "腾讯",
-                    "qiyi",
-                    "爱奇艺",
-                    "奇艺",
-                    "youku",
-                    "优酷",
-                    "mgtv",
-                    "芒果",
-                    "letv",
-                    "乐视",
-                    "pptv",
-                    "PPTV",
-                    "sohu",
-                    "bilibili",
-                    "哔哩哔哩",
-                    "哔哩"
-                ],
-                "ext": {
-                    "header": {
-                        "user-agent": "Mozilla/5.0 (Linux; Android 13; V2049A Build/TP1A.220624.014; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/116.0.0.0 Mobile Safari/537.36"
-                    }
-                }
-            }
-        },
-        {
             "name": "-云解析-",
             "type": 0,
             "url": "https://jx.yparse.com/index.php?url=",
@@ -554,43 +434,12 @@
             }
         },
         {
-            "name": "-777-",
+            "name": "-PJY-",
             "type": 0,
-            "url": "https://jx.jsonplayer.com/player/?url=",
+            "url": "https://jx.playerjy.com/?url=",
             "ext": {
                 "header": {
                     "user-agent": "Mozilla/5.0 (Linux; Android 13; V2049A Build/TP1A.220624.014; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/116.0.0.0 Mobile Safari/537.36"
-                }
-            }
-        },
-        {
-            "name": "-剖云-",
-            "type": 0,
-            "url": "https://www.kkvip2022.com/vip/jiexi1/?url=",
-            "ext": {
-                "header": {
-                    "user-agent": "Mozilla/5.0 (Linux; Android 13; V2049A Build/TP1A.220624.014; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/116.0.0.0 Mobile Safari/537.36"
-                }
-            }
-        },
-        {
-            "name": "-全看-",
-            "type": 0,
-            "url": "https://jx.quankan.app/?url=",
-            "ext": {
-                "header": {
-                    "user-agent": "Mozilla/5.0 (Linux; Android 13; V2049A Build/TP1A.220624.014; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/116.0.0.0 Mobile Safari/537.36"
-                }
-            }
-        },
-        {
-            "name": "-爱豆-",
-            "type": 0,
-            "url": "https://jx.aidouer.net/?url=",
-            "ext": {
-                "header": {
-                    "user-agent": "Mozilla/5.0 (Linux; Android 13; V2049A Build/TP1A.220624.014; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/116.0.0.0 Mobile Safari/537.36",
-                    "referer": "https://jiejie.uk/"
                 }
             }
         }

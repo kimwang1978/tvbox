@@ -99,7 +99,7 @@ var rule = {
     VOD = {
             vod_name: data.title,
             vod_pic: data.cover_url,
-            vod_play_from: '影视车App',
+            vod_play_from: '开心软件',
             vod_play_url: urls.join('#')
         };
     }),

@@ -5,6 +5,8 @@ https://cdn.jsdelivr.net/gh/feiyangdigital/testvideo/sdr4kvideo/index.m3u8
 https://cdn.jsdelivr.net/gh/feiyangdigital/testvideo/hlg4kvideo/index.m3u8
 #EXTINF:-1,tvg-id="CCTV1" tvg-name="CCTV1" tvg-logo="https://epg.v1.mk/logo/CCTV1.png" group-title="央视",cctv1-高码
 http://livetv.wqwqwq.sbs/gaoma/cctv1.m3u8
+#EXTINF:-1,tvg-id="CCTV1" tvg-name="CCTV1" tvg-logo="https://epg.v1.mk/logo/CCTV1.png" group-title="4K频道",cctv1-4K
+http://livetv.wqwqwq.sbs/rptv/G_CCTV-1-AVS-4K264.m3u8?license=gitv
 #EXTINF:-1,tvg-id="CCTV1" tvg-name="CCTV1" tvg-logo="https://epg.v1.mk/logo/CCTV1.png" group-title="央视",CCTV-1
 http://livetv.wqwqwq.sbs/itv/6000000001000029752.m3u8?cdn=wasusyt
 #EXTINF:-1,tvg-id="cctv1" tvg-name="cctv1" tvg-logo="https://epg.v1.mk/logo/cctv1.png" group-title="央视",CCTV-1-50-FPS
@@ -21,6 +23,8 @@ http://livetv.wqwqwq.sbs/itv/6000000001000014161.m3u8?cdn=wasusyt
 http://livetv.wqwqwq.sbs/itv/1000000001000023315.m3u8?cdn=ystenlive
 #EXTINF:-1,tvg-id="cctv3" tvg-name="cctv3" tvg-logo="https://epg.v1.mk/logo/cctv3.png" group-title="央视",cctv3-高码
 http://livetv.wqwqwq.sbs/gaoma/cctv3.m3u8
+#EXTINF:-1,tvg-id="cctv3" tvg-name="cctv3" tvg-logo="https://epg.v1.mk/logo/cctv3.png" group-title="4K频道",cctv3-4K
+http://livetv.wqwqwq.sbs/rptv/G_CCTV-3-AVS-4K264.m3u8?license=gitv
 #EXTINF:-1,tvg-id="cctv3" tvg-name="cctv3" tvg-logo="https://epg.v1.mk/logo/cctv3.png" group-title="央视",CCTV-3
 http://livetv.wqwqwq.sbs/itv/6000000001000022313.m3u8?cdn=wasusyt
 #EXTINF:-1,tvg-id="cctv3" tvg-name="cctv3" tvg-logo="https://epg.v1.mk/logo/cctv3.png" group-title="央视",CCTV-3-HEVC
@@ -33,6 +37,8 @@ http://livetv.wqwqwq.sbs/itv/5000000011000031102.m3u8?cdn=bestzb
 http://livetv.wqwqwq.sbs/itv/1000000005000265004.m3u8?cdn=ystenlive
 #EXTINF:-1,tvg-id="cctv5" tvg-name="cctv5" tvg-logo="https://epg.v1.mk/logo/cctv5.png" group-title="央视",cctv5-高码
 http://livetv.wqwqwq.sbs/gaoma/cctv5.m3u8
+#EXTINF:-1,tvg-id="cctv5" tvg-name="cctv5" tvg-logo="https://epg.v1.mk/logo/cctv5.png" group-title="4K频道",cctv5-4K
+http://livetv.wqwqwq.sbs/rptv/G_CCTV-5-AVS-4K264.m3u8?license=gitv
 #EXTINF:-1,tvg-id="cctv5" tvg-name="cctv5" tvg-logo="https://epg.v1.mk/logo/cctv5.png" group-title="央视",CCTV-5
 http://livetv.wqwqwq.sbs/itv/1000000005000025222.m3u8?cdn=ystenlive
 #EXTINF:-1,tvg-id="cctv5" tvg-name="cctv5" tvg-logo="https://epg.v1.mk/logo/cctv5.png" group-title="央视",CCTV-5-HEVC
@@ -43,6 +49,8 @@ http://livetv.wqwqwq.sbs/gaoma/cctv5p.m3u8
 http://livetv.wqwqwq.sbs/itv/6000000001000015875.m3u8?cdn=wasusyt
 #EXTINF:-1,tvg-id="cctv5+" tvg-name="cctv5+" tvg-logo="https://epg.v1.mk/logo/cctv5+.png" group-title="央视",CCTV-5+-HEVC
 http://livetv.wqwqwq.sbs/itv/1000000005000265016.m3u8?cdn=ystenlive
+#EXTINF:-1,tvg-id="cctv6" tvg-name="cctv6" tvg-logo="https://epg.v1.mk/logo/cctv6.png" group-title="央视",cctv6-高码
+http://livetv.wqwqwq.sbs/rptv/G_CCTV-6-AVS-4K264.m3u8?license=gitv
 #EXTINF:-1,tvg-id="cctv6" tvg-name="cctv6" tvg-logo="https://epg.v1.mk/logo/cctv6.png" group-title="央视",CCTV-6
 http://livetv.wqwqwq.sbs/itv/1000000001000001737.m3u8?cdn=ystenlive
 #EXTINF:-1,tvg-id="CCTV6" tvg-name="CCTV6" tvg-logo="https://epg.v1.mk/logo/CCTV6.png" group-title="央视",CCTV-6-50-FPS
@@ -59,6 +67,8 @@ http://livetv.wqwqwq.sbs/itv/6000000001000009055.m3u8?cdn=wasusyt
 http://livetv.wqwqwq.sbs/itv/1000000005000265007.m3u8?cdn=ystenlive
 #EXTINF:-1,tvg-id="cctv8" tvg-name="cctv8" tvg-logo="https://epg.v1.mk/logo/cctv8.png" group-title="央视",cctv8-高码
 http://livetv.wqwqwq.sbs/gaoma/cctv8.m3u8
+#EXTINF:-1,tvg-id="cctv8" tvg-name="cctv8" tvg-logo="https://epg.v1.mk/logo/cctv8.png" group-title="央视",cctv8-AVS
+http://livetv.wqwqwq.sbs/rptv/G_CCTV-8-AVS-4K264.m3u8?license=gitv
 #EXTINF:-1,tvg-id="cctv8" tvg-name="cctv8" tvg-logo="https://epg.v1.mk/logo/cctv8.png" group-title="央视",CCTV-8
 http://livetv.wqwqwq.sbs/itv/6000000001000001070.m3u8?cdn=wasusyt
 #EXTINF:-1,tvg-id="cctv8" tvg-name="cctv8" tvg-logo="https://epg.v1.mk/logo/cctv8.png" group-title="央视",CCTV-8-HEVC
@@ -113,6 +123,8 @@ http://livetv.wqwqwq.sbs/itv/5000000011000031109.m3u8?cdn=bestzb
 http://livetv.wqwqwq.sbs/itv/1000000005000265014.m3u8?cdn=ystenlive
 #EXTINF:-1,tvg-id="cctv16" tvg-name="cctv16" tvg-logo="https://epg.v1.mk/logo/cctv16.png" group-title="央视",cctv16-高码
 http://livetv.wqwqwq.sbs/gaoma/cctv16.m3u8
+#EXTINF:-1,tvg-id="cctv16" tvg-name="cctv16" tvg-logo="https://epg.v1.mk/logo/cctv16.png" group-title="4K频道",cctv16-4K-SDR
+http://livetv.wqwqwq.sbs/rptv/G_CCTV-16-4K.m3u8?license=gitv
 #EXTINF:-1,tvg-id="cctv16" tvg-name="cctv16" tvg-logo="https://epg.v1.mk/logo/cctv16.png" group-title="央视",CCTV-16
 http://livetv.wqwqwq.sbs/itv/1000000006000233002.m3u8?cdn=ystenlive
 #EXTINF:-1,tvg-id="cctv16" tvg-name="cctv16" tvg-logo="https://epg.v1.mk/logo/cctv16.png" group-title="4K频道",CCTV-16-4K-HEVC
@@ -127,6 +139,36 @@ http://livetv.wqwqwq.sbs/gaoma/cctv17.m3u8
 http://livetv.wqwqwq.sbs/itv/1000000006000268004.m3u8?cdn=ystenlive
 #EXTINF:-1,tvg-id="cctv17" tvg-name="cctv17" tvg-logo="https://epg.v1.mk/logo/cctv17.png" group-title="央视",CCTV-17-HEVC
 http://livetv.wqwqwq.sbs/itv/1000000005000265015.m3u8?cdn=ystenlive
+#EXTINF:-1,tvg-id="世界地理" tvg-name="世界地理" tvg-logo="https://epg.v1.mk/logo/世界地理.png" group-title="央视",世界地理
+http://livetv.wqwqwq.sbs/rptv/G_SHIJIEDL-CQ.m3u8?license=gitv
+#EXTINF:-1,tvg-id="风云剧场" tvg-name="风云剧场" tvg-logo="https://epg.v1.mk/logo/风云剧场.png" group-title="央视",风云剧场
+http://livetv.wqwqwq.sbs/rptv/G_FENGYUNJC-CQ.m3u8?license=gitv
+#EXTINF:-1,tvg-id="风云足球" tvg-name="风云足球" tvg-logo="https://epg.v1.mk/logo/风云足球.png" group-title="央视",风云足球
+http://livetv.wqwqwq.sbs/rptv/G_FENGSHANGZQ-CQ.m3u8?license=gitv
+#EXTINF:-1,tvg-id="风云音乐" tvg-name="风云音乐" tvg-logo="https://epg.v1.mk/logo/风云音乐.png" group-title="央视",风云音乐
+http://livetv.wqwqwq.sbs/rptv/G_FENGYUNYY-CQ.m3u8?license=gitv
+#EXTINF:-1,tvg-id="兵器科技" tvg-name="兵器科技" tvg-logo="https://epg.v1.mk/logo/兵器科技.png" group-title="央视",兵器科技
+http://livetv.wqwqwq.sbs/rptv/G_BINGQIKJ-CQ.m3u8?license=gitv
+#EXTINF:-1,tvg-id="央视台球" tvg-name="央视台球" tvg-logo="https://epg.v1.mk/logo/央视台球.png" group-title="央视",央视台球
+http://livetv.wqwqwq.sbs/rptv/G_TAIQIU-CQ.m3u8?license=gitv
+#EXTINF:-1,tvg-id="高尔夫网球" tvg-name="高尔夫网球" tvg-logo="https://epg.v1.mk/logo/高尔夫网球.png" group-title="央视",高尔夫网球
+http://livetv.wqwqwq.sbs/rptv/G_CCTV-GOLF-CQ.m3u8?license=gitv
+#EXTINF:-1,tvg-id="女性时尚" tvg-name="女性时尚" tvg-logo="https://epg.v1.mk/logo/女性时尚.png" group-title="央视",女性时尚
+http://livetv.wqwqwq.sbs/rptv/G_NVXINGSS-CQ.m3u8?license=gitv
+#EXTINF:-1,tvg-id="电视指南" tvg-name="电视指南" tvg-logo="https://epg.v1.mk/logo/电视指南.png" group-title="央视",电视指南
+http://livetv.wqwqwq.sbs/rptv/G_DIANSHIZN-CQ.m3u8?license=gitv
+#EXTINF:-1,tvg-id="第一剧场" tvg-name="第一剧场" tvg-logo="https://epg.v1.mk/logo/第一剧场.png" group-title="央视",第一剧场
+http://livetv.wqwqwq.sbs/rptv/G_DIYIJC-CQ.m3u8?license=gitv
+#EXTINF:-1,tvg-id="怀旧剧场" tvg-name="怀旧剧场" tvg-logo="https://epg.v1.mk/logo/怀旧剧场.png" group-title="央视",怀旧剧场
+http://livetv.wqwqwq.sbs/rptv/G_HUAIJIUJC-CQ.m3u8?license=gitv
+#EXTINF:-1,tvg-id="央视文化精品" tvg-name="央视文化精品" tvg-logo="https://epg.v1.mk/logo/央视文化精品.png" group-title="央视",央视文化精品
+http://livetv.wqwqwq.sbs/rptv/G_CCTV-WENHUA-CQ.m3u8?license=gitv
+#EXTINF:-1,tvg-id="凤凰卫视中文" tvg-name="凤凰卫视中文" tvg-logo="https://epg.v1.mk/logo/凤凰卫视中文.png" group-title="卫视",凤凰卫视中文
+http://livetv.wqwqwq.sbs/rptv/HD-10000k-1080P-fhchinese5s.m3u8?license=cntv
+#EXTINF:-1,tvg-id="凤凰卫视资讯" tvg-name="凤凰卫视资讯" tvg-logo="https://epg.v1.mk/logo/凤凰卫视资讯.png" group-title="卫视",凤凰卫视资讯
+http://livetv.wqwqwq.sbs/rptv/HD-10000k-1080P-fhzixun5s.m3u8?license=cntv
+#EXTINF:-1,tvg-id="凤凰卫视香港" tvg-name="凤凰卫视香港" tvg-logo="https://epg.v1.mk/logo/凤凰卫视香港.png" group-title="香港",凤凰卫视香港
+http://livetv.wqwqwq.sbs/rptv/HD-10000k-1080P-fhhongkong5s.m3u8?license=cntv
 #EXTINF:-1,tvg-id="cgtn" tvg-name="cgtn" tvg-logo="https://epg.v1.mk/logo/cgtn.png" group-title="央视",CGTN
 http://livetv.wqwqwq.sbs/itv/7745129417417101820.m3u8?cdn=hnbblive
 #EXTINF:-1,tvg-id="CGTN记录" tvg-name="CGTN记录" tvg-logo="https://epg.v1.mk/logo/CGTN记录.png" group-title="央视",CGTN-记录
@@ -145,6 +187,12 @@ http://livetv.wqwqwq.sbs/gaoma/cgtnru.m3u8
 http://livetv.wqwqwq.sbs/gaoma/cgtnsp.m3u8
 #EXTINF:-1,tvg-id="重温经典" tvg-name="重温经典" tvg-logo="https://epg.v1.mk/logo/重温经典.png" group-title="其他",重温经典
 https://gdcucc.v1.mk/gdcucc/cwjd.m3u8
+#EXTINF:-1,tvg-id="CHC家庭影院" tvg-name="CHC家庭影院" tvg-logo="https://epg.v1.mk/logo/CHC家庭影院.png" group-title="其他",CHC家庭影院
+https://gdcucc.v1.mk/gdcucc/chcjtyy.m3u8
+#EXTINF:-1,tvg-id="CHC动作电影" tvg-name="CHC动作电影" tvg-logo="https://epg.v1.mk/logo/CHC动作电影.png" group-title="其他",CHC动作电影
+https://gdcucc.v1.mk/gdcucc/chcdzdy.m3u8
+#EXTINF:-1,tvg-id="cctv4k" tvg-name="cctv4k" tvg-logo="https://epg.v1.mk/logo/cctv4k.png" group-title="4K频道",cctv4k-SDR
+http://livetv.wqwqwq.sbs/rptv/G_CCTV-4K-HD.m3u8?license=gitv
 #EXTINF:-1,tvg-id="cctv4k" tvg-name="cctv4k" tvg-logo="https://epg.v1.mk/logo/cctv4k.png" group-title="4K频道",cctv4k_10m
 http://livetv.wqwqwq.sbs/gaoma/cctv4k_10m.m3u8
 #EXTINF:-1,tvg-id="cctv4k" tvg-name="cctv4k" tvg-logo="https://epg.v1.mk/logo/cctv4k.png" group-title="4K频道",cctv4k
@@ -303,16 +351,24 @@ http://livetv.wqwqwq.sbs/itv/1000000005000265017.m3u8?cdn=ystenlive
 http://livetv.wqwqwq.sbs/itv/6000000003000004748.m3u8?cdn=wasusyt
 #EXTINF:-1,tvg-id="纯享4K" tvg-name="纯享4K" tvg-logo="https://epg.v1.mk/logo/纯享4K.png" group-title="4K频道",纯享-4K
 http://livetv.wqwqwq.sbs/itv/1000000004000011651.m3u8?cdn=ystenlive
+#EXTINF:-1,tvg-id="纯享4K" tvg-name="纯享4K" tvg-logo="https://epg.v1.mk/logo/纯享4K.png" group-title="4K频道",纯享4K-2
+http://livetv.wqwqwq.sbs/rptv/HD-20M-2160P-chunxiang4k.m3u8?license=cntv
 #EXTINF:-1,tvg-id="咪咕4K" tvg-name="咪咕4K" tvg-logo="https://epg.v1.mk/logo/咪咕4K.png" group-title="4K频道",咪咕4K-1
 http://livetv.wqwqwq.sbs/itv/3000000010000005180.m3u8?cdn=FifastbLive
 #EXTINF:-1,tvg-id="咪咕4K" tvg-name="咪咕4K" tvg-logo="https://epg.v1.mk/logo/咪咕4K.png" group-title="4K频道",咪咕4K-2
 http://livetv.wqwqwq.sbs/itv/3000000010000015686.m3u8?cdn=FifastbLive
+#EXTINF:-1,tvg-id="4k超高清" tvg-name="4k超高清" tvg-logo="https://epg.v1.mk/logo/睛彩篮球.png" group-title="4K频道",篮球4K
+http://livetv.wqwqwq.sbs/rptv/miguaoyun01-AVS-4K01.m3u8?license=gitv
+#EXTINF:-1,tvg-id="4k超高清" tvg-name="4k超高清" tvg-logo="https://epg.v1.mk/logo/睛彩竞技.png" group-title="其他",高清臻享睛彩竞技
+http://livetv.wqwqwq.sbs/rptv/miguaoyun1-AVS.m3u8?license=gitv
 #EXTINF:-1,tvg-id="LOVENATURE" tvg-name="LOVENATURE" tvg-logo="https://epg.v1.mk/logo/LOVENATURE.png" group-title="4K频道",Love Nature 4K
 https://d18dyiwu97wm6q.cloudfront.net/playlist2160p.m3u8
 #EXTINF:-1,tvg-id="LOUPE4K" tvg-name="LOUPE4K" tvg-logo="https://epg.v1.mk/logo/LOUPE4K.png" group-title="4K频道",Loupe 4K
 https://d2dw21aq0j0l5c.cloudfront.net/playlist_3840x2160.m3u8
 #EXTINF:-1,tvg-id="FASHIONONE" tvg-name="FASHIONONE" tvg-logo="https://epg.v1.mk/logo/FASHIONONE.png" group-title="4K频道",Fashion 4K
 https://fash2043.cloudycdn.services/slive/ftv_ftv_4k_hevc_73d_42080_default_466_hls.smil/playlist.m3u8
+#EXTINF:-1,tvg-id="睛彩篮球" tvg-name="睛彩青少" tvg-logo="https://epg.v1.mk/logo/睛彩青少.png" group-title="其他",睛彩青少-AVS
+http://livetv.wqwqwq.sbs/rptv/G_MIGUJCQS.m3u8?license=gitv
 #EXTINF:-1,tvg-id="咪咕全民热练" tvg-name="咪咕全民热练" tvg-logo="https://epg.v1.mk/logo/咪咕4k.png" group-title="其他",咪咕全民热练
 http://livetv.wqwqwq.sbs/itv/3000000020000031315.m3u8?cdn=FifastbLive
 #EXTINF:-1,tvg-id="求索动物" tvg-name="求索动物" tvg-logo="https://epg.v1.mk/logo/求索动物.png" group-title="其他",求索动物

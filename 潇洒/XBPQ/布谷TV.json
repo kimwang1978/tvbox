@@ -1,6 +1,7 @@
 {
     "主页url": "https://www.bugutv.org/",
-    "搜索url": "https://www.bugutv.org/page/{pg}?cat&s={wd}",
+    "搜索url": "https://www.bugutv.org/?cat=&s={wd}",
+    "搜索数组": "content-area\">&&</div>",
     "简介": "◎简*介</p>&&</p>",
     "导演": "◎导*演&&<br>",
     "主演": "◎主*演&&<br>",

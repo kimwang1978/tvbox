@@ -1,4 +1,4 @@
-globalThis.getRandomItem = function (items) {
+globalThis.getRandomItem = function(items) {
     return items[Math.random() * items.length | 0];
 }
 var rule = {
@@ -95,16 +95,15 @@ var rule = {
                         json1 = json1.filter(cl => !new RegExp(_obj.cate_exclude, 'i').test(cl.type_name));
                     }
                     rule.filter[_obj.type_id] = [{
-                            "key": "类型",
-                            "name": "类型",
-                            "value": json1.map(i => {
-                                return {
-                                    "n": i.type_name,
-                                    'v': i.type_id
-                                }
-                            })
-                        }
-                    ];
+                        "key": "类型",
+                        "name": "类型",
+                        "value": json1.map(i => {
+                            return {
+                                "n": i.type_name,
+                                'v': i.type_id
+                            }
+                        })
+                    }];
                     if (json1.length > 0) {
                         rule.filter_def[it.url] = {
                             "类型": json1[0].type_id
@@ -112,15 +111,13 @@ var rule = {
                     }
                 } catch (e) {
                     rule.filter[it.url] = [{
-                            "key": "类型",
-                            "name": "类型",
-                            "value": [{
-                                    "n": "全部",
-                                    "v": ""
-                                }
-                            ]
-                        }
-                    ];
+                        "key": "类型",
+                        "name": "类型",
+                        "value": [{
+                            "n": "全部",
+                            "v": ""
+                        }]
+                    }];
                 }
             });
             rule.classes = _classes;

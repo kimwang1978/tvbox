@@ -11,11 +11,7 @@
             "api": "csp_DouDou",
             "searchable": 0,
             "filterable": 1,
-            "changeable": 1,
-            "ext": {
-                "commonConfig": "http://127.0.0.1:9978/file/TVBox/peizhi.json",
-                "filter": "./json/douban.json"
-            }
+            "changeable": 1
         },
         {
             "key": "ConfigCenter",
@@ -78,16 +74,6 @@
             "ext": "http://www.czzyvideo.com"
         },
         {
-            "key": "csp_SuBaiBai",
-            "name": "🏳️素白白",
-            "type": 3,
-            "api": "csp_SuBaiBai",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1,
-            "ext": "http://subaibai.com"
-        },
-        {
             "key": "瓜子",
             "name": "🍉瓜子",
             "type": 3,
@@ -105,6 +91,15 @@
             "quickSearch": 1,
             "filterable": 1,
             "ext": "https://wwgz.cn"
+        },
+        {
+            "key": "csp_Lkdy",
+            "name": "🏔️来看",
+            "type": 3,
+            "api": "csp_Lkdy",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1
         },
         {
             "key": "csp_Fantuan",
@@ -169,6 +164,15 @@
             "filterable": 1
         },
         {
+            "key": "csp_Lggys",
+            "name": "💗️攻阁",
+            "type": 3,
+            "api": "csp_Lggys",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1
+        },
+        {
             "key": "csp_DiDuan",
             "name": "📺低端",
             "type": 3,
@@ -217,6 +221,15 @@
             "ext": "./json/jianpian.json"
         },
         {
+            "key": "csp_Xlys",
+            "name": "🧲修罗",
+            "type": 3,
+            "api": "csp_Xlys",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1
+        },
+        {
             "key": "csp_SixV",
             "name": "🧲新6V",
             "type": 3,
@@ -253,16 +266,6 @@
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 1
-        },
-        {
-            "key": "csp_Alllive",
-            "name": "📽️一直播",
-            "type": 3,
-            "api": "csp_Alllive",
-            "playerType": 2,
-            "searchable": 0,
-            "quickSearch": 0,
-            "changeable": 0
         },
         {
             "key": "csp_Kanqiu",
@@ -317,7 +320,7 @@
         },
         {
             "key": "玩偶gg",
-            "name": "👽玩偶哥哥",
+            "name": "👽玩偶",
             "type": 3,
             "api": "csp_Wogg",
             "searchable": 1,
@@ -325,32 +328,6 @@
             "ext": {
                 "commonConfig": "http://127.0.0.1:9978/file/TVBox/peizhi.json",
                 "siteUrl": "https://www.wogg.net",
-                "filter": "./json/wogg.json"
-            }
-        },
-        {
-            "key": "多多",
-            "name": "🌟多多影音",
-            "type": 3,
-            "api": "csp_kongbai",
-            "searchable": 1,
-            "changeable": 0,
-            "ext": {
-                "commonConfig": "http://127.0.0.1:9978/file/TVBox/peizhi.json",
-                "siteUrl": "https://tv.yydsys.top",
-                "filter": "./json/wogg.json"
-            }
-        },
-        {
-            "key": "蜡笔",
-            "name": "🖍︎蜡笔",
-            "type": 3,
-            "api": "csp_kongbai",
-            "searchable": 1,
-            "changeable": 0,
-            "ext": {
-                "commonConfig": "http://127.0.0.1:9978/file/TVBox/peizhi.json",
-                "siteUrl": "https://duopan.fun",
                 "filter": "./json/wogg.json"
             }
         },
@@ -363,7 +340,46 @@
             "changeable": 0,
             "ext": {
                 "commonConfig": "http://127.0.0.1:9978/file/TVBox/peizhi.json",
-                "siteUrl": "https://mihdr.top",
+                "siteUrl": "http://www.xhww.net",
+                "filter": "./json/wogg.json"
+            }
+        },
+        {
+            "key": "蜡笔",
+            "name": "🖍︎蜡笔",
+            "type": 3,
+            "api": "csp_kongbai",
+            "searchable": 1,
+            "changeable": 0,
+            "ext": {
+                "commonConfig": "http://127.0.0.1:9978/file/TVBox/peizhi.json",
+                "siteUrl": "http://feimaoai.site",
+                "filter": "./json/wogg.json"
+            }
+        },
+        {
+            "key": "欧哥",
+            "name": "🅾欧哥",
+            "type": 3,
+            "api": "csp_kongbai",
+            "searchable": 1,
+            "changeable": 0,
+            "ext": {
+                "commonConfig": "http://127.0.0.1:9978/file/TVBox/peizhi.json",
+                "siteUrl": "https://tv.yydsys.top",
+                "filter": "./json/wogg.json"
+            }
+        },
+        {
+            "key": "多多",
+            "name": "🌟多多",
+            "type": 3,
+            "api": "csp_kongbai",
+            "searchable": 1,
+            "changeable": 0,
+            "ext": {
+                "commonConfig": "http://127.0.0.1:9978/file/TVBox/peizhi.json",
+                "siteUrl": "https://woog.nxog.eu.org",
                 "filter": "./json/wogg.json"
             }
         },
@@ -376,7 +392,7 @@
             "changeable": 0,
             "ext": {
                 "commonConfig": "http://127.0.0.1:9978/file/TVBox/peizhi.json",
-                "siteUrl": "http://mogg.xn--yetu07f.top",
+                "siteUrl": "http://www.mogg.top",
                 "filter": "./json/wogg.json"
             }
         },
@@ -513,7 +529,8 @@
             "changeable": 0,
             "ext": {
                 "siteUrl": "http://127.0.0.1:9999",
-                "channelUsername": "hao115,guaguale115,longzbija,dianyingshare,XiangxiuNB,yunpanpan,kuakeyun,zaihuayun,Quark_Movies,alyp_4K_Movies,vip115hot,yunpanshare,ucwangpan,Quark_Share_Channel,Aliyundrive_Share_Channel,shareAliyun,ikiviyyp,wanwansubchat,wangpanziyuan2021,alyp_1,quanziyuanshe",
+                "count": 4,
+                "channelUsername": "ucpanpan,ydypzyfx,tianyi_pd2,hao115,guaguale115,longzbija,dianyingshare,XiangxiuNB,yunpanpan,kuakeyun,zaihuayun,Quark_Movies,alyp_4K_Movies,vip115hot,yunpanshare,ucwangpan,Quark_Share_Channel,Aliyundrive_Share_Channel,shareAliyun,ikiviyyp,wanwansubchat,wangpanziyuan2021,alyp_1,quanziyuanshe",
                 "commonConfig": "http://127.0.0.1:9978/file/TVBox/peizhi.json",
                 "filter": "./json/douban.json"
             }
@@ -527,7 +544,8 @@
             "filterable": 0,
             "switchable": 0,
             "ext": {
-                "channelUsername": "hao115,guaguale115,dianyingshare,XiangxiuNB,yunpanpan,kuakeyun,zaihuayun,Quark_Movies,alyp_4K_Movies,vip115hot,yunpanshare,ucwangpan,Quark_Share_Channel,Aliyundrive_Share_Channel,shareAliyun,ikiviyyp,wanwansubchat,wangpanziyuan2021,alyp_1,quanziyuanshe",
+                "count": 4,
+                "channelUsername": "ucpanpan,ydypzyfx,tianyi_pd2,hao115,guaguale115,longzbija,dianyingshare,XiangxiuNB,yunpanpan,kuakeyun,zaihuayun,Quark_Movies,alyp_4K_Movies,vip115hot,yunpanshare,ucwangpan,Quark_Share_Channel,Aliyundrive_Share_Channel,shareAliyun,ikiviyyp,wanwansubchat,wangpanziyuan2021,alyp_1,quanziyuanshe",
                 "commonConfig": "http://127.0.0.1:9978/file/TVBox/peizhi.json"
             }
         },
@@ -582,16 +600,6 @@
             "quickSearch": 0,
             "filterable": 0,
             "ext": "./js/JRKAN直播.js"
-        },
-        {
-            "key": "88看球",
-            "name": "⚽88看球",
-            "type": 3,
-            "api": "./api/drpy2.min.js",
-            "searchable": 0,
-            "quickSearch": 0,
-            "filterable": 0,
-            "ext": "./js/88看球.js"
         },
         {
             "key": "酷奇MV",
@@ -784,9 +792,9 @@
             }
         },
         {
-            "name": "虾米",
+            "name": "77",
             "type": 0,
-            "url": "https://jx.xyflv.cc/?url=",
+            "url": "https://jx.77flv.cc/?url=",
             "ext": {
                 "flag": [
                     "qq",
@@ -810,9 +818,9 @@
             }
         },
         {
-            "name": "虾米2",
+            "name": "咸鱼",
             "type": 0,
-            "url": "https://jx.xmflv.com/?url=",
+            "url": "https://jx.xymp4.cc/?url=",
             "ext": {
                 "flag": [
                     "qq",
@@ -850,24 +858,6 @@
             "epg": "http://epg.51zmt.top:8000/api/diyp/?ch={name}&date={date}"
         },
         {
-            "name": "feiyang.tptv",
-            "type": 0,
-            "url": "http://127.0.0.1:35457/tptv.m3u",
-            "epg": "http://epg.51zmt.top:8000/api/diyp/?ch={name}&date={date}"
-        },
-        {
-            "name": "feiyang.migu",
-            "type": 0,
-            "url": "http://127.0.0.1:35457/migu.m3u",
-            "epg": "http://epg.51zmt.top:8000/api/diyp/?ch={name}&date={date}"
-        },
-        {
-            "name": "feiyang.miguevent",
-            "type": 0,
-            "url": "http://127.0.0.1:35457/miguevent.m3u",
-            "epg": "http://epg.51zmt.top:8000/api/diyp/?ch={name}&date={date}"
-        },
-        {
             "name": "feiyang.bililive",
             "type": 0,
             "url": "http://127.0.0.1:35457/bililive.m3u",
@@ -892,7 +882,7 @@
             "epg": "http://epg.51zmt.top:8000/api/diyp/?ch={name}&date={date}"
         }
     ],
-    "logo": "https://github.moeyy.xyz/https://raw.githubusercontent.com/yoursmile66/TVBox/main/sub/NanFeng.gif",
+    "logo": "https://gh-proxy.com/https://raw.githubusercontent.com/yoursmile66/TVBox/refs/heads/main/sub/NanFeng.gif",
     "rules": [
         {
             "name": "proxy",

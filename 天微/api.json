@@ -28,7 +28,7 @@
     "sites": [
         {
             "key": "豆瓣",
-            "name": "公众号：天微科技 提示：自用测试禁止传播，免费资源切勿购买",
+            "name": "公众号：天微科技 祝您：新年快乐 阖家幸福",
             "type": 3,
             "api": "csp_Douban",
             "searchable": 0,
@@ -48,17 +48,6 @@
             }
         },
         {
-            "key": "好趣网",
-            "name": "《好趣🔹直播》",
-            "type": 3,
-            "api": "./api/drpy2.min.js",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1,
-            "order_num": 87,
-            "ext": "./js/好趣网.js"
-        },
-        {
             "key": "alllive",
             "name": "《平台🔹直播》",
             "type": 3,
@@ -71,6 +60,26 @@
                 "danmu": true
             },
             "timeout": 10
+        },
+        {
+            "key": "央视大全",
+            "name": "《央视🔹大全》",
+            "type": 3,
+            "api": "./api/drpy2.min.js",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "order_num": 0,
+            "ext": "./js/央视大全.js"
+        },
+        {
+            "key": "人人",
+            "name": "《免扫🔹人4K》",
+            "type": 3,
+            "api": "csp_Xdai",
+            "jar": "./jars/人人.jar",
+            "playerType": 1,
+            "ext": "caHR0cHM6Ly9qaWVrb3UtMTMxNDA1NDY5OS5jb3MuYXAtY2hvbmdxaW5nLm15cWNsb3VkLmNvbS8xLnR4dHxGNTFGNUQ1MkQyM0NCRjI3fEY1MUY1RDUyRDIzQ0JGMjd8MTky"
         },
         {
             "key": "csp_JPYY",
@@ -96,6 +105,52 @@
             "ext": "./js/腾腾4K.js"
         },
         {
+            "key": "皮皮虾",
+            "name": "《免扫🔹虾4K》",
+            "type": 3,
+            "api": "csp_AppYsV2",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "ext": "http://www.ppxys.vip/api.php/app/"
+        },
+        {
+            "key": "csp_Wwys",
+            "name": "《理想🔹影视》",
+            "type": 3,
+            "playerType": 2,
+            "changeable": 0,
+            "api": "csp_Wwys",
+            "jar": "./jars/csp_JPYY.jar",
+            "ext": "https://www.wwgz.cn/"
+        },
+        {
+            "key": "量子",
+            "name": "《量子🔹秒播》",
+            "type": 1,
+            "api": "http://cj.lziapi.com/api.php/provide/vod/",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 0,
+            "playurl": "json:https://lziplayer.com/?url=",
+            "categories": [
+                "国产剧",
+                "国产动漫",
+                "泰国剧",
+                "台湾剧",
+                "香港剧",
+                "欧美剧",
+                "韩国剧",
+                "日本剧",
+                "动漫",
+                "体育",
+                "剧情片",
+                "动作片",
+                "爱情片",
+                "喜剧片"
+            ]
+        },
+        {
             "key": "果果4K解析_js",
             "name": "《免扫🔹果4K》",
             "type": 3,
@@ -105,17 +160,6 @@
             "filterable": 1,
             "order_num": 0,
             "ext": "./js/果果4K.js"
-        },
-        {
-            "key": "白嫖皮虾",
-            "name": "《免扫🔹虾4K》",
-            "type": 3,
-            "api": "./api/drpy2.min.js",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1,
-            "order_num": 0,
-            "ext": "./js/皮皮虾4K.js"
         },
         {
             "key": "腾讯",
@@ -165,6 +209,56 @@
                 "danmu": true
             },
             "timeout": 10
+        },
+        {
+            "key": "文才弹幕",
+            "name": "《文才🔹弹幕》",
+            "type": 3,
+            "api": "csp_Jpys",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "ext": {
+                "danmu": true
+            }
+        },
+        {
+            "key": "浪酷弹幕",
+            "name": "《浪酷🔹弹幕》",
+            "type": 3,
+            "api": "csp_TianTian",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "ext": {
+                "danmu": true,
+                "site": "aHR0cDovL3YubGt1eXMuY24="
+            }
+        },
+        {
+            "key": "糯米弹幕",
+            "name": "《糯米🔹弹幕》",
+            "type": 3,
+            "api": "csp_Nmys",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "ext": {
+                "danmu": true
+            }
+        },
+        {
+            "key": "热播弹幕",
+            "name": "《热播🔹弹幕》",
+            "type": 3,
+            "api": "csp_TianTian",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "ext": {
+                "danmu": true,
+                "site": "aHR0cDovL3YucmJvdHYuY24="
+            }
         },
         {
             "key": "嫖嫖嫖",
@@ -419,16 +513,6 @@
                 "大陆综艺",
                 "港台综艺"
             ]
-        },
-        {
-            "key": "csp_Wwys",
-            "name": "《理想🔹秒播》",
-            "type": 3,
-            "playerType": 2,
-            "changeable": 0,
-            "api": "csp_Wwys",
-            "jar": "./jars/csp_JPYY.jar",
-            "ext": "https://www.wwgz.cn/"
         },
         {
             "key": "csp_MiTuApp",
@@ -1652,7 +1736,7 @@
             "url": "https://lzplayer.tv/?url="
         },
         {
-            "name": "解析1",
+            "name": "解析0",
             "type": 1,
             "url": "http://1.94.221.189:88/algorithm.php?url=",
             "ext": {
@@ -1681,6 +1765,35 @@
             }
         },
         {
+            "name": "解析1",
+            "type": "1",
+            "url": "https://zy.qiaoji8.com/gouzi.php?url=",
+            "ext": {
+                "flag": [
+                    "qq",
+                    "腾讯",
+                    "qiyi",
+                    "爱奇艺",
+                    "奇艺",
+                    "youku",
+                    "优酷",
+                    "sohu",
+                    "搜狐",
+                    "letv",
+                    "乐视",
+                    "mgtv",
+                    "芒果",
+                    "tnmb",
+                    "seven",
+                    "bilibili",
+                    "1905"
+                ],
+                "header": {
+                    "User-Agent": "okhttp/4.9.1"
+                }
+            }
+        },
+        {
             "name": "解析2",
             "type": 0,
             "url": "https://jx.xmflv.com/?url=",
@@ -1692,8 +1805,14 @@
         },
         {
             "name": "解析3",
-            "type": 0,
-            "url": "https://www.8090g.cn/?url="
+            "type": "1",
+            "url": "http://jiexi.52ppx.top/lxjson.php?url=",
+            "ext": {
+                "flag": [
+                    "PPXLG",
+                    "皮皮虾4K"
+                ]
+            }
         },
         {
             "name": "解析4",

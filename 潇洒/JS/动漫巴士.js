@@ -3,7 +3,9 @@ var rule = {
     title: '动漫巴士[漫]',
     host: 'http://dm84.site',
     hostJs: 'print(HOST);let html=request(HOST,{headers:{"User-Agent":MOBILE_UA}});let src= jsp.pdfh(html,"ul&&a:eq(0)&&href");print(src);HOST=src',
-    headers: {'User-Agent': 'MOBILE_UA'},
+    headers: {
+        'User-Agent': 'MOBILE_UA'
+    },
     编码: 'utf-8',
     timeout: 5000,
 
@@ -34,26 +36,26 @@ input= kurl
     limit: 9,
     double: false,
     推荐: '*',
-//列表;标题;图片;描述;链接;详情(可不写)
+    //列表;标题;图片;描述;链接;详情(可不写)
     一级: '.v_list li;a&&title;a&&data-bg;.desc&&Text;a&&href',
     二级: {
-//名称;类型
+        //名称;类型
         "title": "h1&&Text;meta[name*=class]&&content",
-//图片
+        //图片
         "img": "img&&src",
-//主要描述;年份;地区;演员;导演
+        //主要描述;年份;地区;演员;导演
         "desc": "meta[name*=update_date]&&content;meta[name*=release_date]&&content;meta[name*=area]&&content;meta[name*=actor]&&content;meta[name*=director]&&content",
-//简介
+        //简介
         "content": "p:eq(-2)&&Text",
-//线路数组
+        //线路数组
         "tabs": ".tab_control&&li",
-//线路标题
+        //线路标题
         "tab_text": "body&&Text",
-//播放数组 选集列表
+        //播放数组 选集列表
         "lists": ".play_list:eq(#id)&&a",
-//选集标题
+        //选集标题
         "list_text": "body&&Text",
-//选集链接
+        //选集链接
         "list_url": "a&&href"
     },
     搜索: '*',

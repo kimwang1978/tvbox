@@ -178,6 +178,14 @@
             "ext": "http://www.dyxz2.com/"
         },
         {
+            "key": "荐片",
+            "name": "🎬┃荐片┃影视",
+            "api": "csp_Jianpian",
+            "type": 3,
+            "playerType": "2",
+            "ext": "http://api2.rinhome.com"
+        },
+        {
             "key": "csp_Fantuan",
             "name": "🍙┃饭团┃影视",
             "type": 3,
@@ -229,14 +237,6 @@
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 1
-        },
-        {
-            "key": "荐片",
-            "name": "🎬┃荐片┃影视",
-            "api": "csp_Jianpian",
-            "type": 3,
-            "playerType": "2",
-            "ext": "http://api2.rinhome.com"
         },
         {
             "key": "厂长",

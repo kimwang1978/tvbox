@@ -7,7 +7,7 @@ var rule = {
     searchable: 2,
     quickSearch: 1,
     // filterable: 1,
-    class_name: '古装&穿越&逆袭&重生',
+    class_name: '七星✡︎古装&七星✡︎穿越&七星✡︎逆袭&七星✡︎重生',
     class_url: '5&17&7&6',
     一级: $js.toString(() => {
         let d = [];
@@ -69,7 +69,7 @@ var rule = {
             vod_name: data.title,
             vod_pic: data.cover_url,
             vod_remarks: data.total + "集",
-            vod_play_from: 'XT短剧',
+            vod_play_from: '七星✡︎短剧',
             vod_play_url: urls.join('#')
         };
     }),

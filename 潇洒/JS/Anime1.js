@@ -140,7 +140,7 @@ var rule = {
 		}
 		let vlist2 = vlist.reverse().join("#");
 		vod_tab_list.push(vlist2);
-		VOD.vod_play_from = '道长在线';
+		VOD.vod_play_from = '在线播放';
 		VOD.vod_play_url = vod_tab_list.join("$$$");
 	`,
 	搜索: `js:

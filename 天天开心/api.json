@@ -163,15 +163,6 @@
             "filterable": 1
         },
         {
-            "key": "农民影视",
-            "name": "🎦农民｜影视",
-            "type": 3,
-            "api": "csp_Nmys",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1
-        },
-        {
             "key": "韩小圈",
             "name": "🎦韩小｜影视",
             "type": 3,
@@ -181,7 +172,15 @@
             "filterable": 1
         },
         {
-            "key": "瓜子影视1",
+            "key": "移动",
+            "name": "🎦移动｜影视",
+            "type": 3,
+            "api": "csp_YDjisu",
+            "searchable": 1,
+            "changeable": 1
+        },
+        {
+            "key": "瓜子",
             "name": "🎦瓜子｜影视",
             "type": 3,
             "api": "csp_Gz360",
@@ -190,28 +189,13 @@
             "filterable": 1
         },
         {
-            "key": "骚火影视1",
+            "key": "骚火",
             "name": "🎦骚火｜影视",
             "type": 3,
             "api": "csp_SaoHuo",
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 1
-        },
-        {
-            "key": "cspMiTuApp",
-            "name": "🎦米兔｜影视",
-            "type": 3,
-            "api": "csp_MITU",
-            "ext": "ewogICAgICAgICJ1cmwiOiAiaHR0cHM6Ly9reTEwODAudG9wIiwKICAgICAgICAiZGF0YUtleSI6ICJlNTlkNDRiMmVlZjAzYmEyIiwKICAgICAgICAiZGF0YUl2IjogImU1OWQ0NGIyZWVmMDNiYTIiLAogICAgICAgICJkZXZpY2VJZCI6ICIyMzgxM2IxNWJmN2JkMzU5Y2I4ZDMyZjlkMDI4NjI0NGMiCiAgfQ=="
-        },
-        {
-            "key": "木头",
-            "name": "🎦木头｜影视",
-            "type": 3,
-            "api": "csp_Shark",
-            "playerType": 1,
-            "ext": "saHR0cDovL21pdG8ubWlub3R2LmNuL3xhYXNzZGR3d3h4bGxzeDF4fGJic3NxZGJic3NsbDI1c3g="
         },
         {
             "key": "雨滴",
@@ -222,22 +206,6 @@
             "ext": "jaHR0cDovL2M4dzJvdjd1NXdnMnoxbzhwMjFjLmFsaXl1bmNzLmNsaWNrfGs5bzNwMmM4YjdtM3owbzh8azlvM3AyYzhiN20zejBvOHwxMDA="
         },
         {
-            "key": "现代",
-            "name": "🎦现代｜影视",
-            "type": 3,
-            "api": "csp_Xdai",
-            "playerType": 1,
-            "ext": "caHR0cHM6Ly9hcHAuYnJvdm9kLmNvbXxzemRqd2RhcHB3Y25tZGhifHN6ZGp3ZGFwcHdjbm1kaGJ8MTE0"
-        },
-        {
-            "key": "优质",
-            "name": "🎦优质｜影视",
-            "type": 3,
-            "api": "csp_Xdai",
-            "playerType": 1,
-            "ext": "jaHR0cHM6Ly9hcGlhcHBkeXl6dHZ5eWRzcXdkeS42OC5neTo1Njg5fGR5eXp0dmFwaWFwcHl5ZHN8ZHl5enR2YXBpYXBweXlkc3wxMDA="
-        },
-        {
             "key": "蝴蝶",
             "name": "🎦蝴蝶｜影视",
             "type": 3,
@@ -246,17 +214,7 @@
             "ext": "eaHR0cHM6Ly9kLmRjbW92aWUudG9w"
         },
         {
-            "key": "站长影视",
-            "name": "🎦站长｜影视",
-            "type": 3,
-            "api": "csp_AppGetApp",
-            "searchable": 1,
-            "quickSearch": 0,
-            "filterable": 0,
-            "ext": "w7TClcK8w5rDrcKYwoPCmcKkw57ClcK0wpvCnF9SwoPCmcOtw5jDj8Orw6ZValLCmMOtw6fDqsOswrRiX8KdacOcw57CrMKxw6DCqmbCnmPDpsKow6XCsMKywpRhYMKUwqfDl8Ozw7LDtGVewpPCn8Omwq3Cr8KvwrJsX8KRwqDDosKhw6rDocOqVVxSecOnw5zDrsOQw6nCpcKUUmrCm8KVwqbCm8OuwpzCoFJqwpvDjuWHv+mFoeaQn+WQllzlhpzkvYflkbDCreW/q+iov+i2vua7g+esicKNUsKlwpXCu8Oew61+wpXCqVLCs8KVw57DssOzwq3CpMKmwpHDqcOcw5vDqcOqwqzCqcKUwqPCm8KfwpzCusOfwqZ5wqZSwrPClcOew7LDs8KtwqTCpsKRw6nDnMObw6nDqsKswqnClMKjwpvDsA=="
-        },
-        {
-            "key": "耐看影视",
+            "key": "耐看",
             "name": "🎦耐看｜影视",
             "type": 3,
             "api": "csp_WebNK",
@@ -266,7 +224,7 @@
             "ext": "w7TClcONw6LDrsKYwoXCosKcwpvCrcKcw6HDrsKnwqDCo2rCqMKiw7HDsMOxYcKewpvClMOvw5fCqMOmw59VXFLCpMOiw6PCnMKzwpzCjuWGtemEmOaPleWRnMKf5Yem5L6Q5ZGxbeW+oeintui1tOa8ieetjMOXwpvDtw=="
         },
         {
-            "key": "真心影视",
+            "key": "真心",
             "name": "🎦真心｜影视",
             "type": 3,
             "api": "csp_WebGZ",
@@ -284,7 +242,7 @@
             "filterable": 0
         },
         {
-            "key": "全网影视",
+            "key": "全网",
             "name": "🎦全网｜影视",
             "type": 3,
             "api": "csp_Quanwk",
@@ -294,17 +252,7 @@
             "ext": "https://www.91qkw.com"
         },
         {
-            "key": "素白白",
-            "name": "🎦白白｜影视",
-            "type": 3,
-            "api": "csp_Subaibai",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1,
-            "ext": "http://subaibai.com"
-        },
-        {
-            "key": "低端影视",
+            "key": "低端",
             "name": "🎦低端｜影视",
             "type": 3,
             "api": "csp_Ddys",
@@ -313,16 +261,7 @@
             "filterable": 1
         },
         {
-            "key": "机器人",
-            "name": "🎦机器｜影视",
-            "type": 3,
-            "api": "csp_Ikanbot",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1
-        },
-        {
-            "key": "西瓜视频",
+            "key": "西瓜",
             "name": "🎦西瓜｜影视",
             "type": 3,
             "api": "csp_AmuXiguaV2",
@@ -336,7 +275,7 @@
             }
         },
         {
-            "key": "快看影视",
+            "key": "快看",
             "name": "🎦快看｜影视",
             "type": 3,
             "api": "csp_Kuaikan",
@@ -345,16 +284,7 @@
             "filterable": 1
         },
         {
-            "key": "饺子影视",
-            "name": "🎦饺子｜影视",
-            "type": 3,
-            "api": "csp_Jiaozi",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1
-        },
-        {
-            "key": "厂长资源",
+            "key": "厂长",
             "name": "🎦厂长｜资源",
             "type": 3,
             "api": "csp_Czzy",
@@ -363,16 +293,7 @@
             "filterable": 1
         },
         {
-            "key": "看客影视",
-            "name": "🎦看客｜影视",
-            "type": 3,
-            "api": "csp_Kanke",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1
-        },
-        {
-            "key": "奇优影视",
+            "key": "奇优",
             "name": "🎦奇优｜影视",
             "type": 3,
             "api": "csp_Qiyou",
@@ -382,87 +303,36 @@
             "ext": "http://www.dyxz2.com/"
         },
         {
-            "key": "hipy_js_采集之王",
-            "name": "🎦采集之王[合]",
-            "type": 3,
-            "api": "./api/drpy2.min.js",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1,
-            "order_num": 0,
-            "ext": "./js/采集之王[合].js?type=url&params=../json/采集静态.json$1"
-        },
-        {
-            "key": "csp_XYQHiker_爱你短剧",
-            "name": "🎦爱你短剧",
-            "type": 3,
-            "api": "csp_XYQHiker",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1,
-            "ext": "./json/爱你短剧.json"
-        },
-        {
-            "key": "csp_XYQHiker_河马短剧",
-            "name": "🎦河马短剧",
-            "type": 3,
-            "api": "csp_XYQHiker",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1,
-            "ext": "./json/河马短剧.json"
-        },
-        {
-            "key": "csp_XYQHiker_短剧屋",
-            "name": "🎦短剧屋",
-            "type": 3,
-            "api": "csp_XYQHiker",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1,
-            "ext": "./json/短剧屋.json"
-        },
-        {
-            "key": "js_星芽短剧",
-            "name": "🎦星芽短剧",
-            "type": 3,
-            "api": "./api/drpy2.min.js",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1,
-            "ext": "./js/星芽短剧.js"
-        },
-        {
-            "key": "js_蓝莓短剧",
-            "name": "🎦蓝莓短剧",
-            "type": 3,
-            "api": "./api/drpy2.min.js",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1,
-            "ext": "./js/蓝莓短剧.js"
-        },
-        {
-            "key": "你好帅",
-            "name": "🎦好帅┃短剧",
-            "type": 3,
-            "api": "csp_XBPQ",
-            "ext": {
-                "分类url": "https://nhsyy.com/vodshwo/{cateId}--{by}------{catePg}---.html",
-                "分类": "穿越$fenle#战神$fenlei2#重生$fenlei3#爱情$fenlei4#萌娃$guda#神医$shenyi#古代$gudai#言情$yanqing#玄幻$xuanhuan",
-                "播放数组": "<div class=\"sort-item\"&&</div>"
-            }
-        },
-        {
-            "key": "荐片",
-            "name": "🎦荐片┃P2P",
+            "key": "米兔",
+            "name": "🎦米兔｜影视",
             "type": 3,
             "searchable": 1,
             "quickSearch": 1,
-            "changeable": 1,
-            "playerType": "1",
-            "api": "./api/drpy2.min.js",
-            "ext": "./js/jp.js"
+            "api": "csp_MiTuApp"
+        },
+        {
+            "key": "麻花",
+            "name": "🎦麻花｜影视",
+            "type": 3,
+            "searchable": 1,
+            "quickSearch": 1,
+            "api": "csp_MaHuaApp"
+        },
+        {
+            "key": "米电影",
+            "name": "🎦电影｜影视",
+            "type": 3,
+            "searchable": 1,
+            "quickSearch": 1,
+            "api": "csp_MovieApp"
+        },
+        {
+            "key": "小猫",
+            "name": "🎦小猫｜影视",
+            "type": 3,
+            "searchable": 1,
+            "quickSearch": 1,
+            "api": "csp_XiaoMaoApp"
         },
         {
             "key": "csp_XYQHiker_农民影视",
@@ -482,7 +352,7 @@
             "ext": {
                 "主页url": "https://www.gs4x7nq4.com/",
                 "播放请求头": "User-Agent$Mozilla/5.0(WindowsNT10.0;Win64;x64)AppleWebKit/537.36(KHTML,likeGecko)Chrome/128.0.0.0Safari/537.36",
-                "简介": "⚠️开心软件特别提醒您⚠️请勿相信影片中的广告，以免上当受骗❗️+</label>&&</div>",
+                "简介": "⚠️欧歌特别提醒您⚠️请勿相信影片中的广告，以免上当受骗❗️+</label>&&</div>",
                 "嗅探词": ".mp4#.m3u8#.flv#.m3u8?#.mp4?",
                 "影片类型": "tags\">&&director\">",
                 "影片状态": "bottom\">&&</div>",
@@ -513,7 +383,7 @@
                 "分类url": "https://www.qyzf88.com/qyvodshow/{cateId}-{area}-{by}-{class}-----{catePg}---{year}.html",
                 "分类": "电影$1#电视剧$2#动漫$4#综艺$3",
                 "副标题": "class=\"pic-texttext-right\"&&</span>",
-                "简介": "️开心软件特别提醒您⚠️请勿相信影片中的广告，以免上当受骗❗+剧情介绍：&&</p>"
+                "简介": "️欧歌特别提醒您⚠️请勿相信影片中的广告，以免上当受骗❗+剧情介绍：&&</p>"
             }
         },
         {
@@ -572,6 +442,16 @@
                 "线路标题": "蓝光专线",
                 "分类url": "http://www.soutiyi.com/frim/{cateId}-{catePg}.html",
                 "分类": "动作片$5#爱情片$6#科幻片$7#恐怖片$8#喜剧片$10#剧情片$12#国产剧$13#港台剧$14#欧美剧$15#日韩剧$16#综艺$3#动漫$4"
+            }
+        },
+        {
+            "key": "csp_红狐狸影视",
+            "name": "🧿狐狸┃影视",
+            "type": 3,
+            "api": "csp_XBPQ",
+            "ext": {
+                "分类url": "https://honghuli.com/leibiao/{cateId}-{area}-------{catePg}---{year}.html",
+                "分类": "电影$1#电视剧$2#综艺$3#动漫$4"
             }
         },
         {

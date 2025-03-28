@@ -4,8 +4,8 @@
     "编码": "UTF-8",
     "图片代理": "0",
     "直接播放": "0",
-    "主页url": "https://www.xlys01.com",
-    "分类url": "https://www.xlys01.com/s/{cateId}/{catePg}",
+    "主页url": "http://v.xlys.ltd.ua",
+    "分类url": "http://v.xlys.ltd.ua/s/{cateId}/{catePg}",
     "分类": "动作$dongzuo#爱情$aiqing#喜剧$xiju#科幻$kehuan#恐怖$kongbu#战争$zhanzheng#武侠$wuxia#魔幻$mohuan#剧情$juqing#动画$donghua#惊悚$jingsong#灾难$zainan#悬疑$xuanyi#警匪$jingfei#文艺$wenyi#青春$qingchun#冒险$maoxian#犯罪$fanzui#纪录$jilu#古装$guzhuang#奇幻$qihuan#国语$guoyu#综艺$zongyi#历史$lishi#运动$yundong#原创压制$yuanchuang#美剧$meiju#韩剧$hanju#国产电视剧$guoju#日剧$riju#英剧$yingju#德剧$deju#俄剧$eju#巴剧$baju#加剧$jiaju#西剧$spanish#意大利剧$yidaliju#泰剧$taiju#港台剧$gangtaiju#法剧$faju#澳剧$aoju",
     "数组": "card-link&&/h3>",
     "标题": "<h3*\">&&<",
@@ -19,10 +19,10 @@
     "导演": "导演：&&</p>",
     "主演": "主演：&&</p",
     "简介": "剧情简介：&&>",
-    "线路数组": "play-list&&</div>",
+    "线路数组": "download-list\">&&</div>",
     "线路标题": "磁力",
     "播放二次截取": "",
-    "播放数组": "play-list&&</div>",
+    "播放数组": "<td>&&</a></td>",
     "倒序": "0",
     "播放列表": "<a&&/a>",
     "播放标题": ">&&<",
@@ -31,5 +31,5 @@
     "跳转播放链接": "",
     "跳转解析": "",
     "搜索请求头": "User-Agent$MOBILE_UA",
-    "搜索url": "https://www.xlys01.com/search/{wd}/{pg}"
+    "搜索url": "http://v.xlys.ltd.ua/search/{wd}/{pg}"
 }

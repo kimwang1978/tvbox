@@ -1,0 +1,21 @@
+{
+  "aliToken": "",
+  "quarkCookie": "",
+  "ucCookie": "",
+  "ucToken": "",
+  "115Cookie": "",
+  "pwdRb115": "",
+  //115 删除码
+  "goServerUrl": "http://127.0.0.1:9966",
+  "ydAuth": "cGM6MTg3NzQ5NzMzNjM6YWdkYlRhWGR8MXxSQ1N8MTc0NDM3NDUxNjIxOHxkRnRScENBOFpZdm9EemFmVFNWZVdndlBWa0tSZjdkU3pBdnlkR0s4anZ2VFBlenl6OWVJX1VfNl94V2o1ZUZOSzdtOUtENXIuRHVPOG43RWdmV2lWc1J5YnZiSmF3NjhSMnhuMHlrSzVMd19Vcm0zZTQyOExUblFfTW1lMVRNNjIxdWRIa2U1NUJTdC5yMk1NbTc5RkxQZDAubHluMjFvVkNwa1FDTWNtYVkt",
+  //请求头中authorization 取basic 后面的值
+  "tyAuth": "18774973363@189.cn|Abc147369+",
+  //账号|密码
+  "p123Auth":"18774973363|abc123",
+  //账号|密码
+  "proxy": "http://127.0.0.1:1072",
+  //默认代理端口 留空则使用外置代理
+  "tgPic": "false",
+  //tgsou 图片显示与否
+  "danmu": "true"
+}

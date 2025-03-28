@@ -48,55 +48,59 @@
             "filterable": 1,
             "ext": {
                 "site_urls": [
-                    "https://duopan.fun",
-                    "http://labipan.com",
+                    "https://feimao666.fun",
+                    "http://feimao888.fun",
                     "http://feimaoai.site",
-                    "https://mihdr.top"
+                    "http://www.labi88.sbs"
                 ],
                 "url_key": "Duopan2"
             }
         },
         {
-            "key": "csp_Bili",
-            "name": "🅱┃️哔哩┃合集",
+            "key": "潮流",
+            "name": "🏜┃潮流┃影视",
             "type": 3,
-            "api": "csp_Bili",
-            "playerType": 2,
-            "ext": {
-                "json": "./json/bili.json",
-                "cookie": ""
-            },
-            "style": {
-                "type": "rect",
-                "ratio": 1.333
-            }
+            "api": "csp_AppRJ",
+            "ext": "sHR2rlsfjI4L3t4RXQMkn9mmg6Ofmy66+wcs9waIyn4hKqT9jG9s4kO6qzcu2OSqWS1/T+wfkqe+UwoipekwvcM11PTDrQqKYI8lmMXUc1vBHxp/2uWIw5HUoscBNWEb"
         },
         {
-            "key": "csp_SuBaiBai",
-            "name": "🏳️┃素白┃影视",
+            "key": "梦回",
+            "name": "🏈┃梦回┃影视",
             "type": 3,
-            "api": "csp_SuBaiBai",
-            "ext": "http://subaibai.com"
+            "api": "csp_AppRJ",
+            "ext": "sHR2rlsfjI4L3t4RXQMkn9NPgTvCXvJVoUvXJHT6PqBNTg88Q5I4mc95m2RizprWhdAIQNMU/HShly4WRNzUsfhvqzHXHhHD57G7QagNV0Cx+WDSBgm0uZMAbZVHmzjM"
         },
         {
-            "key": "csp_Jpyy",
+            "key": "星辉",
+            "name": "🦢┃星辉┃影视",
+            "type": 3,
+            "api": "csp_AppRJ",
+            "ext": "sHR2rlsfjI4L3t4RXQMknxhunFUlA4159TKiKvIPpfcM1xianxebcSLajBbwFymqC+z9WoGzQYbh7FSvh8KdiC0BKF0CalaPaCEMOZm+ClGEeNzXAaR0FnrV04SiB2NK"
+        },
+        {
+            "key": "csp_Lgyy",
+            "name": "✨️️┃流光┃影视",
+            "type": 3,
+            "api": "csp_Lgyy"
+        },
+        {
+            "key": "csp_Jpys",
             "name": "🥇️┃金牌┃影视",
             "type": 3,
-            "api": "csp_Jpyy"
+            "api": "csp_Jpys"
         },
         {
-            "key": "csp_Nongm",
+            "key": "csp_Wwys",
             "name": "🌾️┃农民┃影视",
             "type": 3,
-            "api": "csp_Nongm",
-            "ext": "https://wwgz.cn"
+            "api": "csp_Wwys",
+            "ext": "https://www.wwgz.cn"
         },
         {
-            "key": "csp_AppRZ",
-            "name": "🕵️┃忍者┃影视",
+            "key": "csp_Siren",
+            "name": "🎉️┃私人┃影城",
             "type": 3,
-            "api": "csp_AppRZ",
-            "ext": "http://rzys.xyz/"
+            "api": "csp_Siren"
         },
         {
             "key": "csp_XMUC",
@@ -107,8 +111,8 @@
             "ext": {
                 "site_urls": [
                     "http://www.mucpan.cc",
-                    "http://ucmi.fun",
-                    "http://www.ucmi.fun"
+                    "https://milvdou.fun",
+                    "https://54271.fun"
                 ],
                 "url_key": "XMUC"
             }
@@ -121,9 +125,10 @@
             "filterable": 1,
             "ext": {
                 "site_urls": [
-                    "http://www.xhww.net",
-                    "http://xhww.net",
-                    "https://xiaomiai.site"
+                    "http://xiaomi666.fun",
+                    "https://xiaomiai.site",
+                    "http://www.miqk.cc",
+                    "https://mihdr.top"
                 ],
                 "url_key": "Netfixtv2",
                 "token": "",
@@ -144,19 +149,13 @@
             "playerType": 2,
             "timeout": 30,
             "changeable": 0,
-            "ext": "https://www.wogg.net"
+            "ext": "https://www.wogg.one/"
         },
         {
             "key": "csp_Lkdy",
             "name": "🏔️┃来看┃影视",
             "type": 3,
             "api": "csp_Lkdy"
-        },
-        {
-            "key": "csp_Lggys",
-            "name": "💗️┃攻阁┃影视",
-            "type": 3,
-            "api": "csp_Lggys"
         },
         {
             "key": "csp_Tvyb",
@@ -168,7 +167,8 @@
             "key": "csp_Kanke",
             "name": "🛳️┃看客┃影视",
             "type": 3,
-            "api": "csp_Kanke"
+            "api": "csp_Kanke",
+            "ext": "http://www.guaziys.com"
         },
         {
             "key": "csp_Qiyou",
@@ -208,19 +208,12 @@
             "playerType": 2
         },
         {
-            "key": "Ivdy",
-            "name": "💖┃Ivdy┃影视",
-            "type": 3,
-            "api": "csp_XBPQ",
-            "ext": "https://img2.gelonghui.com/library/ea5ba-5f15b1f1-2ca0-4dda-86b4-c86954b5bd37null",
-            "searchable": 0
-        },
-        {
             "key": "csp_SaoHuo",
             "name": "🔥┃火火┃影视",
             "type": 3,
             "api": "csp_SaoHuo",
-            "playerType": 2
+            "playerType": 2,
+            "ext": "https://shdy5.us"
         },
         {
             "key": "csp_Gz360",
@@ -250,19 +243,27 @@
             "ext": "http://www.czzyvideo.com"
         },
         {
+            "key": "csp_AppXY",
+            "name": "🎀️┃星牙┃短剧",
+            "type": 3,
+            "api": "csp_AppXY"
+        },
+        {
             "key": "csp_SP360",
             "name": "📺┃360┃官源",
             "type": 3,
             "api": "csp_SP360"
         },
         {
-            "key": "csp_BookTing",
-            "name": "📚┃听书┃音频",
+            "key": "csp_Bili",
+            "name": "🅱┃️哔哩┃合集",
             "type": 3,
-            "playerType": "2",
-            "api": "csp_BookTing",
-            "searchable": 0,
-            "ext": "https://m.ting275.com",
+            "api": "csp_Bili",
+            "playerType": 2,
+            "ext": {
+                "json": "./json/bili.json",
+                "cookie": ""
+            },
             "style": {
                 "type": "rect",
                 "ratio": 1.333
@@ -270,10 +271,10 @@
         },
         {
             "key": "csp_YouShengBook",
-            "name": "📚┃有声┃小说",
+            "name": "📚┃六月┃听书",
             "type": 3,
             "playerType": "2",
-            "api": "csp_LaoBaiBook",
+            "api": "csp_TingBook",
             "searchable": 0,
             "style": {
                 "type": "rect",
@@ -537,7 +538,7 @@
         {
             "name": "live",
             "type": 0,
-            "url": "",
+            "url": "./lives/live.txt",
             "epg": "http://epg.112114.xyz/?ch={name}&date={date}"
         }
     ]

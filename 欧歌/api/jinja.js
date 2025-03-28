@@ -20,11 +20,11 @@
  */
 /*global require, exports, module, define */
 
-(function (global, factory) {
+(function(global, factory) {
     typeof exports === 'object' && typeof module !== 'undefined' ? factory(exports) :
         typeof define === 'function' && define.amd ? define(['exports'], factory) :
-            (global = typeof globalThis !== 'undefined' ? globalThis : global || self, factory(global.jinja = {}));
-})(this, (function (jinja) {
+        (global = typeof globalThis !== 'undefined' ? globalThis : global || self, factory(global.jinja = {}));
+})(this, (function(jinja) {
     "use strict";
     var STRINGS = /'(\\.|[^'])*'|"(\\.|[^"'"])*"/g;
     var IDENTS_AND_NUMS = /([$_a-z][$\w]*)|([+-]?\d+(\.\d+)?)/g;
@@ -77,20 +77,22 @@
         this.isSilent = false;
     }
 
-    Parser.prototype.push = function (line) {
+    Parser.prototype.push = function(line) {
         if (!this.isSilent) {
             this.compiled.push(line);
         }
     };
 
-    Parser.prototype.parse = function (src) {
+    Parser.prototype.parse = function(src) {
         this.tokenize(src);
         return this.compiled;
     };
 
-    Parser.prototype.tokenize = function (src) {
-        var lastEnd = 0, parser = this, trimLeading = false;
-        matchAll(src, START_TOKEN, function (open, index, src) {
+    Parser.prototype.tokenize = function(src) {
+        var lastEnd = 0,
+            parser = this,
+            trimLeading = false;
+        matchAll(src, START_TOKEN, function(open, index, src) {
             //here we match the rest of the src against a regex for this tag
             var match = src.slice(index + open.length).match(TAGS[open]);
             match = (match ? match[0] : '');
@@ -127,11 +129,11 @@
         this.textHandler(text);
     };
 
-    Parser.prototype.textHandler = function (text) {
+    Parser.prototype.textHandler = function(text) {
         this.push('write(' + JSON.stringify(text) + ');');
     };
 
-    Parser.prototype.tokenHandler = function (open, inner) {
+    Parser.prototype.tokenHandler = function(open, inner) {
         var type = delimeters[open];
         if (type === 'directive') {
             this.compileTag(inner);
@@ -140,7 +142,7 @@
             //replace || operators with ~
             extracted.src = extracted.src.replace(/\|\|/g, '~').split('|');
             //put back || operators
-            extracted.src = extracted.src.map(function (part) {
+            extracted.src = extracted.src.map(function(part) {
                 return part.split('~').join('||');
             });
             var parts = this.injectEnt(extracted, '@');
@@ -153,7 +155,7 @@
         }
     };
 
-    Parser.prototype.compileTag = function (str) {
+    Parser.prototype.compileTag = function(str) {
         var directive = str.split(' ')[0];
         var handler = tagHandlers[directive];
         if (!handler) {
@@ -162,20 +164,23 @@
         handler.call(this, str.slice(directive.length).trim());
     };
 
-    Parser.prototype.parseFilter = function (src) {
+    Parser.prototype.parseFilter = function(src) {
         src = src.trim();
         var match = src.match(/[:(]/);
         var i = match ? match.index : -1;
         if (i < 0) return JSON.stringify([src]);
         var name = src.slice(0, i);
         var args = src.charAt(i) === ':' ? src.slice(i + 1) : src.slice(i + 1, -1);
-        args = this.parseExpr(args, {terms: true});
+        args = this.parseExpr(args, {
+            terms: true
+        });
         return '[' + JSON.stringify(name) + ',' + args + ']';
     };
 
-    Parser.prototype.extractEnt = function (src, regex, placeholder) {
-        var subs = [], isFunc = typeof placeholder == 'function';
-        src = src.replace(regex, function (str) {
+    Parser.prototype.extractEnt = function(src, regex, placeholder) {
+        var subs = [],
+            isFunc = typeof placeholder == 'function';
+        src = src.replace(regex, function(str) {
             var replacement = isFunc ? placeholder(str) : placeholder;
             if (replacement) {
                 subs.push(str);
@@ -183,15 +188,21 @@
             }
             return str;
         });
-        return {src: src, subs: subs};
+        return {
+            src: src,
+            subs: subs
+        };
     };
 
-    Parser.prototype.injectEnt = function (extracted, placeholder) {
-        var src = extracted.src, subs = extracted.subs, isArr = Array.isArray(src);
+    Parser.prototype.injectEnt = function(extracted, placeholder) {
+        var src = extracted.src,
+            subs = extracted.subs,
+            isArr = Array.isArray(src);
         var arr = (isArr) ? src : [src];
-        var re = new RegExp('[' + placeholder + ']', 'g'), i = 0;
-        arr.forEach(function (src, index) {
-            arr[index] = src.replace(re, function () {
+        var re = new RegExp('[' + placeholder + ']', 'g'),
+            i = 0;
+        arr.forEach(function(src, index) {
+            arr[index] = src.replace(re, function() {
                 return subs[i++];
             });
         });
@@ -199,7 +210,7 @@
     };
 
     //replace complex literals without mistaking subscript notation with array literals
-    Parser.prototype.replaceComplex = function (s) {
+    Parser.prototype.replaceComplex = function(s) {
         var parsed = this.extractEnt(s, /i(\.i|\[[@#i]\])+/g, 'v');
         parsed.src = parsed.src.replace(NON_PRIMITIVES, '~');
         return this.injectEnt(parsed, 'v');
@@ -207,17 +218,17 @@
 
     //parse expression containing literals (including objects/arrays) and variables (including dot and subscript notation)
     //valid expressions: `a + 1 > b.c or c == null`, `a and b[1] != c`, `(a < b) or (c < d and e)`, 'a || [1]`
-    Parser.prototype.parseExpr = function (src, opts) {
+    Parser.prototype.parseExpr = function(src, opts) {
         opts = opts || {};
         //extract string literals -> @
         var parsed1 = this.extractEnt(src, STRINGS, '@');
         //note: this will catch {not: 1} and a.is; could we replace temporarily and then check adjacent chars?
-        parsed1.src = parsed1.src.replace(EOPS, function (s, before, op, after) {
+        parsed1.src = parsed1.src.replace(EOPS, function(s, before, op, after) {
             return (op in operators) ? before + operators[op] + after : s;
         });
         //sub out non-string literals (numbers/true/false/null) -> #
         // the distinction is necessary because @ can be object identifiers, # cannot
-        var parsed2 = this.extractEnt(parsed1.src, IDENTS_AND_NUMS, function (s) {
+        var parsed2 = this.extractEnt(parsed1.src, IDENTS_AND_NUMS, function(s) {
             return (s in constants || NUMBER.test(s)) ? '#' : null;
         });
         //sub out object/variable identifiers -> i
@@ -229,10 +240,10 @@
         var simplified = parsed3.src;
         //sub out complex literals (objects/arrays) -> ~
         // the distinction is necessary because @ and # can be subscripts but ~ cannot
-        while (simplified !== (simplified = this.replaceComplex(simplified))) ;
+        while (simplified !== (simplified = this.replaceComplex(simplified)));
         //now @ represents strings, # represents other primitives and ~ represents non-primitives
         //replace complex variables (those with dot/subscript accessors) -> v
-        while (simplified !== (simplified = simplified.replace(/i(\.i|\[[@#i]\])+/, 'v'))) ;
+        while (simplified !== (simplified = simplified.replace(/i(\.i|\[[@#i]\])+/, 'v')));
         //empty subscript or complex variables in subscript, are not permitted
         simplified = simplified.replace(/[iv]\[v?\]/g, 'x');
         //sub in "i" for @ and # and ~ and v (now "i" represents all literals, variables and identifiers)
@@ -242,9 +253,9 @@
         //allow 'not' unary operator
         simplified = simplified.replace(/!+[i]/g, 'i');
         var terms = opts.terms ? simplified.split(',') : [simplified];
-        terms.forEach(function (term) {
+        terms.forEach(function(term) {
             //simplify logical grouping
-            while (term !== (term = term.replace(/\(i(%i)*\)/g, 'i'))) ;
+            while (term !== (term = term.replace(/\(i(%i)*\)/g, 'i')));
             if (!term.match(/^i(%i)*/)) {
                 throw new Error('Invalid expression: ' + src + " " + term);
             }
@@ -255,15 +266,16 @@
         return this.injectEnt(parsed1, '@');
     };
 
-    Parser.prototype.parseVar = function (src) {
+    Parser.prototype.parseVar = function(src) {
         var args = Array.prototype.slice.call(arguments);
-        var str = args.pop(), index = args.pop();
+        var str = args.pop(),
+            index = args.pop();
         //quote bare object identifiers (might be a reserved word like {while: 1})
         if (src === 'i' && str.charAt(index + 1) === ':') {
             return '"i"';
         }
         var parts = ['"i"'];
-        src.replace(ACCESSOR, function (part) {
+        src.replace(ACCESSOR, function(part) {
             if (part === '.i') {
                 parts.push('"i"');
             } else if (part === '[i]') {
@@ -276,15 +288,15 @@
     };
 
     //escapes a name to be used as a javascript identifier
-    Parser.prototype.escName = function (str) {
-        return str.replace(/\W/g, function (s) {
+    Parser.prototype.escName = function(str) {
+        return str.replace(/\W/g, function(s) {
             return '$' + s.charCodeAt(0).toString(16);
         });
     };
 
-    Parser.prototype.parseQuoted = function (str) {
+    Parser.prototype.parseQuoted = function(str) {
         if (str.charAt(0) === "'") {
-            str = str.slice(1, -1).replace(/\\.|"/, function (s) {
+            str = str.slice(1, -1).replace(/\\.|"/, function(s) {
                 if (s === "\\'") return "'";
                 return s.charAt(0) === '\\' ? s : ('\\' + s);
             });
@@ -297,48 +309,48 @@
 
     //the context 'this' inside tagHandlers is the parser instance
     var tagHandlers = {
-        'if': function (expr) {
+        'if': function(expr) {
             this.push('if (' + this.parseExpr(expr) + ') {');
             this.nest.unshift('if');
         },
-        'else': function () {
+        'else': function() {
             if (this.nest[0] === 'for') {
                 this.push('}, function() {');
             } else {
                 this.push('} else {');
             }
         },
-        'elseif': function (expr) {
+        'elseif': function(expr) {
             this.push('} else if (' + this.parseExpr(expr) + ') {');
         },
-        'endif': function () {
+        'endif': function() {
             this.nest.shift();
             this.push('}');
         },
-        'for': function (str) {
+        'for': function(str) {
             var i = str.indexOf(' in ');
             var name = str.slice(0, i).trim();
             var expr = str.slice(i + 4).trim();
             this.push('each(' + this.parseExpr(expr) + ',' + JSON.stringify(name) + ',function() {');
             this.nest.unshift('for');
         },
-        'endfor': function () {
+        'endfor': function() {
             this.nest.shift();
             this.push('});');
         },
-        'raw': function () {
+        'raw': function() {
             this.rawMode = true;
         },
-        'endraw': function () {
+        'endraw': function() {
             this.rawMode = false;
         },
-        'set': function (stmt) {
+        'set': function(stmt) {
             var i = stmt.indexOf('=');
             var name = stmt.slice(0, i).trim();
             var expr = stmt.slice(i + 1).trim();
             this.push('set(' + JSON.stringify(name) + ',' + this.parseExpr(expr) + ');');
         },
-        'block': function (name) {
+        'block': function(name) {
             if (this.isParent) {
                 ++this.parentBlocks;
                 var blockName = 'block_' + (this.escName(name) || this.parentBlocks);
@@ -351,7 +363,7 @@
             }
             this.nest.unshift('block');
         },
-        'endblock': function () {
+        'endblock': function() {
             this.nest.shift();
             if (this.isParent) {
                 this.push('});');
@@ -360,7 +372,7 @@
                 this.isSilent = true;
             }
         },
-        'extends': function (name) {
+        'extends': function(name) {
             name = this.parseQuoted(name);
             var parentSrc = this.readTemplateFile(name);
             this.isParent = true;
@@ -370,7 +382,7 @@
             //silence output until we enter a child block
             this.isSilent = true;
         },
-        'include': function (name) {
+        'include': function(name) {
             name = this.parseQuoted(name);
             var incSrc = this.readTemplateFile(name);
             this.isInclude = true;
@@ -385,29 +397,31 @@
     tagHandlers.elif = tagHandlers.elseif;
 
     var getRuntime = function runtime(data, opts) {
-        var defaults = {autoEscape: 'toJson'};
+        var defaults = {
+            autoEscape: 'toJson'
+        };
         var _toString = Object.prototype.toString;
         var _hasOwnProperty = Object.prototype.hasOwnProperty;
-        var getKeys = Object.keys || function (obj) {
+        var getKeys = Object.keys || function(obj) {
             var keys = [];
-            for (var n in obj) if (_hasOwnProperty.call(obj, n)) keys.push(n);
+            for (var n in obj)
+                if (_hasOwnProperty.call(obj, n)) keys.push(n);
             return keys;
         };
-        var isArray = Array.isArray || function (obj) {
+        var isArray = Array.isArray || function(obj) {
             return _toString.call(obj) === '[object Array]';
         };
-        var create = Object.create || function (obj) {
-            function F() {
-            }
+        var create = Object.create || function(obj) {
+            function F() {}
 
             F.prototype = obj;
             return new F();
         };
-        var toString = function (val) {
+        var toString = function(val) {
             if (val == null) return '';
             return (typeof val.toString == 'function') ? val.toString() : _toString.call(val);
         };
-        var extend = function (dest, src) {
+        var extend = function(dest, src) {
             var keys = getKeys(src);
             for (var i = 0, len = keys.length; i < len; i++) {
                 var key = keys[i];
@@ -416,8 +430,9 @@
             return dest;
         };
         //get a value, lexically, starting in current context; a.b -> get("a","b")
-        var get = function () {
-            var val, n = arguments[0], c = stack.length;
+        var get = function() {
+            var val, n = arguments[0],
+                c = stack.length;
             while (c--) {
                 val = stack[c][n];
                 if (typeof val != 'undefined') break;
@@ -429,21 +444,23 @@
             }
             return (val == null) ? '' : val;
         };
-        var set = function (n, val) {
+        var set = function(n, val) {
             stack[stack.length - 1][n] = val;
         };
-        var push = function (ctx) {
+        var push = function(ctx) {
             stack.push(ctx || {});
         };
-        var pop = function () {
+        var pop = function() {
             stack.pop();
         };
-        var write = function (str) {
+        var write = function(str) {
             output.push(str);
         };
-        var filter = function (val) {
+        var filter = function(val) {
             for (var i = 1, len = arguments.length; i < len; i++) {
-                var arr = arguments[i], name = arr[0], filter = filters[name];
+                var arr = arguments[i],
+                    name = arr[0],
+                    filter = filters[name];
                 if (filter) {
                     arr[0] = val;
                     //now arr looks like [val, arg1, arg2]
@@ -458,47 +475,58 @@
             }
             output.push(val);
         };
-        var each = function (obj, loopvar, fn1, fn2) {
+        var each = function(obj, loopvar, fn1, fn2) {
             if (obj == null) return;
-            var arr = isArray(obj) ? obj : getKeys(obj), len = arr.length;
-            var ctx = {loop: {length: len, first: arr[0], last: arr[len - 1]}};
+            var arr = isArray(obj) ? obj : getKeys(obj),
+                len = arr.length;
+            var ctx = {
+                loop: {
+                    length: len,
+                    first: arr[0],
+                    last: arr[len - 1]
+                }
+            };
             push(ctx);
             for (var i = 0; i < len; i++) {
-                extend(ctx.loop, {index: i + 1, index0: i});
+                extend(ctx.loop, {
+                    index: i + 1,
+                    index0: i
+                });
                 fn1(ctx[loopvar] = arr[i]);
             }
             if (len === 0 && fn2) fn2();
             pop();
         };
-        var block = function (fn) {
+        var block = function(fn) {
             push();
             fn();
             pop();
         };
-        var render = function () {
+        var render = function() {
             return output.join('');
         };
         data = data || {};
         opts = extend(defaults, opts || {});
         var filters = extend({
-            html: function (val) {
+            html: function(val) {
                 return toString(val)
                     .split('&').join('&amp;')
                     .split('<').join('&lt;')
                     .split('>').join('&gt;')
                     .split('"').join('&quot;');
             },
-            safe: function (val) {
+            safe: function(val) {
                 return val;
             },
-            toJson: function (val) {
+            toJson: function(val) {
                 if (typeof val === 'object') {
                     return JSON.stringify(val);
                 }
                 return toString(val);
             }
         }, opts.filters || {});
-        var stack = [create(data || {})], output = [];
+        var stack = [create(data || {})],
+            output = [];
         return {
             get: get,
             set: set,
@@ -514,7 +542,7 @@
 
     var runtime;
 
-    jinja.compile = function (markup, opts) {
+    jinja.compile = function(markup, opts) {
         opts = opts || {};
         var parser = new Parser();
         parser.readTemplateFile = this.readTemplateFile;
@@ -531,17 +559,19 @@
             runtime = runtime || (runtime = getRuntime.toString());
             fn = new Function('data', 'options', 'return (' + code + ')((' + runtime + ')(data, options))');
         }
-        return {render: fn};
+        return {
+            render: fn
+        };
     };
 
-    jinja.render = function (markup, data, opts) {
+    jinja.render = function(markup, data, opts) {
         var tmpl = jinja.compile(markup);
         return tmpl.render(data, opts);
     };
 
     jinja.templateFiles = [];
 
-    jinja.readTemplateFile = function (name) {
+    jinja.readTemplateFile = function(name) {
         var templateFiles = this.templateFiles || [];
         var templateFile = templateFiles[name];
         if (templateFile == null) {

@@ -1,7 +1,7 @@
 {
     "规则名": "动漫巴士",
     "规则作者": "",
-    "请求头参数": "User-Agent$MOBILE_UA#Referer$https://dm84.tv",
+    "请求头参数": "User-Agent$MOBILE_UA#Accept$text/html#accept-language$zh-CN,zh;q=0.8",
     "网页编码格式": "UTF-8",
     "图片是否需要代理": "0",
     "是否开启获取首页数据": "1",
@@ -42,7 +42,7 @@
     "分类片单副标题": ".desc&&Text",
     "分类片单链接加前缀": "https://dm84.tv",
     "分类片单链接加后缀": "",
-    "搜索请求头参数": "User-Agent$手机#Accept$text/html",
+    "搜索请求头参数": "User-Agent$手机#Accept$text/html#accept-language$zh-CN,zh;q=0.8",
     "搜索链接": "https://dm84.tv/s-{wd}---------{SearchPg}.html",
     "POST请求数据": "",
     "搜索截取模式": "1",

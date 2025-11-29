@@ -10,7 +10,7 @@
     "首页片单列表数组规则": "li",
     "首页片单是否Jsoup写法": "1",
     "分类起始页码": "1",
-    "分类链接": "http://80kp.com/films/{cateId}_{catePg}.html[firstPage=http://80kp.com/films/{cateId}.html]",
+    "分类链接": "http://80kp.com/list/{cateId}_{catePg}.html[firstPage=http://80kp.com/list/{cateId}.html]",
     "分类名称": "电影&电视剧&综艺&动漫",
     "分类名称替换词": "1&2&4&3",
     "筛选数据": {},

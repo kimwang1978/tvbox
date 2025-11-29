@@ -21,11 +21,11 @@
     },
 
     {
-      "name": "一只魚",
+      "name": "一只鱼",
       "server": "https://vtok.pp.ua/"
     },
     {
-      "name": "七米藍",
+      "name": "七米蓝",
       "server": "https://al.chirmyram.com"
     },
     {
@@ -38,7 +38,7 @@
     },
 
     {
-      "name": "範本",
+      "name": "范本",
       "server": "https://one.fongmi.com",
       "hidden": true,
       "login": {
@@ -47,7 +47,7 @@
       },
       "params": [
         {
-          "path": "/安齋拉拉",
+          "path": "/安斋拉拉",
           "pass": "18181818"
         }
       ]

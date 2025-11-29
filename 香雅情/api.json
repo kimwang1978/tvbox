@@ -19,14 +19,13 @@
         {
             "name": "fanmingming",
             "type": 0,
-            "url": "./lives/fanmingming.txt",
-            "epg": ""
+            "url": "./lives/fanmingming.txt"
         }
     ],
     "sites": [
         {
             "key": "csp_LocalFile",
-            "name": "💻本地视频",
+            "name": "本机文件(接口完全免费)",
             "type": 3,
             "api": "csp_LocalFile",
             "searchable": 0,
@@ -70,44 +69,13 @@
             "ext": "./js/百忙无果.js"
         },
         {
-            "key": "csp_Yisou",
-            "name": "📀易搜(搜索)",
-            "type": 3,
-            "api": "csp_Yisou",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 0,
-            "ext": "http://127.0.0.1:9978/file/XYQTVBox/alitoken.txt"
-        },
-        {
-            "key": "csp_XYQHikerAL_云盘资源",
-            "name": "📀云盘资源(搜索)",
-            "type": 3,
-            "api": "csp_XYQHikerAL",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 0,
-            "ext": "./json/云盘资源.json"
-        },
-        {
             "key": "push_agent",
             "name": "📽推送",
             "type": 3,
             "api": "csp_PushAgent",
             "searchable": 1,
             "quickSearch": 1,
-            "filterable": 0,
-            "ext": "http://127.0.0.1:9978/file/XYQTVBox/alitoken.txt"
-        },
-        {
-            "key": "csp_Mp4Mov",
-            "name": "🧲Mp4电影",
-            "type": 3,
-            "api": "csp_Mp4Mov",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1,
-            "ext": "https://www.momp4.cc"
+            "filterable": 0
         },
         {
             "key": "csp_New6v",
@@ -194,6 +162,15 @@
             "filterable": 1
         },
         {
+            "key": "csp_LiteApple",
+            "name": "🐞小苹果影视",
+            "type": 3,
+            "api": "csp_LiteApple",
+            "filterable": 1,
+            "quickSearch": 1,
+            "searchable": 1
+        },
+        {
             "key": "csp_Bdys",
             "name": "🐞哔嘀影视",
             "type": 3,
@@ -230,8 +207,7 @@
             "playerType": 1,
             "searchable": 1,
             "quickSearch": 1,
-            "filterable": 1,
-            "ext": "http://apijp.rinhome.com"
+            "filterable": 1
         },
         {
             "key": "csp_Ikanbot",
@@ -324,16 +300,6 @@
             "ext": "./json/戏曲多多.json"
         },
         {
-            "key": "csp_XYQHiker_酷奇MV",
-            "name": "🎤酷奇MV(XYQH)",
-            "type": 3,
-            "api": "csp_XYQHiker",
-            "searchable": 0,
-            "quickSearch": 0,
-            "filterable": 1,
-            "ext": "./json/酷奇MV.json"
-        },
-        {
             "key": "csp_XYQHiker_短剧屋",
             "name": "🎬短剧屋",
             "type": 3,
@@ -372,6 +338,16 @@
             "quickSearch": 0,
             "filterable": 1,
             "ext": "./json/播视童趣.json"
+        },
+        {
+            "key": "csp_XYQHiker_风车动漫",
+            "name": "🌪风车动漫(XYQH)",
+            "type": 3,
+            "api": "csp_XYQHiker",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "ext": "./json/风车动漫.json"
         },
         {
             "key": "csp_XYQHiker_樱花动漫",
@@ -455,16 +431,6 @@
             "ext": "./json/电影盒子.json"
         },
         {
-            "key": "csp_XYQHiker_星辰影院",
-            "name": "⭐️星辰影院(XYQH)",
-            "type": 3,
-            "api": "csp_XYQHiker",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1,
-            "ext": "./json/星辰影院.json"
-        },
-        {
             "key": "csp_XYQHiker_可可影视",
             "name": "☕️可可影视(XYQH)",
             "type": 3,
@@ -485,14 +451,24 @@
             "ext": "./json/爱看影视.json"
         },
         {
-            "key": "csp_XYQHiker_看一看影视",
-            "name": "🔍看一看影视(XYQH)",
+            "key": "csp_XYQHiker_看影网",
+            "name": "🔍看影网(XYQH)",
             "type": 3,
             "api": "csp_XYQHiker",
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 1,
-            "ext": "./json/看一看影视.json"
+            "ext": "./json/看影网.json"
+        },
+        {
+            "key": "csp_XYQHiker_瓜子影院",
+            "name": "瓜子影院(XYQH)",
+            "type": 3,
+            "api": "csp_XYQHiker",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "ext": "./json/瓜子影视.json"
         },
         {
             "key": "csp_XYQHiker_八号影视",
@@ -513,6 +489,13 @@
             "quickSearch": 1,
             "filterable": 1,
             "ext": "./json/来看点播.json"
+        },
+        {
+            "key": "drpy_js_金牌",
+            "name": "金牌影视[js]",
+            "type": 3,
+            "api": "./api/drpy2.min.js",
+            "ext": "./js/金牌影视.js"
         },
         {
             "key": "柚子资源",
@@ -589,6 +572,15 @@
             "quickSearch": 0,
             "filterable": 1,
             "ext": "./json/斗鱼直播.json"
+        },
+        {
+            "key": "csp_Djuu",
+            "name": "🎧DJ悠悠",
+            "type": 3,
+            "api": "csp_Djuu",
+            "filterable": 1,
+            "quickSearch": 1,
+            "searchable": 1
         }
     ],
     "parses": [
@@ -614,6 +606,38 @@
             "ext": {
                 "header": {
                     "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36 Edg/110.0.1587.57"
+                }
+            }
+        },
+        {
+            "name": "-咸鱼-",
+            "type": 0,
+            "url": "https://jx.xymp4.cc/?url=",
+            "ext": {
+                "flag": [
+                    "qq",
+                    "腾讯",
+                    "qiyi",
+                    "爱奇艺",
+                    "奇艺",
+                    "youku",
+                    "优酷",
+                    "mgtv",
+                    "芒果",
+                    "letv",
+                    "乐视",
+                    "pptv",
+                    "PPTV",
+                    "sohu",
+                    "bilibili",
+                    "哔哩哔哩",
+                    "哔哩"
+                ],
+                "ext": {
+                    "header": {
+                        "user-agent": "Mozilla/5.0 (Linux; Android 13; V2049A Build/TP1A.220624.014; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/116.0.0.0 Mobile Safari/537.36",
+                        "referer": "https://jx.xyflv.cc/"
+                    }
                 }
             }
         },
@@ -753,6 +777,9 @@
             "regex": [
                 "#EXT-X-DISCONTINUITY\\r*\\n*#EXTINF:7\\.166667,[\\s\\S]*?#EXT-X-DISCONTINUITY",
                 "#EXTINF.*?\\s+.*?08646.*?\\.ts",
+                "#EXT-X-DISCONTINUITY\\r*\\n*#EXTINF.*?6\\.667,[\\s\\S]*?#EXT-X-DISCONTINUITY",
+                "#EXTINF.*?\\s+.*?48234.*?\\.ts",
+                "#EXT-X-DISCONTINUITY\\r*\\n*#EXTINF.*?7\\.067,[\\s\\S]*?#EXT-X-DISCONTINUITY",
                 "17.19",
                 "19.63"
             ]
@@ -762,7 +789,8 @@
             "hosts": [
                 "vip.ffzy",
                 "hd.ffzy",
-                "super.ffzy"
+                "super.ffzy",
+                "cachem3u8.2s0"
             ],
             "regex": [
                 "#EXT-X-DISCONTINUITY\\r*\\n*#EXTINF:6\\.400000,[\\s\\S]*?#EXT-X-DISCONTINUITY",
@@ -806,6 +834,24 @@
             ]
         },
         {
+            "name": "看影网",
+            "hosts": [
+                "fentvoss"
+            ],
+            "regex": [
+                "38.68",
+                "38.12",
+                "38.80",
+                "30.08",
+                "44.00",
+                "36.80",
+                "40.68",
+                "29.08",
+                "29.28",
+                "24.88"
+            ]
+        },
+        {
             "name": "1080zyk",
             "hosts": [
                 "high24-playback",
@@ -824,7 +870,28 @@
                 "bfikuncdn"
             ],
             "regex": [
-                "#EXTINF.*?\\s+.*?XR8pDxQk.*?\\.ts"
+                "#EXTINF.*?\\s+.*?XR8pDxQk.*?\\.ts",
+                "#EXTINF.*?\\s+.*?p5XQill8.*?\\.ts"
+            ]
+        },
+        {
+            "name": "黑木耳hmr",
+            "hosts": [
+                "hmrvideo"
+            ],
+            "regex": [
+                "#EXT-X-DISCONTINUITY\\r*\\n*#EXTINF:3\\.366667,[\\s\\S]*?#EXT-X-DISCONTINUITY"
+            ]
+        },
+        {
+            "name": "ryplay",
+            "hosts": [
+                "cdn.ryplay"
+            ],
+            "regex": [
+                "#EXT-X-DISCONTINUITY\\r*\\n*#EXTINF:6\\.633333,[\\s\\S]*?#EXT-X-DISCONTINUITY",
+                "#EXT-X-DISCONTINUITY\\r*\\n*#EXTINF:8\\.333333,[\\s\\S].*?\\.ts",
+                "#EXTINF:2\\.933333,[\\s\\S].*?\\.ts"
             ]
         },
         {

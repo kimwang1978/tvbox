@@ -10,6 +10,8 @@
 
     { "url": "https://play.iptv365.org/王二小/api.json", "name": "王二小" },
 
+    { "url": "https://play.iptv365.org/小虎斑/api.json", "name": "小虎斑" },
+    
     { "url": "https://play.iptv365.org/摸鱼儿/api.json", "name": "摸鱼儿" },
 
     { "url": "https://play.iptv365.org/PG/api.json", "name": "PG" },
@@ -37,6 +39,8 @@
     { "url": "https://play.iptv365.org/短剧频道/api.json", "name": "短剧频道" },
 
     { "url": "https://play.iptv365.org/少儿频道/api.json", "name": "少儿频道" },
+
+    { "url": "https://play.iptv365.org/戏曲音乐/api.json", "name": "戏曲音乐" }]
 
     { "url": "https://play.iptv365.org/动漫频道/api.json", "name": "动漫频道" },
 

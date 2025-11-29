@@ -6,6 +6,17 @@
     "logo": "http://php.540734621.xyz/logo/logo.php",
     "sites": [
         {
+            "key": "本地包更新",
+            "name": "💞本地包｜1128",
+            "type": 3,
+            "api": "csp_Market",
+            "jar": "./jars/gx.jar",
+            "searchable": 0,
+            "changeable": 0,
+            "indexs": 0,
+            "ext": "http://bd.qiqiv.cn/666.json"
+        },
+        {
             "key": "戏 曲",
             "name": "🎈国粹戏曲",
             "type": 3,
@@ -84,16 +95,6 @@
             "ext": "./json/Bili.json"
         },
         {
-            "key": "哔哩直播",
-            "name": "🅱️哔哩直播",
-            "type": 3,
-            "api": "./api/drpy2.min.js",
-            "searchable": 0,
-            "quickSearch": 0,
-            "filterable": 1,
-            "ext": "./js/blzb.js"
-        },
-        {
             "key": "csp_Bili短剧",
             "name": "🅱️哔哩短剧",
             "type": 3,
@@ -112,65 +113,6 @@
             "quickSearch": 1,
             "filterable": 1,
             "ext": "./json/影视解说.json"
-        },
-        {
-            "key": "88js",
-            "name": "⚽ 88┃看球",
-            "type": 3,
-            "api": "./api/drpy2.min.js",
-            "ext": "./js/88看球.js",
-            "playerType": 1,
-            "style": {
-                "type": "list"
-            },
-            "searchable": 0,
-            "quickSearch": 0,
-            "changeable": 0
-        },
-        {
-            "key": "Jrsjs",
-            "name": "⚽ Jrs┃球迷",
-            "type": 3,
-            "api": "./api/drpy2.min.js",
-            "ext": "./js/jrk.js",
-            "playerType": 1,
-            "style": {
-                "type": "list"
-            },
-            "searchable": 0,
-            "quickSearch": 0,
-            "changeable": 0
-        },
-        {
-            "key": "js_310直播",
-            "name": "🥎┃三一┃直播",
-            "type": 3,
-            "api": "./api/drpy2.min.js",
-            "searchable": 1,
-            "playerType": 1,
-            "quickSearch": 1,
-            "filterable": 0,
-            "ext": "./js/310.js"
-        },
-        {
-            "key": "虎牙直播",
-            "name": "🐯虎牙直播",
-            "type": 3,
-            "api": "./api/drpy2.min.js",
-            "searchable": 0,
-            "quickSearch": 0,
-            "filterable": 1,
-            "ext": "./js/huyazhibo.js"
-        },
-        {
-            "key": "斗鱼直播",
-            "name": "🐟斗鱼直播",
-            "type": 3,
-            "api": "./api/drpy2.min.js",
-            "searchable": 0,
-            "quickSearch": 0,
-            "filterable": 1,
-            "ext": "./js/douyu.js"
         }
     ],
     "parses": [
